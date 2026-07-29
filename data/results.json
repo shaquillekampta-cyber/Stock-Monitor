@@ -1,114 +1,148 @@
 {
-  "generated_at": "2026-07-29T01:02:54.748257+00:00",
+  "generated_at": "2026-07-29T15:12:20.232499+00:00",
+  "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 740.86,
-        "change_pct": 0.24,
-        "volume": 40901869,
-        "avg_volume": 46296789,
-        "volume_ratio": 0.88,
-        "above_20d_ma": false,
-        "ma_20": 746.65
+        "price": 734.94,
+        "change_pct": -0.8,
+        "volume": 12455379,
+        "avg_volume": 53501299,
+        "volume_ratio": 0.23,
+        "above_trend_ma": false,
+        "trend_ma": 745.75,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 739.97,
+          "high": 740.39,
+          "low": 733.79,
+          "close": 734.94,
+          "prev_open": 739.19,
+          "prev_close": 740.86
+        }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 5
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
       },
+      "call_history": [
+        "hold"
+      ],
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
-          "label": "Trend context",
-          "detail": "Price $740.86 is below its 20-day average ($746.65).",
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $734.94 is below its 15-day average ($745.75).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.88x the recent average -- roughly normal.",
+          "detail": "Volume is 0.23x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "HBO Max Releases Full List of Movies and TV Shows Arriving in August 2026",
-          "source": "ComicBook.com",
-          "url": "http://comicbook.com/tv-shows/news/hbo-max-releases-full-list-of-movies-and-tv-shows-arriving-in-august-2026/"
+          "title": "The \u2018Poisonous Heart\u2019: Australia\u2019s Most Secretive Base Draws New Scrutiny",
+          "source": "The Diplomat",
+          "url": "https://thediplomat.com/2026/07/the-poisonous-heart-australias-most-secretive-base-draws-new-scrutiny/"
         },
         {
-          "title": "How AI Can Help You Prep: Prompts and Real-World Uses",
-          "source": "Thesurvivalmom.com",
-          "url": "https://thesurvivalmom.com/ai-prepping-prompts/"
-        },
-        {
-          "title": "WNBA love feud explodes as NaLyssa Smith fires back at DiJonai Carrington's cheating claims",
+          "title": "SEN RAND PAUL: The COVID cover-up had layers. I\u2019m peeling them back one at a time",
           "source": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/wnba-love-feud-explodes-nalyssa-smith-fires-back-dijonai-carrington-cheating-claims"
+          "url": "https://www.foxnews.com/opinion/sen-rand-paul-covid-cover-up-layers-peeling-back-one-time"
         },
         {
-          "title": "Coronation Street confirms Dylan attack in shock whodunit story",
-          "source": "digitalspy.com",
-          "url": "https://www.digitalspy.com/soaps/coronation-street/a73274150/coronation-street-spoilers-dylan-attack-whodunit-story/"
+          "title": "Asus ROG Strix SCAR 18: Building a Laptop for 4K Gaming",
+          "source": "PCMag.com",
+          "url": "https://me.pcmag.com/en/laptops/37757/asus-rog-strix-scar-18-building-a-laptop-for-4k-gaming"
         },
         {
-          "title": "This '60s TV Legend Set An Impressive Emmy Record Thanks To A Classic Spy Drama",
-          "source": "/FILM",
-          "url": "https://www.slashfilm.com/2223005/barbara-bain-60s-spy-drama-mission-impossible-emmy-record/"
+          "title": "New BMW i4 Convertible spy shots - pictures",
+          "source": "AutoExpress",
+          "url": "https://www.autoexpress.co.uk/bmw/i4/370096/new-bmw-i4-convertible-spy-shots-pictures"
+        },
+        {
+          "title": "Trump\u2019s Interim Spy Chief Orders 30% Cut to Staff",
+          "source": "Politicalwire.com",
+          "url": "https://politicalwire.com/2026/07/28/trumps-interim-spy-chief-orders-30-cut-to-staff/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 675.49,
-        "change_pct": -0.97,
-        "volume": 49675490,
-        "avg_volume": 38367218,
-        "volume_ratio": 1.29,
-        "above_20d_ma": false,
-        "ma_20": 708.06
+        "price": 667.71,
+        "change_pct": -2.11,
+        "volume": 14038075,
+        "avg_volume": 44387126,
+        "volume_ratio": 0.32,
+        "above_trend_ma": false,
+        "trend_ma": 703.14,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 675.46,
+          "high": 677.46,
+          "low": 665.77,
+          "close": 667.71,
+          "prev_open": 691.68,
+          "prev_close": 682.12
+        }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
+      "call_history": [
+        "hold"
+      ],
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "8 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
+          "detail": "3 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
-          "label": "Trend context",
-          "detail": "Price $675.49 is below its 20-day average ($708.06).",
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $667.71 is below its 15-day average ($703.14).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.29x the recent average -- roughly normal.",
+          "detail": "Volume is 0.32x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
         },
         {
@@ -119,49 +153,63 @@
       ],
       "headlines": [
         {
+          "title": "Another Memory Massacre Is Inbound on Tuesday: Micron, SanDisk, Seagate See Large Premarket Losses",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/28/another-memory-massacre-is-inbound-on-tuesday-micron-sandisk-seagate-see-large-premarket-losses/"
+        },
+        {
+          "title": "Show HN: Pre-registered trading backtests \u2013 27 kills, 2 passes, 0 funded",
+          "source": "Strategygraveyard.com",
+          "url": "https://strategygraveyard.com"
+        },
+        {
           "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/6068aa016516a1b0"
         },
         {
+          "title": "What Is The Growth In QQQ Actually Costing You?",
+          "source": "Trefis",
+          "url": "https://www.trefis.com/articles/608961/what-is-the-growth-in-qqq-actually-costing-you/2026-07-27"
+        },
+        {
           "title": "Stocks Fall from Early Highs as Chipmakers Retreat",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/b0ae4cad96af50b7"
-        },
-        {
-          "title": "Stocks Fall from Early Highs as Chipmakers Retreat",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3481805/stocks-fall-from-early-highs-as-chipmakers-retreat"
-        },
-        {
-          "title": "Stocks Rally as Middle East Tensions Ease",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/a7b7eb77b49ac440"
-        },
-        {
-          "title": "Stocks Rally as Middle East Tensions Ease",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3480783/stocks-rally-as-middle-east-tensions-ease"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 83.25,
-        "change_pct": -0.64,
-        "volume": 4333920,
-        "avg_volume": 4856077,
-        "volume_ratio": 0.89,
-        "above_20d_ma": false,
-        "ma_20": 84.36
+        "price": 82.49,
+        "change_pct": -0.92,
+        "volume": 2180354,
+        "avg_volume": 5807998,
+        "volume_ratio": 0.38,
+        "above_trend_ma": false,
+        "trend_ma": 83.97,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 82.85,
+          "high": 83.02,
+          "low": 82.29,
+          "close": 82.49,
+          "prev_open": 82.84,
+          "prev_close": 83.25
+        }
       },
       "call": {
         "call": "hold",
         "positive_signals": 0,
         "negative_signals": 1,
-        "total_signals": 4
+        "total_signals": 5,
+        "displayed_call": "hold"
       },
+      "call_history": [
+        "hold"
+      ],
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -174,13 +222,18 @@
           "signal": "neutral"
         },
         {
-          "label": "Trend context",
-          "detail": "Price $83.25 is below its 20-day average ($84.36).",
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $82.49 is below its 15-day average ($83.97).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.89x the recent average -- roughly normal.",
+          "detail": "Volume is 0.38x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
         }
       ],
@@ -189,87 +242,34 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 230.86,
-        "change_pct": -0.23,
-        "volume": 42368131,
-        "avg_volume": 41854696,
-        "volume_ratio": 1.01,
-        "above_20d_ma": false,
-        "ma_20": 243.31
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 4
-      },
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend context",
-          "detail": "Price $230.86 is below its 20-day average ($243.31).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.01x the recent average -- roughly normal.",
-          "signal": "neutral"
+        "price": 228.1,
+        "change_pct": -1.19,
+        "volume": 8362027,
+        "avg_volume": 50335248,
+        "volume_ratio": 0.17,
+        "above_trend_ma": false,
+        "trend_ma": 242.52,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 229.32,
+          "high": 230.24,
+          "low": 227.2,
+          "close": 228.1,
+          "prev_open": 232.85,
+          "prev_close": 230.86
         }
-      ],
-      "headlines": [
-        {
-          "title": "Sellers Hit Nvidia Amid OpenAI Data Center News; Is Nvidia A Sell Now?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/fc75b92edcc473fc"
-        },
-        {
-          "title": "The Traitors Postmortem S01 1080p AMZN WEB-DL H264-icarus",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-traitors-postmortem-s01-1080p-amzn-web-dl-h264-icarus/"
-        },
-        {
-          "title": "Ant Anstead Born Mechanic S03E01 720p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/ant-anstead-born-mechanic-s03e01-720p-amzn-web-dl-h264-rawr/"
-        },
-        {
-          "title": "Pushed to Death S01 720p AMZN WEB-DL DD+2 0 H264-playWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/pushed-to-death-s01-720p-amzn-web-dl-dd2-0-h264-playweb/"
-        },
-        {
-          "title": "Apple again the World\u2019s Most Valuable Company as shares hit new all-time closing and intraday highs",
-          "source": "Macdailynews.com",
-          "url": "https://macdailynews.com/2026/07/27/apple-again-the-worlds-most-valuable-company-as-shares-hit-new-all-time-closing-and-intraday-highs/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 332.6,
-        "change_pct": 1.85,
-        "volume": 20880881,
-        "avg_volume": 19850875,
-        "volume_ratio": 1.05,
-        "above_20d_ma": false,
-        "ma_20": 349.01
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
+      "call_history": [
+        "hold"
+      ],
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -278,17 +278,22 @@
         },
         {
           "label": "Sentiment",
-          "detail": "10 positive keyword hits vs 3 negative.",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
-          "label": "Trend context",
-          "detail": "Price $332.6 is below its 20-day average ($349.01).",
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $228.1 is below its 15-day average ($242.52).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.05x the recent average -- roughly normal.",
+          "detail": "Volume is 0.17x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
         },
         {
@@ -299,29 +304,120 @@
       ],
       "headlines": [
         {
-          "title": "Google Beat but AI Stocks Are Still Sinking. What\u2019s Going On?",
+          "title": "Big Tech will fund more than a third of its AI investments with debt in 2027, Goldman Sachs predicts",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/big-tech-will-fund-more-than-a-third-of-its-ai-investments-with-debt-in-2027-goldman-sachs-predicts-145136150.html"
+        },
+        {
+          "title": "Dear Meta Platforms Stock Fans, Mark Your Calendars for July 29",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7a6072c3271d7951"
+          "url": "https://biztoc.com/x/8156fd5d2a7a487e"
         },
         {
-          "title": "A $1 Billion Reason to Buy Verizon Stock Now After Earnings",
+          "title": "4 US Stocks Earnings to Watch This Week: Will AI Spending Finally Pay Off?",
+          "source": "BeInCrypto",
+          "url": "https://beincrypto.com/us-stocks-earnings-watch-ai-spending/"
+        },
+        {
+          "title": "Does Amazon or MercadoLibre Offer The Superior Growth Vs Profitability Story Into 2027?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/28/does-amazon-or-mercadolibre-offer-the-superior-growth-vs-profitability-story-into-2027/"
+        },
+        {
+          "title": "Alphabet Did Exactly What I Hoped It Would And I\u2019m Loading Up",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/28/alphabet-did-exactly-what-i-hoped-it-would-and-im-loading-up/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 333.24,
+        "change_pct": 0.19,
+        "volume": 4203577,
+        "avg_volume": 23789397,
+        "volume_ratio": 0.18,
+        "above_trend_ma": false,
+        "trend_ma": 343.91,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 333.79,
+          "high": 335.67,
+          "low": 330.41,
+          "close": 333.24,
+          "prev_open": 327.8,
+          "prev_close": 332.6
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "7 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $333.24 is below its 15-day average ($343.91).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.18x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Big Tech will fund more than a third of its AI investments with debt in 2027, Goldman Sachs predicts",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/big-tech-will-fund-more-than-a-third-of-its-ai-investments-with-debt-in-2027-goldman-sachs-predicts-145136150.html"
+        },
+        {
+          "title": "Chip stock rout sends investors rushing back to bruised Alphabet stock",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6a173a24f3df465a"
+          "url": "https://biztoc.com/x/42bf49ed48744c9c"
         },
         {
-          "title": "IrisApp launches limit orders for automated trading on Robinhood Chain",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/irisapp-limit-orders-robinhood-chain/"
+          "title": "Chip stock rout sends investors rushing back to bruised Alphabet stock",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/article/chip-stock-rout-sends-investors-rushing-back-to-bruised-alphabet-stock-140503906.html"
         },
         {
-          "title": "Jim Cramer has terrifying one-word message for tech stock investors",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/jim-cramer-warns-tech-investors-trim-ai-chip-stocks"
+          "title": "Reddit Considers a Bold Move: Cutting Off Google's Access for AI Training",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c70d54d0d3076473"
         },
         {
-          "title": "Arm Holdings Earnings Preview: AI Optimism Faces Its Next Big Test",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3482286/arm-holdings-earnings-preview-ai-optimism-faces-its-next-big-test"
+          "title": "Apple tops $5 trillion market cap, only second company to hit the milestone",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/apple-tops-5-trillion-market-cap-only-second-company-to-hit-the-milestone-134013795.html"
         }
       ]
     }
