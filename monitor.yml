@@ -1,0 +1,40 @@
+name: Portfolio monitor
+
+on:
+  schedule:
+    # 12:30 UTC = 8:30am ET (7:30am during daylight saving) -- before US market open.
+    # Edit this cron to change the schedule. https://crontab.guru is helpful.
+    - cron: "30 12 * * 1-5"
+  workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          TICKERS: ${{ vars.TICKERS }}
+        run: python monitor.py
+
+      - name: Commit updated results
+        run: |
+          git config user.name "portfolio-monitor-bot"
+          git config user.email "actions@github.com"
+          git add data/results.json data/portfolio.json data/scan_results.json
+          git diff --cached --quiet || git commit -m "Update results $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

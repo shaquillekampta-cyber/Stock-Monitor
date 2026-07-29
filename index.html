@@ -110,6 +110,22 @@
     color: var(--text-muted);
     line-height: 1.6;
   }
+  .section-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 32px 0 12px;
+  }
+  .trade-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-top: 0.5px solid var(--border);
+    font-size: 13px;
+  }
+  .trade-row:first-child { border-top: none; }
+  .pnl-pos { color: var(--pos-text); font-weight: 500; }
+  .pnl-neg { color: var(--neg-text); font-weight: 500; }
 </style>
 </head>
 <body>
@@ -118,11 +134,17 @@
   <p class="meta" id="meta">Loading...</p>
   <div class="summary" id="summary"></div>
   <div id="cards"></div>
+
+  <div id="opportunities"></div>
+
+  <div id="paper-trading"></div>
+
   <p class="disclaimer">
     This dashboard produces rules-based suggestions from public news and price data.
     It does not execute trades and is not financial advice. Every score is derived
     from the visible checklist below each ticker -- edit the keyword lists in
-    <code>monitor.py</code> to change how it reasons.
+    <code>monitor.py</code> to change how it reasons. The paper trading section below
+    is a hypothetical simulation only -- no real money or brokerage is involved.
   </p>
 </div>
 
@@ -144,10 +166,14 @@ async function load() {
   }
 
   const generated = new Date(data.generated_at);
-  metaEl.textContent = 'Last updated ' + generated.toLocaleString();
+  const swingWindow = data.swing_window ? ` &middot; Swing window: ${data.swing_window}` : '';
+  metaEl.innerHTML = 'Last updated ' + generated.toLocaleString() + swingWindow;
 
   const counts = { buy: 0, hold: 0, sell: 0 };
-  data.tickers.forEach(t => counts[t.call.call] = (counts[t.call.call] || 0) + 1);
+  data.tickers.forEach(t => {
+    const call = t.call.displayed_call || t.call.call;
+    counts[call] = (counts[call] || 0) + 1;
+  });
 
   summaryEl.innerHTML = `
     <div class="stat"><p>Tickers tracked</p><p>${data.tickers.length}</p></div>
@@ -159,6 +185,7 @@ async function load() {
   cardsEl.innerHTML = data.tickers.map(t => {
     const price = t.price || {};
     const changeColor = (price.change_pct || 0) >= 0 ? 'var(--pos-text)' : 'var(--neg-text)';
+    const displayedCall = t.call.displayed_call || t.call.call;
     const rows = t.checklist.map(c => `
       <div class="row">
         <div class="dot ${c.signal}"></div>
@@ -168,6 +195,10 @@ async function load() {
     const headlines = (t.headlines || []).map(h =>
       h.url ? `<a href="${h.url}" target="_blank" rel="noopener">${h.title} &mdash; ${h.source}</a>` : ''
     ).join('');
+    const history = (t.call_history || []).join(' \u2192 ');
+    const changedBadge = t.signal_changed_this_run
+      ? `<span style="font-size:11px;color:var(--text-muted)">(just changed)</span>`
+      : '';
 
     return `
       <div class="card">
@@ -179,18 +210,128 @@ async function load() {
             </p>
           </div>
           <div style="text-align:right">
-            <span class="badge ${t.call.call}">${t.call.call.charAt(0).toUpperCase() + t.call.call.slice(1)}</span>
+            <span class="badge ${displayedCall}">${displayedCall.charAt(0).toUpperCase() + displayedCall.slice(1)}</span> ${changedBadge}
             <p style="font-size:12px;color:var(--text-muted);margin:6px 0 0">${t.call.positive_signals} pos / ${t.call.negative_signals} neg</p>
           </div>
         </div>
         ${rows}
+        ${history ? `<p style="font-size:11px;color:var(--text-muted);margin:8px 0 0">Recent raw signals: ${history}</p>` : ''}
         ${headlines ? `<div class="headlines">${headlines}</div>` : ''}
       </div>
     `;
   }).join('');
+
+  renderPaperTrading(data.paper_portfolio);
+}
+
+function renderPaperTrading(pp) {
+  const el = document.getElementById('paper-trading');
+  if (!pp) { el.innerHTML = ''; return; }
+
+  const returnColor = pp.total_return >= 0 ? 'var(--pos-text)' : 'var(--neg-text)';
+  const returnSign = pp.total_return >= 0 ? '+' : '';
+
+  let html = `<p class="section-title">Paper trading (hypothetical, started at $${pp.starting_cash.toLocaleString()})</p>`;
+  html += `
+    <div class="summary">
+      <div class="stat"><p>Total value</p><p>$${pp.total_value.toLocaleString()}</p></div>
+      <div class="stat"><p>Total return</p><p style="color:${returnColor}">${returnSign}$${pp.total_return.toLocaleString()} (${returnSign}${pp.total_return_pct}%)</p></div>
+      <div class="stat"><p>Realized P&amp;L</p><p>$${pp.realized_pnl.toLocaleString()}</p></div>
+      <div class="stat"><p>Win rate</p><p>${pp.win_rate_pct != null ? pp.win_rate_pct + '%' : 'n/a'} <span style="font-size:12px;color:var(--text-muted)">(${pp.closed_trade_count} closed)</span></p></div>
+    </div>
+  `;
+
+  if (pp.open_positions.length) {
+    html += '<div class="card"><p class="label" style="font-weight:500;margin-bottom:4px">Open positions</p>';
+    pp.open_positions.forEach(p => {
+      const pnlClass = p.unrealized_pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
+      const sign = p.unrealized_pnl >= 0 ? '+' : '';
+      html += `
+        <div class="trade-row">
+          <span>${p.ticker} &mdash; ${p.shares.toFixed(2)} sh @ $${p.entry_price}</span>
+          <span class="${pnlClass}">${sign}$${p.unrealized_pnl} (${sign}${p.unrealized_pnl_pct}%)</span>
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  if (pp.closed_trades.length) {
+    html += '<div class="card"><p class="label" style="font-weight:500;margin-bottom:4px">Recent closed trades</p>';
+    pp.closed_trades.forEach(t => {
+      const pnlClass = t.pnl >= 0 ? 'pnl-pos' : 'pnl-neg';
+      const sign = t.pnl >= 0 ? '+' : '';
+      const entryDate = new Date(t.entry_date).toLocaleDateString();
+      const exitDate = new Date(t.exit_date).toLocaleDateString();
+      html += `
+        <div class="trade-row">
+          <span>${t.ticker} &mdash; ${entryDate} \u2192 ${exitDate} (${t.days_held}d, ${t.exit_reason})</span>
+          <span class="${pnlClass}">${sign}$${t.pnl} (${sign}${t.pnl_pct}%)</span>
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  if (!pp.open_positions.length && !pp.closed_trades.length) {
+    html += '<p style="font-size:13px;color:var(--text-secondary)">No hypothetical trades yet -- one opens automatically the next time a ticker\'s signal flips to Buy.</p>';
+  }
+
+  el.innerHTML = html;
+}
+
+async function renderOpportunities() {
+  const el = document.getElementById('opportunities');
+  let scan;
+  try {
+    const res = await fetch('data/scan_results.json?_=' + Date.now());
+    if (!res.ok) throw new Error('no scan file yet');
+    scan = await res.json();
+  } catch (e) {
+    return; // scanner hasn't run yet or scan_universe.json is empty -- say nothing
+  }
+
+  const generated = new Date(scan.generated_at);
+  let html = `<p class="section-title">Today's opportunities <span style="font-size:12px;color:var(--text-muted);font-weight:400">(scanned ${scan.universe_size} tickers, ${generated.toLocaleString()})</span></p>`;
+
+  if (!scan.opportunities.length) {
+    html += `<p style="font-size:13px;color:var(--text-secondary)">Nothing notable today -- everything in the scan universe came back a hold with no breakout pattern.</p>`;
+    el.innerHTML = html;
+    return;
+  }
+
+  scan.opportunities.forEach(o => {
+    const price = o.price || {};
+    const changeColor = (price.change_pct || 0) >= 0 ? 'var(--pos-text)' : 'var(--neg-text)';
+    const rows = o.checklist.filter(c => c.signal !== 'neutral').map(c => `
+      <div class="row">
+        <div class="dot ${c.signal}"></div>
+        <div><p class="label">${c.label}</p><p class="detail">${c.detail}</p></div>
+      </div>
+    `).join('');
+
+    html += `
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <p class="ticker">${o.ticker}</p>
+            <p class="price">$${price.price}
+              <span style="color:${changeColor}">${price.change_pct > 0 ? '+' : ''}${price.change_pct}%</span>
+            </p>
+          </div>
+          <span class="badge ${o.call.call}">${o.call.call.charAt(0).toUpperCase() + o.call.call.slice(1)}</span>
+        </div>
+        <p class="detail" style="margin-top:8px">${o.headline_reason}</p>
+        ${rows}
+      </div>
+    `;
+  });
+
+  el.innerHTML = html;
 }
 
 load();
+renderOpportunities();
 </script>
 </body>
 </html>

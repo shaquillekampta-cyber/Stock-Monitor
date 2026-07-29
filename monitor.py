@@ -46,6 +46,15 @@ BREAKOUT_VOLUME_RATIO = 1.5 # breakout must be confirmed by above-average volume
 SMOOTHING_WINDOW = 3
 SMOOTHING_REQUIRED_AGREEMENT = 2  # e.g. 2 of the last 3 runs must agree
 
+# ---------------------------------------------------------------------------
+# Paper trading (hypothetical, no real money) configuration
+# ---------------------------------------------------------------------------
+
+PORTFOLIO_PATH = os.path.join(HERE, "data", "portfolio.json")
+STARTING_CASH = float(os.environ.get("PAPER_STARTING_CASH", "10000"))
+MAX_HOLD_DAYS = 42  # 6 weeks -- the outer edge of the swing window; forces a time-based exit
+POSITION_SLICE_COUNT = 5  # divide cash into this many equal slices per new position (rough sizing)
+
 # Simple, transparent keyword lists. Tune these freely -- the point of a
 # rules-based system is that every decision is inspectable and editable.
 POSITIVE_WORDS = [
@@ -92,6 +101,25 @@ def load_tickers() -> list[str]:
         return [t.strip().upper() for t in env_tickers.split(",") if t.strip()]
 
     return DEFAULT_TICKERS
+
+
+SCAN_UNIVERSE_FILE = os.path.join(HERE, "scan_universe.json")
+SCAN_RESULTS_PATH = os.path.join(HERE, "data", "scan_results.json")
+
+
+def load_scan_universe() -> list[str]:
+    """Reads the broader list of tickers to screen daily for new
+    opportunities -- separate from the core watchlist. Edit
+    scan_universe.json to change what gets scanned."""
+    if not os.path.exists(SCAN_UNIVERSE_FILE):
+        return []
+    try:
+        with open(SCAN_UNIVERSE_FILE) as f:
+            data = json.load(f)
+        return [t.strip().upper() for t in data.get("scan_universe", []) if t.strip()]
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"[warn] could not read scan_universe.json ({exc})")
+        return []
 
 
 # ---------------------------------------------------------------------------
@@ -456,6 +484,196 @@ def apply_signal_smoothing(ticker: str, raw_call: str, previous: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Paper trading -- hypothetical trades only, tracked for simulation purposes.
+# No real money, no real brokerage, nothing here executes an actual trade.
+# ---------------------------------------------------------------------------
+
+def load_portfolio() -> dict:
+    """Loads the running paper-trading portfolio, or starts a fresh one."""
+    if os.path.exists(PORTFOLIO_PATH):
+        try:
+            with open(PORTFOLIO_PATH) as f:
+                return json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    return {
+        "starting_cash": STARTING_CASH,
+        "cash": STARTING_CASH,
+        "open_positions": {},   # ticker -> {entry_date, entry_price, shares}
+        "closed_trades": [],    # list of completed trades with P&L
+    }
+
+
+def update_paper_portfolio(portfolio: dict, ticker_results: list[dict]) -> dict:
+    """Walks each ticker's smoothed call and current price, opening/closing
+    hypothetical positions accordingly:
+      - call flips to 'buy' and no open position -> open one using an equal
+        cash slice.
+      - open position and call flips to 'sell' -> close it, realize P&L.
+      - open position held >= MAX_HOLD_DAYS -> force a time-based exit,
+        since this tool is built around a 2-6 week swing window, not
+        indefinite holding.
+    """
+    now = datetime.now(timezone.utc)
+
+    for t in ticker_results:
+        ticker = t["ticker"]
+        price = t.get("price", {}).get("price")
+        call = t["call"]["displayed_call"]
+        if price is None:
+            continue  # can't act on a ticker with no price data this run
+
+        open_pos = portfolio["open_positions"].get(ticker)
+
+        if open_pos is None:
+            if call == "buy":
+                # Open a new hypothetical position with an equal slice of cash.
+                slice_cash = portfolio["cash"] / POSITION_SLICE_COUNT
+                if slice_cash > 0 and portfolio["cash"] >= slice_cash:
+                    shares = slice_cash / price
+                    portfolio["open_positions"][ticker] = {
+                        "entry_date": now.isoformat(),
+                        "entry_price": price,
+                        "shares": round(shares, 4),
+                        "cash_committed": round(slice_cash, 2),
+                    }
+                    portfolio["cash"] -= slice_cash
+            continue
+
+        # There's an open position -- check for an exit condition.
+        entry_date = datetime.fromisoformat(open_pos["entry_date"])
+        days_held = (now - entry_date).days
+        exit_reason = None
+
+        if call == "sell":
+            exit_reason = "sell signal"
+        elif days_held >= MAX_HOLD_DAYS:
+            exit_reason = f"time exit ({MAX_HOLD_DAYS}-day swing window reached)"
+
+        if exit_reason:
+            proceeds = open_pos["shares"] * price
+            pnl = proceeds - open_pos["cash_committed"]
+            pnl_pct = (pnl / open_pos["cash_committed"]) * 100 if open_pos["cash_committed"] else 0.0
+
+            portfolio["cash"] += proceeds
+            portfolio["closed_trades"].append({
+                "ticker": ticker,
+                "entry_date": open_pos["entry_date"],
+                "entry_price": open_pos["entry_price"],
+                "exit_date": now.isoformat(),
+                "exit_price": price,
+                "shares": open_pos["shares"],
+                "pnl": round(pnl, 2),
+                "pnl_pct": round(pnl_pct, 2),
+                "days_held": days_held,
+                "exit_reason": exit_reason,
+            })
+            del portfolio["open_positions"][ticker]
+
+    return portfolio
+
+
+def summarize_portfolio(portfolio: dict, ticker_results: list[dict]) -> dict:
+    """Computes current total value (cash + mark-to-market open positions)
+    and overall return, for display."""
+    price_by_ticker = {t["ticker"]: t.get("price", {}).get("price") for t in ticker_results}
+
+    open_positions_detail = []
+    open_value = 0.0
+    for ticker, pos in portfolio["open_positions"].items():
+        current_price = price_by_ticker.get(ticker)
+        market_value = pos["shares"] * current_price if current_price else pos["cash_committed"]
+        unrealized_pnl = market_value - pos["cash_committed"]
+        unrealized_pct = (unrealized_pnl / pos["cash_committed"]) * 100 if pos["cash_committed"] else 0.0
+        open_value += market_value
+        open_positions_detail.append({
+            "ticker": ticker,
+            "entry_date": pos["entry_date"],
+            "entry_price": pos["entry_price"],
+            "current_price": current_price,
+            "shares": pos["shares"],
+            "market_value": round(market_value, 2),
+            "unrealized_pnl": round(unrealized_pnl, 2),
+            "unrealized_pnl_pct": round(unrealized_pct, 2),
+        })
+
+    total_value = portfolio["cash"] + open_value
+    total_return = total_value - portfolio["starting_cash"]
+    total_return_pct = (total_return / portfolio["starting_cash"]) * 100 if portfolio["starting_cash"] else 0.0
+
+    realized_pnl = sum(tr["pnl"] for tr in portfolio["closed_trades"])
+    win_count = sum(1 for tr in portfolio["closed_trades"] if tr["pnl"] > 0)
+    total_closed = len(portfolio["closed_trades"])
+    win_rate = (win_count / total_closed * 100) if total_closed else None
+
+    return {
+        "starting_cash": portfolio["starting_cash"],
+        "cash": round(portfolio["cash"], 2),
+        "total_value": round(total_value, 2),
+        "total_return": round(total_return, 2),
+        "total_return_pct": round(total_return_pct, 2),
+        "realized_pnl": round(realized_pnl, 2),
+        "win_rate_pct": round(win_rate, 1) if win_rate is not None else None,
+        "closed_trade_count": total_closed,
+        "open_positions": open_positions_detail,
+        "closed_trades": list(reversed(portfolio["closed_trades"]))[:20],  # most recent first
+    }
+
+
+# ---------------------------------------------------------------------------
+# Opportunity scanner -- screens a broader universe daily and surfaces only
+# tickers with an actual buy/sell signal or breakout, filtering out the noise
+# of an all-hold watchlist.
+# ---------------------------------------------------------------------------
+
+def scan_for_opportunities(universe: list[str], watchlist: list[str]) -> list[dict]:
+    """Runs the same scoring pipeline across a broader ticker universe, but
+    only returns tickers whose RAW call is buy/sell, or that show a
+    candlestick breakout -- i.e. tickers actually worth a look today,
+    not the whole list. Tickers already in the core watchlist are
+    skipped here since they're already fully covered above."""
+    candidates = []
+
+    for ticker in universe:
+        if ticker in watchlist:
+            continue  # already covered by the main watchlist section
+
+        print(f"Scanning {ticker}...")
+        articles = fetch_news(ticker)
+        price = fetch_price_data(ticker)
+        if not price:
+            continue
+
+        checklist = build_checklist(ticker, articles, price)
+        raw = compute_raw_call(checklist)
+        candle_signal = detect_candlestick_signal(price)
+
+        is_notable = raw["call"] in ("buy", "sell") or (candle_signal and candle_signal["pattern"] == "breakout")
+        if not is_notable:
+            continue
+
+        # Pick the single strongest reason to headline this candidate with.
+        if candle_signal:
+            headline_reason = candle_signal["detail"]
+        else:
+            top_signal = next((c for c in checklist if c["signal"] in ("pos", "neg")), None)
+            headline_reason = top_signal["detail"] if top_signal else "Multiple checklist signals aligned."
+
+        candidates.append({
+            "ticker": ticker,
+            "price": price,
+            "call": raw,
+            "headline_reason": headline_reason,
+            "checklist": checklist,
+        })
+
+    # Strongest signals first: sort by the pos/neg signal gap.
+    candidates.sort(key=lambda c: abs(c["call"]["positive_signals"] - c["call"]["negative_signals"]), reverse=True)
+    return candidates
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -490,13 +708,33 @@ def main():
             ],
         })
 
+    # --- Paper trading: hypothetical only, no real trades placed ---
+    portfolio = load_portfolio()
+    portfolio = update_paper_portfolio(portfolio, results["tickers"])
+    results["paper_portfolio"] = summarize_portfolio(portfolio, results["tickers"])
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(results, f, indent=2)
+    with open(PORTFOLIO_PATH, "w") as f:
+        json.dump(portfolio, f, indent=2)
+
+    # --- Opportunity scan: broader universe, only notable results surface ---
+    universe = load_scan_universe()
+    if universe:
+        opportunities = scan_for_opportunities(universe, tickers)
+        scan_output = {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "universe_size": len(universe),
+            "opportunities": opportunities,
+        }
+        with open(SCAN_RESULTS_PATH, "w") as f:
+            json.dump(scan_output, f, indent=2)
+        print(f"Wrote {SCAN_RESULTS_PATH} ({len(opportunities)} notable candidates out of {len(universe)} scanned)")
 
     print(f"Wrote {OUTPUT_PATH}")
+    print(f"Wrote {PORTFOLIO_PATH}")
 
 
 if __name__ == "__main__":
     main()
-'Add candlestick detection and smoothing'

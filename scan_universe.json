@@ -1,0 +1,15 @@
+{
+  "scan_universe": [
+    "AAPL", "MSFT", "NVDA", "AMD", "AVGO",
+    "JPM", "GS", "V",
+    "UNH", "LLY",
+    "XOM", "CVX",
+    "WMT", "COST", "NKE", "HD",
+    "CAT", "BA",
+    "LIN",
+    "NEE",
+    "META", "DIS",
+    "TSLA",
+    "KO", "PG"
+  ]
+}
