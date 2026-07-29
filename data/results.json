@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-29T15:55:36.942644+00:00",
+  "generated_at": "2026-07-29T16:58:47.130924+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 733.22,
-        "change_pct": -1.03,
-        "volume": 14585912,
-        "avg_volume": 53552026,
-        "volume_ratio": 0.27,
+        "price": 734.43,
+        "change_pct": -0.63,
+        "volume": 19517205,
+        "avg_volume": 53833717,
+        "volume_ratio": 0.36,
         "above_trend_ma": false,
-        "trend_ma": 745.64,
+        "trend_ma": 746.02,
         "trend_ma_days": 15,
         "candles": {
           "open": 739.97,
           "high": 740.39,
-          "low": 733.1,
-          "close": 733.22,
-          "prev_open": 739.19,
-          "prev_close": 740.86
+          "low": 731.74,
+          "close": 734.43,
+          "prev_open": 744.91,
+          "prev_close": 739.09
         }
       },
       "call": {
@@ -30,7 +30,7 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
+        "sell",
         "sell",
         "sell"
       ],
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
+          "detail": "3 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $733.22 is below its 15-day average ($745.64).",
+          "detail": "Price $734.43 is below its 15-day average ($746.02).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.27x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.36x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,6 +64,21 @@
       ],
       "headlines": [
         {
+          "title": "Transformers: Beast Wars 30th Anniversary Maximal Collection Arrives",
+          "source": "Bleeding Cool News",
+          "url": "https://bleedingcool.com/collectibles/transformers-beast-wars-30th-anniversary-maximal-collection-arrives/"
+        },
+        {
+          "title": "BMW Is Making An Electric i4 Convertible And I'm Vibratory With Excitement",
+          "source": "Jalopnik",
+          "url": "https://www.jalopnik.com/2225179/bmw-making-electric-i4-convertible-spy-shots/"
+        },
+        {
+          "title": "US intelligence community faces sweeping staff cuts as acting spy chief slashes 30% of ODNI workforce",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/us-intelligence-community-sweeping-cuts/"
+        },
+        {
           "title": "How \u2018Agent Kim Reactivated\u2019 Became One Of 2026\u2019s Most Popular K-Dramas",
           "source": "Forbes",
           "url": "https://www.forbes.com/sites/reginakim/2026/07/28/how-agent-kim-reactivated-became-one-of-2026s-most-popular-k-dramas/"
@@ -72,42 +87,27 @@
           "title": "007 First Light Switch 2 release date may have leaked after delay to optimize game",
           "source": "Notebookcheck.net",
           "url": "https://www.notebookcheck.net/007-First-Light-Switch-2-release-date-may-have-leaked-after-delay-to-optimize-game.1353758.0.html"
-        },
-        {
-          "title": "Andy Burnham Is Not to Be Trusted",
-          "source": "Thenation.com",
-          "url": "https://www.thenation.com/article/world/andy-burnham-prime-minister-first-week/"
-        },
-        {
-          "title": "Stocks Mixed on Earnings Results and Weakness in Chipmakers",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c67525f08263271f"
-        },
-        {
-          "title": "The \u2018Poisonous Heart\u2019: Australia\u2019s Most Secretive Base Draws New Scrutiny",
-          "source": "The Diplomat",
-          "url": "https://thediplomat.com/2026/07/the-poisonous-heart-australias-most-secretive-base-draws-new-scrutiny/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 665.04,
-        "change_pct": -1.55,
-        "volume": 16694550,
-        "avg_volume": 44600855,
-        "volume_ratio": 0.37,
+        "price": 667.33,
+        "change_pct": -2.17,
+        "volume": 22775357,
+        "avg_volume": 44600230,
+        "volume_ratio": 0.51,
         "above_trend_ma": false,
-        "trend_ma": 700.56,
+        "trend_ma": 703.11,
         "trend_ma_days": 15,
         "candles": {
           "open": 675.46,
           "high": 677.46,
-          "low": 664.88,
-          "close": 665.04,
-          "prev_open": 676.23,
-          "prev_close": 675.49
+          "low": 663.3,
+          "close": 667.33,
+          "prev_open": 691.68,
+          "prev_close": 682.12
         }
       },
       "call": {
@@ -136,12 +136,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $665.04 is below its 15-day average ($700.56).",
+          "detail": "Price $667.33 is below its 15-day average ($703.11).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.37x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -186,21 +186,21 @@
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.32,
-        "change_pct": -1.12,
-        "volume": 2556261,
-        "avg_volume": 5816949,
-        "volume_ratio": 0.44,
+        "price": 82.46,
+        "change_pct": -1.59,
+        "volume": 3006858,
+        "avg_volume": 5864006,
+        "volume_ratio": 0.51,
         "above_trend_ma": false,
-        "trend_ma": 83.96,
+        "trend_ma": 84.05,
         "trend_ma_days": 15,
         "candles": {
           "open": 82.85,
           "high": 83.02,
-          "low": 82.29,
-          "close": 82.32,
-          "prev_open": 82.84,
-          "prev_close": 83.25
+          "low": 82.07,
+          "close": 82.46,
+          "prev_open": 84.29,
+          "prev_close": 83.79
         }
       },
       "call": {
@@ -229,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.32 is below its 15-day average ($83.96).",
+          "detail": "Price $82.46 is below its 15-day average ($84.05).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.44x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -248,21 +248,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 228.22,
-        "change_pct": -1.14,
-        "volume": 11260372,
-        "avg_volume": 50404256,
-        "volume_ratio": 0.22,
+        "price": 229.65,
+        "change_pct": -0.75,
+        "volume": 15306421,
+        "avg_volume": 50649144,
+        "volume_ratio": 0.3,
         "above_trend_ma": false,
-        "trend_ma": 242.53,
+        "trend_ma": 243.47,
         "trend_ma_days": 15,
         "candles": {
           "open": 229.32,
           "high": 230.24,
           "low": 227.2,
-          "close": 228.22,
-          "prev_open": 232.85,
-          "prev_close": 230.86
+          "close": 229.65,
+          "prev_open": 235.67,
+          "prev_close": 231.39
         }
       },
       "call": {
@@ -291,12 +291,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $228.22 is below its 15-day average ($242.53).",
+          "detail": "Price $229.65 is below its 15-day average ($243.47).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.22x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.3x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -312,6 +312,16 @@
       ],
       "headlines": [
         {
+          "title": "Dear Amazon Stock Fans, Mark Your Calendars for July 30",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c5535ae1285d0737"
+        },
+        {
+          "title": "Jeff Bezos\u2019 Brother and Sister Each Bet $10,000 on Amazon When 40 Investors Said No \u2014 The Stake Grew 16,659,900% and Is Worth Over $1 Billion",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/cd9bcd9d54d33c9c"
+        },
+        {
           "title": "Shark Attack 2 2000 720p AMZN WEB-DL H 265-ViSTA",
           "source": "Rlsbb.cc",
           "url": "https://post.rlsbb.cc/shark-attack-2-2000-720p-amzn-web-dl-h-265-vista/"
@@ -325,42 +335,32 @@
           "title": "Big Tech will fund more than a third of its AI investments with debt in 2027, Goldman Sachs predicts",
           "source": "Yahoo Entertainment",
           "url": "https://finance.yahoo.com/markets/article/big-tech-will-fund-more-than-a-third-of-its-ai-investments-with-debt-in-2027-goldman-sachs-predicts-145136150.html"
-        },
-        {
-          "title": "Dear Meta Platforms Stock Fans, Mark Your Calendars for July 29",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8156fd5d2a7a487e"
-        },
-        {
-          "title": "4 US Stocks Earnings to Watch This Week: Will AI Spending Finally Pay Off?",
-          "source": "BeInCrypto",
-          "url": "https://beincrypto.com/us-stocks-earnings-watch-ai-spending/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 331.91,
-        "change_pct": -0.21,
-        "volume": 5123346,
-        "avg_volume": 23811296,
-        "volume_ratio": 0.22,
+        "price": 335.41,
+        "change_pct": 2.71,
+        "volume": 6805434,
+        "avg_volume": 23923110,
+        "volume_ratio": 0.28,
         "above_trend_ma": false,
-        "trend_ma": 343.83,
+        "trend_ma": 345.8,
         "trend_ma_days": 15,
         "candles": {
           "open": 333.79,
           "high": 335.67,
           "low": 330.41,
-          "close": 331.91,
-          "prev_open": 327.8,
-          "prev_close": 332.6
+          "close": 335.41,
+          "prev_open": 324.74,
+          "prev_close": 326.57
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
+        "positive_signals": 2,
         "negative_signals": 2,
         "total_signals": 6,
         "displayed_call": "hold"
@@ -384,18 +384,18 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $331.91 is below its 15-day average ($343.83).",
+          "detail": "Price $335.41 is below its 15-day average ($345.8).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.22x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.28x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Candlestick: hammer",
+          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+          "signal": "pos"
         },
         {
           "label": "Conflicting signals",
