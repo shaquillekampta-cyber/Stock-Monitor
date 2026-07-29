@@ -1,4 +1,329 @@
 {
-  "generated_at": "2026-07-29T00:57:49.406498+00:00",
-  "tickers": []
+  "generated_at": "2026-07-29T01:02:54.748257+00:00",
+  "tickers": [
+    {
+      "ticker": "SPY",
+      "price": {
+        "price": 740.86,
+        "change_pct": 0.24,
+        "volume": 40901869,
+        "avg_volume": 46296789,
+        "volume_ratio": 0.88,
+        "above_20d_ma": false,
+        "ma_20": 746.65
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 5
+      },
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "19 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend context",
+          "detail": "Price $740.86 is below its 20-day average ($746.65).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.88x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "HBO Max Releases Full List of Movies and TV Shows Arriving in August 2026",
+          "source": "ComicBook.com",
+          "url": "http://comicbook.com/tv-shows/news/hbo-max-releases-full-list-of-movies-and-tv-shows-arriving-in-august-2026/"
+        },
+        {
+          "title": "How AI Can Help You Prep: Prompts and Real-World Uses",
+          "source": "Thesurvivalmom.com",
+          "url": "https://thesurvivalmom.com/ai-prepping-prompts/"
+        },
+        {
+          "title": "WNBA love feud explodes as NaLyssa Smith fires back at DiJonai Carrington's cheating claims",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/wnba-love-feud-explodes-nalyssa-smith-fires-back-dijonai-carrington-cheating-claims"
+        },
+        {
+          "title": "Coronation Street confirms Dylan attack in shock whodunit story",
+          "source": "digitalspy.com",
+          "url": "https://www.digitalspy.com/soaps/coronation-street/a73274150/coronation-street-spoilers-dylan-attack-whodunit-story/"
+        },
+        {
+          "title": "This '60s TV Legend Set An Impressive Emmy Record Thanks To A Classic Spy Drama",
+          "source": "/FILM",
+          "url": "https://www.slashfilm.com/2223005/barbara-bain-60s-spy-drama-mission-impossible-emmy-record/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 675.49,
+        "change_pct": -0.97,
+        "volume": 49675490,
+        "avg_volume": 38367218,
+        "volume_ratio": 1.29,
+        "above_20d_ma": false,
+        "ma_20": 708.06
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 5
+      },
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "5 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend context",
+          "detail": "Price $675.49 is below its 20-day average ($708.06).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.29x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Stocks Settle Mixed as AI Angst Offsets Easing Geopolitical Tensions",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6068aa016516a1b0"
+        },
+        {
+          "title": "Stocks Fall from Early Highs as Chipmakers Retreat",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/b0ae4cad96af50b7"
+        },
+        {
+          "title": "Stocks Fall from Early Highs as Chipmakers Retreat",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3481805/stocks-fall-from-early-highs-as-chipmakers-retreat"
+        },
+        {
+          "title": "Stocks Rally as Middle East Tensions Ease",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/a7b7eb77b49ac440"
+        },
+        {
+          "title": "Stocks Rally as Middle East Tensions Ease",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3480783/stocks-rally-as-middle-east-tensions-ease"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 83.25,
+        "change_pct": -0.64,
+        "volume": 4333920,
+        "avg_volume": 4856077,
+        "volume_ratio": 0.89,
+        "above_20d_ma": false,
+        "ma_20": 84.36
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 4
+      },
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend context",
+          "detail": "Price $83.25 is below its 20-day average ($84.36).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.89x the recent average -- roughly normal.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": []
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 230.86,
+        "change_pct": -0.23,
+        "volume": 42368131,
+        "avg_volume": 41854696,
+        "volume_ratio": 1.01,
+        "above_20d_ma": false,
+        "ma_20": 243.31
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 4
+      },
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend context",
+          "detail": "Price $230.86 is below its 20-day average ($243.31).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.01x the recent average -- roughly normal.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Sellers Hit Nvidia Amid OpenAI Data Center News; Is Nvidia A Sell Now?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/fc75b92edcc473fc"
+        },
+        {
+          "title": "The Traitors Postmortem S01 1080p AMZN WEB-DL H264-icarus",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-traitors-postmortem-s01-1080p-amzn-web-dl-h264-icarus/"
+        },
+        {
+          "title": "Ant Anstead Born Mechanic S03E01 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/ant-anstead-born-mechanic-s03e01-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Pushed to Death S01 720p AMZN WEB-DL DD+2 0 H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/pushed-to-death-s01-720p-amzn-web-dl-dd2-0-h264-playweb/"
+        },
+        {
+          "title": "Apple again the World\u2019s Most Valuable Company as shares hit new all-time closing and intraday highs",
+          "source": "Macdailynews.com",
+          "url": "https://macdailynews.com/2026/07/27/apple-again-the-worlds-most-valuable-company-as-shares-hit-new-all-time-closing-and-intraday-highs/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 332.6,
+        "change_pct": 1.85,
+        "volume": 20880881,
+        "avg_volume": 19850875,
+        "volume_ratio": 1.05,
+        "above_20d_ma": false,
+        "ma_20": 349.01
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 5
+      },
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "10 positive keyword hits vs 3 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend context",
+          "detail": "Price $332.6 is below its 20-day average ($349.01).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.05x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Google Beat but AI Stocks Are Still Sinking. What\u2019s Going On?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7a6072c3271d7951"
+        },
+        {
+          "title": "A $1 Billion Reason to Buy Verizon Stock Now After Earnings",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6a173a24f3df465a"
+        },
+        {
+          "title": "IrisApp launches limit orders for automated trading on Robinhood Chain",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/irisapp-limit-orders-robinhood-chain/"
+        },
+        {
+          "title": "Jim Cramer has terrifying one-word message for tech stock investors",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/jim-cramer-warns-tech-investors-trim-ai-chip-stocks"
+        },
+        {
+          "title": "Arm Holdings Earnings Preview: AI Optimism Faces Its Next Big Test",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3482286/arm-holdings-earnings-preview-ai-optimism-faces-its-next-big-test"
+        }
+      ]
+    }
+  ]
 }
