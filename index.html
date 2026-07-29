@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio monitor</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --card: #ffffff;
+    --border: #e5e3de;
+    --text-primary: #14140f;
+    --text-secondary: #57564e;
+    --text-muted: #8a8880;
+    --pos-bg: #e1f5ee; --pos-text: #085041;
+    --neg-bg: #fcebeb; --neg-text: #501313;
+    --neutral-bg: #f1efe8; --neutral-text: #444441;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17171490;
+      --bg: #17171a;
+      --card: #1f1f1c;
+      --border: #35342f;
+      --text-primary: #f5f4f0;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --pos-bg: #04342c; --pos-text: #9fe1cb;
+      --neg-bg: #501313; --neg-text: #f7c1c1;
+      --neutral-bg: #2c2c2a; --neutral-text: #d3d1c7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 2rem 1rem 4rem;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 500; margin: 0 0 4px; }
+  .meta { color: var(--text-secondary); font-size: 13px; margin: 0 0 24px; }
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .stat {
+    background: var(--neutral-bg);
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .stat p:first-child { font-size: 13px; color: var(--text-secondary); margin: 0 0 4px; }
+  .stat p:last-child { font-size: 24px; font-weight: 500; margin: 0; }
+  .card {
+    background: var(--card);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 12px;
+  }
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .ticker { font-size: 16px; font-weight: 500; margin: 0; }
+  .price { font-size: 13px; color: var(--text-secondary); margin: 4px 0 0; }
+  .badge {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .badge.buy { background: var(--pos-bg); color: var(--pos-text); }
+  .badge.hold { background: var(--neutral-bg); color: var(--neutral-text); }
+  .badge.sell { background: var(--neg-bg); color: var(--neg-text); }
+  .row {
+    display: flex;
+    gap: 10px;
+    padding: 8px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .row .label { font-size: 13px; font-weight: 500; margin: 0 0 2px; }
+  .row .detail { font-size: 13px; color: var(--text-secondary); margin: 0; line-height: 1.5; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+  .dot.pos { background: var(--pos-text); }
+  .dot.neg { background: var(--neg-text); }
+  .dot.neutral { background: var(--text-muted); }
+  .headlines { margin-top: 10px; }
+  .headlines a {
+    display: block;
+    font-size: 12px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 4px 0;
+  }
+  .headlines a:hover { color: var(--text-primary); }
+  .empty {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 3rem 1rem;
+  }
+  .disclaimer {
+    margin-top: 32px;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Portfolio monitor</h1>
+  <p class="meta" id="meta">Loading...</p>
+  <div class="summary" id="summary"></div>
+  <div id="cards"></div>
+  <p class="disclaimer">
+    This dashboard produces rules-based suggestions from public news and price data.
+    It does not execute trades and is not financial advice. Every score is derived
+    from the visible checklist below each ticker -- edit the keyword lists in
+    <code>monitor.py</code> to change how it reasons.
+  </p>
+</div>
+
+<script>
+async function load() {
+  const metaEl = document.getElementById('meta');
+  const summaryEl = document.getElementById('summary');
+  const cardsEl = document.getElementById('cards');
+
+  let data;
+  try {
+    const res = await fetch('data/results.json?_=' + Date.now());
+    if (!res.ok) throw new Error('no data file yet');
+    data = await res.json();
+  } catch (e) {
+    cardsEl.innerHTML = '<div class="empty">No results yet. Run the GitHub Action (or `python monitor.py` locally) to generate data/results.json.</div>';
+    metaEl.textContent = '';
+    return;
+  }
+
+  const generated = new Date(data.generated_at);
+  metaEl.textContent = 'Last updated ' + generated.toLocaleString();
+
+  const counts = { buy: 0, hold: 0, sell: 0 };
+  data.tickers.forEach(t => counts[t.call.call] = (counts[t.call.call] || 0) + 1);
+
+  summaryEl.innerHTML = `
+    <div class="stat"><p>Tickers tracked</p><p>${data.tickers.length}</p></div>
+    <div class="stat"><p>Buy signals</p><p>${counts.buy || 0}</p></div>
+    <div class="stat"><p>Hold signals</p><p>${counts.hold || 0}</p></div>
+    <div class="stat"><p>Sell signals</p><p>${counts.sell || 0}</p></div>
+  `;
+
+  cardsEl.innerHTML = data.tickers.map(t => {
+    const price = t.price || {};
+    const changeColor = (price.change_pct || 0) >= 0 ? 'var(--pos-text)' : 'var(--neg-text)';
+    const rows = t.checklist.map(c => `
+      <div class="row">
+        <div class="dot ${c.signal}"></div>
+        <div><p class="label">${c.label}</p><p class="detail">${c.detail}</p></div>
+      </div>
+    `).join('');
+    const headlines = (t.headlines || []).map(h =>
+      h.url ? `<a href="${h.url}" target="_blank" rel="noopener">${h.title} &mdash; ${h.source}</a>` : ''
+    ).join('');
+
+    return `
+      <div class="card">
+        <div class="card-head">
+          <div>
+            <p class="ticker">${t.ticker}</p>
+            <p class="price">${price.price != null ? '$' + price.price : 'price n/a'}
+              ${price.change_pct != null ? `<span style="color:${changeColor}">${price.change_pct > 0 ? '+' : ''}${price.change_pct}%</span>` : ''}
+            </p>
+          </div>
+          <div style="text-align:right">
+            <span class="badge ${t.call.call}">${t.call.call.charAt(0).toUpperCase() + t.call.call.slice(1)}</span>
+            <p style="font-size:12px;color:var(--text-muted);margin:6px 0 0">${t.call.positive_signals} pos / ${t.call.negative_signals} neg</p>
+          </div>
+        </div>
+        ${rows}
+        ${headlines ? `<div class="headlines">${headlines}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
