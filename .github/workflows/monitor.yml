@@ -33,6 +33,7 @@ jobs:
         run: |
           git config user.name "portfolio-monitor-bot"
           git config user.email "actions@github.com"
-          git add data/results.json
+          git add data/results.json data/portfolio.json data/scan_results.json
           git diff --cached --quiet || git commit -m "Update results $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+          'Fix workflow to commit scan results' 
