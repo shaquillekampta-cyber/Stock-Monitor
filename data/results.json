@@ -1,36 +1,37 @@
 {
-  "generated_at": "2026-07-29T15:12:20.232499+00:00",
+  "generated_at": "2026-07-29T15:34:58.376210+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 734.94,
-        "change_pct": -0.8,
-        "volume": 12455379,
-        "avg_volume": 53501299,
-        "volume_ratio": 0.23,
+        "price": 734.55,
+        "change_pct": -0.61,
+        "volume": 13566278,
+        "avg_volume": 53688572,
+        "volume_ratio": 0.25,
         "above_trend_ma": false,
-        "trend_ma": 745.75,
+        "trend_ma": 746.03,
         "trend_ma_days": 15,
         "candles": {
           "open": 739.97,
           "high": 740.39,
           "low": 733.79,
-          "close": 734.94,
-          "prev_open": 739.19,
-          "prev_close": 740.86
+          "close": 734.55,
+          "prev_open": 744.91,
+          "prev_close": 739.09
         }
       },
       "call": {
-        "call": "hold",
+        "call": "sell",
         "positive_signals": 0,
-        "negative_signals": 1,
+        "negative_signals": 2,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
-        "hold"
+        "hold",
+        "sell"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -41,17 +42,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $734.94 is below its 15-day average ($745.75).",
+          "detail": "Price $734.55 is below its 15-day average ($746.03).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.23x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.25x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -61,6 +62,16 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Andy Burnham Is Not to Be Trusted",
+          "source": "Thenation.com",
+          "url": "https://www.thenation.com/article/world/andy-burnham-prime-minister-first-week/"
+        },
+        {
+          "title": "Stocks Mixed on Earnings Results and Weakness in Chipmakers",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c67525f08263271f"
+        },
         {
           "title": "The \u2018Poisonous Heart\u2019: Australia\u2019s Most Secretive Base Draws New Scrutiny",
           "source": "The Diplomat",
@@ -75,35 +86,25 @@
           "title": "Asus ROG Strix SCAR 18: Building a Laptop for 4K Gaming",
           "source": "PCMag.com",
           "url": "https://me.pcmag.com/en/laptops/37757/asus-rog-strix-scar-18-building-a-laptop-for-4k-gaming"
-        },
-        {
-          "title": "New BMW i4 Convertible spy shots - pictures",
-          "source": "AutoExpress",
-          "url": "https://www.autoexpress.co.uk/bmw/i4/370096/new-bmw-i4-convertible-spy-shots-pictures"
-        },
-        {
-          "title": "Trump\u2019s Interim Spy Chief Orders 30% Cut to Staff",
-          "source": "Politicalwire.com",
-          "url": "https://politicalwire.com/2026/07/28/trumps-interim-spy-chief-orders-30-cut-to-staff/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 667.71,
-        "change_pct": -2.11,
-        "volume": 14038075,
-        "avg_volume": 44387126,
-        "volume_ratio": 0.32,
+        "price": 666.97,
+        "change_pct": -2.22,
+        "volume": 15185602,
+        "avg_volume": 44415114,
+        "volume_ratio": 0.34,
         "above_trend_ma": false,
-        "trend_ma": 703.14,
+        "trend_ma": 703.09,
         "trend_ma_days": 15,
         "candles": {
           "open": 675.46,
           "high": 677.46,
           "low": 665.77,
-          "close": 667.71,
+          "close": 666.97,
           "prev_open": 691.68,
           "prev_close": 682.12
         }
@@ -116,28 +117,29 @@
         "displayed_call": "hold"
       },
       "call_history": [
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "8 articles in the last 2 days.",
+          "detail": "9 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
+          "detail": "3 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $667.71 is below its 15-day average ($703.14).",
+          "detail": "Price $666.97 is below its 15-day average ($703.09).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.32x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.34x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -152,6 +154,11 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Stocks Mixed on Earnings Results and Weakness in Chipmakers",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c67525f08263271f"
+        },
         {
           "title": "Another Memory Massacre Is Inbound on Tuesday: Micron, SanDisk, Seagate See Large Premarket Losses",
           "source": "24/7 Wall St.",
@@ -171,32 +178,27 @@
           "title": "What Is The Growth In QQQ Actually Costing You?",
           "source": "Trefis",
           "url": "https://www.trefis.com/articles/608961/what-is-the-growth-in-qqq-actually-costing-you/2026-07-27"
-        },
-        {
-          "title": "Stocks Fall from Early Highs as Chipmakers Retreat",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b0ae4cad96af50b7"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.49,
-        "change_pct": -0.92,
-        "volume": 2180354,
-        "avg_volume": 5807998,
-        "volume_ratio": 0.38,
+        "price": 82.42,
+        "change_pct": -1.64,
+        "volume": 2346210,
+        "avg_volume": 5847892,
+        "volume_ratio": 0.4,
         "above_trend_ma": false,
-        "trend_ma": 83.97,
+        "trend_ma": 84.05,
         "trend_ma_days": 15,
         "candles": {
           "open": 82.85,
           "high": 83.02,
           "low": 82.29,
-          "close": 82.49,
-          "prev_open": 82.84,
-          "prev_close": 83.25
+          "close": 82.42,
+          "prev_open": 84.29,
+          "prev_close": 83.79
         }
       },
       "call": {
@@ -207,6 +209,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -223,12 +226,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.49 is below its 15-day average ($83.97).",
+          "detail": "Price $82.42 is below its 15-day average ($84.05).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.38x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.4x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -242,21 +245,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 228.1,
-        "change_pct": -1.19,
-        "volume": 8362027,
-        "avg_volume": 50335248,
-        "volume_ratio": 0.17,
+        "price": 228.38,
+        "change_pct": -1.3,
+        "volume": 9880685,
+        "avg_volume": 50516809,
+        "volume_ratio": 0.2,
         "above_trend_ma": false,
-        "trend_ma": 242.52,
+        "trend_ma": 243.39,
         "trend_ma_days": 15,
         "candles": {
           "open": 229.32,
           "high": 230.24,
           "low": 227.2,
-          "close": 228.1,
-          "prev_open": 232.85,
-          "prev_close": 230.86
+          "close": 228.38,
+          "prev_open": 235.67,
+          "prev_close": 231.39
         }
       },
       "call": {
@@ -267,6 +270,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -283,12 +287,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $228.1 is below its 15-day average ($242.52).",
+          "detail": "Price $228.38 is below its 15-day average ($243.39).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.17x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.2x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -303,6 +307,11 @@
         }
       ],
       "headlines": [
+        {
+          "title": "The 5 Hyperscaler Stocks Most at Risk If AI Capex Spending Hits a Wall in 2026",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/28/the-5-hyperscaler-stocks-most-at-risk-if-ai-capex-spending-hits-a-wall-in-2026/"
+        },
         {
           "title": "Big Tech will fund more than a third of its AI investments with debt in 2027, Goldman Sachs predicts",
           "source": "Yahoo Entertainment",
@@ -322,32 +331,27 @@
           "title": "Does Amazon or MercadoLibre Offer The Superior Growth Vs Profitability Story Into 2027?",
           "source": "24/7 Wall St.",
           "url": "https://247wallst.com/investing/2026/07/28/does-amazon-or-mercadolibre-offer-the-superior-growth-vs-profitability-story-into-2027/"
-        },
-        {
-          "title": "Alphabet Did Exactly What I Hoped It Would And I\u2019m Loading Up",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/28/alphabet-did-exactly-what-i-hoped-it-would-and-im-loading-up/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 333.24,
-        "change_pct": 0.19,
-        "volume": 4203577,
-        "avg_volume": 23789397,
-        "volume_ratio": 0.18,
+        "price": 333.08,
+        "change_pct": 1.99,
+        "volume": 4725620,
+        "avg_volume": 23872383,
+        "volume_ratio": 0.2,
         "above_trend_ma": false,
-        "trend_ma": 343.91,
+        "trend_ma": 345.64,
         "trend_ma_days": 15,
         "candles": {
           "open": 333.79,
           "high": 335.67,
           "low": 330.41,
-          "close": 333.24,
-          "prev_open": 327.8,
-          "prev_close": 332.6
+          "close": 333.08,
+          "prev_open": 324.74,
+          "prev_close": 326.57
         }
       },
       "call": {
@@ -358,6 +362,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -374,12 +379,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $333.24 is below its 15-day average ($343.91).",
+          "detail": "Price $333.08 is below its 15-day average ($345.64).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.18x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.2x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -421,5 +426,17 @@
         }
       ]
     }
-  ]
+  ],
+  "paper_portfolio": {
+    "starting_cash": 10000.0,
+    "cash": 10000.0,
+    "total_value": 10000.0,
+    "total_return": 0.0,
+    "total_return_pct": 0.0,
+    "realized_pnl": 0,
+    "win_rate_pct": null,
+    "closed_trade_count": 0,
+    "open_positions": [],
+    "closed_trades": []
+  }
 }
