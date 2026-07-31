@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-07-30T17:57:06.337926+00:00",
+  "generated_at": "2026-07-31T18:07:57.321547+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 739.84,
-        "change_pct": 1.42,
-        "volume": 33482468,
-        "avg_volume": 54377808,
-        "volume_ratio": 0.62,
-        "above_trend_ma": false,
-        "trend_ma": 744.59,
+        "price": 745.86,
+        "change_pct": 0.56,
+        "volume": 31341026,
+        "avg_volume": 54620361,
+        "volume_ratio": 0.57,
+        "above_trend_ma": true,
+        "trend_ma": 744.11,
         "trend_ma_days": 15,
         "candles": {
-          "open": 736.05,
-          "high": 740.38,
-          "low": 734.59,
-          "close": 739.84,
-          "prev_open": 739.97,
-          "prev_close": 729.46
+          "open": 744.68,
+          "high": 746.5,
+          "low": 737.68,
+          "close": 745.86,
+          "prev_open": 736.05,
+          "prev_close": 741.69
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "sell"
       },
       "call_history": [
         "sell",
         "sell",
-        "sell"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "4 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $739.84 is below its 15-day average ($744.59).",
-          "signal": "neg"
+          "detail": "Price $745.86 is above its 15-day average ($744.11).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.62x the recent average -- roughly normal.",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security | TechCrunch",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
+          "title": "Netflix sued for $105M by billionaire movie producer after his unreleased Nicolas Cage thriller goes missing",
+          "source": "Page Six",
+          "url": "https://pagesix.com/2026/07/30/hollywood/netflix-sued-for-105m-by-billionaire-movie-producer-after-his-unreleased-nicolas-cage-thriller-goes-missing/"
         },
         {
-          "title": "Japan's horror master Kurosawa's first samurai film arrives in US",
-          "source": "Medianewsgroup.com",
-          "url": "https://wirehub.medianewsgroup.com/2026/07/29/japans-horror-master-kurosawas-first-samurai-film-arrives-at-us-theaters/"
+          "title": "Taylor Sheridan's Lioness Season 4 Fate Seemingly Confirmed Ahead Of 2026 Return",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/taylor-sheridan-lioness-season-4-fate-update-de-oliveira-wagner/"
         },
         {
-          "title": "Runlayer showed Rippling its source code. A Rippling insider called the result \u2018a 1 to 1 copy.\u2019",
-          "source": "The Next Web",
-          "url": "https://thenextweb.com/news/runlayer-rippling-mcp-gateway-trade-secret-lawsuit/"
+          "title": "Minnesota Vikings News and Links:\u00a0The Inevitable QB Competition Dominates The Feeds",
+          "source": "Daily Norseman",
+          "url": "https://www.dailynorseman.com/minnesota-vikings-discussion-chat-message-board/97810/minnesota-vikings-news-and-links-the-inevitable-qb-competition-dominates-the-feeds"
         },
         {
-          "title": "Society Insider: Dominique Francis, Jaimee Lupton, Franky Lourie and Sophie Heatley on babies and business",
-          "source": "New Zealand Herald",
-          "url": "https://www.nzherald.co.nz/lifestyle/society-insider-dominique-francis-jaimee-lupton-franky-lourie-and-sophie-heatley-on-babies-and-business/premium/367QQNN6BRDBNHCQIZT24SG6N4/"
+          "title": "Word of the Day: Perfidious - meaning, origin, usage in sentence explained",
+          "source": "The Times of India",
+          "url": "https://economictimes.indiatimes.com/news/international/us/word-of-the-day-perfidious-meaning-origin-usage-in-sentence-explained/articleshow/132745047.cms"
         },
         {
-          "title": "Max Out a Trump Account and Your Kid Could Have $185,000 at 18",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/29/max-out-a-trump-account-and-your-kid-could-have-185000-at-18/"
+          "title": "In The Middle Of A War, The Trump Administration Has Cut National Security Staffing In Half",
+          "source": "Techdirt",
+          "url": "http://www.techdirt.com/2026/07/30/in-the-middle-of-a-war-the-trump-administration-has-cut-national-security-staffing-in-half/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 682.19,
-        "change_pct": 3.09,
-        "volume": 41055483,
-        "avg_volume": 45653809,
-        "volume_ratio": 0.9,
+        "price": 688.65,
+        "change_pct": 0.75,
+        "volume": 35105739,
+        "avg_volume": 46010203,
+        "volume_ratio": 0.76,
         "above_trend_ma": false,
-        "trend_ma": 697.6,
+        "trend_ma": 695.24,
         "trend_ma_days": 15,
         "candles": {
-          "open": 674.69,
-          "high": 683.71,
-          "low": 673.3,
-          "close": 682.19,
-          "prev_open": 675.51,
-          "prev_close": 661.73
+          "open": 692.12,
+          "high": 695.77,
+          "low": 680.05,
+          "close": 688.65,
+          "prev_open": 674.76,
+          "prev_close": 683.55
         }
       },
       "call": {
@@ -115,14 +115,14 @@
         "positive_signals": 0,
         "negative_signals": 2,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
         "hold",
-        "hold",
+        "sell",
         "sell"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -136,12 +136,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $682.19 is below its 15-day average ($697.6).",
+          "detail": "Price $688.65 is below its 15-day average ($695.24).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.9x the recent average -- roughly normal.",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,55 +152,55 @@
       ],
       "headlines": [
         {
-          "title": "Stocks Tumble Ahead of FOMC as Chipmakers Plunge",
+          "title": "Stocks Rally on Stellar Microsoft Earnings and Chip Stock Strength",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/deff7b37a6abf4da"
+          "url": "https://biztoc.com/x/1beff5336f30982a"
         },
         {
-          "title": "CHICAGO GOURMET, POWERED BY INVESCO QQQ, ANNOUNCES NEW DINE AROUND SERIES",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/chicago-gourmet-powered-by-invesco-qqq-announces-new-dine-around-series-302837993.html"
+          "title": "20VC x SaaStr: Jensen\u2019s First Tweet Ever, The Agent That Rewrote My Code Without Telling Me, and Why The PE Turnaround Playbook Is Out Of Road",
+          "source": "Saastr.com",
+          "url": "https://www.saastr.com/20vc-x-saastr-jensens-first-tweet-ever-the-agent-that-rewrote-my-code-without-telling-me-and-why-the-pe-turnaround-playbook-is-out-of-road/"
         },
         {
-          "title": "Stocks Pressured by Renewed US-Iran Hostilities",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e2d53900b9455ece"
+          "title": "Show HN: stock-tui \u2013 an open-source terminal app inspired by StockTouch",
+          "source": "Github.com",
+          "url": "https://github.com/chatcode-lab/stock-tui"
         },
         {
-          "title": "HTX's First TradFi \"Trade to Earn\" Campaign Unleashes New Trading Momentum: Rewards Exceed $23,000, Fee Savings Reach 1.8 Billion $HTX",
+          "title": "GraniteShares Announces Weekly Distributions for its YieldBOOST ETFs",
           "source": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/07/29/3334989/0/en/HTX-s-First-TradFi-Trade-to-Earn-Campaign-Unleashes-New-Trading-Momentum-Rewards-Exceed-23-000-Fee-Savings-Reach-1-8-Billion-HTX.html"
+          "url": "https://www.globenewswire.com/news-release/2026/07/30/3336203/0/en/GraniteShares-Announces-Weekly-Distributions-for-its-YieldBOOST-ETFs.html"
         },
         {
-          "title": "This 100-Year-Old Theory Says the Stock Market Isn\u2019t Done Climbing: Ed Yardeni",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/100-old-theory-says-stock-223019868.html"
+          "title": "Stocks Rebound as Microsoft Earnings Ease AI Spending Concerns",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/e806c32a0d332e42"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.61,
-        "change_pct": 2.69,
-        "volume": 3433507,
-        "avg_volume": 5837754,
-        "volume_ratio": 0.59,
+        "price": 84.76,
+        "change_pct": -0.01,
+        "volume": 3139005,
+        "avg_volume": 5802841,
+        "volume_ratio": 0.54,
         "above_trend_ma": true,
-        "trend_ma": 83.95,
+        "trend_ma": 83.92,
         "trend_ma_days": 15,
         "candles": {
-          "open": 83.75,
-          "high": 84.68,
-          "low": 83.58,
-          "close": 84.61,
-          "prev_open": 82.87,
-          "prev_close": 82.39
+          "open": 84.99,
+          "high": 85.06,
+          "low": 83.85,
+          "close": 84.76,
+          "prev_open": 83.85,
+          "prev_close": 84.77
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -208,9 +208,9 @@
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -224,18 +224,18 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.61 is above its 15-day average ($83.95).",
+          "detail": "Price $84.76 is above its 15-day average ($83.92).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Candlestick: hammer",
+          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+          "signal": "pos"
         }
       ],
       "headlines": []
@@ -243,27 +243,27 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 237.85,
-        "change_pct": 4.94,
-        "volume": 43380462,
-        "avg_volume": 50921163,
-        "volume_ratio": 0.85,
-        "above_trend_ma": false,
-        "trend_ma": 241.81,
+        "price": 271.26,
+        "change_pct": 15.19,
+        "volume": 90956274,
+        "avg_volume": 53206399,
+        "volume_ratio": 1.71,
+        "above_trend_ma": true,
+        "trend_ma": 243.38,
         "trend_ma_days": 15,
         "candles": {
-          "open": 233.25,
-          "high": 239.49,
-          "low": 231.06,
-          "close": 237.85,
-          "prev_open": 229.32,
-          "prev_close": 226.65
+          "open": 264.98,
+          "high": 272.04,
+          "low": 262.05,
+          "close": 271.26,
+          "prev_open": 233.35,
+          "prev_close": 235.5
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
+        "positive_signals": 2,
+        "negative_signals": 3,
         "total_signals": 6,
         "displayed_call": "hold"
       },
@@ -281,23 +281,23 @@
         },
         {
           "label": "Sentiment",
-          "detail": "7 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $237.85 is below its 15-day average ($241.81).",
+          "detail": "3 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
-          "label": "Volume",
-          "detail": "Volume is 0.85x the recent average -- roughly normal.",
-          "signal": "neutral"
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $271.26 is above its 15-day average ($243.38).",
+          "signal": "pos"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Volume",
+          "detail": "Volume is 1.71x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "neg"
+        },
+        {
+          "label": "Candlestick: breakout",
+          "detail": "Up 15.19% in one day on 1.71x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
+          "signal": "pos"
         },
         {
           "label": "Conflicting signals",
@@ -307,122 +307,117 @@
       ],
       "headlines": [
         {
-          "title": "Easy A 2010 720p AMZN WEB-DL H 265-ViSTA",
+          "title": "Sodium Party 2013 720p AMZN WEB-DL H264-TEPES",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/easy-a-2010-720p-amzn-web-dl-h-265-vista/"
+          "url": "https://post.rlsbb.cc/sodium-party-2013-720p-amzn-web-dl-h264-tepes/"
         },
         {
-          "title": "django-amzn-oidc-auth 1.0.0",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/django-amzn-oidc-auth/1.0.0/"
-        },
-        {
-          "title": "My Stepmother And Stepsisters Arent Wicked S01E04 1080p AMZN WEB-DL H264-VARYG",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/my-stepmother-and-stepsisters-arent-wicked-s01e04-1080p-amzn-web-dl-h264-varyg/"
-        },
-        {
-          "title": "Can Amazon Continue Its Rally? Analysts Weigh In",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/29/can-amazon-continue-its-rally-analysts-weigh-in/"
-        },
-        {
-          "title": "Automating customer retention workflows in Amazon Quick",
+          "title": "Lowering AWS KMS decrypt API costs in EMR Spark jobs",
           "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automating-customer-retention-workflows-in-amazon-quick/"
+          "url": "https://aws.amazon.com/blogs/big-data/lowering-aws-kms-decrypt-api-costs-in-emr-spark-jobs/"
+        },
+        {
+          "title": "Seagull 2019 1080p H264 EAC3 AMZN WEB-DL BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/seagull-2019-1080p-h264-eac3-amzn-web-dl-bobdobbs/"
+        },
+        {
+          "title": "Snowflake Stock Nearly Doubled On A Product Its Own Forecast Could Not See",
+          "source": "Trefis",
+          "url": "https://www.trefis.com/articles/609514/snowflake-stock-nearly-doubled-on-a-product-its-own-forecast-could-not-see/2026-07-30"
+        },
+        {
+          "title": "Migrate your prompts to new models and optimize them on Amazon Bedrock",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 333.94,
-        "change_pct": -0.54,
-        "volume": 10024664,
-        "avg_volume": 23266815,
-        "volume_ratio": 0.43,
-        "above_trend_ma": false,
-        "trend_ma": 342.6,
+        "price": 354.82,
+        "change_pct": 6.33,
+        "volume": 18002037,
+        "avg_volume": 23313959,
+        "volume_ratio": 0.77,
+        "above_trend_ma": true,
+        "trend_ma": 342.56,
         "trend_ma_days": 15,
         "candles": {
-          "open": 333.08,
-          "high": 335.45,
-          "low": 329.82,
-          "close": 333.94,
-          "prev_open": 333.5,
-          "prev_close": 335.76
+          "open": 340.08,
+          "high": 354.9,
+          "low": 339.17,
+          "close": 354.82,
+          "prev_open": 333.08,
+          "prev_close": 333.68
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
+          "detail": "17 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 0 negative.",
+          "detail": "10 positive keyword hits vs 6 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $333.94 is below its 15-day average ($342.6).",
-          "signal": "neg"
+          "detail": "Price $354.82 is above its 15-day average ($342.56).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Prediction: Meta Stock Will Pop After Q2 Earnings. 3 Reasons Why",
+          "title": "Alphabet Inc. (GOOG) Shareholders Who Lost Money \u2013 Contact Law Offices of Howard G. Smith About Securities Fraud Investigation",
+          "source": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/07/30/3336313/3448/en/Alphabet-Inc-GOOG-Shareholders-Who-Lost-Money-Contact-Law-Offices-of-Howard-G-Smith-About-Securities-Fraud-Investigation.html"
+        },
+        {
+          "title": "Alphabet Beat Nvidia in the First Half of 2026. Here's My Prediction for Which Stock Will Win in the Second Half",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6517fe0607189e70"
+          "url": "https://biztoc.com/x/7470000d8adeb641"
         },
         {
-          "title": "Nvidia, Micron, AMD sink as SK Hynix results fail to impress, AI trade unwinds",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-micron-amd-sink-as-sk-hynix-results-fail-to-impress-ai-trade-unwinds-130352334.html"
+          "title": "Mark Zuckerberg\u2019s Wealth Plunges $25 Billion",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/07/30/mark-zuckerbergs-wealth-plunges-25-billion/"
         },
         {
-          "title": "Amazon Q2 earnings to put spotlight on AWS growth amid AI spending",
+          "title": "This 1 Company Is By Far the Largest Contributor to Second-Quarter S&P 500 Earnings Growth",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8e5746a02595941e"
+          "url": "https://biztoc.com/x/a28d6733e33c0b10"
         },
         {
-          "title": "Amazon Q2 earnings to put spotlight on AWS growth amid AI spending",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/news/amazon-q2-earnings-to-put-spotlight-on-aws-growth-amid-ai-spending-115622323.html"
-        },
-        {
-          "title": "Apple to report Q3 earnings following price hikes on Macs, iPads",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/apple-to-report-q3-earnings-following-price-hikes-on-macs-ipads-115246491.html"
+          "title": "Alphabet Will Spend as Much as $205 Billion This Year. The Depreciation Bill Starts Landing in 2027",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/294331cb072f1ce5"
         }
       ]
     }
