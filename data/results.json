@@ -1,132 +1,44 @@
 {
-  "generated_at": "2026-07-31T18:07:57.321547+00:00",
+  "generated_at": "2026-08-03T18:29:39.536225+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 745.86,
-        "change_pct": 0.56,
-        "volume": 31341026,
-        "avg_volume": 54620361,
-        "volume_ratio": 0.57,
+        "price": 757.59,
+        "change_pct": 1.41,
+        "volume": 38058865,
+        "avg_volume": 55776242,
+        "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 744.11,
+        "trend_ma": 744.75,
         "trend_ma_days": 15,
         "candles": {
-          "open": 744.68,
-          "high": 746.5,
-          "low": 737.68,
-          "close": 745.86,
-          "prev_open": 736.05,
-          "prev_close": 741.69
+          "open": 749.44,
+          "high": 758.33,
+          "low": 748.8,
+          "close": 757.59,
+          "prev_open": 744.68,
+          "prev_close": 747.03
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "sell",
-        "sell",
-        "buy"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "4 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $745.86 is above its 15-day average ($744.11).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Netflix sued for $105M by billionaire movie producer after his unreleased Nicolas Cage thriller goes missing",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/07/30/hollywood/netflix-sued-for-105m-by-billionaire-movie-producer-after-his-unreleased-nicolas-cage-thriller-goes-missing/"
-        },
-        {
-          "title": "Taylor Sheridan's Lioness Season 4 Fate Seemingly Confirmed Ahead Of 2026 Return",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/taylor-sheridan-lioness-season-4-fate-update-de-oliveira-wagner/"
-        },
-        {
-          "title": "Minnesota Vikings News and Links:\u00a0The Inevitable QB Competition Dominates The Feeds",
-          "source": "Daily Norseman",
-          "url": "https://www.dailynorseman.com/minnesota-vikings-discussion-chat-message-board/97810/minnesota-vikings-news-and-links-the-inevitable-qb-competition-dominates-the-feeds"
-        },
-        {
-          "title": "Word of the Day: Perfidious - meaning, origin, usage in sentence explained",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/word-of-the-day-perfidious-meaning-origin-usage-in-sentence-explained/articleshow/132745047.cms"
-        },
-        {
-          "title": "In The Middle Of A War, The Trump Administration Has Cut National Security Staffing In Half",
-          "source": "Techdirt",
-          "url": "http://www.techdirt.com/2026/07/30/in-the-middle-of-a-war-the-trump-administration-has-cut-national-security-staffing-in-half/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 688.65,
-        "change_pct": 0.75,
-        "volume": 35105739,
-        "avg_volume": 46010203,
-        "volume_ratio": 0.76,
-        "above_trend_ma": false,
-        "trend_ma": 695.24,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 692.12,
-          "high": 695.77,
-          "low": 680.05,
-          "close": 688.65,
-          "prev_open": 674.76,
-          "prev_close": 683.55
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "sell"
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
-        "sell"
+        "buy",
+        "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "14 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +48,105 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $688.65 is below its 15-day average ($695.24).",
-          "signal": "neg"
+          "detail": "Price $757.59 is above its 15-day average ($744.75).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "detail": "Volume is 0.68x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Security Affairs newsletter Round 588 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+          "source": "Securityaffairs.com",
+          "url": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html"
+        },
+        {
+          "title": "Why Alexa PenaVega Believes Stillborn Daughter Indy's 'Life Is Still Full'",
+          "source": "Us Weekly",
+          "url": "https://www.usmagazine.com/celebrity-news/news/alexa-penavega-thinks-stillborn-babys-life-is-still-full/"
+        },
+        {
+          "title": "30 Years Later, Legendary Sci-Fi Anime Is Getting New Streaming Launch With Classic English Dub",
+          "source": "ComicBook.com",
+          "url": "http://comicbook.com/anime/news/30-years-later-legendary-sci-fi-anime-is-getting-new-streaming-launch-with-classic-english-dub/"
+        },
+        {
+          "title": "\u2018Lioness\u2019 Season 3 Episode 1 Recap: The Drone Temple",
+          "source": "Decider",
+          "url": "https://decider.com/2026/08/02/lioness-season-3-episode-1-recap-the-spider-and-the-fly/"
+        },
+        {
+          "title": "Civil War: Unmasked #4 Preview: Tigra's Double Agent Dilemma",
+          "source": "Bleeding Cool News",
+          "url": "https://bleedingcool.com/comics/civil-war-unmasked-4-preview-tigras-double-agent-dilemma/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 699.88,
+        "change_pct": 1.73,
+        "volume": 30131048,
+        "avg_volume": 46673267,
+        "volume_ratio": 0.65,
+        "above_trend_ma": true,
+        "trend_ma": 694.4,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 688.34,
+          "high": 701.59,
+          "low": 685.82,
+          "close": 699.88,
+          "prev_open": 692.11,
+          "prev_close": 687.99
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "sell"
+      },
+      "call_history": [
+        "sell",
+        "sell",
+        "buy"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "5 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $699.88 is above its 15-day average ($694.4).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.65x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,65 +157,65 @@
       ],
       "headlines": [
         {
-          "title": "Stocks Rally on Stellar Microsoft Earnings and Chip Stock Strength",
+          "title": "Has Index Investing Gone Too Far?",
+          "source": "Thedailyupside.com",
+          "url": "https://www.thedailyupside.com/advisor/investing-strategies/has-index-investing-gone-too-far/"
+        },
+        {
+          "title": "Return of Capital Disguised as Yield: Why QDTE\u2019s $13.33 Trailing Payout Is Slowly Returning Your Own Money",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/01/return-of-capital-disguised-as-yield-why-qdtes-13-33-trailing-payout-is-slowly-returning-your-own-money/"
+        },
+        {
+          "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1beff5336f30982a"
+          "url": "https://biztoc.com/x/563b2ba0c8e8a7ac"
         },
         {
-          "title": "20VC x SaaStr: Jensen\u2019s First Tweet Ever, The Agent That Rewrote My Code Without Telling Me, and Why The PE Turnaround Playbook Is Out Of Road",
-          "source": "Saastr.com",
-          "url": "https://www.saastr.com/20vc-x-saastr-jensens-first-tweet-ever-the-agent-that-rewrote-my-code-without-telling-me-and-why-the-pe-turnaround-playbook-is-out-of-road/"
+          "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it"
         },
         {
-          "title": "Show HN: stock-tui \u2013 an open-source terminal app inspired by StockTouch",
-          "source": "Github.com",
-          "url": "https://github.com/chatcode-lab/stock-tui"
-        },
-        {
-          "title": "GraniteShares Announces Weekly Distributions for its YieldBOOST ETFs",
-          "source": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/07/30/3336203/0/en/GraniteShares-Announces-Weekly-Distributions-for-its-YieldBOOST-ETFs.html"
-        },
-        {
-          "title": "Stocks Rebound as Microsoft Earnings Ease AI Spending Concerns",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e806c32a0d332e42"
+          "title": "QQQI\u2019s 14% Yield Hides a Costly Truth: 98% Is Your Own Money Coming Back",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/01/qqqis-14-yield-hides-a-costly-truth-98-is-your-own-money-coming-back/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.76,
-        "change_pct": -0.01,
-        "volume": 3139005,
-        "avg_volume": 5802841,
-        "volume_ratio": 0.54,
+        "price": 84.99,
+        "change_pct": 0.47,
+        "volume": 3925630,
+        "avg_volume": 5755645,
+        "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 83.92,
+        "trend_ma": 83.99,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.99,
-          "high": 85.06,
-          "low": 83.85,
-          "close": 84.76,
-          "prev_open": 83.85,
-          "prev_close": 84.77
+          "open": 84.66,
+          "high": 85.07,
+          "low": 84.4,
+          "close": 84.99,
+          "prev_open": 85.0,
+          "prev_close": 84.59
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
-        "buy"
+        "buy",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -224,18 +229,18 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.76 is above its 15-day average ($83.92).",
+          "detail": "Price $84.99 is above its 15-day average ($83.99).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.68x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": []
@@ -243,28 +248,28 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 271.26,
-        "change_pct": 15.19,
-        "volume": 90956274,
-        "avg_volume": 53206399,
-        "volume_ratio": 1.71,
+        "price": 282.98,
+        "change_pct": 4.2,
+        "volume": 64827725,
+        "avg_volume": 54670748,
+        "volume_ratio": 1.19,
         "above_trend_ma": true,
-        "trend_ma": 243.38,
+        "trend_ma": 245.78,
         "trend_ma_days": 15,
         "candles": {
-          "open": 264.98,
-          "high": 272.04,
-          "low": 262.05,
-          "close": 271.26,
-          "prev_open": 233.35,
-          "prev_close": 235.5
+          "open": 278.29,
+          "high": 287.16,
+          "low": 278.0,
+          "close": 282.98,
+          "prev_open": 265.0,
+          "prev_close": 271.58
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 3,
-        "total_signals": 6,
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -281,110 +286,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $271.26 is above its 15-day average ($243.38).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.71x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "neg"
-        },
-        {
-          "label": "Candlestick: breakout",
-          "detail": "Up 15.19% in one day on 1.71x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
-          "signal": "pos"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Sodium Party 2013 720p AMZN WEB-DL H264-TEPES",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/sodium-party-2013-720p-amzn-web-dl-h264-tepes/"
-        },
-        {
-          "title": "Lowering AWS KMS decrypt API costs in EMR Spark jobs",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/lowering-aws-kms-decrypt-api-costs-in-emr-spark-jobs/"
-        },
-        {
-          "title": "Seagull 2019 1080p H264 EAC3 AMZN WEB-DL BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/seagull-2019-1080p-h264-eac3-amzn-web-dl-bobdobbs/"
-        },
-        {
-          "title": "Snowflake Stock Nearly Doubled On A Product Its Own Forecast Could Not See",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/609514/snowflake-stock-nearly-doubled-on-a-product-its-own-forecast-could-not-see/2026-07-30"
-        },
-        {
-          "title": "Migrate your prompts to new models and optimize them on Amazon Bedrock",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 354.82,
-        "change_pct": 6.33,
-        "volume": 18002037,
-        "avg_volume": 23313959,
-        "volume_ratio": 0.77,
-        "above_trend_ma": true,
-        "trend_ma": 342.56,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 340.08,
-          "high": 354.9,
-          "low": 339.17,
-          "close": 354.82,
-          "prev_open": 333.08,
-          "prev_close": 333.68
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "buy"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "17 articles in the last 2 days.",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
           "signal": "neutral"
         },
         {
-          "label": "Sentiment",
-          "detail": "10 positive keyword hits vs 6 negative.",
-          "signal": "pos"
-        },
-        {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $354.82 is above its 15-day average ($342.56).",
+          "detail": "Price $282.98 is above its 15-day average ($245.78).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.77x the recent average -- roughly normal.",
+          "detail": "Volume is 1.19x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -395,29 +307,117 @@
       ],
       "headlines": [
         {
-          "title": "Alphabet Inc. (GOOG) Shareholders Who Lost Money \u2013 Contact Law Offices of Howard G. Smith About Securities Fraud Investigation",
-          "source": "GlobeNewswire",
-          "url": "https://www.globenewswire.com/news-release/2026/07/30/3336313/3448/en/Alphabet-Inc-GOOG-Shareholders-Who-Lost-Money-Contact-Law-Offices-of-Howard-G-Smith-About-Securities-Fraud-Investigation.html"
+          "title": "Middlehood S01 1080p AMZN WEB-DL H264-Gir0h",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/middlehood-s01-1080p-amzn-web-dl-h264-gir0h/"
         },
         {
-          "title": "Alphabet Beat Nvidia in the First Half of 2026. Here's My Prediction for Which Stock Will Win in the Second Half",
+          "title": "The Bearded Girl 2025 1080p AMZN WEB-DL H264-MADSKY",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-bearded-girl-2025-1080p-amzn-web-dl-h264-madsky/"
+        },
+        {
+          "title": "Shark Week S2026E19 Great White Highway 720p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/shark-week-s2026e19-great-white-highway-720p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Shark Week S2026E20 Thresher Shark Stun To Kill 720p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/shark-week-s2026e20-thresher-shark-stun-to-kill-720p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Big Tech\u2019s $2 trillion AI shakeout just changed everything",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7470000d8adeb641"
+          "url": "https://biztoc.com/x/dc74ba8bc13b180d"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 372.58,
+        "change_pct": 4.47,
+        "volume": 17538429,
+        "avg_volume": 23305050,
+        "volume_ratio": 0.75,
+        "above_trend_ma": true,
+        "trend_ma": 344.15,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 365.22,
+          "high": 376.09,
+          "low": 363.27,
+          "close": 372.58,
+          "prev_open": 340.07,
+          "prev_close": 356.65
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "5 articles in the last 2 days.",
+          "signal": "neutral"
         },
         {
-          "title": "Mark Zuckerberg\u2019s Wealth Plunges $25 Billion",
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $372.58 is above its 15-day average ($344.15).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.75x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "3 Reasons Why Berkshire Hathaway Owns $29 Billion of Alphabet Stock",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7211e71543bf3394"
+        },
+        {
+          "title": "Nvidia vs. Alphabet: What Revenue Trends Reveal About the AI Leaders",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/07/30/mark-zuckerbergs-wealth-plunges-25-billion/"
+          "url": "https://247wallst.com/investing/2026/08/02/nvidia-vs-alphabet-what-revenue-trends-reveal-about-the-ai-leaders/"
         },
         {
-          "title": "This 1 Company Is By Far the Largest Contributor to Second-Quarter S&P 500 Earnings Growth",
+          "title": "Amazon vs. Microsoft vs. Alphabet: Which Is the Best Cloud Stock to Buy Now?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/a28d6733e33c0b10"
+          "url": "https://biztoc.com/x/f38b34b248521238"
         },
         {
-          "title": "Alphabet Will Spend as Much as $205 Billion This Year. The Depreciation Bill Starts Landing in 2027",
+          "title": "Why Now Is Finally the Time to Buy the Big Three Cloud Computing Stocks Before It's Too Late",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/294331cb072f1ce5"
+          "url": "https://biztoc.com/x/28567db56c4c697e"
+        },
+        {
+          "title": "Google Piles On Off-Balance-Sheet Risk to Fuel Its AI Chip Push",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3595044/google-piles-on-off-balance-sheet-risk-to-fuel-its-ai-chip-push"
         }
       ]
     }
