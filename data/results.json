@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-08-03T18:29:39.536225+00:00",
+  "generated_at": "2026-08-04T18:18:37.206529+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 757.59,
-        "change_pct": 1.41,
-        "volume": 38058865,
-        "avg_volume": 55776242,
-        "volume_ratio": 0.68,
+        "price": 772.18,
+        "change_pct": 1.92,
+        "volume": 39036748,
+        "avg_volume": 56002808,
+        "volume_ratio": 0.7,
         "above_trend_ma": true,
-        "trend_ma": 744.75,
+        "trend_ma": 746.11,
         "trend_ma_days": 15,
         "candles": {
-          "open": 749.44,
-          "high": 758.33,
-          "low": 748.8,
-          "close": 757.59,
-          "prev_open": 744.68,
-          "prev_close": 747.03
+          "open": 760.63,
+          "high": 773.09,
+          "low": 760.52,
+          "close": 772.18,
+          "prev_open": 749.44,
+          "prev_close": 757.67
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
         "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -43,76 +43,71 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $757.59 is above its 15-day average ($744.75).",
+          "detail": "Price $772.18 is above its 15-day average ($746.11).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.68x the recent average -- roughly normal.",
+          "detail": "Volume is 0.7x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Security Affairs newsletter Round 588 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
-          "source": "Securityaffairs.com",
-          "url": "https://securityaffairs.com/196466/security/security-affairs-newsletter-round-588-by-pierluigi-paganini-international-edition.html"
+          "title": "Brothers, Sisters, and Divorce: What Happens Between the Kids",
+          "source": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/a-better-divorce/202607/brothers-sisters-and-divorce-what-happens-between-the-kids"
         },
         {
-          "title": "Why Alexa PenaVega Believes Stillborn Daughter Indy's 'Life Is Still Full'",
-          "source": "Us Weekly",
-          "url": "https://www.usmagazine.com/celebrity-news/news/alexa-penavega-thinks-stillborn-babys-life-is-still-full/"
+          "title": "Apple Takes UK Government to Court Over Secret Plan to Spy on iCloud Data",
+          "source": "iPhone in Canada",
+          "url": "https://www.iphoneincanada.ca/2026/08/03/apple-takes-uk-government-to-court-over-secret-plan-to-spy-on-icloud-data/"
         },
         {
-          "title": "30 Years Later, Legendary Sci-Fi Anime Is Getting New Streaming Launch With Classic English Dub",
-          "source": "ComicBook.com",
-          "url": "http://comicbook.com/anime/news/30-years-later-legendary-sci-fi-anime-is-getting-new-streaming-launch-with-classic-english-dub/"
+          "title": "Kumail Nanjiani\u2019s Directing Debut \u2018Howl\u2019 Lands At Orion Pictures",
+          "source": "Deadline",
+          "url": "http://deadline.com/2026/08/kumail-nanjiani-howl-movie-orion-pictures-1237015474/"
         },
         {
-          "title": "\u2018Lioness\u2019 Season 3 Episode 1 Recap: The Drone Temple",
-          "source": "Decider",
-          "url": "https://decider.com/2026/08/02/lioness-season-3-episode-1-recap-the-spider-and-the-fly/"
+          "title": "SCOTT MOREFIELD: The Bipartisan Backlash Against Flock Cameras And America\u2019s AI Surveillance State",
+          "source": "The Daily Caller",
+          "url": "https://dailycaller.com/2026/08/03/scott-morefield-bipartisan-backlash-flock-safety-ai-surveillance-cameras"
         },
         {
-          "title": "Civil War: Unmasked #4 Preview: Tigra's Double Agent Dilemma",
-          "source": "Bleeding Cool News",
-          "url": "https://bleedingcool.com/comics/civil-war-unmasked-4-preview-tigras-double-agent-dilemma/"
+          "title": "Police Commissioner adviser criticises Police Minister Mark Mitchell in open letter over Rakesh Naidoo controversy",
+          "source": "New Zealand Herald",
+          "url": "https://www.nzherald.co.nz/nz/politics/police-commissioner-adviser-criticises-police-minister-mark-mitchell-in-open-letter-over-rakesh-naidoo-controversy/GW3V57HUABCYPFZCMNUDCL5G6M/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 699.88,
-        "change_pct": 1.73,
-        "volume": 30131048,
-        "avg_volume": 46673267,
-        "volume_ratio": 0.65,
+        "price": 723.49,
+        "change_pct": 3.35,
+        "volume": 41309686,
+        "avg_volume": 47049933,
+        "volume_ratio": 0.88,
         "above_trend_ma": true,
-        "trend_ma": 694.4,
+        "trend_ma": 694.67,
         "trend_ma_days": 15,
         "candles": {
-          "open": 688.34,
-          "high": 701.59,
-          "low": 685.82,
-          "close": 699.88,
-          "prev_open": 692.11,
-          "prev_close": 687.99
+          "open": 708.21,
+          "high": 724.28,
+          "low": 707.59,
+          "close": 723.49,
+          "prev_open": 688.3,
+          "prev_close": 700.07
         }
       },
       "call": {
@@ -120,33 +115,33 @@
         "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
-        "displayed_call": "sell"
+        "displayed_call": "buy"
       },
       "call_history": [
         "sell",
-        "sell",
+        "buy",
         "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "12 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
+          "detail": "8 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $699.88 is above its 15-day average ($694.4).",
+          "detail": "Price $723.49 is above its 15-day average ($694.67).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.65x the recent average -- roughly normal.",
+          "detail": "Volume is 0.88x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -157,50 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "Has Index Investing Gone Too Far?",
-          "source": "Thedailyupside.com",
-          "url": "https://www.thedailyupside.com/advisor/investing-strategies/has-index-investing-gone-too-far/"
-        },
-        {
-          "title": "Return of Capital Disguised as Yield: Why QDTE\u2019s $13.33 Trailing Payout Is Slowly Returning Your Own Money",
+          "title": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/01/return-of-capital-disguised-as-yield-why-qdtes-13-33-trailing-payout-is-slowly-returning-your-own-money/"
+          "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
         },
         {
-          "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+          "title": "After Comparing Every AI ETF, These 3 Beat the Nasdaq Without Betting on a Single Stock",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/03/after-comparing-every-ai-etf-these-3-beat-the-nasdaq-without-betting-on-a-single-stock/"
+        },
+        {
+          "title": "SAVOR Chicago Gourmet details, a FRESH start and National Oyster Day - Windy City Times",
+          "source": "Windycitytimes.com",
+          "url": "https://windycitytimes.com/2026/08/03/savor-chicago-gourmet-details-a-fresh-start-and-national-oyster-day/"
+        },
+        {
+          "title": "Tom Lee\u2019s Bitmine Buys More Ethereum, Adds to Stock Buyback",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback"
+        },
+        {
+          "title": "Stocks Rally on Easing Geopolitical Risks and US Economic Strength",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/563b2ba0c8e8a7ac"
-        },
-        {
-          "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it"
-        },
-        {
-          "title": "QQQI\u2019s 14% Yield Hides a Costly Truth: 98% Is Your Own Money Coming Back",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/01/qqqis-14-yield-hides-a-costly-truth-98-is-your-own-money-coming-back/"
+          "url": "https://biztoc.com/x/16f8d0db80b356a7"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.99,
-        "change_pct": 0.47,
-        "volume": 3925630,
-        "avg_volume": 5755645,
+        "price": 86.46,
+        "change_pct": 1.7,
+        "volume": 3916576,
+        "avg_volume": 5741516,
         "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 83.99,
+        "trend_ma": 84.11,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.66,
-          "high": 85.07,
-          "low": 84.4,
-          "close": 84.99,
-          "prev_open": 85.0,
-          "prev_close": 84.59
+          "open": 85.86,
+          "high": 86.53,
+          "low": 85.76,
+          "close": 86.46,
+          "prev_open": 84.66,
+          "prev_close": 85.02
         }
       },
       "call": {
@@ -211,15 +206,15 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "1 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -229,7 +224,7 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.99 is above its 15-day average ($83.99).",
+          "detail": "Price $86.46 is above its 15-day average ($84.11).",
           "signal": "pos"
         },
         {
@@ -243,31 +238,37 @@
           "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Vanguard's cheapest ETF may be the only one you need",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/vanguards-cheapest-etf-may-be-the-only-one-you-need"
+        }
+      ]
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 282.98,
-        "change_pct": 4.2,
-        "volume": 64827725,
-        "avg_volume": 54670748,
-        "volume_ratio": 1.19,
+        "price": 277.87,
+        "change_pct": -2.17,
+        "volume": 44976153,
+        "avg_volume": 55129034,
+        "volume_ratio": 0.82,
         "above_trend_ma": true,
-        "trend_ma": 245.78,
+        "trend_ma": 247.87,
         "trend_ma_days": 15,
         "candles": {
-          "open": 278.29,
-          "high": 287.16,
-          "low": 278.0,
-          "close": 282.98,
-          "prev_open": 265.0,
-          "prev_close": 271.58
+          "open": 276.06,
+          "high": 281.07,
+          "low": 275.82,
+          "close": 277.87,
+          "prev_open": 278.29,
+          "prev_close": 284.02
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -275,9 +276,9 @@
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -286,17 +287,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "10 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $282.98 is above its 15-day average ($245.78).",
+          "detail": "Price $277.87 is above its 15-day average ($247.87).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.19x the recent average -- roughly normal.",
+          "detail": "Volume is 0.82x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -307,84 +308,84 @@
       ],
       "headlines": [
         {
-          "title": "Middlehood S01 1080p AMZN WEB-DL H264-Gir0h",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/middlehood-s01-1080p-amzn-web-dl-h264-gir0h/"
-        },
-        {
-          "title": "The Bearded Girl 2025 1080p AMZN WEB-DL H264-MADSKY",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-bearded-girl-2025-1080p-amzn-web-dl-h264-madsky/"
-        },
-        {
-          "title": "Shark Week S2026E19 Great White Highway 720p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/shark-week-s2026e19-great-white-highway-720p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "Shark Week S2026E20 Thresher Shark Stun To Kill 720p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/shark-week-s2026e20-thresher-shark-stun-to-kill-720p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "Big Tech\u2019s $2 trillion AI shakeout just changed everything",
+          "title": "Microsoft and Amazon Are Spending Billions on AI. 1 Is Getting Far Better Returns",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/dc74ba8bc13b180d"
+          "url": "https://biztoc.com/x/d2fc0af0858a5416"
+        },
+        {
+          "title": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
+        },
+        {
+          "title": "Wall Street Raises Amazon Targets After Its AWS Surge. Here\u2019s The Number.",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/03/wall-street-raises-amazon-targets-after-its-aws-surge-heres-the-number/"
+        },
+        {
+          "title": "Microsoft Races Ahead Of Google In The Cloud",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/0569ae416eaa2639"
+        },
+        {
+          "title": "The \u2018Nvidia Tax\u2019: Alphabet Mitigates It Better Than Amazon or Any Other Mag 7 Stock",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/590c845a1b80d73a"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 372.58,
-        "change_pct": 4.47,
-        "volume": 17538429,
-        "avg_volume": 23305050,
-        "volume_ratio": 0.75,
+        "price": 376.48,
+        "change_pct": 1.08,
+        "volume": 11285968,
+        "avg_volume": 22778384,
+        "volume_ratio": 0.5,
         "above_trend_ma": true,
-        "trend_ma": 344.15,
+        "trend_ma": 345.42,
         "trend_ma_days": 15,
         "candles": {
-          "open": 365.22,
-          "high": 376.09,
-          "low": 363.27,
-          "close": 372.58,
-          "prev_open": 340.07,
-          "prev_close": 356.65
+          "open": 366.36,
+          "high": 376.9,
+          "low": 366.32,
+          "close": 376.48,
+          "prev_open": 365.3,
+          "prev_close": 372.47
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
         "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "18 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "5 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $372.58 is above its 15-day average ($344.15).",
+          "detail": "Price $376.48 is above its 15-day average ($345.42).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.75x the recent average -- roughly normal.",
+          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -395,43 +396,64 @@
       ],
       "headlines": [
         {
-          "title": "3 Reasons Why Berkshire Hathaway Owns $29 Billion of Alphabet Stock",
+          "title": "Why Alphabet Stock Popped Today",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7211e71543bf3394"
+          "url": "https://biztoc.com/x/c07e04540bdffcff"
         },
         {
-          "title": "Nvidia vs. Alphabet: What Revenue Trends Reveal About the AI Leaders",
+          "title": "Microsoft Races Ahead Of Google In The Cloud",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/0569ae416eaa2639"
+        },
+        {
+          "title": "A Powerful Bull Case Is Emerging for Apple, Alphabet and Amazon",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7970ecaad7760617"
+        },
+        {
+          "title": "A Powerful Bull Case Is Emerging for Apple, Alphabet and Amazon",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/02/nvidia-vs-alphabet-what-revenue-trends-reveal-about-the-ai-leaders/"
+          "url": "https://247wallst.com/investing/2026/08/03/a-powerful-bull-case-is-emerging-for-apple-alphabet-and-amazon/"
         },
         {
-          "title": "Amazon vs. Microsoft vs. Alphabet: Which Is the Best Cloud Stock to Buy Now?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/f38b34b248521238"
-        },
-        {
-          "title": "Why Now Is Finally the Time to Buy the Big Three Cloud Computing Stocks Before It's Too Late",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/28567db56c4c697e"
-        },
-        {
-          "title": "Google Piles On Off-Balance-Sheet Risk to Fuel Its AI Chip Push",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3595044/google-piles-on-off-balance-sheet-risk-to-fuel-its-ai-chip-push"
+          "title": "Amazon, Meta, and Microsoft stocks surge as AI hyperscalers post strong earnings results",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/amazon-meta-and-microsoft-stocks-surge-as-ai-hyperscalers-post-strong-earnings-results-163729332.html"
         }
       ]
     }
   ],
   "paper_portfolio": {
     "starting_cash": 10000.0,
-    "cash": 10000.0,
-    "total_value": 10000.0,
-    "total_return": 0.0,
+    "cash": 6400.0,
+    "total_value": 10000.02,
+    "total_return": 0.02,
     "total_return_pct": 0.0,
     "realized_pnl": 0,
     "win_rate_pct": null,
     "closed_trade_count": 0,
-    "open_positions": [],
+    "open_positions": [
+      {
+        "ticker": "QQQ",
+        "entry_date": "2026-08-04T18:18:39.133138+00:00",
+        "entry_price": 723.49,
+        "current_price": 723.49,
+        "shares": 2.7644,
+        "market_value": 2000.02,
+        "unrealized_pnl": 0.02,
+        "unrealized_pnl_pct": 0.0
+      },
+      {
+        "ticker": "GOOG",
+        "entry_date": "2026-08-04T18:18:39.133138+00:00",
+        "entry_price": 376.48,
+        "current_price": 376.48,
+        "shares": 4.2499,
+        "market_value": 1600.0,
+        "unrealized_pnl": 0.0,
+        "unrealized_pnl_pct": 0.0
+      }
+    ],
     "closed_trades": []
   }
 }

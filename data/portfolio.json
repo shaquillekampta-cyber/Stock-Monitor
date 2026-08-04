@@ -1,6 +1,19 @@
 {
   "starting_cash": 10000.0,
-  "cash": 10000.0,
-  "open_positions": {},
+  "cash": 6400.0,
+  "open_positions": {
+    "QQQ": {
+      "entry_date": "2026-08-04T18:18:39.133138+00:00",
+      "entry_price": 723.49,
+      "shares": 2.7644,
+      "cash_committed": 2000.0
+    },
+    "GOOG": {
+      "entry_date": "2026-08-04T18:18:39.133138+00:00",
+      "entry_price": 376.48,
+      "shares": 4.2499,
+      "cash_committed": 1600.0
+    }
+  },
   "closed_trades": []
 }
