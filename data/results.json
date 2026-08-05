@@ -1,269 +1,25 @@
 {
-  "generated_at": "2026-08-04T18:18:37.206529+00:00",
+  "generated_at": "2026-08-05T18:09:12.748811+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 772.18,
-        "change_pct": 1.92,
-        "volume": 39036748,
-        "avg_volume": 56002808,
-        "volume_ratio": 0.7,
+        "price": 771.84,
+        "change_pct": 0.07,
+        "volume": 27773808,
+        "avg_volume": 56192500,
+        "volume_ratio": 0.49,
         "above_trend_ma": true,
-        "trend_ma": 746.11,
+        "trend_ma": 747.19,
         "trend_ma_days": 15,
         "candles": {
-          "open": 760.63,
-          "high": 773.09,
-          "low": 760.52,
-          "close": 772.18,
-          "prev_open": 749.44,
-          "prev_close": 757.67
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $772.18 is above its 15-day average ($746.11).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Brothers, Sisters, and Divorce: What Happens Between the Kids",
-          "source": "Psychology Today",
-          "url": "https://www.psychologytoday.com/us/blog/a-better-divorce/202607/brothers-sisters-and-divorce-what-happens-between-the-kids"
-        },
-        {
-          "title": "Apple Takes UK Government to Court Over Secret Plan to Spy on iCloud Data",
-          "source": "iPhone in Canada",
-          "url": "https://www.iphoneincanada.ca/2026/08/03/apple-takes-uk-government-to-court-over-secret-plan-to-spy-on-icloud-data/"
-        },
-        {
-          "title": "Kumail Nanjiani\u2019s Directing Debut \u2018Howl\u2019 Lands At Orion Pictures",
-          "source": "Deadline",
-          "url": "http://deadline.com/2026/08/kumail-nanjiani-howl-movie-orion-pictures-1237015474/"
-        },
-        {
-          "title": "SCOTT MOREFIELD: The Bipartisan Backlash Against Flock Cameras And America\u2019s AI Surveillance State",
-          "source": "The Daily Caller",
-          "url": "https://dailycaller.com/2026/08/03/scott-morefield-bipartisan-backlash-flock-safety-ai-surveillance-cameras"
-        },
-        {
-          "title": "Police Commissioner adviser criticises Police Minister Mark Mitchell in open letter over Rakesh Naidoo controversy",
-          "source": "New Zealand Herald",
-          "url": "https://www.nzherald.co.nz/nz/politics/police-commissioner-adviser-criticises-police-minister-mark-mitchell-in-open-letter-over-rakesh-naidoo-controversy/GW3V57HUABCYPFZCMNUDCL5G6M/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 723.49,
-        "change_pct": 3.35,
-        "volume": 41309686,
-        "avg_volume": 47049933,
-        "volume_ratio": 0.88,
-        "above_trend_ma": true,
-        "trend_ma": 694.67,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 708.21,
-          "high": 724.28,
-          "low": 707.59,
-          "close": 723.49,
-          "prev_open": 688.3,
-          "prev_close": 700.07
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "sell",
-        "buy",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "12 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "8 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $723.49 is above its 15-day average ($694.67).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.88x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
-        },
-        {
-          "title": "After Comparing Every AI ETF, These 3 Beat the Nasdaq Without Betting on a Single Stock",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/03/after-comparing-every-ai-etf-these-3-beat-the-nasdaq-without-betting-on-a-single-stock/"
-        },
-        {
-          "title": "SAVOR Chicago Gourmet details, a FRESH start and National Oyster Day - Windy City Times",
-          "source": "Windycitytimes.com",
-          "url": "https://windycitytimes.com/2026/08/03/savor-chicago-gourmet-details-a-fresh-start-and-national-oyster-day/"
-        },
-        {
-          "title": "Tom Lee\u2019s Bitmine Buys More Ethereum, Adds to Stock Buyback",
-          "source": "Decrypt",
-          "url": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback"
-        },
-        {
-          "title": "Stocks Rally on Easing Geopolitical Risks and US Economic Strength",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/16f8d0db80b356a7"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 86.46,
-        "change_pct": 1.7,
-        "volume": 3916576,
-        "avg_volume": 5741516,
-        "volume_ratio": 0.68,
-        "above_trend_ma": true,
-        "trend_ma": 84.11,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 85.86,
-          "high": 86.53,
-          "low": 85.76,
-          "close": 86.46,
-          "prev_open": 84.66,
-          "prev_close": 85.02
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.46 is above its 15-day average ($84.11).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.68x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Vanguard's cheapest ETF may be the only one you need",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/vanguards-cheapest-etf-may-be-the-only-one-you-need"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 277.87,
-        "change_pct": -2.17,
-        "volume": 44976153,
-        "avg_volume": 55129034,
-        "volume_ratio": 0.82,
-        "above_trend_ma": true,
-        "trend_ma": 247.87,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 276.06,
-          "high": 281.07,
-          "low": 275.82,
-          "close": 277.87,
-          "prev_open": 278.29,
-          "prev_close": 284.02
+          "open": 775.85,
+          "high": 776.85,
+          "low": 769.92,
+          "close": 771.84,
+          "prev_open": 760.63,
+          "prev_close": 771.33
         }
       },
       "call": {
@@ -287,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "10 positive keyword hits vs 1 negative.",
+          "detail": "7 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $277.87 is above its 15-day average ($247.87).",
+          "detail": "Price $771.84 is above its 15-day average ($747.19).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.82x the recent average -- roughly normal.",
+          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -308,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "Microsoft and Amazon Are Spending Billions on AI. 1 Is Getting Far Better Returns",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d2fc0af0858a5416"
+          "title": "Zelensky orders ukrainian ambassadors to spy on hosts (VIDEO)",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/zelensky-orders-ukrainian-ambassadors-to-spy-on-hosts-video/"
         },
         {
-          "title": "Amazon Tops $3T, Meta Rallies 7% as AI Hyperscalers Ride Earnings Momentum",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/03/amazon-tops-3t-meta-rallies-7-as-ai-hyperscalers-ride-earnings-momentum/"
+          "title": "ICE Has Gone Full-Blown Secret Police & The Axon/Flock Bait-and-Switch",
+          "source": "Activistpost.com",
+          "url": "https://www.activistpost.com/ice-has-gone-full-blown-secret-police-the-axon-flock-bait-and-switch/"
         },
         {
-          "title": "Wall Street Raises Amazon Targets After Its AWS Surge. Here\u2019s The Number.",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/03/wall-street-raises-amazon-targets-after-its-aws-surge-heres-the-number/"
+          "title": "Zelensky orders Ukrainian ambassadors to spy on hosts (VIDEO)",
+          "source": "RT",
+          "url": "https://www.rt.com/russia/643855-zelensky-orders-ambassadors-spy/"
         },
         {
-          "title": "Microsoft Races Ahead Of Google In The Cloud",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0569ae416eaa2639"
+          "title": "Safilo Group Margins Boosted by Tariff Refunds in H1 Amid Challenging\u00a0Market",
+          "source": "WWD",
+          "url": "http://wwd.com/business-news/financial/safilo-group-margins-rise-tariff-refunds-1h-2026-1239093070/"
         },
         {
-          "title": "The \u2018Nvidia Tax\u2019: Alphabet Mitigates It Better Than Amazon or Any Other Mag 7 Stock",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/590c845a1b80d73a"
+          "title": "A Trump administration rule could stop a powerful tool for exposing animal cruelty",
+          "source": "Vox",
+          "url": "https://www.vox.com/future-perfect/497799/drone-animal-cruelty-investigation-trump-faa"
         }
       ]
     },
     {
-      "ticker": "GOOG",
+      "ticker": "QQQ",
       "price": {
-        "price": 376.48,
-        "change_pct": 1.08,
-        "volume": 11285968,
-        "avg_volume": 22778384,
-        "volume_ratio": 0.5,
+        "price": 721.03,
+        "change_pct": -0.39,
+        "volume": 23858226,
+        "avg_volume": 47082248,
+        "volume_ratio": 0.51,
         "above_trend_ma": true,
-        "trend_ma": 345.42,
+        "trend_ma": 694.91,
         "trend_ma_days": 15,
         "candles": {
-          "open": 366.36,
-          "high": 376.9,
-          "low": 366.32,
-          "close": 376.48,
-          "prev_open": 365.3,
-          "prev_close": 372.47
+          "open": 726.22,
+          "high": 728.54,
+          "low": 719.49,
+          "close": 721.03,
+          "prev_open": 708.16,
+          "prev_close": 723.85
         }
       },
       "call": {
@@ -363,29 +119,29 @@
       },
       "call_history": [
         "buy",
-        "hold",
+        "buy",
         "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "18 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 0 negative.",
+          "detail": "12 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $376.48 is above its 15-day average ($345.42).",
+          "detail": "Price $721.03 is above its 15-day average ($694.91).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -396,29 +152,278 @@
       ],
       "headlines": [
         {
-          "title": "Why Alphabet Stock Popped Today",
+          "title": "Stock Indices Rally on Strong Tech Earnings and US-Iran Peace Hopes",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c07e04540bdffcff"
+          "url": "https://biztoc.com/x/f154e7890d23e5e0"
         },
         {
-          "title": "Microsoft Races Ahead Of Google In The Cloud",
+          "title": "S&P 500 Posts a New Record High on Strong Tech Earnings",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0569ae416eaa2639"
+          "url": "https://biztoc.com/x/7b1c0ac1f650d1a1"
         },
         {
-          "title": "A Powerful Bull Case Is Emerging for Apple, Alphabet and Amazon",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7970ecaad7760617"
+          "title": "AMD earnings are a key test for chips and momentum stocks. Here's what the options market is saying",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/04/amd-earnings-are-a-key-test-for-chips-and-momentum-stocks-heres-what-the-options-market-is-saying.html"
         },
         {
-          "title": "A Powerful Bull Case Is Emerging for Apple, Alphabet and Amazon",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/03/a-powerful-bull-case-is-emerging-for-apple-alphabet-and-amazon/"
+          "title": "apexvol-mcp added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/apexvol-mcp/"
         },
         {
-          "title": "Amazon, Meta, and Microsoft stocks surge as AI hyperscalers post strong earnings results",
+          "title": "A Major Bitcoin Signal Is Flashing Green",
+          "source": "Coinage.media",
+          "url": "https://www.coinage.media/2026/a-major-bitcoin-signal-is-flashing-green"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 86.72,
+        "change_pct": 0.31,
+        "volume": 3761887,
+        "avg_volume": 5772313,
+        "volume_ratio": 0.65,
+        "above_trend_ma": true,
+        "trend_ma": 84.23,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 86.86,
+          "high": 87.03,
+          "low": 86.51,
+          "close": 86.72,
+          "prev_open": 85.89,
+          "prev_close": 86.45
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "1 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $86.72 is above its 15-day average ($84.23).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.65x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Daily ETF Flows: EWY Takes No. 1 Spot",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-ewy-takes-no-1-spot?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 271.73,
+        "change_pct": -2.05,
+        "volume": 27033129,
+        "avg_volume": 55524367,
+        "volume_ratio": 0.49,
+        "above_trend_ma": true,
+        "trend_ma": 248.96,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 281.59,
+          "high": 282.79,
+          "low": 271.18,
+          "close": 271.73,
+          "prev_open": 276.06,
+          "prev_close": 277.42
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 3,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $271.73 is above its 15-day average ($248.96).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "signal": "neg"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "In A Whisper 2026 1080p AMZN WEB-DL H264-MADSKY",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/in-a-whisper-2026-1080p-amzn-web-dl-h264-madsky/"
+        },
+        {
+          "title": "THE GHOST IN THE SHELL S01E05 1080p AMZN WEB-DL Dual-Audio H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-ghost-in-the-shell-s01e05-1080p-amzn-web-dl-dual-audio-h264-kitsune/"
+        },
+        {
+          "title": "Dose 2026 1080p AMZN WEB-DL H264-PHDM",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/dose-2026-1080p-amzn-web-dl-h264-phdm-2/"
+        },
+        {
+          "title": "Markets see 'all hat, no cattle' in Fed's inflation credibility: Chart of the Day",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/amazon-meta-and-microsoft-stocks-surge-as-ai-hyperscalers-post-strong-earnings-results-163729332.html"
+          "url": "https://finance.yahoo.com/markets/article/markets-see-all-hat-no-cattle-in-feds-inflation-credibility-chart-of-the-day-164028370.html"
+        },
+        {
+          "title": "Dose 2026 1080p AMZN WEB-DL H264-PHDM",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/dose-2026-1080p-amzn-web-dl-h264-phdm/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 362.44,
+        "change_pct": -3.44,
+        "volume": 20038115,
+        "avg_volume": 22564562,
+        "volume_ratio": 0.89,
+        "above_trend_ma": true,
+        "trend_ma": 344.82,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 380.08,
+          "high": 381.54,
+          "low": 355.16,
+          "close": 362.44,
+          "prev_open": 366.52,
+          "prev_close": 375.35
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 2,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "7 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $362.44 is above its 15-day average ($344.82).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.89x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "AI Integration Strengthens Alphabet\u2019s (GOOG) Core Business",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/51a9585bf8b4bb75"
+        },
+        {
+          "title": "AI Integration Strengthens Alphabet\u2019s (GOOG) Core Business",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-integration-strengthens-alphabet-goog-162937753.html"
+        },
+        {
+          "title": "Is YouTube Going After Netflix? This Could Be the Biggest Sign Yet",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/55dde24c0a8145bf"
+        },
+        {
+          "title": "Dean of Valuation Aswath Damodaran Raises Alarm Bells for Meta, Alphabet, and Microsoft \u2014 Should You Be Worried?",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/dean-valuation-aswath-damodaran-raises-132832613.html"
+        },
+        {
+          "title": "SpaceX\u2019s First Earnings Report Is Almost Here. Will Investors Get Back on Board?",
+          "source": "Investopedia",
+          "url": "https://www.investopedia.com/spacex-first-earnings-report-lands-tuesday-what-to-expect-spacx-q2-2026-12030832"
         }
       ]
     }
@@ -426,9 +431,9 @@
   "paper_portfolio": {
     "starting_cash": 10000.0,
     "cash": 6400.0,
-    "total_value": 10000.02,
-    "total_return": 0.02,
-    "total_return_pct": 0.0,
+    "total_value": 9933.55,
+    "total_return": -66.45,
+    "total_return_pct": -0.66,
     "realized_pnl": 0,
     "win_rate_pct": null,
     "closed_trade_count": 0,
@@ -437,21 +442,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 723.49,
+        "current_price": 721.03,
         "shares": 2.7644,
-        "market_value": 2000.02,
-        "unrealized_pnl": 0.02,
-        "unrealized_pnl_pct": 0.0
+        "market_value": 1993.22,
+        "unrealized_pnl": -6.78,
+        "unrealized_pnl_pct": -0.34
       },
       {
         "ticker": "GOOG",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 376.48,
-        "current_price": 376.48,
+        "current_price": 362.44,
         "shares": 4.2499,
-        "market_value": 1600.0,
-        "unrealized_pnl": 0.0,
-        "unrealized_pnl_pct": 0.0
+        "market_value": 1540.33,
+        "unrealized_pnl": -59.67,
+        "unrealized_pnl_pct": -3.73
       }
     ],
     "closed_trades": []
