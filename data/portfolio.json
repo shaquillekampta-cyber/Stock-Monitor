@@ -1,6 +1,6 @@
 {
   "starting_cash": 10000.0,
-  "cash": 6400.0,
+  "cash": 4096.0,
   "open_positions": {
     "QQQ": {
       "entry_date": "2026-08-04T18:18:39.133138+00:00",
@@ -13,6 +13,18 @@
       "entry_price": 376.48,
       "shares": 4.2499,
       "cash_committed": 1600.0
+    },
+    "SPY": {
+      "entry_date": "2026-08-07T15:37:21.491191+00:00",
+      "entry_price": 773.39,
+      "shares": 1.6551,
+      "cash_committed": 1280.0
+    },
+    "AMZN": {
+      "entry_date": "2026-08-07T15:37:21.491191+00:00",
+      "entry_price": 278.14,
+      "shares": 3.6816,
+      "cash_committed": 1024.0
     }
   },
   "closed_trades": []
