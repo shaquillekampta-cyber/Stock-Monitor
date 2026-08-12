@@ -1,59 +1,59 @@
 {
-  "generated_at": "2026-08-11T13:54:06.392785+00:00",
+  "generated_at": "2026-08-12T13:57:10.291516+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 773.03,
-        "change_pct": 0.0,
-        "volume": 2977337,
-        "avg_volume": 52617703,
-        "volume_ratio": 0.06,
+        "price": 772.18,
+        "change_pct": 0.21,
+        "volume": 4937775,
+        "avg_volume": 51483230,
+        "volume_ratio": 0.1,
         "above_trend_ma": true,
-        "trend_ma": 753.95,
+        "trend_ma": 755.44,
         "trend_ma_days": 15,
         "candles": {
-          "open": 774.53,
-          "high": 774.61,
-          "low": 772.58,
-          "close": 773.03,
-          "prev_open": 772.6,
-          "prev_close": 773.03
+          "open": 774.71,
+          "high": 774.87,
+          "low": 772.09,
+          "close": 772.18,
+          "prev_open": 774.53,
+          "prev_close": 770.56
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
         "hold",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "18 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $773.03 is above its 15-day average ($753.95).",
+          "detail": "Price $772.18 is above its 15-day average ($755.44).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.06x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.1x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,84 +64,84 @@
       ],
       "headlines": [
         {
-          "title": "3 Beaten-Down Healthcare Stocks to Buy in August",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/10/3-beaten-down-healthcare-stocks-to-buy-in-august/"
+          "title": "Poindexter Ascendant",
+          "source": "Reason",
+          "url": "https://reason.com/2026/08/11/poindexter-ascendant/"
         },
         {
-          "title": "Lemons to bitter lemonade: from the Samos E-5 to the LANYARD reconnaissance satellite (part 2)",
-          "source": "The Space Review",
-          "url": "https://www.thespacereview.com/article/5286/1"
+          "title": "[Eugene Volokh] $200K Libel Award for Cybersecurity Expert Accused by Substacker of Being \"Israeli Spy\"",
+          "source": "Reason",
+          "url": "https://reason.com/volokh/2026/08/11/200k-libel-award-for-cybersecurity-expert-accused-by-substacker-of-being-israeli-spy/"
         },
         {
-          "title": "Doctor Who spin-off star\u2019s new thriller Possession hailed 'powerful and compelling' as reviews land",
-          "source": "digitalspy.com",
-          "url": "https://www.digitalspy.com/tv/a73389950/possession-gugu-mbatha-raw-reviews/"
+          "title": "Not Winning? Just Change the Rules",
+          "source": "Freerepublic.com",
+          "url": "https://freerepublic.com/focus/f-chat/4391397/posts"
         },
         {
-          "title": "Transformers 1986 Movie Optimus Prime: The Daily LITG 10th August 2026",
-          "source": "Bleeding Cool News",
-          "url": "https://bleedingcool.com/collectibles/transformers-1986-movie-optimus-prime-the-daily-litg-10th-august-2026/"
+          "title": "Seriesly Berlin Sets Paramount+\u2019s \u2018Jossi\u2019 & Disney+\u2019s \u2018City Of Blood\u2019 Among 13 Premieres",
+          "source": "Deadline",
+          "url": "http://deadline.com/2026/08/seriesly-berlin-premieres-paramount-disney-hulu-1237030957/"
         },
         {
-          "title": "Links 8/10/2026",
-          "source": "Nakedcapitalism.com",
-          "url": "https://www.nakedcapitalism.com/2026/08/links-8-10-2026.html"
+          "title": "Mock PHP Classes in Tests With the Double Library",
+          "source": "Laravel News",
+          "url": "https://laravel-news.com/double-php-testing-library"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 719.27,
-        "change_pct": -0.22,
-        "volume": 4493597,
-        "avg_volume": 42331918,
-        "volume_ratio": 0.11,
+        "price": 724.05,
+        "change_pct": 0.78,
+        "volume": 6351939,
+        "avg_volume": 41364077,
+        "volume_ratio": 0.15,
         "above_trend_ma": true,
-        "trend_ma": 699.43,
+        "trend_ma": 700.62,
         "trend_ma_days": 15,
         "candles": {
-          "open": 723.3,
-          "high": 723.3,
-          "low": 718.4,
-          "close": 719.27,
-          "prev_open": 722.39,
-          "prev_close": 720.87
+          "open": 726.97,
+          "high": 727.25,
+          "low": 723.74,
+          "close": 724.05,
+          "prev_open": 723.29,
+          "prev_close": 718.45
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
         "hold",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "15 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "5 positive keyword hits vs 4 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $719.27 is above its 15-day average ($699.43).",
+          "detail": "Price $724.05 is above its 15-day average ($700.62).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.11x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.15x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -152,30 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "BStocks captures 85% of tokenized equity DEX volume in July as trading hits $9.4 billion",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/bstocks-tokenized-equity-dex-volume-july/"
+          "title": "Same 100 Stocks, Different Price: Why QQQ Costs $180 Annually While QQQM Charges $150",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/09eef5b37b257913"
+        },
+        {
+          "title": "Semiconductor ETFs See Profit-Taking as Investors Pile Into QQQ",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/8dcd80b78f39b1be"
+        },
+        {
+          "title": "Semiconductor ETFs See Profit-Taking as Investors Pile Into QQQ",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f850eb44-9794-4f23-8df2-5e9e7f363d59"
+        },
+        {
+          "title": "Daily ETF Flows: SOXX Sees Outflows",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/523572378dd20a4d"
+        },
+        {
+          "title": "Daily ETF Flows: SOXX Sees Outflows",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-soxx-sees-outflows?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 87.21,
-        "change_pct": 0.44,
-        "volume": 505131,
-        "avg_volume": 5602469,
-        "volume_ratio": 0.09,
+        "price": 87.64,
+        "change_pct": 0.82,
+        "volume": 556543,
+        "avg_volume": 5575793,
+        "volume_ratio": 0.1,
         "above_trend_ma": true,
-        "trend_ma": 85.05,
+        "trend_ma": 85.25,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.2,
-          "high": 87.32,
-          "low": 87.12,
-          "close": 87.21,
-          "prev_open": 86.95,
-          "prev_close": 86.83
+          "open": 87.79,
+          "high": 87.86,
+          "low": 87.54,
+          "close": 87.64,
+          "prev_open": 87.24,
+          "prev_close": 86.92
         }
       },
       "call": {
@@ -204,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $87.21 is above its 15-day average ($85.05).",
+          "detail": "Price $87.64 is above its 15-day average ($85.25).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.09x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.1x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -223,36 +243,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 273.83,
-        "change_pct": -1.53,
-        "volume": 3228453,
-        "avg_volume": 54312748,
-        "volume_ratio": 0.06,
+        "price": 270.59,
+        "change_pct": -0.62,
+        "volume": 3818614,
+        "avg_volume": 54101943,
+        "volume_ratio": 0.07,
         "above_trend_ma": true,
-        "trend_ma": 255.96,
+        "trend_ma": 257.57,
         "trend_ma_days": 15,
         "candles": {
-          "open": 278.4,
-          "high": 278.84,
-          "low": 273.26,
-          "close": 273.83,
-          "prev_open": 274.01,
-          "prev_close": 278.09
+          "open": 273.2,
+          "high": 273.46,
+          "low": 270.12,
+          "close": 270.59,
+          "prev_open": 278.69,
+          "prev_close": 272.27
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "buy"
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
         "buy",
-        "buy",
+        "hold",
         "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -261,138 +281,148 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $273.83 is above its 15-day average ($255.96).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.06x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick: bearish engulfing",
-          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "detail": "3 negative keyword hits vs 2 positive.",
           "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "WWEs Greatest Moments S03E30 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wwes-greatest-moments-s03e30-1080p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "WWEs Greatest Moments S03E29 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wwes-greatest-moments-s03e29-1080p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "Judy Justice S04E66 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/judy-justice-s04e66-1080p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "Amazon Stock Hits a New All-Time High: Is It Still a Buy?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/2d66d9686f9b3c9c"
-        },
-        {
-          "title": "Oracle\u2019s Rebound Is All But Assured So I Keep Buying",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/10/oracles-rebound-is-all-but-assured-so-i-keep-buying/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 348.94,
-        "change_pct": -1.94,
-        "volume": 2056828,
-        "avg_volume": 21930998,
-        "volume_ratio": 0.09,
-        "above_trend_ma": true,
-        "trend_ma": 345.83,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 354.22,
-          "high": 355.0,
-          "low": 348.35,
-          "close": 348.94,
-          "prev_open": 354.24,
-          "prev_close": 355.84
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $348.94 is above its 15-day average ($345.83).",
+          "detail": "Price $270.59 is above its 15-day average ($257.57).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.09x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.07x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Alphabet's Cloud Computing Business Just Posted 82% Revenue Growth. Next Quarter Could Be Even Better",
+          "title": "Boeing upgraded, Under Armour downgraded: Wall Street's top analyst calls",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-upgraded-under-armour-downgraded-133858700.html"
+        },
+        {
+          "title": "Hinde Group Boosts Amazon.com (AMZN) Amid AI Capacity Bottlenecks and High Enterprise Backlog in AWS",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/eb401032b59a4f14"
+          "url": "https://biztoc.com/x/91c1e12e8090672a"
         },
         {
-          "title": "Meta vs. Alphabet: Which Stock Deserves a Spot in Your Portfolio After Q2?",
+          "title": "Hinde Group Boosts Amazon.com (AMZN) Amid AI Capacity Bottlenecks and High Enterprise Backlog in AWS",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5d1efd0e-b8c2-4298-af35-67620e286afc"
+        },
+        {
+          "title": "Team Mekbots Animal Rescue S01-S02 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/team-mekbots-animal-rescue-s01-s02-1080p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Unknown Serial Killers Of America S02E02 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/unknown-serial-killers-of-america-s02e02-720p-amzn-web-dl-h264-rawr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 342.86,
+        "change_pct": -3.65,
+        "volume": 2508692,
+        "avg_volume": 21775570,
+        "volume_ratio": 0.12,
+        "above_trend_ma": false,
+        "trend_ma": 345.42,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 345.39,
+          "high": 345.5,
+          "low": 341.61,
+          "close": 342.86,
+          "prev_open": 354.24,
+          "prev_close": 355.84
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "14 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "4 positive keyword hits vs 3 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $342.86 is below its 15-day average ($345.42).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.12x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Microsoft stock just cleared a big hurdle but still trails the S&P 500",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/article/microsoft-stock-just-cleared-a-big-hurdle-but-still-trails-the-sp-500-130843662.html"
+        },
+        {
+          "title": "Amazon, Microsoft, and Alphabet: 2 Winners and 1 Loser in the Cloud Computing Arena",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/5e131e07229323bf"
+          "url": "https://biztoc.com/x/b4ea324e635cc31c"
         },
         {
-          "title": "$1.99 | Determined: A Science of Life without Free Will (eBook) by Robert M. Sapolsky",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/19858482-1-99-determined-a-science-of-life-without-free-will-ebook-by-robert-m-sapolsky"
+          "title": "Larry Fink says Americans\u2019 retirement savings need to fund $10 trillion AI infrastructure demands. Protect your wealth",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/ai/articles/larry-fink-says-americans-retirement-101500090.html"
         },
         {
-          "title": "Berkshire Hathaway Cash Reserves Decline for First Time in Years Amid Surging Profits",
-          "source": "The Daily Hodl",
-          "url": "https://dailyhodl.com/2026/08/09/berkshire-hathaway-cash-reserves-decline-for-first-time-in-years-amid-surging-profits/"
+          "title": "CoreWeave stock soars 20% after earnings and 'an important inflection point'",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/coreweave-stock-soars-20-after-earnings-and-an-important-inflection-point-193036479.html"
         },
         {
-          "title": "Bank of America spots new curveball for Magnificent Seven stocks",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/bofa-magnificent-seven-ai-risk"
+          "title": "CoreWeave to report second quarter results amid spending, margin concerns",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/coreweave-to-report-second-quarter-results-amid-spending-margin-concerns-193036479.html"
         }
       ]
     }
@@ -400,9 +430,9 @@
   "paper_portfolio": {
     "starting_cash": 10000.0,
     "cash": 4096.0,
-    "total_value": 9854.88,
-    "total_return": -145.12,
-    "total_return_pct": -1.45,
+    "total_value": 9828.92,
+    "total_return": -171.08,
+    "total_return_pct": -1.71,
     "realized_pnl": 0,
     "win_rate_pct": null,
     "closed_trade_count": 0,
@@ -411,41 +441,41 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 719.27,
+        "current_price": 724.05,
         "shares": 2.7644,
-        "market_value": 1988.35,
-        "unrealized_pnl": -11.65,
-        "unrealized_pnl_pct": -0.58
+        "market_value": 2001.56,
+        "unrealized_pnl": 1.56,
+        "unrealized_pnl_pct": 0.08
       },
       {
         "ticker": "GOOG",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 376.48,
-        "current_price": 348.94,
+        "current_price": 342.86,
         "shares": 4.2499,
-        "market_value": 1482.96,
-        "unrealized_pnl": -117.04,
-        "unrealized_pnl_pct": -7.31
+        "market_value": 1457.12,
+        "unrealized_pnl": -142.88,
+        "unrealized_pnl_pct": -8.93
       },
       {
         "ticker": "SPY",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 773.39,
-        "current_price": 773.03,
+        "current_price": 772.18,
         "shares": 1.6551,
-        "market_value": 1279.44,
-        "unrealized_pnl": -0.56,
-        "unrealized_pnl_pct": -0.04
+        "market_value": 1278.04,
+        "unrealized_pnl": -1.96,
+        "unrealized_pnl_pct": -0.15
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 273.83,
+        "current_price": 270.59,
         "shares": 3.6816,
-        "market_value": 1008.13,
-        "unrealized_pnl": -15.87,
-        "unrealized_pnl_pct": -1.55
+        "market_value": 996.2,
+        "unrealized_pnl": -27.8,
+        "unrealized_pnl_pct": -2.71
       }
     ],
     "closed_trades": []
