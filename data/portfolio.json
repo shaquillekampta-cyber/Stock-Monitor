@@ -1,18 +1,12 @@
 {
   "starting_cash": 10000.0,
-  "cash": 4096.0,
+  "cash": 5557.158119,
   "open_positions": {
     "QQQ": {
       "entry_date": "2026-08-04T18:18:39.133138+00:00",
       "entry_price": 723.49,
       "shares": 2.7644,
       "cash_committed": 2000.0
-    },
-    "GOOG": {
-      "entry_date": "2026-08-04T18:18:39.133138+00:00",
-      "entry_price": 376.48,
-      "shares": 4.2499,
-      "cash_committed": 1600.0
     },
     "SPY": {
       "entry_date": "2026-08-07T15:37:21.491191+00:00",
@@ -27,5 +21,18 @@
       "cash_committed": 1024.0
     }
   },
-  "closed_trades": []
+  "closed_trades": [
+    {
+      "ticker": "GOOG",
+      "entry_date": "2026-08-04T18:18:39.133138+00:00",
+      "entry_price": 376.48,
+      "exit_date": "2026-08-13T13:57:29.000848+00:00",
+      "exit_price": 343.81,
+      "shares": 4.2499,
+      "pnl": -138.84,
+      "pnl_pct": -8.68,
+      "days_held": 8,
+      "exit_reason": "sell signal"
+    }
+  ]
 }
