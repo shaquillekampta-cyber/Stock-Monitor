@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-08-14T13:53:43.414170+00:00",
+  "generated_at": "2026-08-17T13:21:04.840901+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 778.3,
-        "change_pct": 0.05,
-        "volume": 2817602,
-        "avg_volume": 50509514,
-        "volume_ratio": 0.06,
+        "price": 776.34,
+        "change_pct": -0.2,
+        "volume": 31332500,
+        "avg_volume": 51174216,
+        "volume_ratio": 0.61,
         "above_trend_ma": true,
-        "trend_ma": 760.73,
+        "trend_ma": 760.6,
         "trend_ma_days": 15,
         "candles": {
           "open": 778.54,
-          "high": 778.6,
-          "low": 777.66,
-          "close": 778.3,
+          "high": 778.8,
+          "low": 775.43,
+          "close": 776.34,
           "prev_open": 774.87,
           "prev_close": 777.88
         }
       },
       "call": {
-        "call": "hold",
+        "call": "buy",
         "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
         "hold",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,74 +43,69 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 1 positive.",
-          "signal": "neg"
+          "detail": "3 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $778.3 is above its 15-day average ($760.73).",
+          "detail": "Price $776.34 is above its 15-day average ($760.6).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.06x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.61x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "EXCLUSIVE: CCP Intelligence Official Buys Building Steps From White House",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-bloggers/4391646/posts"
+          "title": "Victor Davis Hanson: Not Winning? Just Change the Rules",
+          "source": "Daily Signal",
+          "url": "https://www.dailysignal.com/2026/08/16/hanson-not-winning-change-rules/"
         },
         {
-          "title": "U.S. Budget Deficits Just Surged to $432.3 billion in July While Trump Weighs Brand-New Tax Cuts",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/13/u-s-budget-deficits-just-surged-to-432-3-billion-in-july-while-trump-weighs-brand-new-tax-cuts/"
+          "title": "NTF-ELCAC briefs UN on rebel killings, pushes for int'l action",
+          "source": "Globalsecurity.org",
+          "url": "https://www.globalsecurity.org/military/library/news/2026/08/mil-260816-pna03.htm"
         },
         {
-          "title": "Jewelbug runs espionage and cryptocurrency fraud operations, says Symantec",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/jewelbug-espionage-crypto-fraud-symantec/"
+          "title": "Why a new Western training program for Ukrainian soldiers skips drone piloting and electronic warfare lessons",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/western-training-ukraine-troops-not-drone-pilot-skills-good-already-2026-8#article"
         },
         {
-          "title": "German opposition slams spy agency \u2018revolution\u2019",
-          "source": "RT",
-          "url": "https://www.rt.com/news/644201-germany-bfv-reform-concerns/"
+          "title": "A 2001 PlayStation 1 Disney Classic Officially Returns August 18",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/playstation-ps1-disney-game-official-return/"
         },
         {
-          "title": "CME Group Foundation Invests $360K in First-Generation Illinois Scholars",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/cme-group-foundation-invests-360k-in-first-generation-illinois-scholars-302850120.html"
+          "title": "From factory to front lines: A Western spy drone\u2019s\u00a0journey to war in Ukraine",
+          "source": "POLITICO.eu",
+          "url": "https://www.politico.eu/article/factory-front-line-western-spy-drone-journey-war-ukraine-russia/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 733.28,
-        "change_pct": 0.17,
-        "volume": 3136364,
-        "avg_volume": 40548836,
-        "volume_ratio": 0.08,
+        "price": 731.07,
+        "change_pct": -0.14,
+        "volume": 23748000,
+        "avg_volume": 41029797,
+        "volume_ratio": 0.58,
         "above_trend_ma": true,
-        "trend_ma": 706.54,
+        "trend_ma": 706.4,
         "trend_ma_days": 15,
         "candles": {
-          "open": 733.26,
+          "open": 733.41,
           "high": 734.39,
-          "low": 731.72,
-          "close": 733.28,
+          "low": 728.32,
+          "close": 731.07,
           "prev_open": 725.15,
           "prev_close": 732.07
         }
@@ -131,22 +126,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "15 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "6 positive keyword hits vs 0 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $733.28 is above its 15-day average ($706.54).",
+          "detail": "Price $731.07 is above its 15-day average ($706.4).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.08x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -157,48 +152,48 @@
       ],
       "headlines": [
         {
-          "title": "U.S. Budget Deficits Just Surged to $432.3 billion in July While Trump Weighs Brand-New Tax Cuts",
+          "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/13/u-s-budget-deficits-just-surged-to-432-3-billion-in-july-while-trump-weighs-brand-new-tax-cuts/"
+          "url": "https://247wallst.com/investing/etf/2026/08/15/jepq-vs-spyi-nearly-identical-yields-and-one-etf-charges-you-twice-the-fee/"
         },
         {
-          "title": "GPIQ vs QQQ: What the Rally Lag Actually Costs a $300,000 Position",
+          "title": "The Anti-AI ETF Is Here, and Its Biggest Holdings Are Engines, Trucks and Air Conditioners",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/15/the-anti-ai-etf-is-here-and-its-biggest-holdings-are-engines-trucks-and-air-conditioners/"
+        },
+        {
+          "title": "Which Is the Better ETF, State Street's Broad Market Exposure Through SPY or Invesco's Tech-Focused QQQ?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0c7eecbbf727d5a5"
+          "url": "https://biztoc.com/x/019f8af6152e1f33"
         },
         {
-          "title": "You Skipped the AI Rally Because Retirement Felt Too Close. These 3 ETFs Get You In Without Betting Your Nest Egg",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/12/you-skipped-the-ai-rally-because-retirement-felt-too-close-these-3-etfs-get-you-in-without-betting-your-nest-egg/"
+          "title": "Which Is the Better ETF, State Street's Broad Market Exposure Through SPY or Invesco's Tech-Focused QQQ?",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_186e9b8b-c85d-4b1c-a087-7816afaec01d"
         },
         {
-          "title": "The 2 Factors That Will Decide GAIQ\u2019s Next 12 Months as AI Capex Spending Slows",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/12/the-2-factors-that-will-decide-gaiqs-next-12-months-as-ai-capex-spending-slows/"
-        },
-        {
-          "title": "Stocks Close Higher on Favorable CPI Report and Positive AI News",
+          "title": "SCHG vs QQQ vs VUG: We Compared the Three Biggest Growth ETFs and One Is the Clear Winner for the Next Decade",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/28e0a127d8c16430"
+          "url": "https://biztoc.com/x/4db4ab83e4d24a18"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 87.9,
-        "change_pct": 0.21,
-        "volume": 498750,
-        "avg_volume": 5534633,
-        "volume_ratio": 0.09,
+        "price": 87.7,
+        "change_pct": -0.02,
+        "volume": 4381600,
+        "avg_volume": 5625097,
+        "volume_ratio": 0.78,
         "above_trend_ma": true,
-        "trend_ma": 85.81,
+        "trend_ma": 85.8,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.89,
-          "high": 87.94,
-          "low": 87.78,
-          "close": 87.9,
+          "open": 87.91,
+          "high": 88.0,
+          "low": 87.54,
+          "close": 87.7,
           "prev_open": 87.58,
           "prev_close": 87.72
         }
@@ -229,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $87.9 is above its 15-day average ($85.81).",
+          "detail": "Price $87.7 is above its 15-day average ($85.8).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.09x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -248,19 +243,19 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 264.42,
-        "change_pct": -0.27,
-        "volume": 3067964,
-        "avg_volume": 53080087,
-        "volume_ratio": 0.06,
+        "price": 262.65,
+        "change_pct": -0.94,
+        "volume": 27184900,
+        "avg_volume": 53642430,
+        "volume_ratio": 0.51,
         "above_trend_ma": true,
-        "trend_ma": 261.6,
+        "trend_ma": 261.48,
         "trend_ma_days": 15,
         "candles": {
           "open": 264.88,
-          "high": 265.67,
-          "low": 264.04,
-          "close": 264.42,
+          "high": 265.81,
+          "low": 262.42,
+          "close": 262.65,
           "prev_open": 267.24,
           "prev_close": 265.13
         }
@@ -268,8 +263,8 @@
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -286,17 +281,105 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 1 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $264.42 is above its 15-day average ($261.6).",
+          "detail": "Price $262.65 is above its 15-day average ($261.48).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.06x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "The Chateau Meroux 2011 1080p AMZN WEB-DL H264-GPRS",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-chateau-meroux-2011-1080p-amzn-web-dl-h264-gprs/"
+        },
+        {
+          "title": "Bound And Babysitting 2015 1080p AMZN WEB-DL H264-PTP",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/bound-and-babysitting-2015-1080p-amzn-web-dl-h264-ptp/"
+        },
+        {
+          "title": "A Necessary Death 2008 1080p AMZN WEB-DL H264-PTerWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/a-necessary-death-2008-1080p-amzn-web-dl-h264-pterweb/"
+        },
+        {
+          "title": "Adios Sabata 1970 1080p AMZN WEB-DL SDR H 265-OnlyWeb",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/adios-sabata-1970-1080p-amzn-web-dl-sdr-h-265-onlyweb/"
+        },
+        {
+          "title": "Harold and Kumar Go to White Castle 2004 1080p AMZN HWDY WEB-DL H264-PiRaTeS",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/harold-and-kumar-go-to-white-castle-2004-1080p-amzn-hwdy-web-dl-h264-pirates/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 343.54,
+        "change_pct": -0.12,
+        "volume": 10911700,
+        "avg_volume": 21687467,
+        "volume_ratio": 0.5,
+        "above_trend_ma": false,
+        "trend_ma": 348.8,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 344.26,
+          "high": 348.06,
+          "low": 342.07,
+          "close": 343.54,
+          "prev_open": 344.57,
+          "prev_close": 343.94
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "sell",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "10 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $343.54 is below its 15-day average ($348.8).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -312,117 +395,29 @@
       ],
       "headlines": [
         {
-          "title": "Gabriels Inferno Part 2 2020 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/gabriels-inferno-part-2-2020-1080p-amzn-web-dl-h264-kitsune/"
+          "title": "Re: Whois using these ARIN services?? (fwd: Consultation on the Future of ARIN\u2019s Directory Services)",
+          "source": "Seclists.org",
+          "url": "https://seclists.org/nanog/2026/Aug/54"
         },
         {
-          "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-rival-cerebras-stock-plunges-as-company-swings-to-quarterly-loss-131528695.html"
+          "title": "Joe Marshall: OpenAPI Access to jrm-code-project.com",
+          "source": "Blogspot.com",
+          "url": "http://funcall.blogspot.com/2026/08/openapi-access-to-jrm-code-projectcom.html"
         },
         {
-          "title": "Nvidia rival Cerebras stock plunges as company swings to quarterly loss",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-rival-cerebras-stock-plunges-as-company-swings-to-quarterly-loss-131528695.html"
-        },
-        {
-          "title": "Billionaire David Tepper Just Revealed His Single Largest Stock Holding. It\u2019s Not NVIDIA",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8a02b11ae80132cd"
-        },
-        {
-          "title": "Billionaire David Tepper Just Revealed His Single Largest Stock Holding. It\u2019s Not NVIDIA",
+          "title": "Warren Buffett Wasn\u2019t the Only Billionaire Buying Alphabet Stock in Q2",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/13/billionaire-david-tepper-just-revealed-his-single-largest-stock-holding-its-not-nvidia/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 345.61,
-        "change_pct": 0.49,
-        "volume": 1997948,
-        "avg_volume": 21479447,
-        "volume_ratio": 0.09,
-        "above_trend_ma": false,
-        "trend_ma": 348.94,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 344.26,
-          "high": 348.06,
-          "low": 343.82,
-          "close": 345.61,
-          "prev_open": 344.57,
-          "prev_close": 343.94
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
-          "signal": "neutral"
+          "url": "https://247wallst.com/investing/2026/08/15/warren-buffett-wasnt-the-only-billionaire-buying-alphabet-stock-in-q2/"
         },
         {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $345.61 is below its 15-day average ($348.94).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.09x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Why this analyst sees another 30% rip in Microsoft stock",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/article/why-this-analyst-sees-another-30-rip-in-microsoft-stock-132716702.html"
-        },
-        {
-          "title": "The Fund Mounts Against Alphabet\u2019s (GOOG) Aggressive AI Spending",
+          "title": "Alphabet Is Facing Thousands of Lawsuits. History Says This Is What May Happen",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/13cb979749eba2ba"
+          "url": "https://biztoc.com/x/d5f5e7fdadb267ba"
         },
         {
-          "title": "The Fund Mounts Against Alphabet\u2019s (GOOG) Aggressive AI Spending",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fund-mounts-against-alphabet-goog-130143350.html"
-        },
-        {
-          "title": "Alphabet (GOOG): AI Era\u2019s Primary Beneficiary",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-goog-ai-era-primary-125354905.html"
-        },
-        {
-          "title": "Dear Okta Stock Fans, Mark Your Calendars for August 26",
+          "title": "Alphabet Stock to $515: 3 Reasons the Bull Case Is Getting Stronger",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3812015/dear-okta-stock-fans-mark-your-calendars-for-august-26"
+          "url": "https://www.barchart.com/story/news/3869911/alphabet-stock-to-515-3-reasons-the-bull-case-is-getting-stronger"
         }
       ]
     }
@@ -430,9 +425,9 @@
   "paper_portfolio": {
     "starting_cash": 10000.0,
     "cash": 5557.16,
-    "total_value": 9845.89,
-    "total_return": -154.11,
-    "total_return_pct": -1.54,
+    "total_value": 9830.02,
+    "total_return": -169.98,
+    "total_return_pct": -1.7,
     "realized_pnl": -138.84,
     "win_rate_pct": 0.0,
     "closed_trade_count": 1,
@@ -441,31 +436,31 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 733.28,
+        "current_price": 731.07,
         "shares": 2.7644,
-        "market_value": 2027.08,
-        "unrealized_pnl": 27.08,
-        "unrealized_pnl_pct": 1.35
+        "market_value": 2020.97,
+        "unrealized_pnl": 20.97,
+        "unrealized_pnl_pct": 1.05
       },
       {
         "ticker": "SPY",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 773.39,
-        "current_price": 778.3,
+        "current_price": 776.34,
         "shares": 1.6551,
-        "market_value": 1288.16,
-        "unrealized_pnl": 8.16,
-        "unrealized_pnl_pct": 0.64
+        "market_value": 1284.92,
+        "unrealized_pnl": 4.92,
+        "unrealized_pnl_pct": 0.38
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 264.42,
+        "current_price": 262.65,
         "shares": 3.6816,
-        "market_value": 973.49,
-        "unrealized_pnl": -50.51,
-        "unrealized_pnl_pct": -4.93
+        "market_value": 966.97,
+        "unrealized_pnl": -57.03,
+        "unrealized_pnl_pct": -5.57
       }
     ],
     "closed_trades": [
