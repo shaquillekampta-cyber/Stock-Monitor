@@ -1,18 +1,12 @@
 {
   "starting_cash": 10000.0,
-  "cash": 5557.158119,
+  "cash": NaN,
   "open_positions": {
     "QQQ": {
       "entry_date": "2026-08-04T18:18:39.133138+00:00",
       "entry_price": 723.49,
       "shares": 2.7644,
       "cash_committed": 2000.0
-    },
-    "SPY": {
-      "entry_date": "2026-08-07T15:37:21.491191+00:00",
-      "entry_price": 773.39,
-      "shares": 1.6551,
-      "cash_committed": 1280.0
     },
     "AMZN": {
       "entry_date": "2026-08-07T15:37:21.491191+00:00",
@@ -32,6 +26,18 @@
       "pnl": -138.84,
       "pnl_pct": -8.68,
       "days_held": 8,
+      "exit_reason": "sell signal"
+    },
+    {
+      "ticker": "SPY",
+      "entry_date": "2026-08-07T15:37:21.491191+00:00",
+      "entry_price": 773.39,
+      "exit_date": "2026-08-18T13:23:30.971607+00:00",
+      "exit_price": NaN,
+      "shares": 1.6551,
+      "pnl": NaN,
+      "pnl_pct": NaN,
+      "days_held": 10,
       "exit_reason": "sell signal"
     }
   ]
