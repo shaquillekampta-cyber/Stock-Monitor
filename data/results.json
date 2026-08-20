@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-08-19T13:25:14.859387+00:00",
+  "generated_at": "2026-08-20T13:27:35.638982+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 767.45,
-        "change_pct": -0.68,
-        "volume": 43840200,
-        "avg_volume": 48405685,
-        "volume_ratio": 0.91,
+        "price": 769.06,
+        "change_pct": 0.21,
+        "volume": 40242400,
+        "avg_volume": 48213242,
+        "volume_ratio": 0.83,
         "above_trend_ma": true,
-        "trend_ma": 764.61,
+        "trend_ma": 767.25,
         "trend_ma_days": 15,
         "candles": {
-          "open": 768.7,
-          "high": 769.5,
-          "low": 766.92,
-          "close": 767.45,
-          "prev_open": 776.18,
-          "prev_close": 772.67
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $767.45 is above its 15-day average ($764.61).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.91x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "If Meta Glasses are Fashionable, Then So is Giving Away Our Right to Privacy",
-          "source": "Cheezburger.com",
-          "url": "https://cheezburger.com/42062087/if-meta-glasses-are-fashionable-then-so-is-giving-away-our-right-to-privacy"
-        },
-        {
-          "title": "Apple TV debuts trailer for \u2018Slow Horses\u2019 season six",
-          "source": "Macdailynews.com",
-          "url": "https://macdailynews.com/2026/08/18/apple-tv-debuts-trailer-for-slow-horses-season-six/"
-        },
-        {
-          "title": "Jackson Lamb\u2019s Team Hunted Like Prey In \u2018Slow Horses\u2019 Season 6 Trailer; Olivia Cooke Returns",
-          "source": "Deadline",
-          "url": "http://deadline.com/2026/08/slow-horses-season-6-trailer-olivia-cooke-returns-1237043997/"
-        },
-        {
-          "title": "Slow Horses Reveals Olivia Cooke's Return As Sid In Season 6 Trailer",
-          "source": "TVLine",
-          "url": "https://www.tvline.com/2238771/slow-horses-olivia-cooke-return-sid-season-6-trailer/"
-        },
-        {
-          "title": "Hayden Panettiere reflected on Michelle Trachtenberg friendship months before death",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/08/18/celebrity-news/hayden-panettiere-reflected-on-michelle-trachtenberg-friendship-months-before-death/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 717.51,
-        "change_pct": -1.69,
-        "volume": 48736100,
-        "avg_volume": 40137312,
-        "volume_ratio": 1.21,
-        "above_trend_ma": true,
-        "trend_ma": 712.38,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 720.21,
-          "high": 722.13,
-          "low": 715.92,
-          "close": 717.51,
-          "prev_open": 732.95,
-          "prev_close": 729.87
+          "open": 770.36,
+          "high": 772.47,
+          "low": 768.1,
+          "close": 769.06,
+          "prev_open": 768.7,
+          "prev_close": 767.45
         }
       },
       "call": {
@@ -118,7 +30,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
+        "sell",
         "hold",
         "hold"
       ],
@@ -126,22 +38,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "12 articles in the last 2 days.",
+          "detail": "18 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 0 positive.",
+          "detail": "1 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $717.51 is above its 15-day average ($712.38).",
+          "detail": "Price $769.06 is above its 15-day average ($767.25).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.21x the recent average -- roughly normal.",
+          "detail": "Volume is 0.83x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -157,50 +69,138 @@
       ],
       "headlines": [
         {
-          "title": "\u30b5\u30af\u30bd\u30d0\u30f3\u30af\u8a3c\u5238\u3001\u65b0\u305f\u306b100\u9298\u67c4\u4ee5\u4e0a\u306e\u6d77\u5916ETF\u3092\u53d6\u6271\u958b\u59cb",
-          "source": "Prtimes.jp",
-          "url": "https://prtimes.jp/main/html/rd/p/000000055.000112775.html"
+          "title": "seeq-spy 202.7",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/seeq-spy/202.7/"
         },
         {
-          "title": "'Absolutely crazy': Here's what South Korean stock investors are doing in U.S. markets",
+          "title": "All 89 movies based on Marvel comics, ranked",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/every-marvel-comics-movie-ranked-by-critics-from-worst-to-best#article"
+        },
+        {
+          "title": "Geekom Air12 2026 review: A good value\u2026by 2020 standards",
+          "source": "PCWorld",
+          "url": "https://www.pcworld.com/article/3205149/geekom-air12-2026-review-a-quiet-mini-pc-at-an-affordable-price.html"
+        },
+        {
+          "title": "Jessica Alba, 45, gets matching TATTOOS with her Yale-bound daughter Honor Warren just weeks after 18th birthday",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16063105/jessica-alba-matching-tattoos-daughter-honor-warren.html"
+        },
+        {
+          "title": "A joke domain purchase turned in geopolitical warfare",
+          "source": "Sprocketfox.io",
+          "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 716.08,
+        "change_pct": -0.2,
+        "volume": 35653500,
+        "avg_volume": 40036771,
+        "volume_ratio": 0.89,
+        "above_trend_ma": true,
+        "trend_ma": 716.0,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 720.39,
+          "high": 721.5,
+          "low": 712.61,
+          "close": 716.08,
+          "prev_open": 720.21,
+          "prev_close": 717.51
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "buy"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "19 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "6 positive keyword hits vs 1 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $716.08 is above its 15-day average ($716.0).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.89x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Tokenized equities reach $9B in onchain trading volume this year, up 800% from January",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/tokenized-equities-9b-onchain-trading-volume/"
+        },
+        {
+          "title": "Retail investors aren't entirely giving up on AI trade, but they appear more cautious",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/18/korean-stock-investors-flee-bruising-home-market-pile-into-us.html"
+          "url": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
         },
         {
-          "title": "Investors Pour Into Long Bonds Even as They Sell Off",
-          "source": "Etf.com",
-          "url": "http://www.etf.com/sections/weekly-etf-flows/investors-pour-long-bonds-even-they-sell?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+          "title": "Scott Galloway Blasts SpaceX as \u201cCrazy Overvalued.\u201d Says the Stock Could Fall 90% From Here",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/19/scott-galloway-blasts-spacex-as-crazy-overvalued-says-the-stock-could-fall-90-from-here/"
         },
         {
-          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
+          "title": "Apple Shares Jump Tuesday While the Nasdaq Plummets: Here\u2019s Why It Led Magnificent 7 Stocks",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/38d483565cef1e1c"
+          "url": "https://biztoc.com/x/c93a580b64af1e88"
         },
         {
-          "title": "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3892903/stocks-settle-lower-on-rising-crude-prices-and-higher-bond-yields"
+          "title": "VOO\u2019s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/18/voos-0-03-fee-hides-the-real-cost-38-of-your-sp-500-money-is-now-in-one-sector/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 86.44,
-        "change_pct": -1.63,
-        "volume": 5236800,
-        "avg_volume": 5362646,
-        "volume_ratio": 0.98,
+        "price": 86.97,
+        "change_pct": 0.61,
+        "volume": 4121700,
+        "avg_volume": 5333319,
+        "volume_ratio": 0.77,
         "above_trend_ma": true,
-        "trend_ma": 86.29,
+        "trend_ma": 86.59,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.04,
-          "high": 87.24,
-          "low": 86.41,
-          "close": 86.44,
-          "prev_open": 87.92,
-          "prev_close": 87.87
+          "open": 87.27,
+          "high": 87.3,
+          "low": 86.77,
+          "close": 86.97,
+          "prev_open": 87.04,
+          "prev_close": 86.44
         }
       },
       "call": {
@@ -219,7 +219,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "2 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -229,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.44 is above its 15-day average ($86.29).",
+          "detail": "Price $86.97 is above its 15-day average ($86.59).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.98x the recent average -- roughly normal.",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,26 +243,125 @@
           "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "The creator of the 4% rule for retirement details the optimal setup for your investment portfolio",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/retirment-savings-investment-portfolio-stocks-bonds-cash-spending-withdrawal-rate-2026-8#article"
+        },
+        {
+          "title": "Daily ETF Flows: GLD Takes In $1B",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-gld-takes-1b?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        }
+      ]
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 259.45,
-        "change_pct": -0.71,
-        "volume": 33098600,
-        "avg_volume": 53326395,
-        "volume_ratio": 0.62,
+        "price": 265.84,
+        "change_pct": 2.46,
+        "volume": 35613300,
+        "avg_volume": 52906385,
+        "volume_ratio": 0.67,
         "above_trend_ma": false,
-        "trend_ma": 265.38,
+        "trend_ma": 268.0,
         "trend_ma_days": 15,
         "candles": {
-          "open": 260.63,
-          "high": 262.18,
-          "low": 257.73,
-          "close": 259.45,
-          "prev_open": 265.44,
-          "prev_close": 261.31
+          "open": 260.85,
+          "high": 266.4,
+          "low": 258.58,
+          "close": 265.84,
+          "prev_open": 260.63,
+          "prev_close": 259.45
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $265.84 is below its 15-day average ($268.0).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.67x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Island Zero 2018 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/island-zero-2018-1080p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Amazon (AMZN) Sees Bigger AWS Growth, but Rising Competition Could Pressure Returns",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-sees-bigger-aws-131338687.html"
+        },
+        {
+          "title": "Mutiny 2026 1080p AMZN WEB-DL H264-ppkhoa",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/mutiny-2026-1080p-amzn-web-dl-h264-ppkhoa/"
+        },
+        {
+          "title": "The AI Boom Has a New Chip Shortage. Intel Is Ready",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/8a8f834ab37e94ff"
+        },
+        {
+          "title": "The Amazing Race Canada S12E06 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-amazing-race-canada-s12e06-720p-amzn-web-dl-h264-rawr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 341.7,
+        "change_pct": 0.12,
+        "volume": 13315400,
+        "avg_volume": 21277809,
+        "volume_ratio": 0.63,
+        "above_trend_ma": false,
+        "trend_ma": 350.77,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 339.81,
+          "high": 343.56,
+          "low": 338.05,
+          "close": 341.7,
+          "prev_open": 339.89,
+          "prev_close": 341.28
         }
       },
       "call": {
@@ -281,7 +380,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "16 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -291,12 +390,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $259.45 is below its 15-day average ($265.38).",
+          "detail": "Price $341.7 is below its 15-day average ($350.77).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.62x the recent average -- roughly normal.",
+          "detail": "Volume is 0.63x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -307,122 +406,29 @@
       ],
       "headlines": [
         {
-          "title": "Amazon.com (AMZN): AI Demand Triggers AWS Revenue Acceleration",
-          "source": "Yahoo Entertainment",
-          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e1829c9c-477b-46ea-8f41-01d1a6aa713d"
+          "title": "Buffett\u2019s Berkshire is doubling down on Google",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/buffetts-berkshire-is-doubling-down-on-google"
         },
         {
-          "title": "The Biggest Winners Don\u2019t Compete in a Category. They Rewrite It. One Company Is Betting It Can Too.",
-          "source": "Financial Post",
-          "url": "https://financialpost.com/globe-newswire/the-biggest-winners-dont-compete-in-a-category-they-rewrite-it-one-company-is-betting-it-can-too"
+          "title": "How to Play SpaceX Stock After the Elon Musk-Led Company Just Closed Its Cursor Acquisition",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3913842/how-to-play-spacex-stock-after-the-elon-musk-led-company-just-closed-its-cursor-acquisition"
         },
         {
-          "title": "Bill Ackman's Pershing Square Made Amazon Its Fourth-Largest Holding by Dumping Alphabet. Here's the Thesis Behind the Switch",
+          "title": "CRAK is Smoking Hot\u2026 and Short-Term Overbought. Here\u2019s the Next Hot Energy Trade, Plus 3 Curated Watchlists to Research.",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3911369/crak-is-smoking-hot-and-short-term-overbought-heres-the-next-hot-energy-trade-plus-3-curated-watchlists-to-research"
+        },
+        {
+          "title": "Amazon Thinks AI Is About to Change the Way We Shop. Goodbye, Search Bar.",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/3910423/amazon-thinks-ai-is-about-to-change-the-way-we-shop-goodbye-search-bar"
+        },
+        {
+          "title": "A $10 Million Reason Why Google Stock In Focus",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b99d86e941c4fcc2"
-        },
-        {
-          "title": "Futureworld 1976 1080p AMZN WEB-DL H265-OnlyWeb",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/futureworld-1976-1080p-amzn-web-dl-sdr-h-265-onlyweb/"
-        },
-        {
-          "title": "The Villainess 2017 1080p AMZN WEB-DL H264-SiGLA",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-villainess-2017-1080p-amzn-web-dl-h264-sigla/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 341.28,
-        "change_pct": -0.05,
-        "volume": 14216600,
-        "avg_volume": 21471095,
-        "volume_ratio": 0.66,
-        "above_trend_ma": false,
-        "trend_ma": 350.37,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 339.89,
-          "high": 342.39,
-          "low": 337.52,
-          "close": 341.28,
-          "prev_open": 344.06,
-          "prev_close": 341.45
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "18 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $341.28 is below its 15-day average ($350.37).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.66x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Wall Street clearly loves Google stock, 13F filings reveal",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/article/wall-street-clearly-loves-google-stock-13f-filings-reveal-131402051.html"
-        },
-        {
-          "title": "Bill Ackman's Pershing Square Made Amazon Its Fourth-Largest Holding by Dumping Alphabet. Here's the Thesis Behind the Switch",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b99d86e941c4fcc2"
-        },
-        {
-          "title": "Greg Abel Just Bet $17 Billion on This 1 Stock",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/18/greg-abel-just-bet-17-billion-on-this-1-stock/"
-        },
-        {
-          "title": "Alphabet vs. Meta Platforms: Which Is the Better AI Advertising Stock to Own for the Next 5 Years?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/148b7b6a75636bbc"
-        },
-        {
-          "title": "Re: Whois using these ARIN services?? (fwd: Consultation on the Future of ARIN\u2019s Directory Services)",
-          "source": "Seclists.org",
-          "url": "https://seclists.org/nanog/2026/Aug/58"
+          "url": "https://biztoc.com/x/5842c2812ffc9e65"
         }
       ]
     }
@@ -441,21 +447,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 717.51,
+        "current_price": 716.08,
         "shares": 2.7644,
-        "market_value": 1983.48,
-        "unrealized_pnl": -16.52,
-        "unrealized_pnl_pct": -0.83
+        "market_value": 1979.53,
+        "unrealized_pnl": -20.47,
+        "unrealized_pnl_pct": -1.02
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 259.45,
+        "current_price": 265.84,
         "shares": 3.6816,
-        "market_value": 955.19,
-        "unrealized_pnl": -68.81,
-        "unrealized_pnl_pct": -6.72
+        "market_value": 978.72,
+        "unrealized_pnl": -45.28,
+        "unrealized_pnl_pct": -4.42
       }
     ],
     "closed_trades": [
