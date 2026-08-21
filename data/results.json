@@ -1,279 +1,25 @@
 {
-  "generated_at": "2026-08-20T13:27:35.638982+00:00",
+  "generated_at": "2026-08-21T13:26:25.364619+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 769.06,
-        "change_pct": 0.21,
-        "volume": 40242400,
-        "avg_volume": 48213242,
-        "volume_ratio": 0.83,
-        "above_trend_ma": true,
-        "trend_ma": 767.25,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 770.36,
-          "high": 772.47,
-          "low": 768.1,
-          "close": 769.06,
-          "prev_open": 768.7,
-          "prev_close": 767.45
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "sell",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "18 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $769.06 is above its 15-day average ($767.25).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.83x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "seeq-spy 202.7",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/seeq-spy/202.7/"
-        },
-        {
-          "title": "All 89 movies based on Marvel comics, ranked",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/every-marvel-comics-movie-ranked-by-critics-from-worst-to-best#article"
-        },
-        {
-          "title": "Geekom Air12 2026 review: A good value\u2026by 2020 standards",
-          "source": "PCWorld",
-          "url": "https://www.pcworld.com/article/3205149/geekom-air12-2026-review-a-quiet-mini-pc-at-an-affordable-price.html"
-        },
-        {
-          "title": "Jessica Alba, 45, gets matching TATTOOS with her Yale-bound daughter Honor Warren just weeks after 18th birthday",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/tvshowbiz/article-16063105/jessica-alba-matching-tattoos-daughter-honor-warren.html"
-        },
-        {
-          "title": "A joke domain purchase turned in geopolitical warfare",
-          "source": "Sprocketfox.io",
-          "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 716.08,
-        "change_pct": -0.2,
-        "volume": 35653500,
-        "avg_volume": 40036771,
-        "volume_ratio": 0.89,
-        "above_trend_ma": true,
-        "trend_ma": 716.0,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 720.39,
-          "high": 721.5,
-          "low": 712.61,
-          "close": 716.08,
-          "prev_open": 720.21,
-          "prev_close": 717.51
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "buy"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "6 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $716.08 is above its 15-day average ($716.0).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.89x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Tokenized equities reach $9B in onchain trading volume this year, up 800% from January",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/tokenized-equities-9b-onchain-trading-volume/"
-        },
-        {
-          "title": "Retail investors aren't entirely giving up on AI trade, but they appear more cautious",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/19/retail-investors-stick-with-ai-trade-but-appear-more-cautious.html"
-        },
-        {
-          "title": "Scott Galloway Blasts SpaceX as \u201cCrazy Overvalued.\u201d Says the Stock Could Fall 90% From Here",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/19/scott-galloway-blasts-spacex-as-crazy-overvalued-says-the-stock-could-fall-90-from-here/"
-        },
-        {
-          "title": "Apple Shares Jump Tuesday While the Nasdaq Plummets: Here\u2019s Why It Led Magnificent 7 Stocks",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c93a580b64af1e88"
-        },
-        {
-          "title": "VOO\u2019s 0.03% Fee Hides the Real Cost: 38% of Your S&P 500 Money Is Now in One Sector",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/08/18/voos-0-03-fee-hides-the-real-cost-38-of-your-sp-500-money-is-now-in-one-sector/"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 86.97,
-        "change_pct": 0.61,
-        "volume": 4121700,
-        "avg_volume": 5333319,
-        "volume_ratio": 0.77,
-        "above_trend_ma": true,
-        "trend_ma": 86.59,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 87.27,
-          "high": 87.3,
-          "low": 86.77,
-          "close": 86.97,
-          "prev_open": 87.04,
-          "prev_close": 86.44
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "2 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.97 is above its 15-day average ($86.59).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.77x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "The creator of the 4% rule for retirement details the optimal setup for your investment portfolio",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/retirment-savings-investment-portfolio-stocks-bonds-cash-spending-withdrawal-rate-2026-8#article"
-        },
-        {
-          "title": "Daily ETF Flows: GLD Takes In $1B",
-          "source": "Etf.com",
-          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-gld-takes-1b?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 265.84,
-        "change_pct": 2.46,
-        "volume": 35613300,
-        "avg_volume": 52906385,
-        "volume_ratio": 0.67,
+        "price": 762.6,
+        "change_pct": -0.84,
+        "volume": 45479200,
+        "avg_volume": 48151139,
+        "volume_ratio": 0.94,
         "above_trend_ma": false,
-        "trend_ma": 268.0,
+        "trend_ma": 768.65,
         "trend_ma_days": 15,
         "candles": {
-          "open": 260.85,
-          "high": 266.4,
-          "low": 258.58,
-          "close": 265.84,
-          "prev_open": 260.63,
-          "prev_close": 259.45
+          "open": 765.96,
+          "high": 768.15,
+          "low": 762.04,
+          "close": 762.6,
+          "prev_open": 770.36,
+          "prev_close": 769.06
         }
       },
       "call": {
@@ -292,22 +38,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "18 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
+          "detail": "3 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $265.84 is below its 15-day average ($268.0).",
+          "detail": "Price $762.6 is below its 15-day average ($768.65).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.67x the recent average -- roughly normal.",
+          "detail": "Volume is 0.94x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -318,56 +64,149 @@
       ],
       "headlines": [
         {
-          "title": "Island Zero 2018 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/island-zero-2018-1080p-amzn-web-dl-h264-kitsune/"
+          "title": "Film and TV director John Irvin dies aged 86",
+          "source": "The Irish Times",
+          "url": "https://www.irishtimes.com/culture/film/2026/08/20/film-and-tv-director-john-irvin-dies-aged-86/"
         },
         {
-          "title": "Amazon (AMZN) Sees Bigger AWS Growth, but Rising Competition Could Pressure Returns",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-sees-bigger-aws-131338687.html"
+          "title": "FBI agents confront Eric Swalwell at San Francisco Airport and seize his electronics as part of sexual misconduct investigation",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/news/article-16066819/Eric-Swalwell-FBI-San-Francisco-seize-electronics-sexual-misconduct.html"
         },
         {
-          "title": "Mutiny 2026 1080p AMZN WEB-DL H264-ppkhoa",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/mutiny-2026-1080p-amzn-web-dl-h264-ppkhoa/"
+          "title": "Netflix and AMC Global Media Announce New Gritty Drama Series, \"Bannerman\"",
+          "source": "Thefutoncritic.com",
+          "url": "http://www.thefutoncritic.com/news/2026/08/20/netflix-and-amc-global-media-announce-new-gritty-drama-series-bannerman-68415/20260820netflix06/"
         },
         {
-          "title": "The AI Boom Has a New Chip Shortage. Intel Is Ready",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8a8f834ab37e94ff"
+          "title": "15 Hit TV Shows You Wouldn\u2019t Guess from the Awful Pilot Episode",
+          "source": "Den of Geek US",
+          "url": "http://www.denofgeek.com/msn/15-hit-tv-shows-you-wouldnt-guess-from-the-awful-pilot-episode/"
         },
         {
-          "title": "The Amazing Race Canada S12E06 720p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-amazing-race-canada-s12e06-720p-amzn-web-dl-h264-rawr/"
+          "title": "Imposing Sanctions on Cuban Regime Actors Associated with Marxist Subversive Networks and Corrupt Economic Dealings",
+          "source": "Globalsecurity.org",
+          "url": "https://www.globalsecurity.org/wmd/library/news/cuba/cuba-260820-state01.htm"
         }
       ]
     },
     {
-      "ticker": "GOOG",
+      "ticker": "QQQ",
       "price": {
-        "price": 341.7,
-        "change_pct": 0.12,
-        "volume": 13315400,
-        "avg_volume": 21277809,
-        "volume_ratio": 0.63,
+        "price": 710.93,
+        "change_pct": -0.72,
+        "volume": 33306100,
+        "avg_volume": 39883690,
+        "volume_ratio": 0.84,
         "above_trend_ma": false,
-        "trend_ma": 350.77,
+        "trend_ma": 717.83,
         "trend_ma_days": 15,
         "candles": {
-          "open": 339.81,
-          "high": 343.56,
-          "low": 338.05,
-          "close": 341.7,
-          "prev_open": 339.89,
-          "prev_close": 341.28
+          "open": 712.09,
+          "high": 714.94,
+          "low": 708.52,
+          "close": 710.93,
+          "prev_open": 720.39,
+          "prev_close": 716.08
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "17 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "4 positive keyword hits vs 2 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $710.93 is below its 15-day average ($717.83).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.84x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "The 10 Most Popular AI ETFs of 2026",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/features/10-most-popular-ai-etfs-2026?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        },
+        {
+          "title": "Between Your Last Paycheck and Age 73 Are the Lowest Tax Years of Your Life. These 3 ETFs Are Where That Money Goes",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/08/19/between-your-last-paycheck-and-age-73-are-the-lowest-tax-years-of-your-life-these-3-etfs-are-where-that-money-goes/"
+        },
+        {
+          "title": "Daily ETF Flows: Investors Add to TLT",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-investors-add-tlt?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        },
+        {
+          "title": "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/1926b037dc2ff4b2"
+        },
+        {
+          "title": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/43e5f11bba5278b8"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 87.03,
+        "change_pct": 0.07,
+        "volume": 4165200,
+        "avg_volume": 5306365,
+        "volume_ratio": 0.78,
+        "above_trend_ma": true,
+        "trend_ma": 86.74,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 86.89,
+          "high": 87.41,
+          "low": 86.81,
+          "close": 87.03,
+          "prev_open": 87.27,
+          "prev_close": 86.97
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
@@ -380,7 +219,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "16 articles in the last 2 days.",
+          "detail": "1 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -390,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $341.7 is below its 15-day average ($350.77).",
-          "signal": "neg"
+          "detail": "Price $87.03 is above its 15-day average ($86.74).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.63x the recent average -- roughly normal.",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -406,29 +245,195 @@
       ],
       "headlines": [
         {
-          "title": "Buffett\u2019s Berkshire is doubling down on Google",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/buffetts-berkshire-is-doubling-down-on-google"
+          "title": "The creator of the 4% rule for retirement details the optimal setup for your investment portfolio",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/retirment-savings-investment-portfolio-stocks-bonds-cash-spending-withdrawal-rate-2026-8#article"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 260.11,
+        "change_pct": -2.16,
+        "volume": 28301300,
+        "avg_volume": 52337641,
+        "volume_ratio": 0.54,
+        "above_trend_ma": false,
+        "trend_ma": 269.64,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 263.16,
+          "high": 263.84,
+          "low": 259.52,
+          "close": 260.11,
+          "prev_open": 260.85,
+          "prev_close": 265.84
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "sell",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
         },
         {
-          "title": "How to Play SpaceX Stock After the Elon Musk-Led Company Just Closed Its Cursor Acquisition",
+          "label": "Sentiment",
+          "detail": "5 positive keyword hits vs 2 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $260.11 is below its 15-day average ($269.64).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "D O P E Unit S01E03 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/d-o-p-e-unit-s01e03-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Hollywood Crime Story The Mob Takes Over The Movies S01E02 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/hollywood-crime-story-the-mob-takes-over-the-movies-s01e02-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "ER Caught On Camera S01E01 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/er-caught-on-camera-s01e01-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Resolve To Solve With Miles OBrien S01E02 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/resolve-to-solve-with-miles-obrien-s01e02-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Resolve To Solve With Miles OBrien S01E01 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/resolve-to-solve-with-miles-obrien-s01e01-720p-amzn-web-dl-h264-rawr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 338.2,
+        "change_pct": -1.02,
+        "volume": 14166300,
+        "avg_volume": 21113474,
+        "volume_ratio": 0.67,
+        "above_trend_ma": false,
+        "trend_ma": 351.07,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 339.69,
+          "high": 340.8,
+          "low": 336.17,
+          "close": 338.2,
+          "prev_open": 339.81,
+          "prev_close": 341.7
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "9 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $338.2 is below its 15-day average ($351.07).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.67x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "opteryx-iceberg added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/opteryx-iceberg/"
+        },
+        {
+          "title": "Why the Treasury market\u2019s newfound calm could break down in September",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd"
+        },
+        {
+          "title": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now.",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3913842/how-to-play-spacex-stock-after-the-elon-musk-led-company-just-closed-its-cursor-acquisition"
+          "url": "https://www.barchart.com/story/news/3937170/the-market-is-in-a-bubble-why-im-focusing-on-quantum-computing-stocks-now"
         },
         {
-          "title": "CRAK is Smoking Hot\u2026 and Short-Term Overbought. Here\u2019s the Next Hot Energy Trade, Plus 3 Curated Watchlists to Research.",
+          "title": "Google Is Betting a Whopping $94 Billion on SpaceX Stock",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3911369/crak-is-smoking-hot-and-short-term-overbought-heres-the-next-hot-energy-trade-plus-3-curated-watchlists-to-research"
+          "url": "https://www.barchart.com/story/news/3936146/google-is-betting-a-whopping-94-billion-on-spacex-stock"
         },
         {
-          "title": "Amazon Thinks AI Is About to Change the Way We Shop. Goodbye, Search Bar.",
+          "title": "MRVL Stock Alert: What to Know as Marvell Technology Expands Chip Deal With Google",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3910423/amazon-thinks-ai-is-about-to-change-the-way-we-shop-goodbye-search-bar"
-        },
-        {
-          "title": "A $10 Million Reason Why Google Stock In Focus",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/5842c2812ffc9e65"
+          "url": "https://www.barchart.com/story/news/3935932/mrvl-stock-alert-what-to-know-as-marvell-technology-expands-chip-deal-with-google"
         }
       ]
     }
@@ -447,21 +452,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 716.08,
+        "current_price": 710.93,
         "shares": 2.7644,
-        "market_value": 1979.53,
-        "unrealized_pnl": -20.47,
-        "unrealized_pnl_pct": -1.02
+        "market_value": 1965.29,
+        "unrealized_pnl": -34.71,
+        "unrealized_pnl_pct": -1.74
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 265.84,
+        "current_price": 260.11,
         "shares": 3.6816,
-        "market_value": 978.72,
-        "unrealized_pnl": -45.28,
-        "unrealized_pnl_pct": -4.42
+        "market_value": 957.62,
+        "unrealized_pnl": -66.38,
+        "unrealized_pnl_pct": -6.48
       }
     ],
     "closed_trades": [
