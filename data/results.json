@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-24T13:30:34.286317+00:00",
+  "generated_at": "2026-08-25T13:28:01.862130+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 763.97,
-        "change_pct": -0.23,
-        "volume": 1400057,
-        "avg_volume": 46453387,
-        "volume_ratio": 0.03,
+        "price": 763.47,
+        "change_pct": -0.29,
+        "volume": 32377700,
+        "avg_volume": 46933145,
+        "volume_ratio": 0.69,
         "above_trend_ma": false,
-        "trend_ma": 770.31,
+        "trend_ma": 770.28,
         "trend_ma_days": 15,
         "candles": {
-          "open": 766.05,
-          "high": 764.8,
-          "low": 763.87,
-          "close": 763.97,
+          "open": 764.78,
+          "high": 765.22,
+          "low": 762.08,
+          "close": 763.47,
           "prev_open": 766.05,
           "prev_close": 765.72
         }
@@ -30,7 +30,7 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
+        "sell",
         "sell",
         "sell"
       ],
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
+          "detail": "2 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $763.97 is below its 15-day average ($770.31).",
+          "detail": "Price $763.47 is below its 15-day average ($770.28).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.03x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.69x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -64,61 +64,61 @@
       ],
       "headlines": [
         {
-          "title": "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html"
+          "title": "In 1919, a Harvard graduate secretly became a spy in Germany. He warned the world about Hitler and Holocaust, 20 years before World War II",
+          "source": "The Times of India",
+          "url": "https://economictimes.indiatimes.com/magazines/panache/in-1919-a-harvard-graduate-secretly-became-a-spy-in-germany-he-warned-the-world-about-hitler-and-holocaust-20-years-before-world-war-2/articleshow/133466176.cms"
         },
         {
-          "title": "PrintWatch: Transformers #1 Gets 14th Printing, GI Joe #1 Gets A 7th",
-          "source": "Bleeding Cool News",
-          "url": "https://bleedingcool.com/comics/printwatch-transformers-1-gets-14th-printing-gi-joe-1-gets-a-7th/"
+          "title": "2027 BMW i3 Touring Spied Near The N\u00fcrburgring: Video",
+          "source": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/08/24/2027-bmw-i3-touring-nurburgring-spy-video/"
         },
         {
-          "title": "The North Was Lying: College Football\u2019s Hidden Jim Crow System",
-          "source": "Corn Nation",
-          "url": "https://www.cornnation.com/college-football-history/99742/black-college-football-segregation-jim-crow"
+          "title": "$12M in stock tokens deposited into DeFi on Robinhood Chain",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/robinhood-chain-stock-tokens-defi-deposits/"
         },
         {
-          "title": "Marvel Has The Perfect Movie For Wonder Man's Return After Devastating Season 2 Cancellation",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/wonder-man-character-return-x-men-mcu-movie-future/"
+          "title": "15 People Share the Unexpected Movies They Wound Up Loving",
+          "source": "Den of Geek US",
+          "url": "http://www.denofgeek.com/msn/15-people-share-the-unexpected-movies-they-wound-up-loving/"
         },
         {
-          "title": "'Lioness' Season 3 Episode 4 Teaser Breakdown: 'Murder Hornets' Puts Joe's Fate in Question on Paramount+",
-          "source": "Ibtimes.com.au",
-          "url": "https://www.ibtimes.com.au/lioness-episode-4-murder-hornets-geopolitical-tensions-1874421"
+          "title": "The Best Action Movie From Every Year in the 2000s",
+          "source": "Mental Floss",
+          "url": "https://www.mentalfloss.com/entertainment/movies/best-action-movie-every-year-2000s"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 708.37,
-        "change_pct": -0.71,
-        "volume": 1391729,
-        "avg_volume": 38439663,
-        "volume_ratio": 0.04,
+        "price": 706.32,
+        "change_pct": -1.0,
+        "volume": 37344900,
+        "avg_volume": 38963811,
+        "volume_ratio": 0.96,
         "above_trend_ma": false,
-        "trend_ma": 720.08,
+        "trend_ma": 719.94,
         "trend_ma_days": 15,
         "candles": {
-          "open": 709.62,
+          "open": 709.66,
           "high": 709.79,
-          "low": 708.26,
-          "close": 708.37,
+          "low": 702.7,
+          "close": 706.32,
           "prev_open": 715.23,
           "prev_close": 713.44
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
+        "hold",
         "hold",
         "hold"
       ],
@@ -131,64 +131,69 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "2 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $708.37 is below its 15-day average ($720.08).",
+          "detail": "Price $706.32 is below its 15-day average ($719.94).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.04x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.96x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
+          "title": "Marvell Could Give Investors A Reason To Celebrate On August 27th",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/24/marvell-could-give-investors-a-reason-to-celebrate-on-august-27th/"
+        },
+        {
+          "title": "Michael Burry Is Shorting Nvidia Heading Into Earnings, Here\u2019s What He\u2019s Buying Instead",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/24/michael-burry-is-shorting-nvidia-heading-into-earnings-heres-what-hes-buying-instead/"
+        },
+        {
+          "title": "Gen Z Makes a Loud Entrance into the Crypto Market\u2014What Are They Buying?",
+          "source": "ZyCrypto",
+          "url": "https://zycrypto.com/gen-z-makes-a-loud-entrance-into-the-crypto-market-what-are-they-buying/"
+        },
+        {
           "title": "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html"
-        },
-        {
-          "title": "NASDAQ 100 ETF pulls $11B in August, outpacing Bitcoin ETFs",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/nasdaq-100-etf-outflows-outpace-bitcoin-etfs-august/"
-        },
-        {
-          "title": "The Smartest ETF to Buy With $750 Right Now",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/80283dd64d77cd27"
-        },
-        {
-          "title": "Most Tech Stocks Are More Correlated Than You Think. Don\u2019t Let That Wreck Your Trading Plan.",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3986181/most-tech-stocks-are-more-correlated-than-you-think-dont-let-that-wreck-your-trading-plan"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 87.36,
-        "change_pct": -0.4,
-        "volume": 330257,
-        "avg_volume": 4994687,
-        "volume_ratio": 0.07,
+        "price": 87.2,
+        "change_pct": -0.58,
+        "volume": 4610900,
+        "avg_volume": 5092816,
+        "volume_ratio": 0.91,
         "above_trend_ma": true,
-        "trend_ma": 87.11,
+        "trend_ma": 87.09,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.32,
+          "open": 87.34,
           "high": 87.38,
-          "low": 87.28,
-          "close": 87.36,
+          "low": 86.94,
+          "close": 87.2,
           "prev_open": 87.8,
           "prev_close": 87.71
         }
@@ -219,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $87.36 is above its 15-day average ($87.11).",
+          "detail": "Price $87.2 is above its 15-day average ($87.09).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.07x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.91x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,19 +243,19 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 259.39,
-        "change_pct": 0.29,
-        "volume": 1088975,
-        "avg_volume": 50196562,
-        "volume_ratio": 0.02,
+        "price": 262.07,
+        "change_pct": 1.33,
+        "volume": 28023700,
+        "avg_volume": 50361295,
+        "volume_ratio": 0.56,
         "above_trend_ma": false,
-        "trend_ma": 267.13,
+        "trend_ma": 267.31,
         "trend_ma_days": 15,
         "candles": {
-          "open": 259.52,
-          "high": 260.6,
-          "low": 259.31,
-          "close": 259.39,
+          "open": 259.6,
+          "high": 263.32,
+          "low": 259.05,
+          "close": 262.07,
           "prev_open": 260.74,
           "prev_close": 258.63
         }
@@ -263,7 +268,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -276,17 +281,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "5 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $259.39 is below its 15-day average ($267.13).",
+          "detail": "Price $262.07 is below its 15-day average ($267.31).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.02x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.56x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -302,48 +307,48 @@
       ],
       "headlines": [
         {
-          "title": "500 Reasons to Buy Einride Stock Today",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3992216/500-reasons-to-buy-einride-stock-today"
-        },
-        {
-          "title": "Tesla lands 500-truck order from Einride in world's largest Tesla Semi deployment",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-chat/4392843/posts"
-        },
-        {
-          "title": "If Amazon Is a Top Growth Stock, Then Why Does It Trade at Just 21.3x Forward Earnings While the S&P 500 Trades at 20.4x? This Is the Only Answer I Can Think Of",
+          "title": "Jeff Bezos' Amazon Just Raised Its AI Spending Target to $220 Billion for 2026. Here's What That Capex Hike Means for Investors",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/31db83765d946916"
+          "url": "https://biztoc.com/x/3086486e76f4747a"
         },
         {
-          "title": "Rufus 2016 1080p AMZN WEB-DL H264-FLUX",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/rufus-2016-1080p-amzn-web-dl-h264-flux/"
+          "title": "Amazon.com (AMZN) Trades at Significant Discount to Intrinsic Value",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-amzn-trades-significant-120002108.html"
         },
         {
-          "title": "Backrooms 2026 Extended Version 720p AMZN WEB-DL H264-SCOPE",
+          "title": "Amazon Could Be Worth More Than Tesla and SpaceX Combined by 2030. Here's the Math",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/8f36b97bca7ac5bc"
+        },
+        {
+          "title": "Tracking PavinLoader across ClickFix and fake download campaigns",
+          "source": "Malwarebytes.com",
+          "url": "https://www.malwarebytes.com/blog/threat-intel/2026/08/tracking-pavinloader-across-clickfix-and-fake-download-campaigns"
+        },
+        {
+          "title": "Inception 2010 1080p AMZN WEB-DL H264-PiRaTeS",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/backrooms-2026-extended-version-720p-amzn-web-dl-h264-scope/"
+          "url": "https://post.rlsbb.cc/inception-2010-1080p-amzn-web-dl-h264-pirates/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 340.12,
-        "change_pct": -0.48,
-        "volume": 370612,
-        "avg_volume": 20222688,
-        "volume_ratio": 0.02,
+        "price": 344.59,
+        "change_pct": 0.83,
+        "volume": 16430900,
+        "avg_volume": 20518216,
+        "volume_ratio": 0.8,
         "above_trend_ma": false,
-        "trend_ma": 347.92,
+        "trend_ma": 348.22,
         "trend_ma_days": 15,
         "candles": {
-          "open": 340.52,
-          "high": 340.75,
+          "open": 340.74,
+          "high": 348.08,
           "low": 339.62,
-          "close": 340.12,
+          "close": 344.59,
           "prev_open": 340.28,
           "prev_close": 341.75
         }
@@ -364,22 +369,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "9 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 0 negative.",
+          "detail": "5 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $340.12 is below its 15-day average ($347.92).",
+          "detail": "Price $344.59 is below its 15-day average ($348.22).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.02x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.8x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -395,29 +400,29 @@
       ],
       "headlines": [
         {
-          "title": "Nvidia earnings and Jackson Hole: What to watch this week",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html"
-        },
-        {
-          "title": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3988083/third-point-starts-to-raise-alarm-bells-on-broadcom-after-dumping-avgo-stock-in-q2"
-        },
-        {
-          "title": "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/3987301/nvidia-stock-trades-at-a-reasonable-valuation-with-ample-growth-headroom"
-        },
-        {
-          "title": "Warren Buffett\u2019s Berkshire makes backdoor SpaceX play",
+          "title": "Alphabet\u2019s (GOOG) Sustainable Growth Outlook Appears Stronger Than Expectations",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/cf0a0a334da2958e"
+          "url": "https://biztoc.com/x/231698bd07523ec3"
         },
         {
-          "title": "Warren Buffett\u2019s Berkshire makes backdoor SpaceX play",
+          "title": "Alphabet\u2019s (GOOG) Sustainable Growth Outlook Appears Stronger Than Expectations",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-sustainable-growth-outlook-114703202.html"
+        },
+        {
+          "title": "$2.99 | Leviathan Wakes (The Expanse Book 1) (eBook) by James S. A. Corey",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/19915902-2-99-leviathan-wakes-the-expanse-book-1-ebook-by-james-s-a-corey"
+        },
+        {
+          "title": "$1.99 | Snow Crash: A Novel (eBook) by Neal Stephenson",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/19915884-1-99-snow-crash-a-novel-ebook-by-neal-stephenson"
+        },
+        {
+          "title": "UBS revamps S&P 500 target for rest of 2026",
           "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/warren-buffett-berkshire-makes-backdoor-spacex-play"
+          "url": "https://www.thestreet.com/markets/ubs-sp-500-2026-target"
         }
       ]
     }
@@ -436,21 +441,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 708.37,
+        "current_price": 706.32,
         "shares": 2.7644,
-        "market_value": 1958.22,
-        "unrealized_pnl": -41.78,
-        "unrealized_pnl_pct": -2.09
+        "market_value": 1952.55,
+        "unrealized_pnl": -47.45,
+        "unrealized_pnl_pct": -2.37
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 259.39,
+        "current_price": 262.07,
         "shares": 3.6816,
-        "market_value": 954.97,
-        "unrealized_pnl": -69.03,
-        "unrealized_pnl_pct": -6.74
+        "market_value": 964.84,
+        "unrealized_pnl": -59.16,
+        "unrealized_pnl_pct": -5.78
       }
     ],
     "closed_trades": [
