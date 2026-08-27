@@ -1,131 +1,38 @@
 {
-  "generated_at": "2026-08-26T13:34:15.270761+00:00",
+  "generated_at": "2026-08-27T22:29:01.069891+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 765.5,
-        "change_pct": -0.05,
-        "volume": 1093113,
-        "avg_volume": 45250974,
-        "volume_ratio": 0.02,
-        "above_trend_ma": false,
-        "trend_ma": 769.63,
+        "price": 771.1,
+        "change_pct": 0.66,
+        "volume": 34017770,
+        "avg_volume": 45034152,
+        "volume_ratio": 0.76,
+        "above_trend_ma": true,
+        "trend_ma": 769.84,
         "trend_ma_days": 15,
         "candles": {
-          "open": 766.16,
-          "high": 765.55,
-          "low": 764.68,
-          "close": 765.5,
-          "prev_open": 766.16,
-          "prev_close": 765.91
+          "open": 768.5,
+          "high": 772.35,
+          "low": 767.16,
+          "close": 771.1,
+          "prev_open": 764.73,
+          "prev_close": 766.08
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "sell"
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
       },
       "call_history": [
         "sell",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $765.5 is below its 15-day average ($769.63).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.02x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Eric Adams parties until 2 a.m. in the Hamptons, and other items from the column",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/08/25/society/eric-adams-parties-until-2-a-m-in-the-hamptons-and-other-items-from-the-column/"
-        },
-        {
-          "title": "A Major DC Comics Character's Look Was Based On The Star Of A Classic Sitcom",
-          "source": "TVLine",
-          "url": "https://www.tvline.com/2243456/shazam-dc-comics-character-look-based-star-classic-sitcom/"
-        },
-        {
-          "title": "Quote of the Day by Selena Gomez: 'If there never was a night or day and memories could fade away...'- Inspiring life lessons on dreams, memories, hope and making the most of life, by Lose You to Love Me singer",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/famous-quote-of-the-day-by-selena-gomez-if-there-never-was-a-night-or-day-and-memories-could-fade-away-inspiring-life-lessons-on-dreams-memories-hope-and-making-the-most-of-life-by-lose-you-to-love-me-singer/articleshow/133508740.cms"
-        },
-        {
-          "title": "Bridgerton's Nicola Coughlan spotted in-character with 'pregnant bump' for new Netflix series",
-          "source": "digitalspy.com",
-          "url": "https://www.digitalspy.com/tv/a73519209/nicola-coughlan-netflix-series-zoltar/"
-        },
-        {
-          "title": "Life in the Fortress",
-          "source": "The New York Review of Books",
-          "url": "https://www.nybooks.com/online/2026/08/25/life-in-the-fortress-qian-zhongshu/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 710.23,
-        "change_pct": -0.07,
-        "volume": 1618365,
-        "avg_volume": 37494006,
-        "volume_ratio": 0.04,
-        "above_trend_ma": false,
-        "trend_ma": 718.6,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 708.5,
-          "high": 710.96,
-          "low": 708.48,
-          "close": 710.23,
-          "prev_open": 711.22,
-          "prev_close": 710.72
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
         "hold",
-        "hold",
-        "hold"
+        "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -136,76 +43,159 @@
         },
         {
           "label": "Sentiment",
-          "detail": "9 positive keyword hits vs 3 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $710.23 is below its 15-day average ($718.6).",
-          "signal": "neg"
+          "detail": "Price $771.1 is above its 15-day average ($769.84).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.04x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Vanguard Growth Index Fund Admiral Shares (VIGAX): What Investors Should Know",
+          "title": "Range Rover\u2019s next EV breaks cover, and it\u2019s not an SUV [Images]",
+          "source": "Electrek",
+          "url": "http://electrek.co/2026/08/26/range-rovers-next-ev-breaks-cover-not-an-suv-images/"
+        },
+        {
+          "title": "Diamondbacks manager Torey Lovullo apologizes to Chicago Cubs after sign stealing controversy: 'bush league'",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/diamondbacks-manager-torey-lovullo-apologizes-chicago-cubs-sign-stealing-controversy-bush-league"
+        },
+        {
+          "title": "Iranian attacks cause billions in damages to US intelligence sites across the Middle East",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/iranian-attacks-billions-damages-us-intelligence/"
+        },
+        {
+          "title": "\u2018Coyote Vs. Acme\u2019 & \u2018Dog Stars\u2019 Barking Up \u2018Spider-Man\u2019s Tree With Summer End Near \u2013 Weekend Preview",
+          "source": "Deadline",
+          "url": "http://deadline.com/2026/08/coyote-vs-acme-dog-stars-jacob-elordi-spider-man-box-office-1237051826/"
+        },
+        {
+          "title": "Bond 26: Callum Turner, Jacob Elordi & Paul Mescal On James Bond Shortlist, But There's A New Frontrunner",
+          "source": "CBM (Comic Book Movie)",
+          "url": "https://comicbookmovie.com/action/james-bond/bond-26-callum-turner-jacob-elordi-paul-mescal-on-james-bond-shortlist-but-theres-a-new-frontrunner-a229562"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 721.11,
+        "change_pct": 1.37,
+        "volume": 28443051,
+        "avg_volume": 37500780,
+        "volume_ratio": 0.76,
+        "above_trend_ma": true,
+        "trend_ma": 719.1,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 716.98,
+          "high": 721.35,
+          "low": 714.53,
+          "close": 721.11,
+          "prev_open": 708.41,
+          "prev_close": 711.37
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "buy"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $721.11 is above its 15-day average ($719.1).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/256a8b70f8bae48f"
+        },
+        {
+          "title": "Meta Heads Toward $580 as a $17B Teen Safety Settlement Ends the Trial; Snap Falls 9%",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/25/vanguard-growth-index-fund-admiral-shares-vigax-what-investors-should-know/"
+          "url": "https://247wallst.com/investing/2026/08/26/meta-heads-toward-580-as-a-17b-teen-safety-settlement-ends-the-trial-snap-falls-9/"
         },
         {
-          "title": "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/25/amd-and-intel-rise-3-on-a-strong-buy-upgrade-and-a-pelosi-disclosure-nvidia-and-broadcom-tick-up/"
+          "title": "Stocks Slip Ahead of Nvidia Earnings as Bond Yields Rise",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6561fa11fecdee77"
         },
         {
-          "title": "Gorilla Sinks 11% Despite Guiding 2027 Revenue Up to 29% Above Consensus, Evolv Technologies and Ambarella Tick Up",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/25/gorilla-sinks-11-despite-guiding-2027-revenue-up-to-29-above-consensus-evolv-technologies-and-ambarella-tick-up/"
+          "title": "Stocks Slightly Higher on Mixed US Economic News",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/be27e73a51b1aacf"
         },
         {
-          "title": "Daily ETF Flows: GLD IBIT Pick Up Assets",
-          "source": "Etf.com",
-          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-gld-ibit-pick-assets?utm_source=yahoo-financeutm_medium=rssutm_campaign=yahoo-finance-rss"
-        },
-        {
-          "title": "Investors Pour $56B Into ETFs as Gold and Bitcoin Roar Back",
-          "source": "Etf.com",
-          "url": "http://www.etf.com/sections/weekly-etf-flows/investors-pour-56b-etfs-gold-and-bitcoin-roar-back?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+          "title": "Rumble Drops 7% on Profit-Taking After a 79% Monthly Run; Trump Media Holds Steady",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/b8818e9826fb53a2"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 88.11,
-        "change_pct": -0.01,
-        "volume": 310616,
-        "avg_volume": 5001014,
-        "volume_ratio": 0.06,
+        "price": 87.93,
+        "change_pct": 0.13,
+        "volume": 4516345,
+        "avg_volume": 4885735,
+        "volume_ratio": 0.92,
         "above_trend_ma": true,
-        "trend_ma": 87.31,
+        "trend_ma": 87.4,
         "trend_ma_days": 15,
         "candles": {
-          "open": 88.08,
-          "high": 88.16,
-          "low": 88.08,
-          "close": 88.11,
-          "prev_open": 87.79,
-          "prev_close": 88.12
+          "open": 87.94,
+          "high": 87.97,
+          "low": 87.58,
+          "close": 87.93,
+          "prev_open": 88.1,
+          "prev_close": 87.82
         }
       },
       "call": {
@@ -234,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $88.11 is above its 15-day average ($87.31).",
+          "detail": "Price $87.93 is above its 15-day average ($87.4).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.06x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.92x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -259,28 +249,28 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 260.44,
-        "change_pct": -0.24,
-        "volume": 1011221,
-        "avg_volume": 48001377,
-        "volume_ratio": 0.02,
+        "price": 256.26,
+        "change_pct": -1.54,
+        "volume": 35779842,
+        "avg_volume": 43535661,
+        "volume_ratio": 0.82,
         "above_trend_ma": false,
-        "trend_ma": 265.4,
+        "trend_ma": 264.33,
         "trend_ma_days": 15,
         "candles": {
-          "open": 261.27,
-          "high": 262.05,
-          "low": 259.87,
-          "close": 260.44,
-          "prev_open": 262.51,
-          "prev_close": 261.06
+          "open": 259.23,
+          "high": 259.66,
+          "low": 255.02,
+          "close": 256.26,
+          "prev_open": 261.28,
+          "prev_close": 260.28
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -297,76 +287,81 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $260.44 is below its 15-day average ($265.4).",
+          "detail": "Price $256.26 is below its 15-day average ($264.33).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.02x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.82x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "360 2012 1080p AMZN WEB-DL H264 DUAL-BiOMA",
+          "title": "The Yorkshire Auction House S07E04 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/360-2012-1080p-amzn-web-dl-h264-dual-bioma/"
+          "url": "https://post.rlsbb.cc/the-yorkshire-auction-house-s07e04-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Tomorrow You Pretty Ghost 2026 720p AMZN WEB-DL H264-BYNDR",
+          "title": "The Secret Life Of Frogs 2019 DOCU 720p AMZN WEB-DL H264-MPX",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/tomorrow-you-pretty-ghost-2026-720p-amzn-web-dl-h264-byndr/"
+          "url": "https://post.rlsbb.cc/the-secret-life-of-frogs-2019-docu-720p-amzn-web-dl-h264-mpx/"
         },
         {
-          "title": "Andy Jassy Believes AWS Can Hit $1 Trillion in Revenue. Here's When the Math Says It Might Happen",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/848d14fb509f3f18"
+          "title": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+          "source": "Nvidia.com",
+          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
         },
         {
-          "title": "Coinbase\u2019s Tokenized Stocks Are Live on Base. The SEC\u2019s Framework Isn\u2019t.",
-          "source": "Forkast.news",
-          "url": "https://forkast.news/coinbases-tokenized-stocks-are-live-on-base-the-secs-framework-isnt/"
-        },
-        {
-          "title": "TURNING POINT 2022 720p AMZN WEB-DL H264-BYNDR",
+          "title": "Flo And Joan Alive On Stage 2019 1080p AMZN WEB-DL H264-NTb",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/turning-point-2022-720p-amzn-web-dl-h264-byndr/"
+          "url": "https://post.rlsbb.cc/flo-and-joan-alive-on-stage-2019-1080p-amzn-web-dl-h264-ntb_6/"
+        },
+        {
+          "title": "What socialists stand for",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/singham/2026/08/26/what-socialists-stand-for/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 342.17,
-        "change_pct": -0.34,
-        "volume": 717417,
-        "avg_volume": 19740116,
-        "volume_ratio": 0.04,
+        "price": 337.71,
+        "change_pct": -0.41,
+        "volume": 16991240,
+        "avg_volume": 18577005,
+        "volume_ratio": 0.91,
         "above_trend_ma": false,
-        "trend_ma": 344.88,
+        "trend_ma": 343.42,
         "trend_ma_days": 15,
         "candles": {
-          "open": 343.14,
-          "high": 343.19,
-          "low": 339.98,
-          "close": 342.17,
-          "prev_open": 345.97,
-          "prev_close": 343.34
+          "open": 336.32,
+          "high": 338.81,
+          "low": 335.4,
+          "close": 337.71,
+          "prev_open": 343.18,
+          "prev_close": 339.1
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 2,
+        "positive_signals": 1,
         "negative_signals": 2,
         "total_signals": 6,
         "displayed_call": "hold"
@@ -380,28 +375,28 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "10 articles in the last 2 days.",
+          "detail": "13 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 2 negative.",
+          "detail": "3 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $342.17 is below its 15-day average ($344.88).",
+          "detail": "Price $337.71 is below its 15-day average ($343.42).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.04x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.91x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         },
         {
           "label": "Conflicting signals",
@@ -411,29 +406,29 @@
       ],
       "headlines": [
         {
-          "title": "Is Broadcom in Trouble Now That Alphabet Is Getting Chips From Marvell Too?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/dc198414da9d33dd"
-        },
-        {
-          "title": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here\u2019s How Income Investors Can Adapt.",
+          "title": "SpaceX Intends to Launch Its First Nvidia-Powered AI Satellites in Late 2027. What This Means for SPCX and NVDA.",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4011483/treasuries-have-reclaimed-the-yield-crown-from-dividend-stocks-heres-how-income-investors-can-adapt"
+          "url": "https://www.barchart.com/story/news/4111722/spacex-intends-to-launch-its-first-nvidia-powered-ai-satellites-in-late-2027-what-this-means-for-spcx-and-nvda"
         },
         {
-          "title": "Michael Burry Says He Would Buy Alibaba Stock When It Crashes 50%. You Shouldn\u2019t Wait That Long.",
+          "title": "Nvidia\u2019s Biggest Customers Face a Painful New AI Bill",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4007898/michael-burry-says-he-would-buy-alibaba-stock-when-it-crashes-50-you-shouldnt-wait-that-long"
+          "url": "https://www.barchart.com/story/news/4109677/nvidias-biggest-customers-face-a-painful-new-ai-bill"
         },
         {
-          "title": "JPMorgan sends stark warning on AI stocks, cites dotcom worries",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/jpmorgan-ai-stocks-dotcom-bubble-warning"
+          "title": "Oracle's historic stock rout could be a buying opportunity",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/oracles-historic-stock-rout-could-be-a-buying-opportunity-121656990.html"
         },
         {
-          "title": "SGA Raised Its Bet on Alphabet (GOOG) as AI Demand Accelerates",
+          "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-earnings-could-reveal-its-fastest-growing-business-isnt-chips-chart-of-the-day-100000332.html"
+        },
+        {
+          "title": "Alphabet, Apple, and Meta Platforms Were Top Billionaire Investor Buys in Q2. Should Retail Investors Follow Suit?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/88c7797444dc54f5"
+          "url": "https://biztoc.com/x/3f7a5c83d4858bcc"
         }
       ]
     }
@@ -452,21 +447,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 710.23,
+        "current_price": 721.11,
         "shares": 2.7644,
-        "market_value": 1963.36,
-        "unrealized_pnl": -36.64,
-        "unrealized_pnl_pct": -1.83
+        "market_value": 1993.44,
+        "unrealized_pnl": -6.56,
+        "unrealized_pnl_pct": -0.33
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 260.44,
+        "current_price": 256.26,
         "shares": 3.6816,
-        "market_value": 958.84,
-        "unrealized_pnl": -65.16,
-        "unrealized_pnl_pct": -6.36
+        "market_value": 943.45,
+        "unrealized_pnl": -80.55,
+        "unrealized_pnl_pct": -7.87
       }
     ],
     "closed_trades": [
