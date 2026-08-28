@@ -1,38 +1,131 @@
 {
-  "generated_at": "2026-08-27T22:29:01.069891+00:00",
+  "generated_at": "2026-08-28T22:32:01.211812+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 771.1,
-        "change_pct": 0.66,
-        "volume": 34017770,
-        "avg_volume": 45034152,
-        "volume_ratio": 0.76,
-        "above_trend_ma": true,
-        "trend_ma": 769.84,
+        "price": 769.35,
+        "change_pct": -0.23,
+        "volume": 36342284,
+        "avg_volume": 44848867,
+        "volume_ratio": 0.81,
+        "above_trend_ma": false,
+        "trend_ma": 769.58,
         "trend_ma_days": 15,
         "candles": {
-          "open": 768.5,
-          "high": 772.35,
-          "low": 767.16,
-          "close": 771.1,
-          "prev_open": 764.73,
-          "prev_close": 766.08
+          "open": 771.76,
+          "high": 775.29,
+          "low": 768.31,
+          "close": 769.35,
+          "prev_open": 768.5,
+          "prev_close": 771.1
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
         "hold",
-        "buy"
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "19 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 positive keyword hits vs 2 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $769.35 is below its 15-day average ($769.58).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.81x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "$250,000 in SGOV Earned $9,500 Last Year While the Same Money in SPY Earned $48,000",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/b342e2c2c34d1952"
+        },
+        {
+          "title": "How to spy on your aging parents \u2014 ethically",
+          "source": "Vox",
+          "url": "https://www.vox.com/life/500898/apple-watch-aarp-security-camera"
+        },
+        {
+          "title": "These Cars From The Movies Are Simply Amazing (20 pics)",
+          "source": "Izismile.com",
+          "url": "https://izismile.com/2026/08/28/these_cars_from_the_movies_are_simply_amazing_20_pics.html"
+        },
+        {
+          "title": "EDEN CONFIDENTIAL: Kate Middleton could join King Charles at the helm of the Royal Thames Yacht club to become Commodore when she recovers from her own cancer battle",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-13482369/EDEN-CONFIDENTIAL-Kate-Middleton-join-King-Charles-helm-Royal-Thames-Yacht-club-Commodore-recovers-cancer-battle.html"
+        },
+        {
+          "title": "ALISON BOSHOFF: Nice work if you can get it: Kanye pockets $25million for cancelled gigs",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16085813/ALISON-BOSHOFF-Nice-work-you-Kanye-pockets-25million-cancelled-gigs.html"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 716.43,
+        "change_pct": -0.65,
+        "volume": 33891826,
+        "avg_volume": 37425132,
+        "volume_ratio": 0.91,
+        "above_trend_ma": false,
+        "trend_ma": 718.66,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 719.75,
+          "high": 724.12,
+          "low": 715.09,
+          "close": 716.43,
+          "prev_open": 716.93,
+          "prev_close": 721.11
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -43,17 +136,110 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
+          "detail": "11 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $771.1 is above its 15-day average ($769.84).",
+          "detail": "Price $716.43 is below its 15-day average ($718.66).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.91x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Stock Indices Settle Higher as Nvidia Earnings Spur a Tech Stock Rally",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/2d2931b6134f3d45"
+        },
+        {
+          "title": "New York City Wine & Food Festival Returns to the Seaport October 15\u201318",
+          "source": "Gothamist",
+          "url": "https://gothamist.com/food/new-york-city-wine-food-festival-returns-to-the-seaport-october-1518"
+        },
+        {
+          "title": "Zscaler and SentinelOne Spike 10% as Cybersecurity Re-Rating Reaches the Laggards",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/27/zscaler-and-sentinelone-spike-10-as-cybersecurity-re-rating-reaches-the-laggards/"
+        },
+        {
+          "title": "TermMax Lands YZi Labs Backing to Build Out On-Chain Bond Market Infrastructure",
+          "source": "ZyCrypto",
+          "url": "https://zycrypto.com/termmax-lands-yzi-labs-backing-to-build-out-on-chain-bond-market-infrastructure/"
+        },
+        {
+          "title": "Stocks Supported by Strong Tech Earnings",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/4361455353a0ca36"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 87.52,
+        "change_pct": -0.47,
+        "volume": 4889780,
+        "avg_volume": 4885892,
+        "volume_ratio": 1.0,
+        "above_trend_ma": true,
+        "trend_ma": 87.42,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 88.19,
+          "high": 88.42,
+          "low": 87.33,
+          "close": 87.52,
+          "prev_open": 87.95,
+          "prev_close": 87.93
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $87.52 is above its 15-day average ($87.42).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "detail": "Volume is 1.0x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -62,52 +248,26 @@
           "signal": "neutral"
         }
       ],
-      "headlines": [
-        {
-          "title": "Range Rover\u2019s next EV breaks cover, and it\u2019s not an SUV [Images]",
-          "source": "Electrek",
-          "url": "http://electrek.co/2026/08/26/range-rovers-next-ev-breaks-cover-not-an-suv-images/"
-        },
-        {
-          "title": "Diamondbacks manager Torey Lovullo apologizes to Chicago Cubs after sign stealing controversy: 'bush league'",
-          "source": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/diamondbacks-manager-torey-lovullo-apologizes-chicago-cubs-sign-stealing-controversy-bush-league"
-        },
-        {
-          "title": "Iranian attacks cause billions in damages to US intelligence sites across the Middle East",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/iranian-attacks-billions-damages-us-intelligence/"
-        },
-        {
-          "title": "\u2018Coyote Vs. Acme\u2019 & \u2018Dog Stars\u2019 Barking Up \u2018Spider-Man\u2019s Tree With Summer End Near \u2013 Weekend Preview",
-          "source": "Deadline",
-          "url": "http://deadline.com/2026/08/coyote-vs-acme-dog-stars-jacob-elordi-spider-man-box-office-1237051826/"
-        },
-        {
-          "title": "Bond 26: Callum Turner, Jacob Elordi & Paul Mescal On James Bond Shortlist, But There's A New Frontrunner",
-          "source": "CBM (Comic Book Movie)",
-          "url": "https://comicbookmovie.com/action/james-bond/bond-26-callum-turner-jacob-elordi-paul-mescal-on-james-bond-shortlist-but-theres-a-new-frontrunner-a229562"
-        }
-      ]
+      "headlines": []
     },
     {
-      "ticker": "QQQ",
+      "ticker": "AMZN",
       "price": {
-        "price": 721.11,
-        "change_pct": 1.37,
-        "volume": 28443051,
-        "avg_volume": 37500780,
-        "volume_ratio": 0.76,
+        "price": 266.43,
+        "change_pct": 3.97,
+        "volume": 49322804,
+        "avg_volume": 43670550,
+        "volume_ratio": 1.13,
         "above_trend_ma": true,
-        "trend_ma": 719.1,
+        "trend_ma": 263.79,
         "trend_ma_days": 15,
         "candles": {
-          "open": 716.98,
-          "high": 721.35,
-          "low": 714.53,
-          "close": 721.11,
-          "prev_open": 708.41,
-          "prev_close": 711.37
+          "open": 258.32,
+          "high": 267.56,
+          "low": 257.78,
+          "close": 266.43,
+          "prev_open": 259.23,
+          "prev_close": 256.26
         }
       },
       "call": {
@@ -131,17 +291,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
+          "detail": "4 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $721.11 is above its 15-day average ($719.1).",
+          "detail": "Price $266.43 is above its 15-day average ($263.79).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "detail": "Volume is 1.13x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,55 +312,55 @@
       ],
       "headlines": [
         {
-          "title": "Stocks Finish Little Changed Ahead of Nvidia Earnings",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/256a8b70f8bae48f"
+          "title": "Spanglish 2004 1080p AMZN WEB-DL H264-BLOOM",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/spanglish-2004-1080p-amzn-web-dl-h264-bloom/"
         },
         {
-          "title": "Meta Heads Toward $580 as a $17B Teen Safety Settlement Ends the Trial; Snap Falls 9%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/08/26/meta-heads-toward-580-as-a-17b-teen-safety-settlement-ends-the-trial-snap-falls-9/"
+          "title": "Age Inappropriate 2026 S01E04 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/age-inappropriate-2026-s01e04-720p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Stocks Slip Ahead of Nvidia Earnings as Bond Yields Rise",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6561fa11fecdee77"
+          "title": "The Maharashtra Files 2026 1080p AMZN WEB-DL H264-N0Mi",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-maharashtra-files-2026-1080p-amzn-web-dl-h264-n0mi/"
         },
         {
-          "title": "Stocks Slightly Higher on Mixed US Economic News",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/be27e73a51b1aacf"
+          "title": "Babita Singh Reporting 2026 1080p AMZN WEB-DL H264-icarus",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/babita-singh-reporting-2026-1080p-amzn-web-dl-h264-icarus/"
         },
         {
-          "title": "Rumble Drops 7% on Profit-Taking After a 79% Monthly Run; Trump Media Holds Steady",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b8818e9826fb53a2"
+          "title": "Vampires Kiss 1989 1080p AMZN WEB-DL SDR H264-OnlyWeb",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/vampires-kiss-1989-1080p-amzn-web-dl-sdr-h264-onlyweb/"
         }
       ]
     },
     {
-      "ticker": "VXUS",
+      "ticker": "GOOG",
       "price": {
-        "price": 87.93,
-        "change_pct": 0.13,
-        "volume": 4516345,
-        "avg_volume": 4885735,
-        "volume_ratio": 0.92,
+        "price": 342.88,
+        "change_pct": 1.53,
+        "volume": 17479507,
+        "avg_volume": 18573536,
+        "volume_ratio": 0.94,
         "above_trend_ma": true,
-        "trend_ma": 87.4,
+        "trend_ma": 342.71,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.94,
-          "high": 87.97,
-          "low": 87.58,
-          "close": 87.93,
-          "prev_open": 88.1,
-          "prev_close": 87.82
+          "open": 337.85,
+          "high": 345.43,
+          "low": 337.28,
+          "close": 342.88,
+          "prev_open": 336.3,
+          "prev_close": 337.71
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -208,28 +368,28 @@
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "14 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "6 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $87.93 is above its 15-day average ($87.4).",
+          "detail": "Price $342.88 is above its 15-day average ($342.71).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.92x the recent average -- roughly normal.",
+          "detail": "Volume is 0.94x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -240,195 +400,29 @@
       ],
       "headlines": [
         {
-          "title": "three-fund-rebalance added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/three-fund-rebalance/"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 256.26,
-        "change_pct": -1.54,
-        "volume": 35779842,
-        "avg_volume": 43535661,
-        "volume_ratio": 0.82,
-        "above_trend_ma": false,
-        "trend_ma": 264.33,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 259.23,
-          "high": 259.66,
-          "low": 255.02,
-          "close": 256.26,
-          "prev_open": 261.28,
-          "prev_close": 260.28
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
+          "title": "Alphabet vs. Meta: One AI Giant Looks More Attractive",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/08/27/alphabet-vs-meta-one-ai-giant-looks-more-attractive/"
         },
         {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "title": "Orderly goes live on Robinhood Chain, enabling no-code perp DEX creation",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/orderly-robinhood-chain-no-code-perp-dex/"
         },
         {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $256.26 is below its 15-day average ($264.33).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.82x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "The Yorkshire Auction House S07E04 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-yorkshire-auction-house-s07e04-1080p-amzn-web-dl-h264-rawr/"
-        },
-        {
-          "title": "The Secret Life Of Frogs 2019 DOCU 720p AMZN WEB-DL H264-MPX",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-secret-life-of-frogs-2019-docu-720p-amzn-web-dl-h264-mpx/"
-        },
-        {
-          "title": "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
-          "source": "Nvidia.com",
-          "url": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai"
-        },
-        {
-          "title": "Flo And Joan Alive On Stage 2019 1080p AMZN WEB-DL H264-NTb",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/flo-and-joan-alive-on-stage-2019-1080p-amzn-web-dl-h264-ntb_6/"
-        },
-        {
-          "title": "What socialists stand for",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/singham/2026/08/26/what-socialists-stand-for/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 337.71,
-        "change_pct": -0.41,
-        "volume": 16991240,
-        "avg_volume": 18577005,
-        "volume_ratio": 0.91,
-        "above_trend_ma": false,
-        "trend_ma": 343.42,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 336.32,
-          "high": 338.81,
-          "low": 335.4,
-          "close": 337.71,
-          "prev_open": 343.18,
-          "prev_close": 339.1
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "13 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $337.71 is below its 15-day average ($343.42).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.91x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "SpaceX Intends to Launch Its First Nvidia-Powered AI Satellites in Late 2027. What This Means for SPCX and NVDA.",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4111722/spacex-intends-to-launch-its-first-nvidia-powered-ai-satellites-in-late-2027-what-this-means-for-spcx-and-nvda"
-        },
-        {
-          "title": "Nvidia\u2019s Biggest Customers Face a Painful New AI Bill",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4109677/nvidias-biggest-customers-face-a-painful-new-ai-bill"
-        },
-        {
-          "title": "Oracle's historic stock rout could be a buying opportunity",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/oracles-historic-stock-rout-could-be-a-buying-opportunity-121656990.html"
-        },
-        {
-          "title": "Nvidia earnings could reveal its fastest-growing business isn't chips: Chart of the Day",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/nvidia-earnings-could-reveal-its-fastest-growing-business-isnt-chips-chart-of-the-day-100000332.html"
-        },
-        {
-          "title": "Alphabet, Apple, and Meta Platforms Were Top Billionaire Investor Buys in Q2. Should Retail Investors Follow Suit?",
+          "title": "3 Artificial Intelligence (AI) Stocks Hedge Funds Are Buying Hand Over Fist",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/3f7a5c83d4858bcc"
+          "url": "https://biztoc.com/x/a2e89d6b1d935d18"
+        },
+        {
+          "title": "Top 10 US Companies Capture Record Share of S&P 500 Earnings While Holding Massive Market Weight",
+          "source": "The Daily Hodl",
+          "url": "https://dailyhodl.com/2026/08/27/top-10-u-s-companies-capture-record-share-of-sp-500-earnings-while-holding-massive-market-weight/"
+        },
+        {
+          "title": "Nvidia Could Spend $12.9B to Buy a Company That Just Launched a $399 Robot. Here\u2019s Why.",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/4213817/nvidia-could-spend-12-9b-to-buy-a-company-that-just-launched-a-399-robot-heres-why"
         }
       ]
     }
@@ -447,21 +441,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 721.11,
+        "current_price": 716.43,
         "shares": 2.7644,
-        "market_value": 1993.44,
-        "unrealized_pnl": -6.56,
-        "unrealized_pnl_pct": -0.33
+        "market_value": 1980.5,
+        "unrealized_pnl": -19.5,
+        "unrealized_pnl_pct": -0.98
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 256.26,
+        "current_price": 266.43,
         "shares": 3.6816,
-        "market_value": 943.45,
-        "unrealized_pnl": -80.55,
-        "unrealized_pnl_pct": -7.87
+        "market_value": 980.89,
+        "unrealized_pnl": -43.11,
+        "unrealized_pnl_pct": -4.21
       }
     ],
     "closed_trades": [
