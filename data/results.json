@@ -1,111 +1,116 @@
 {
-  "generated_at": "2026-09-04T16:31:57.131176+00:00",
+  "generated_at": "2026-09-07T17:50:46.701329+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 770.65,
-        "change_pct": -0.33,
-        "volume": 13937482,
-        "avg_volume": 42721712,
-        "volume_ratio": 0.33,
+        "price": 770.19,
+        "change_pct": -0.39,
+        "volume": 34015600,
+        "avg_volume": 43168728,
+        "volume_ratio": 0.79,
         "above_trend_ma": true,
-        "trend_ma": 767.41,
+        "trend_ma": 767.38,
         "trend_ma_days": 15,
         "candles": {
           "open": 772.01,
           "high": 772.87,
           "low": 769.0,
-          "close": 770.65,
+          "close": 770.19,
           "prev_open": 767.9,
           "prev_close": 773.17
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "buy"
       },
       "call_history": [
-        "sell",
         "buy",
-        "buy"
+        "buy",
+        "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "detail": "3 negative keyword hits vs 2 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $770.65 is above its 15-day average ($767.41).",
+          "detail": "Price $770.19 is above its 15-day average ($767.38).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.33x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.79x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Face to face with women who kill: I've covered hundreds of depraved killers... and these are the six most evil female murderers I've come across, reveals STEPHEN WRIGHT",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/crime-desk/article-16061335/most-evil-female-murderers-reveals-STEPHEN-WRIGHT.html"
+          "title": "How Long Do Web Cookies Last? Why Simply Logging Out Is No Longer Safe",
+          "source": "BGR",
+          "url": "https://www.bgr.com/2247729/how-long-web-cookies-last-why-logging-out-no-longer-safe/"
         },
         {
-          "title": "Bloom Energy Spikes 8% as Risk-On Tape Lifts High-Beta Names, FuelCell Ticks Up, Plug Power Stays Flat",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/03/bloom-energy-spikes-8-as-risk-on-tape-lifts-high-beta-names-fuelcell-ticks-up-plug-power-stays-flat/"
+          "title": "Here Are All the New BMWs Likely To Land in 2027",
+          "source": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/09/06/every-new-bmw-debuting-2027/"
         },
         {
-          "title": "He\u2019s Convinced His Neighbors Are Spying on His Family\u2014And Desperately Wants Them to Stop",
-          "source": "Twistedsifter.com",
-          "url": "https://twistedsifter.com/2026/09/man-is-convinced-his-neighbors-are-spying-on-him-and-his-family-so-he-desperately-wants-them-to-stop/"
+          "title": "Lioness Episode 6 Finally Introduces the Villain",
+          "source": "esquire.com",
+          "url": "https://www.esquire.com/entertainment/tv/a73605862/lioness-season-3-episode-6-recap/"
         },
         {
-          "title": "Today's news and jokes",
-          "source": "Superpunch.net",
-          "url": "https://www.superpunch.net/2026/09/todays-news-and-jokes.html"
+          "title": "Gophers face big challenge in Mississippi State quarterback Kamario Taylor. Just ask Nick Saban",
+          "source": "TwinCities.com-Pioneer Press",
+          "url": "https://www.twincities.com/2026/09/06/gophers-big-challenge-mississippi-state-quarterback-kamario-taylor-just-ask-nick-saban/"
         },
         {
-          "title": "Announcing Vitest 5.0",
-          "source": "Vitest.dev",
-          "url": "https://vitest.dev/blog/vitest-5.html"
+          "title": "Show HN: Cucumbero, a(nother) focus timer to help you (well, me) focus (maybe)",
+          "source": "Google News",
+          "url": "https://chromewebstore.google.com/detail/cucumbero/olcepfohjjcdnmejpabcbdbcjbacafea"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 718.78,
-        "change_pct": 0.16,
-        "volume": 16695797,
-        "avg_volume": 35669626,
-        "volume_ratio": 0.47,
+        "price": 718.96,
+        "change_pct": 0.18,
+        "volume": 32784600,
+        "avg_volume": 36028417,
+        "volume_ratio": 0.91,
         "above_trend_ma": true,
-        "trend_ma": 714.92,
+        "trend_ma": 714.94,
         "trend_ma_days": 15,
         "candles": {
-          "open": 719.36,
+          "open": 719.35,
           "high": 721.86,
-          "low": 716.79,
-          "close": 718.78,
+          "low": 716.56,
+          "close": 718.96,
           "prev_open": 710.85,
           "prev_close": 717.67
         }
@@ -118,7 +123,7 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
+        "buy",
         "buy",
         "buy"
       ],
@@ -126,22 +131,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "16 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "6 positive keyword hits vs 2 negative.",
+          "detail": "2 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $718.78 is above its 15-day average ($714.92).",
+          "detail": "Price $718.96 is above its 15-day average ($714.94).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.47x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.91x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,40 +157,40 @@
       ],
       "headlines": [
         {
-          "title": "The Fed\u2019s Waller Says He\u2019d Hold Rates Steady \u2014 But His \u201cIf\u201d Is Doing a Lot of Heavy Lifting",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/03/the-feds-waller-says-hed-hold-rates-steady-but-his-if-is-doing-a-lot-of-heavy-lifting/"
+          "title": "Tokenized stocks generate $16B in DEX trading volume over 90 days",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/tokenized-stocks-16b-dex-volume/"
         },
         {
-          "title": "OsDUF1223 negatively regulates seedling drought tolerance and modulates nitrate-dependent root growth in rice",
-          "source": "Plos.org",
-          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012295"
+          "title": "Tokenized stocks hit $3B market cap, led by ETFs at $644M",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/tokenized-stocks-hit-3b-market-cap-etfs-644m/"
         },
         {
-          "title": "SpaceX And Tesla Investors Face Hidden 'Key Person' Risk As Elon Musk Has No Clear Successor Worth Trillions",
-          "source": "Ibtimes.com.au",
-          "url": "https://www.ibtimes.com.au/musk-dilemma-tesla-spacex-without-elon-1874913"
+          "title": "QQQb leads tokenized stocks with $1.7B in DEX trading volume over 30 days",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/qqqb-tokenized-stocks-dex-trading-volume/"
         },
         {
-          "title": "Stocks Settle Higher as Bond Yields Stabilize",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/70aaeac1219dccda"
+          "title": "Forget Stock-Picking. The Stock Market Is Just 1 Big Trade Now.",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/4463631/forget-stock-picking-the-stock-market-is-just-1-big-trade-now"
         },
         {
-          "title": "Snow Stocks Slide as Snowflake Drops 4% Before Earnings \u2014 Mogaz",
-          "source": "Mogazmasr.com",
-          "url": "https://www.mogazmasr.com/144546"
+          "title": "SpaceX is now in your 401(k), and Musk is the risk",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/retirement/spacex-401k-exposure-nasdaq-100-musk-risk"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 88.43,
-        "change_pct": 0.53,
-        "volume": 4087891,
-        "avg_volume": 4814179,
-        "volume_ratio": 0.85,
+        "price": 88.41,
+        "change_pct": 0.5,
+        "volume": 6573400,
+        "avg_volume": 4869413,
+        "volume_ratio": 1.35,
         "above_trend_ma": true,
         "trend_ma": 87.48,
         "trend_ma_days": 15,
@@ -193,7 +198,7 @@
           "open": 87.84,
           "high": 88.5,
           "low": 87.8,
-          "close": 88.43,
+          "close": 88.41,
           "prev_open": 87.62,
           "prev_close": 87.97
         }
@@ -214,7 +219,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
           "signal": "neutral"
         },
         {
@@ -224,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $88.43 is above its 15-day average ($87.48).",
+          "detail": "Price $88.41 is above its 15-day average ($87.48).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.85x the recent average -- roughly normal.",
+          "detail": "Volume is 1.35x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,43 +243,37 @@
           "signal": "neutral"
         }
       ],
-      "headlines": [
-        {
-          "title": "Comparing Global ETFs: Vanguard's VXUS vs. State Street's Climate-Focused NZAC",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c77ebb47d8ab685d"
-        }
-      ]
+      "headlines": []
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 257.17,
-        "change_pct": -0.67,
-        "volume": 12944451,
-        "avg_volume": 40386558,
-        "volume_ratio": 0.32,
+        "price": 258.51,
+        "change_pct": -0.15,
+        "volume": 30698000,
+        "avg_volume": 40782162,
+        "volume_ratio": 0.75,
         "above_trend_ma": false,
-        "trend_ma": 259.81,
+        "trend_ma": 259.9,
         "trend_ma_days": 15,
         "candles": {
-          "open": 259.21,
+          "open": 259.07,
           "high": 261.12,
           "low": 255.29,
-          "close": 257.17,
+          "close": 258.51,
           "prev_open": 256.2,
           "prev_close": 258.9
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -287,71 +286,76 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "5 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $257.17 is below its 15-day average ($259.81).",
+          "detail": "Price $258.51 is below its 15-day average ($259.9).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.32x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.75x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Danny Will Die Alone S03E04 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/danny-will-die-alone-s03e04-1080p-amzn-web-dl-h264-kitsune/"
+          "title": "2 Superior Growth Stocks to Buy and Hold for 10 Years",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/06a78b28e6b976b5"
         },
         {
-          "title": "Danny Will Die Alone S03E02 1080p AMZN WEB-DL H264-Kitsune",
+          "title": "The Long Shot 2004 1080p AMZN WEB-DL H264-ISA",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/danny-will-die-alone-s03e02-1080p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/the-long-shot-2004-1080p-amzn-web-dl-h264-isa/"
         },
         {
-          "title": "Danny Will Die Alone S03E03 1080p AMZN WEB-DL H264-Kitsune",
+          "title": "The Surrogate Scandal 2023 1080p AMZN WEB-DL H264-ZdS",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/danny-will-die-alone-s03e03-1080p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/the-surrogate-scandal-2023-1080p-amzn-web-dl-h264-zds/"
         },
         {
-          "title": "How Far Can Amazon Stock Fall When The Business Is Fine?",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/614072/how-far-can-amazon-stock-fall-when-the-business-is-fine/2026-09-03"
+          "title": "Newlywed Nightmare 2023 1080p AMZN WEB-DL H264-ZdS",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/newlywed-nightmare-2023-1080p-amzn-web-dl-h264-zds/"
         },
         {
-          "title": "The Dig 2018 1080p AMZN WEB-DL H264-CMRG",
+          "title": "Haunted Harmony Mysteries Prelude To A Wedding 2026 720p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-dig-2018-1080p-amzn-web-dl-h264-cmrg/"
+          "url": "https://post.rlsbb.cc/haunted-harmony-mysteries-prelude-to-a-wedding-2026-720p-amzn-web-dl-h264-kitsune/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 335.16,
-        "change_pct": -1.16,
-        "volume": 5470561,
-        "avg_volume": 17922132,
-        "volume_ratio": 0.31,
+        "price": 335.31,
+        "change_pct": -1.05,
+        "volume": 12676800,
+        "avg_volume": 18082680,
+        "volume_ratio": 0.7,
         "above_trend_ma": false,
-        "trend_ma": 339.16,
+        "trend_ma": 338.97,
         "trend_ma_days": 15,
         "candles": {
-          "open": 339.2,
+          "open": 339.18,
           "high": 340.18,
           "low": 333.75,
-          "close": 335.16,
-          "prev_open": 336.51,
-          "prev_close": 339.08
+          "close": 335.31,
+          "prev_open": 336.29,
+          "prev_close": 338.86
         }
       },
       "call": {
@@ -370,22 +374,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $335.16 is below its 15-day average ($339.16).",
+          "detail": "Price $335.31 is below its 15-day average ($338.97).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.31x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.7x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -401,29 +405,29 @@
       ],
       "headlines": [
         {
-          "title": "Sundar Pichai Promised a Gemini Flagship in June, and Alphabet Is on Its Worst Streak Since 2015",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/03/sundar-pichai-promised-a-gemini-flagship-in-june-and-alphabet-is-on-its-worst-streak-since-2015/"
-        },
-        {
-          "title": "Sundar Pichai's Alphabet Has Grown Google Cloud Revenue 82% Year Over Year. Here's Why That Growth Rate Justifies the Company's Capex Bet",
+          "title": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b22a1eaa5b315971"
+          "url": "https://biztoc.com/x/0bc9f2bc7b636b58"
         },
         {
-          "title": "Broadcom Stock Trades Lower After Earnings. Here\u2019s What Traders Need to Know.",
+          "title": "$1.99 | Sapiens: A Brief History of Humankind \u2013 The #1 New York Times Bestseller Exploring How We Became Ruler of the Planet (eBook) by Yuval Noah Harari",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/19977606-1-99-sapiens-a-brief-history-of-humankind-the-1-new-york-times-bestseller-exploring-how-we-became-ruler-of-the-planet-ebook-by-yuval-noah-harari"
+        },
+        {
+          "title": "Why Nvidia Is Making a $3.5 Billion Bet on Taiwan-Based MediaTek",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4410373/broadcom-stock-trades-lower-after-earnings-heres-what-traders-need-to-know"
+          "url": "https://www.barchart.com/story/news/4462053/why-nvidia-is-making-a-3-5-billion-bet-on-taiwan-based-mediatek"
         },
         {
-          "title": "Berkshire Is Making a Big Bet on Google. This Is Why, According to CEO Greg Abel",
-          "source": "Investopedia",
-          "url": "https://www.investopedia.com/berkshire-is-making-a-big-bet-on-google-this-is-why-according-to-ceo-greg-abel-googl-brk-12077304"
-        },
-        {
-          "title": "Don\u2019t Rush to Buy GOOG Stock as Alphabet Heads Toward Bear Market Territory",
+          "title": "\u2018AI Laggard\u2019 Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4408809/dont-rush-to-buy-goog-stock-as-alphabet-heads-toward-bear-market-territory"
+          "url": "https://www.barchart.com/story/news/4461863/ai-laggard-apple-is-sitting-pretty-but-aapl-stock-might-be-running-out-of-room-to-outperform"
+        },
+        {
+          "title": "Amazon, Alphabet, and Microsoft: Two I'm Buying and One I'm Selling",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c4c15dad516f1d8b"
         }
       ]
     }
@@ -442,21 +446,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 718.78,
+        "current_price": 718.96,
         "shares": 2.7644,
-        "market_value": 1987.0,
-        "unrealized_pnl": -13.0,
-        "unrealized_pnl_pct": -0.65
+        "market_value": 1987.49,
+        "unrealized_pnl": -12.51,
+        "unrealized_pnl_pct": -0.63
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 257.17,
+        "current_price": 258.51,
         "shares": 3.6816,
-        "market_value": 946.8,
-        "unrealized_pnl": -77.2,
-        "unrealized_pnl_pct": -7.54
+        "market_value": 951.73,
+        "unrealized_pnl": -72.27,
+        "unrealized_pnl_pct": -7.06
       }
     ],
     "closed_trades": [
