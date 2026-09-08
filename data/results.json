@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-07T17:50:46.701329+00:00",
+  "generated_at": "2026-09-08T16:47:23.167030+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 770.19,
-        "change_pct": -0.39,
-        "volume": 34015600,
-        "avg_volume": 43168728,
-        "volume_ratio": 0.79,
+        "price": 767.24,
+        "change_pct": -0.38,
+        "volume": 15988326,
+        "avg_volume": 42367871,
+        "volume_ratio": 0.38,
         "above_trend_ma": true,
-        "trend_ma": 767.38,
+        "trend_ma": 767.02,
         "trend_ma_days": 15,
         "candles": {
-          "open": 772.01,
-          "high": 772.87,
-          "low": 769.0,
-          "close": 770.19,
-          "prev_open": 767.9,
-          "prev_close": 773.17
+          "open": 769.07,
+          "high": 769.7,
+          "low": 765.99,
+          "close": 767.24,
+          "prev_open": 772.01,
+          "prev_close": 770.19
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
-        "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,76 +43,71 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "3 positive keyword hits vs 2 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $770.19 is above its 15-day average ($767.38).",
+          "detail": "Price $767.24 is above its 15-day average ($767.02).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.79x the recent average -- roughly normal.",
+          "detail": "Volume is 0.38x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "How Long Do Web Cookies Last? Why Simply Logging Out Is No Longer Safe",
-          "source": "BGR",
-          "url": "https://www.bgr.com/2247729/how-long-web-cookies-last-why-logging-out-no-longer-safe/"
+          "title": "Jon Bernthal\u2019s Hit R-Rated Thriller Finds New Life After Sequel\u2019s Mammoth Prime Video Success",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/jon-bernthal-the-accountant-apple-tv-streaming-success-september-2026/"
         },
         {
-          "title": "Here Are All the New BMWs Likely To Land in 2027",
-          "source": "BMWBLOG",
-          "url": "https://www.bmwblog.com/2026/09/06/every-new-bmw-debuting-2027/"
+          "title": "IBB Just Beat the S&P 500 by 22 Points in Three Months. Are You Late to the Party?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/07/ibb-just-beat-the-sp-500-by-22-points-in-three-months-are-you-late-to-the-party/"
         },
         {
-          "title": "Lioness Episode 6 Finally Introduces the Villain",
-          "source": "esquire.com",
-          "url": "https://www.esquire.com/entertainment/tv/a73605862/lioness-season-3-episode-6-recap/"
+          "title": "Bombshell Germany Election Could Mean Left-Right Populist Coalition: Berlin Vows to Use State 'Instruments' to 'Defend' Against Result",
+          "source": "Breitbart News",
+          "url": "https://www.breitbart.com/europe/2026/09/07/bombshell-germany-election-could-result-in-left-right-populist-coalition/"
         },
         {
-          "title": "Gophers face big challenge in Mississippi State quarterback Kamario Taylor. Just ask Nick Saban",
-          "source": "TwinCities.com-Pioneer Press",
-          "url": "https://www.twincities.com/2026/09/06/gophers-big-challenge-mississippi-state-quarterback-kamario-taylor-just-ask-nick-saban/"
+          "title": "Microsoft Is Close to a New All-Time High. This Number Will Determine If It Keeps Climbing",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/microsoft-is-close-to-a-new-all-time-high-this-number-will-determine-if-it-keeps-climbing/"
         },
         {
-          "title": "Show HN: Cucumbero, a(nother) focus timer to help you (well, me) focus (maybe)",
-          "source": "Google News",
-          "url": "https://chromewebstore.google.com/detail/cucumbero/olcepfohjjcdnmejpabcbdbcjbacafea"
+          "title": "Alienware's 2026 16X Aurora does much more than slap a fancy new OLED face on its 16-inch chassis, there's a route here for those stung by RAM prices",
+          "source": "GamesRadar+",
+          "url": "https://www.gamesradar.com/hardware/laptops/alienware-16x-aurora-2026-review/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 718.96,
-        "change_pct": 0.18,
-        "volume": 32784600,
-        "avg_volume": 36028417,
-        "volume_ratio": 0.91,
+        "price": 719.57,
+        "change_pct": 0.08,
+        "volume": 14801653,
+        "avg_volume": 35531294,
+        "volume_ratio": 0.42,
         "above_trend_ma": true,
-        "trend_ma": 714.94,
+        "trend_ma": 714.25,
         "trend_ma_days": 15,
         "candles": {
-          "open": 719.35,
-          "high": 721.86,
-          "low": 716.56,
-          "close": 718.96,
-          "prev_open": 710.85,
-          "prev_close": 717.67
+          "open": 720.97,
+          "high": 721.89,
+          "low": 715.57,
+          "close": 719.57,
+          "prev_open": 719.35,
+          "prev_close": 718.96
         }
       },
       "call": {
@@ -131,22 +126,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "4 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $718.96 is above its 15-day average ($714.94).",
+          "detail": "Price $719.57 is above its 15-day average ($714.25).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.91x the recent average -- roughly normal.",
+          "detail": "Volume is 0.42x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -156,6 +151,11 @@
         }
       ],
       "headlines": [
+        {
+          "title": "The S&P 100 ETF Just Dumped Nike and Colgate for 4 AI Stocks. Here\u2019s What That Means for Your Portfolio",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/07/the-sp-100-etf-just-dumped-nike-and-colgate-for-4-ai-stocks-heres-what-that-means-for-your-portfolio/"
+        },
         {
           "title": "Tokenized stocks generate $16B in DEX trading volume over 90 days",
           "source": "Crypto Briefing",
@@ -167,40 +167,30 @@
           "url": "https://cryptobriefing.com/tokenized-stocks-hit-3b-market-cap-etfs-644m/"
         },
         {
-          "title": "QQQb leads tokenized stocks with $1.7B in DEX trading volume over 30 days",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/qqqb-tokenized-stocks-dex-trading-volume/"
-        },
-        {
-          "title": "Forget Stock-Picking. The Stock Market Is Just 1 Big Trade Now.",
+          "title": "The VIX Is Playing Tricks: Why Stocks Are Volatile, But the Fear Gauge Is Sleeping",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4463631/forget-stock-picking-the-stock-market-is-just-1-big-trade-now"
-        },
-        {
-          "title": "SpaceX is now in your 401(k), and Musk is the risk",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/retirement/spacex-401k-exposure-nasdaq-100-musk-risk"
+          "url": "https://www.barchart.com/story/news/4467623/the-vix-is-playing-tricks-why-stocks-are-volatile-but-the-fear-gauge-is-sleeping"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 88.41,
-        "change_pct": 0.5,
-        "volume": 6573400,
-        "avg_volume": 4869413,
-        "volume_ratio": 1.35,
+        "price": 88.24,
+        "change_pct": -0.19,
+        "volume": 3273653,
+        "avg_volume": 4797458,
+        "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 87.48,
+        "trend_ma": 87.5,
         "trend_ma_days": 15,
         "candles": {
-          "open": 87.84,
-          "high": 88.5,
-          "low": 87.8,
-          "close": 88.41,
-          "prev_open": 87.62,
-          "prev_close": 87.97
+          "open": 88.43,
+          "high": 88.53,
+          "low": 88.17,
+          "close": 88.24,
+          "prev_open": 87.84,
+          "prev_close": 88.41
         }
       },
       "call": {
@@ -229,12 +219,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $88.41 is above its 15-day average ($87.48).",
+          "detail": "Price $88.24 is above its 15-day average ($87.5).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.35x the recent average -- roughly normal.",
+          "detail": "Volume is 0.68x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -248,36 +238,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 258.51,
-        "change_pct": -0.15,
-        "volume": 30698000,
-        "avg_volume": 40782162,
-        "volume_ratio": 0.75,
+        "price": 257.31,
+        "change_pct": -0.46,
+        "volume": 12909967,
+        "avg_volume": 40170083,
+        "volume_ratio": 0.32,
         "above_trend_ma": false,
-        "trend_ma": 259.9,
+        "trend_ma": 259.63,
         "trend_ma_days": 15,
         "candles": {
-          "open": 259.07,
-          "high": 261.12,
-          "low": 255.29,
-          "close": 258.51,
-          "prev_open": 256.2,
-          "prev_close": 258.9
+          "open": 256.76,
+          "high": 257.69,
+          "low": 254.75,
+          "close": 257.31,
+          "prev_open": 259.07,
+          "prev_close": 258.51
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "sell",
+        "positive_signals": 0,
         "negative_signals": 2,
-        "total_signals": 6,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "sell"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -286,83 +276,78 @@
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "detail": "5 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $258.51 is below its 15-day average ($259.9).",
+          "detail": "Price $257.31 is below its 15-day average ($259.63).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.75x the recent average -- roughly normal.",
+          "detail": "Volume is 0.32x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "2 Superior Growth Stocks to Buy and Hold for 10 Years",
+          "title": "The Real Satellite Race Isn\u2019t About Rockets \u2014 It\u2019s About Who Controls the Spectrum in Your Phone",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/the-real-satellite-race-isnt-about-rockets-its-about-who-controls-the-spectrum-in-your-phone/"
+        },
+        {
+          "title": "Microsoft Stock Is Building a Trillion-Dollar AI Opportunity. Is $600 Next?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/microsoft-stock-is-building-a-trillion-dollar-ai-opportunity-is-600-next/"
+        },
+        {
+          "title": "Amazon Cargo Jet Crash Puts Its Air Network in the Spotlight",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/06a78b28e6b976b5"
+          "url": "https://biztoc.com/x/3c3567c28a79efbb"
         },
         {
-          "title": "The Long Shot 2004 1080p AMZN WEB-DL H264-ISA",
+          "title": "The Bodies On The Bridge S01E01 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-long-shot-2004-1080p-amzn-web-dl-h264-isa/"
+          "url": "https://post.rlsbb.cc/the-bodies-on-the-bridge-s01e01-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "The Surrogate Scandal 2023 1080p AMZN WEB-DL H264-ZdS",
+          "title": "Dragon Ball Super Super Hero 2022 REPACK 1080p AMZN WEB-DL DUAL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-surrogate-scandal-2023-1080p-amzn-web-dl-h264-zds/"
-        },
-        {
-          "title": "Newlywed Nightmare 2023 1080p AMZN WEB-DL H264-ZdS",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/newlywed-nightmare-2023-1080p-amzn-web-dl-h264-zds/"
-        },
-        {
-          "title": "Haunted Harmony Mysteries Prelude To A Wedding 2026 720p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/haunted-harmony-mysteries-prelude-to-a-wedding-2026-720p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/dragon-ball-super-super-hero-2022-repack-1080p-amzn-web-dl-dual-h264-kitsune/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 335.31,
-        "change_pct": -1.05,
-        "volume": 12676800,
-        "avg_volume": 18082680,
-        "volume_ratio": 0.7,
+        "price": 335.43,
+        "change_pct": 0.04,
+        "volume": 6473906,
+        "avg_volume": 17752225,
+        "volume_ratio": 0.36,
         "above_trend_ma": false,
-        "trend_ma": 338.97,
+        "trend_ma": 338.58,
         "trend_ma_days": 15,
         "candles": {
-          "open": 339.18,
-          "high": 340.18,
-          "low": 333.75,
-          "close": 335.31,
-          "prev_open": 336.29,
-          "prev_close": 338.86
+          "open": 331.94,
+          "high": 335.79,
+          "low": 330.39,
+          "close": 335.43,
+          "prev_open": 339.18,
+          "prev_close": 335.31
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 3,
-        "total_signals": 6,
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -379,31 +364,41 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $335.31 is below its 15-day average ($338.97).",
+          "detail": "Price $335.43 is below its 15-day average ($338.58).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
+          "detail": "Volume is 0.36x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bearish engulfing",
-          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
-          "signal": "neg"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
+        {
+          "title": "Alphabet May Be the Mag 7 Stock Investors Are Underestimating",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/bc74c8f9654d997b"
+        },
+        {
+          "title": "Alphabet May Be the Mag 7 Stock Investors Are Underestimating",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/07/alphabet-may-be-the-mag-7-stock-investors-are-underestimating/"
+        },
+        {
+          "title": "$1.99 | American Prometheus (Pulitzer Prize Winner): The Inspiration for the Major Motion Picture OPPENHEIMER (eBook) by Kai Bird, Martin J. Sherwin",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/19980918-1-99-american-prometheus-pulitzer-prize-winner-the-inspiration-for-the-major-motion-picture-oppenheimer-ebook-by-kai-bird-martin-j-sherwin"
+        },
         {
           "title": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
           "source": "Biztoc.com",
@@ -413,21 +408,6 @@
           "title": "$1.99 | Sapiens: A Brief History of Humankind \u2013 The #1 New York Times Bestseller Exploring How We Became Ruler of the Planet (eBook) by Yuval Noah Harari",
           "source": "Slickdeals.net",
           "url": "https://slickdeals.net/f/19977606-1-99-sapiens-a-brief-history-of-humankind-the-1-new-york-times-bestseller-exploring-how-we-became-ruler-of-the-planet-ebook-by-yuval-noah-harari"
-        },
-        {
-          "title": "Why Nvidia Is Making a $3.5 Billion Bet on Taiwan-Based MediaTek",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4462053/why-nvidia-is-making-a-3-5-billion-bet-on-taiwan-based-mediatek"
-        },
-        {
-          "title": "\u2018AI Laggard\u2019 Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4461863/ai-laggard-apple-is-sitting-pretty-but-aapl-stock-might-be-running-out-of-room-to-outperform"
-        },
-        {
-          "title": "Amazon, Alphabet, and Microsoft: Two I'm Buying and One I'm Selling",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c4c15dad516f1d8b"
         }
       ]
     }
@@ -446,21 +426,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 718.96,
+        "current_price": 719.57,
         "shares": 2.7644,
-        "market_value": 1987.49,
-        "unrealized_pnl": -12.51,
-        "unrealized_pnl_pct": -0.63
+        "market_value": 1989.18,
+        "unrealized_pnl": -10.82,
+        "unrealized_pnl_pct": -0.54
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 258.51,
+        "current_price": 257.31,
         "shares": 3.6816,
-        "market_value": 951.73,
-        "unrealized_pnl": -72.27,
-        "unrealized_pnl_pct": -7.06
+        "market_value": 947.31,
+        "unrealized_pnl": -76.69,
+        "unrealized_pnl_pct": -7.49
       }
     ],
     "closed_trades": [
