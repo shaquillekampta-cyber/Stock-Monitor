@@ -1,211 +1,25 @@
 {
-  "generated_at": "2026-09-10T16:35:59.019245+00:00",
+  "generated_at": "2026-09-11T16:41:01.837633+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 757.53,
-        "change_pct": -0.64,
-        "volume": 22638957,
-        "avg_volume": 42345110,
-        "volume_ratio": 0.53,
+        "price": 765.12,
+        "change_pct": 0.96,
+        "volume": 19841021,
+        "avg_volume": 42293532,
+        "volume_ratio": 0.47,
         "above_trend_ma": false,
-        "trend_ma": 765.83,
+        "trend_ma": 766.02,
         "trend_ma_days": 15,
         "candles": {
-          "open": 758.03,
-          "high": 760.09,
-          "low": 756.64,
-          "close": 757.53,
-          "prev_open": 764.08,
-          "prev_close": 762.4
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "4 positive keyword hits vs 3 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $757.53 is below its 15-day average ($765.83).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-          "source": "Internet",
-          "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html"
-        },
-        {
-          "title": "Nintendo Makes Several Major Announcements During Fall 2026 Direct",
-          "source": "Bleeding Cool News",
-          "url": "https://bleedingcool.com/games/nintendo-makes-several-major-announcements-during-fall-2026-direct/"
-        },
-        {
-          "title": "\u2018Intrusive and grotesque\u2019: Some smart TVs are spying on viewers, reveals shocking investigation",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/09/09/tech/how-to-disable-lg-tvs-acr-system-to-stop-data-harvesting-and-recording/"
-        },
-        {
-          "title": "Cops Play Hide and Seek About Using Spy Tech to Avoid Scrutiny and Bad PR",
-          "source": "EFF",
-          "url": "https://www.eff.org/deeplinks/2026/09/cops-play-hide-and-seek-about-using-spy-tech-avoid-scrutiny-and-bad-pr"
-        },
-        {
-          "title": "Apple\u2019s Spy Thriller Masterpiece Returns With Perfect Rotten Tomatoes Score, And More Seasons Are Coming",
-          "source": "ComicBook.com",
-          "url": "http://comicbook.com/tv-shows/news/apples-spy-thriller-masterpiece-returns-with-perfect-rotten-tomatoes-score-and-more-seasons-are-coming/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 708.93,
-        "change_pct": -1.03,
-        "volume": 17810634,
-        "avg_volume": 35277616,
-        "volume_ratio": 0.5,
-        "above_trend_ma": false,
-        "trend_ma": 713.61,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 707.57,
-          "high": 712.06,
-          "low": 706.85,
-          "close": 708.93,
-          "prev_open": 716.4,
-          "prev_close": 716.31
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "buy",
-        "hold"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "17 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "7 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $708.93 is below its 15-day average ($713.61).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "ATLANTA FOOD & WINE FESTIVAL PRESENTED BY INVESCO QQQ MARKS 16TH YEAR WITH STAR-STUDDED CHEF LINEUP AND EXPANDED EXPERIENCES",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/atlanta-food--wine-festival-presented-by-invesco-qqq-marks-16th-year-with-star-studded-chef-lineup-and-expanded-experiences-302874067.html"
-        },
-        {
-          "title": "Michael Burry sells Nvidia put options amid portfolio de-risking",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/michael-burry-sells-nvidia-position/"
-        },
-        {
-          "title": "Cloudflare Surges 9% on OpenAI Security Partnership, Zscaler Rises 3%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/cloudflare-surges-9-on-openai-security-partnership-zscaler-rises-3/"
-        },
-        {
-          "title": "Jaspreet Singh: 7 Money Habits That Could Be Holding You Back Financially",
-          "source": "Moneylion.com",
-          "url": "https://moneylion.com/trending/money/money-habits-keeping-you-broke-jaspreet-singh"
-        },
-        {
-          "title": "AMD Rises 3% as CFO Lifts AI Chip Market Forecast Toward $3 Trillion; Intel Ticks Up",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/amd-rises-3-as-cfo-lifts-ai-chip-market-forecast-toward-3-trillion-intel-ticks-up/"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 86.33,
-        "change_pct": -1.23,
-        "volume": 2882644,
-        "avg_volume": 4792923,
-        "volume_ratio": 0.6,
-        "above_trend_ma": false,
-        "trend_ma": 87.52,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 86.65,
-          "high": 86.82,
-          "low": 86.31,
-          "close": 86.33,
-          "prev_open": 87.88,
-          "prev_close": 87.41
+          "open": 764.72,
+          "high": 766.37,
+          "low": 763.6,
+          "close": 765.12,
+          "prev_open": 758.03,
+          "prev_close": 757.83
         }
       },
       "call": {
@@ -224,7 +38,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -234,12 +48,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.33 is below its 15-day average ($87.52).",
+          "detail": "Price $765.12 is below its 15-day average ($766.02).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.47x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -248,39 +62,65 @@
           "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Princess Diana\u2019s iconic \u2018revenge dress\u2019 is going up for auction \u2014\u00a0and will fetch six figures",
+          "source": "Page Six",
+          "url": "https://pagesix.com/2026/09/10/style/princess-diana-revenge-dress-auction/"
+        },
+        {
+          "title": "Saoirse Ronan debuts quirky short fringe as she attends Paper Plane screening in Venice as she eyes up Bond villain role",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16121215/Saoirse-Ronan-debuts-quirky-short-fringe-attends-Paper-Plane-screening-Venice-eyes-Bond-villain-role.html"
+        },
+        {
+          "title": "Kentucky key to victory: Keeping Keelon Russell in the pocket",
+          "source": "USA Today",
+          "url": "https://ukwildcatswire.usatoday.com/story/sports/college/kentucky/football/2026/09/10/kentucky-football-must-stop-keelon-russell-running/91673479007/"
+        },
+        {
+          "title": "US Spy Aircraft Flies for 9 Hours Along Russia's South Over Black Sea - Flight Data",
+          "source": "Sputnikglobe.com",
+          "url": "https://sputnikglobe.com/20260910/us-spy-aircraft-flies-for-9-hours-along-russias-south-over-black-sea---flight-data-1124713156.html"
+        },
+        {
+          "title": "'Absolute brilliance' Anthony Cummins picks the best literary fiction out now:\u00a0DODGE CITY by Patrick deWitt,\u00a0FAREWELL TO EDEN by Sebastian Faulks,\u00a0COLD SUNSET by William Boyd",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/home/books/article-16121223/Absolute-brilliance-Anthony-Cummins-picks-best-literary-fiction-DODGE-CITY-Patrick-deWitt-FAREWELL-EDEN-Sebastian-Faulks-COLD-SUNSET-William-Boyd.html"
+        }
+      ]
     },
     {
-      "ticker": "AMZN",
+      "ticker": "QQQ",
       "price": {
-        "price": 252.23,
-        "change_pct": -0.07,
-        "volume": 11340483,
-        "avg_volume": 40014345,
-        "volume_ratio": 0.28,
-        "above_trend_ma": false,
-        "trend_ma": 258.23,
+        "price": 715.51,
+        "change_pct": 0.96,
+        "volume": 15269675,
+        "avg_volume": 35332103,
+        "volume_ratio": 0.43,
+        "above_trend_ma": true,
+        "trend_ma": 713.9,
         "trend_ma_days": 15,
         "candles": {
-          "open": 250.19,
-          "high": 253.06,
-          "low": 249.58,
-          "close": 252.23,
-          "prev_open": 253.12,
-          "prev_close": 252.4
+          "open": 715.44,
+          "high": 717.62,
+          "low": 713.65,
+          "close": 715.51,
+          "prev_open": 707.55,
+          "prev_close": 708.69
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
       },
       "call_history": [
-        "sell",
+        "buy",
         "hold",
-        "hold"
+        "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -291,12 +131,168 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
+          "detail": "7 positive keyword hits vs 3 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $252.23 is below its 15-day average ($258.23).",
+          "detail": "Price $715.51 is above its 15-day average ($713.9).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "FTG Bets That Investors Overreact. Here Is How to Tell If the Thesis Is Working",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/10/ftg-bets-that-investors-overreact-here-is-how-to-tell-if-the-thesis-is-working/"
+        },
+        {
+          "title": "Is Michael Burry Waving a White Flag? \u2018Big Short\u2019 Investor Reduces Bearish Bets on NVDA, CRWV",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/is-michael-burry-waving-a-white-flag-big-short-investor-reduces-bearish-bets-on-nvda-crwv/"
+        },
+        {
+          "title": "Crypto Mining Stocks Fall Harder Than Bitcoin on a Risk-Off Tape: Cipher Mining Sinks 6%, MARA and Riot Drop 4%",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/crypto-mining-stocks-fall-harder-than-bitcoin-on-a-risk-off-tape-cipher-mining-sinks-6-mara-and-riot-drop-4/"
+        },
+        {
+          "title": "Intel Sinks 6% as Profit Taking Hits a Parabolic Run; NVIDIA and AMD Retreat 3%",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/intel-sinks-6-as-profit-taking-hits-a-parabolic-run-nvidia-and-amd-retreat-3/"
+        },
+        {
+          "title": "OKX launches pre-IPO markets for OpenAI, Anthropic, and 100 tokenized stocks",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/okx-pre-ipo-markets-openai-anthropic-tokenized-stocks/"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 87.2,
+        "change_pct": 1.07,
+        "volume": 2754920,
+        "avg_volume": 4817743,
+        "volume_ratio": 0.57,
+        "above_trend_ma": false,
+        "trend_ma": 87.52,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 87.4,
+          "high": 87.41,
+          "low": 87.0,
+          "close": 87.2,
+          "prev_open": 86.66,
+          "prev_close": 86.28
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "1 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $87.2 is below its 15-day average ($87.52).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Daily ETF Flows: JPST Edges Into Top 10",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-jpst-edges-top-10?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 255.71,
+        "change_pct": 1.52,
+        "volume": 11246038,
+        "avg_volume": 39872039,
+        "volume_ratio": 0.28,
+        "above_trend_ma": false,
+        "trend_ma": 257.92,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 254.04,
+          "high": 256.91,
+          "low": 253.14,
+          "close": 255.71,
+          "prev_open": 250.11,
+          "prev_close": 251.89
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $255.71 is below its 15-day average ($257.92).",
           "signal": "neg"
         },
         {
@@ -308,131 +304,121 @@
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "AT&T Becomes Amazon\u2019s First Major Satellite Broadband Telecom Customer",
+          "title": "AI Agents Are About to Start Spending Your Money. 5 Stocks Sitting in the Line of Fire.",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/att-becomes-amazons-first-major-satellite-broadband-telecom-customer/"
+          "url": "https://247wallst.com/investing/2026/09/10/ai-agents-are-about-to-start-spending-your-money-5-stocks-sitting-in-the-line-of-fire/"
         },
         {
-          "title": "Amazon and Oracle Are Extremely Anxious About The Upcoming Fed Meeting",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b530f0c15576a52f"
-        },
-        {
-          "title": "Amazon and Oracle Are Extremely Anxious About The Upcoming Fed Meeting",
+          "title": "Analysts Are Miscalculating America\u2019s Data Center Lead",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/09/amazon-and-oracle-are-extremely-anxious-about-the-upcoming-fed-meeting/"
+          "url": "https://247wallst.com/investing/2026/09/10/analysts-are-miscalculating-americas-data-center-lead/"
         },
         {
-          "title": "Analyzing Amazon\u2019s (AMZN) Reinvestment Flywheel in the AI Era",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b1f52699044e6b92"
+          "title": "Cramer Thinks the US Debt Market Is Saturated. Amazon Just Went to London to Borrow",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/cramer-thinks-the-us-debt-market-is-saturated-amazon-just-went-to-london-to-borrow/"
         },
         {
-          "title": "Analyzing Amazon\u2019s (AMZN) Reinvestment Flywheel in the AI Era",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analyzing-amazon-amzn-reinvestment-flywheel-142925704.html"
+          "title": "Anthropic Employees Say \u2018AI Could Kill All Humans!\u2019 Put Odds Above 10% This Decade",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/anthropic-employees-say-ai-could-kill-all-humans-put-odds-above-10-this-decade/"
+        },
+        {
+          "title": "Prediction: One of the World\u2019s Biggest Stocks Could Still Have Room to Run",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/prediction-one-of-the-worlds-biggest-stocks-could-still-have-room-to-run/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 328.14,
-        "change_pct": -0.07,
-        "volume": 6187680,
-        "avg_volume": 17780656,
-        "volume_ratio": 0.35,
-        "above_trend_ma": false,
-        "trend_ma": 336.84,
+        "price": 337.33,
+        "change_pct": 2.1,
+        "volume": 6523790,
+        "avg_volume": 17897613,
+        "volume_ratio": 0.36,
+        "above_trend_ma": true,
+        "trend_ma": 336.95,
         "trend_ma_days": 15,
         "candles": {
-          "open": 326.03,
-          "high": 329.32,
-          "low": 325.65,
-          "close": 328.14,
-          "prev_open": 329.12,
-          "prev_close": 328.38
+          "open": 332.86,
+          "high": 339.95,
+          "low": 332.74,
+          "close": 337.33,
+          "prev_open": 326.08,
+          "prev_close": 330.39
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "9 articles in the last 2 days.",
+          "detail": "12 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "7 positive keyword hits vs 0 negative.",
+          "detail": "6 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $328.14 is below its 15-day average ($336.84).",
-          "signal": "neg"
+          "detail": "Price $337.33 is above its 15-day average ($336.95).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.35x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.36x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Alphabet (GOOG) Surges Over 20% Revenue Growth, Cloud Strength",
+          "title": "SpaceX stock rises with data center overhaul, budding UK defense deal in focus",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-over-20-142626204.html"
+          "url": "https://finance.yahoo.com/markets/stocks/article/spacex-stock-rises-with-data-center-overhaul-budding-uk-defense-deal-in-focus-160039841.html"
         },
         {
-          "title": "Alphabet (GOOG) Exit: Monetizing Derivative Gains and Securing Returns",
+          "title": "Cathie Wood Buys Meta, Sells Alphabet. Is She Buying High and Selling Low?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/cathie-wood-buys-meta-sells-alphabet-is-she-buying-high-and-selling-low/"
+        },
+        {
+          "title": "Prediction: One of the World\u2019s Biggest Stocks Could Still Have Room to Run",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/10/prediction-one-of-the-worlds-biggest-stocks-could-still-have-room-to-run/"
+        },
+        {
+          "title": "The AI investment boom won't last forever, Goldman Sachs chief economist Jan Hatzius warns",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-exit-monetizing-derivative-141704201.html"
+          "url": "https://finance.yahoo.com/markets/article/the-ai-investment-boom-wont-last-forever-goldman-sachs-chief-economist-jan-hatzius-warns-122546159.html"
         },
         {
-          "title": "Billionaire Stanley Druckenmiller\u2019s Largest Holding Is a Healthcare Firm That Has Surged Nearly 10x in Three Years",
-          "source": "The Daily Hodl",
-          "url": "https://dailyhodl.com/2026/09/09/billionaire-stanley-druckenmillers-largest-holding-is-a-healthcare-firm-that-has-surged-nearly-10x-in-three-years/"
-        },
-        {
-          "title": "Alphabet Conference: Google Cloud Sees Surging AI Demand, Bigger Enterprise Deals",
-          "source": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/event-alphabet-conference-google-cloud-sees-surging-ai-demand-bigger-enterprise-deals-2026-09-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance"
-        },
-        {
-          "title": "Is Alphabet Stock Undervalued?",
+          "title": "Do Amazon and Alphabet's Combined $420 Billion in Capital Expenditures Make Sense?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1f88281b10997d00"
+          "url": "https://biztoc.com/x/5ad06fde51f36b94"
         }
       ]
     }
@@ -451,21 +437,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 708.93,
+        "current_price": 715.51,
         "shares": 2.7644,
-        "market_value": 1959.77,
-        "unrealized_pnl": -40.23,
-        "unrealized_pnl_pct": -2.01
+        "market_value": 1977.96,
+        "unrealized_pnl": -22.04,
+        "unrealized_pnl_pct": -1.1
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 252.23,
+        "current_price": 255.71,
         "shares": 3.6816,
-        "market_value": 928.61,
-        "unrealized_pnl": -95.39,
-        "unrealized_pnl_pct": -9.32
+        "market_value": 941.42,
+        "unrealized_pnl": -82.58,
+        "unrealized_pnl_pct": -8.06
       }
     ],
     "closed_trades": [
