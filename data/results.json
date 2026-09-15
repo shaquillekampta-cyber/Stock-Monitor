@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-14T18:08:18.165302+00:00",
+  "generated_at": "2026-09-15T17:11:44.269982+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 762.47,
-        "change_pct": -0.24,
-        "volume": 22902340,
-        "avg_volume": 42397753,
-        "volume_ratio": 0.54,
+        "price": 757.45,
+        "change_pct": -0.45,
+        "volume": 17774511,
+        "avg_volume": 42482047,
+        "volume_ratio": 0.42,
         "above_trend_ma": false,
-        "trend_ma": 765.75,
+        "trend_ma": 765.24,
         "trend_ma_days": 15,
         "candles": {
-          "open": 759.0,
-          "high": 763.52,
-          "low": 757.93,
-          "close": 762.47,
-          "prev_open": 764.72,
-          "prev_close": 764.29
+          "open": 760.12,
+          "high": 760.34,
+          "low": 756.15,
+          "close": 757.45,
+          "prev_open": 759.0,
+          "prev_close": 760.88
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
-        "sell"
+        "sell",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,71 +43,76 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
-          "signal": "neg"
+          "detail": "5 positive keyword hits vs 4 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $762.47 is below its 15-day average ($765.75).",
+          "detail": "Price $757.45 is below its 15-day average ($765.24).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.42x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.",
+          "title": "AeroVironment Rises 6% as Post-Earnings Recovery Outpaces Drone Group; Ondas Ticks Up, Red Cat Barely Budges",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/13/goldman-sachs-says-ai-is-driving-half-of-sp-500-earnings-growth-that-number-cuts-both-ways/"
+          "url": "https://247wallst.com/investing/2026/09/14/aerovironment-rises-6-as-post-earnings-recovery-outpaces-drone-group-ondas-ticks-up-red-cat-barely-budges/"
         },
         {
-          "title": "\u2018Lioness\u2019 Star Laysla De Oliveira Says Cruz\u2019s And Joe\u2019s Embrace In The Helicopter Is Their \u201cFirst Moment Of True Tenderness\u201d: \u201cIt Was Beautiful To See\u201d",
-          "source": "Decider",
-          "url": "https://decider.com/2026/09/13/lioness-laysla-de-oliveira-interview-cruz-and-joe/"
+          "title": "How gold IRAs fit into a diversified retirement portfolio",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/personal-finance/investing/article/how-gold-iras-fit-into-a-diversified-retirement-portfolio-162815731.html"
         },
         {
-          "title": "James Bond's First Live-Action Adventure Was In An Episode Of A Near-Forgotten TV Show",
-          "source": "TVLine",
-          "url": "https://www.tvline.com/2253823/james-bond-first-live-action-adaptation-episode-tv-show-climax-casino-royale/"
+          "title": "Bloom Energy Falls 8% as AI Power Bid Unwinds Days Before Bloom\u2019s S&P 500 Add; FuelCell Energy Drops 5%, Plug Power Dips",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/bloom-energy-falls-8-as-ai-power-bid-unwinds-days-before-blooms-sp-500-add-fuelcell-energy-drops-5-plug-power-dips/"
         },
         {
-          "title": "Suspected Russian spy behind drone attack in Leipzig",
-          "source": "POLITICO.eu",
-          "url": "https://www.politico.eu/article/suspect-russia-spy-drone-attack-in-leipzig-halle-airport-germany/"
+          "title": "U.S. Household Wealth Explodes by Record $12.5 Trillion in Q2 \u2014 Largest Jump Ever Recorded",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/u-s-household-wealth-explodes-by-record-12-5-trillion-in-q2-largest-jump-ever-recorded/"
         },
         {
-          "title": "\u2018Lioness\u2019 Season 3 Episode 7 Recap: The Boss is Back",
-          "source": "Decider",
-          "url": "https://decider.com/2026/09/13/lioness-season-3-episode-7-kiss-the-girls-recap/"
+          "title": "10-Year Treasury Yield Just Passed 5%, Here\u2019s What Happened To The Market When The Same Thing Happened In 2007",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/10-year-treasury-yield-just-passed-5-heres-what-happened-to-the-market-when-the-same-thing-happened-in-2007/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 712.47,
-        "change_pct": -0.34,
-        "volume": 23157927,
-        "avg_volume": 35288896,
-        "volume_ratio": 0.66,
+        "price": 705.16,
+        "change_pct": -0.57,
+        "volume": 13548705,
+        "avg_volume": 35200125,
+        "volume_ratio": 0.38,
         "above_trend_ma": false,
-        "trend_ma": 713.8,
+        "trend_ma": 713.5,
         "trend_ma_days": 15,
         "candles": {
-          "open": 703.29,
-          "high": 712.95,
-          "low": 702.75,
-          "close": 712.47,
-          "prev_open": 715.68,
-          "prev_close": 714.88
+          "open": 708.76,
+          "high": 709.53,
+          "low": 703.91,
+          "close": 705.16,
+          "prev_open": 703.33,
+          "prev_close": 709.18
         }
       },
       "call": {
@@ -118,15 +123,15 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "11 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +141,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $712.47 is below its 15-day average ($713.8).",
+          "detail": "Price $705.16 is below its 15-day average ($713.5).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.66x the recent average -- roughly normal.",
+          "detail": "Volume is 0.38x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -152,45 +157,50 @@
       ],
       "headlines": [
         {
-          "title": "SpaceX set to get weighting boost in Nasdaq 100 after index rebalance",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/world-news/spacex-set-to-get-weighting-boost-in-nasdaq-100-after-index-rebalance-126091300046_1.html"
+          "title": "Marvell Falls 7% as AI Pacing Debate Collides With Fed Week; Broadcom Drops 4%, NVIDIA Pulls Back",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/marvell-falls-7-as-ai-pacing-debate-collides-with-fed-week-broadcom-drops-4-nvidia-pulls-back/"
         },
         {
-          "title": "You Can\u2019t Spell SPY Without AI: How the Stock Market Became a 1-Way Bet on the Future",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4576680/you-cant-spell-spy-without-ai-how-the-stock-market-became-a-1-way-bet-on-the-future"
-        },
-        {
-          "title": "SpaceX set for larger weighting in Nasdaq 100 this month as lockup expirations expand float",
+          "title": "Kraken launches xStocks Vaults for tokenized equities yield generation",
           "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/spacex-nasdaq-100-weight-increase-rebalance/"
+          "url": "https://cryptobriefing.com/kraken-xstocks-vaults-tokenized-equities-yield/"
         },
         {
-          "title": "SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-weighting-boost-nasdaq-100-175851733.html"
+          "title": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/meta-alphabet-and-microsoft-rise-while-nvidia-falls-after-three-ai-chiefs-call-for-slowing-down-frontier-models/"
+        },
+        {
+          "title": "Oracle Slides 5% as Layoff Costs Outweigh Ellison\u2019s Canceled $7.5B Stock Sale; Nebius and CoreWeave Fall 5%",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/oracle-slides-5-as-layoff-costs-outweigh-ellisons-canceled-7-5b-stock-sale-nebius-and-coreweave-fall-5/"
+        },
+        {
+          "title": "ServiceNow Climbs 5% as Software Sidesteps AI Selloff; Adobe Gains 4%, Salesforce Ticks Up",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/14/servicenow-climbs-5-as-software-sidesteps-ai-selloff-adobe-gains-4-salesforce-ticks-up/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 86.36,
-        "change_pct": -0.89,
-        "volume": 4365558,
-        "avg_volume": 4845339,
-        "volume_ratio": 0.9,
+        "price": 85.64,
+        "change_pct": -0.47,
+        "volume": 3690234,
+        "avg_volume": 4843716,
+        "volume_ratio": 0.76,
         "above_trend_ma": false,
-        "trend_ma": 87.43,
+        "trend_ma": 87.3,
         "trend_ma_days": 15,
         "candles": {
-          "open": 85.99,
-          "high": 86.53,
-          "low": 85.71,
-          "close": 86.36,
-          "prev_open": 87.38,
-          "prev_close": 87.14
+          "open": 85.9,
+          "high": 85.91,
+          "low": 85.38,
+          "close": 85.64,
+          "prev_open": 85.9,
+          "prev_close": 86.04
         }
       },
       "call": {
@@ -219,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.36 is below its 15-day average ($87.43).",
+          "detail": "Price $85.64 is below its 15-day average ($87.3).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.9x the recent average -- roughly normal.",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,21 +248,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 255.28,
-        "change_pct": -0.58,
-        "volume": 19342777,
-        "avg_volume": 39876242,
-        "volume_ratio": 0.49,
+        "price": 249.22,
+        "change_pct": -1.7,
+        "volume": 17121284,
+        "avg_volume": 39921799,
+        "volume_ratio": 0.43,
         "above_trend_ma": false,
-        "trend_ma": 257.77,
+        "trend_ma": 256.79,
         "trend_ma_days": 15,
         "candles": {
-          "open": 253.38,
-          "high": 255.95,
-          "low": 250.75,
-          "close": 255.28,
-          "prev_open": 254.09,
-          "prev_close": 256.78
+          "open": 252.38,
+          "high": 253.27,
+          "low": 248.43,
+          "close": 249.22,
+          "prev_open": 253.15,
+          "prev_close": 253.54
         }
       },
       "call": {
@@ -263,8 +273,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -281,12 +291,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $255.28 is below its 15-day average ($257.77).",
+          "detail": "Price $249.22 is below its 15-day average ($256.79).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -302,50 +312,50 @@
       ],
       "headlines": [
         {
-          "title": "Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6f8d2505721a4191"
+          "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/"
         },
         {
-          "title": "Ronth 2025 1080p AMZN WEB-DL H264-CPTN5DW",
+          "title": "Snapped S36E20 720p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/ronth-2025-1080p-amzn-web-dl-h264-cptn5dw/"
+          "url": "https://post.rlsbb.cc/snapped-s36e20-720p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "The Spider 2022 1080p AMZN WEB-DL H264-EcK",
+          "title": "Double Lives Of Suburban Wives S01E06 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-spider-2022-1080p-amzn-web-dl-h264-eck/"
+          "url": "https://post.rlsbb.cc/double-lives-of-suburban-wives-s01e06-1080p-amzn-web-dl-h264-kitsune/"
         },
         {
-          "title": "The Delights Of The Garden 2025 1080p AMZN WEB-DL H264-cinepth",
+          "title": "JACKASS 2.5 2007 1080p AMZN WEB-DL H264-BurCyg",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-delights-of-the-garden-2025-1080p-amzn-web-dl-h264-cinepth/"
+          "url": "https://post.rlsbb.cc/jackass-2-5-2007-1080p-amzn-web-dl-h264-burcyg/"
         },
         {
-          "title": "Anthropic Locks Down $517 Billion in Compute Ahead of IPO \u2014 and It\u2019s Still Not Enough",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/13/anthropic-locks-down-517-billion-in-compute-ahead-of-ipo-and-its-still-not-enough/"
+          "title": "Life Support 2026 1080p AMZN WEB-DL DD H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/life-support-2026-1080p-amzn-web-dl-dd-h264-playweb/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 346.17,
-        "change_pct": 3.2,
-        "volume": 12849663,
-        "avg_volume": 18160374,
-        "volume_ratio": 0.71,
+        "price": 340.28,
+        "change_pct": -1.57,
+        "volume": 5009107,
+        "avg_volume": 18237106,
+        "volume_ratio": 0.27,
         "above_trend_ma": true,
-        "trend_ma": 337.13,
+        "trend_ma": 336.83,
         "trend_ma_days": 15,
         "candles": {
-          "open": 339.11,
-          "high": 346.34,
-          "low": 338.74,
-          "close": 346.17,
-          "prev_open": 332.73,
-          "prev_close": 335.45
+          "open": 343.15,
+          "high": 344.36,
+          "low": 339.44,
+          "close": 340.28,
+          "prev_open": 339.11,
+          "prev_close": 345.71
         }
       },
       "call": {
@@ -356,7 +366,7 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
+        "buy",
         "buy",
         "buy"
       ],
@@ -364,22 +374,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "12 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $346.17 is above its 15-day average ($337.13).",
+          "detail": "Price $340.28 is above its 15-day average ($336.83).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "detail": "Volume is 0.27x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -390,29 +400,29 @@
       ],
       "headlines": [
         {
-          "title": "Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud Becoming a Bigger Growth Driver Than Search?",
+          "title": "2 Numbers Matter More to Alphabet Stock's Performance Than Anything Else Right Now",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8e245d4a72c865ee"
+          "url": "https://biztoc.com/x/111a2661d1f1be74"
         },
         {
-          "title": "Can Alphabet Overtake Nvidia in 2027?",
+          "title": "Alphabet's Rapidly Growing $50 Billion Business Is a Huge Advantage in the AI Arms Race",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/cf6e8ffb5d1c0fc1"
+          "url": "https://biztoc.com/x/cb9fc827f4eace8d"
         },
         {
-          "title": "3 Unstoppable Dow Stocks Worth Buying Right Now",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/625062b42e4fe37e"
-        },
-        {
-          "title": "$3.99 | World of the Queen's Thief Collection: The Thief, The Queen of Attolia, The King of Attolia, A Conspiracy of Kings, Thick as Thieves (eBook) by Megan Whalen Turner",
+          "title": "$1.99 | The Neverending Story (eBook) by Michael Ende",
           "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20007873-3-99-world-of-the-queen-s-thief-collection-the-thief-the-queen-of-attolia-the-king-of-attolia-a-conspiracy-of-kings-thick-as-thieves-ebook-by-megan-whalen-turner"
+          "url": "https://slickdeals.net/f/20011596-1-99-the-neverending-story-ebook-by-michael-ende"
         },
         {
-          "title": "Here's who stands to make money from the Anthropic IPO",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/heres-who-stands-to-make-money-from-the-anthropic-ipo-151619986.html"
+          "title": "$1.99 | Upgrade: A Novel (eBook) by Blake Crouch",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20011593-1-99-upgrade-a-novel-ebook-by-blake-crouch"
+        },
+        {
+          "title": "$1.99 | The Day of the Triffids (eBook) by John Wyndham",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20011590-1-99-the-day-of-the-triffids-ebook-by-john-wyndham"
         }
       ]
     }
@@ -431,21 +441,21 @@
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
         "entry_price": 723.49,
-        "current_price": 712.47,
+        "current_price": 705.16,
         "shares": 2.7644,
-        "market_value": 1969.55,
-        "unrealized_pnl": -30.45,
-        "unrealized_pnl_pct": -1.52
+        "market_value": 1949.34,
+        "unrealized_pnl": -50.66,
+        "unrealized_pnl_pct": -2.53
       },
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 255.28,
+        "current_price": 249.22,
         "shares": 3.6816,
-        "market_value": 939.84,
-        "unrealized_pnl": -84.16,
-        "unrealized_pnl_pct": -8.22
+        "market_value": 917.53,
+        "unrealized_pnl": -106.47,
+        "unrealized_pnl_pct": -10.4
       }
     ],
     "closed_trades": [
