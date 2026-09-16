@@ -2,12 +2,6 @@
   "starting_cash": 10000.0,
   "cash": NaN,
   "open_positions": {
-    "QQQ": {
-      "entry_date": "2026-08-04T18:18:39.133138+00:00",
-      "entry_price": 723.49,
-      "shares": 2.7644,
-      "cash_committed": 2000.0
-    },
     "AMZN": {
       "entry_date": "2026-08-07T15:37:21.491191+00:00",
       "entry_price": 278.14,
@@ -39,6 +33,18 @@
       "pnl_pct": NaN,
       "days_held": 10,
       "exit_reason": "sell signal"
+    },
+    {
+      "ticker": "QQQ",
+      "entry_date": "2026-08-04T18:18:39.133138+00:00",
+      "entry_price": 723.49,
+      "exit_date": "2026-09-16T17:12:56.319901+00:00",
+      "exit_price": 709.44,
+      "shares": 2.7644,
+      "pnl": -38.82,
+      "pnl_pct": -1.94,
+      "days_held": 42,
+      "exit_reason": "time exit (42-day swing window reached)"
     }
   ]
 }
