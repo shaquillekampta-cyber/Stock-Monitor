@@ -1,147 +1,59 @@
 {
-  "generated_at": "2026-09-17T17:11:52.926109+00:00",
+  "generated_at": "2026-09-18T16:38:04.092704+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 762.34,
-        "change_pct": 1.1,
-        "volume": 19831900,
-        "avg_volume": 42868534,
-        "volume_ratio": 0.46,
+        "price": 759.02,
+        "change_pct": -0.47,
+        "volume": 34115767,
+        "avg_volume": 42902662,
+        "volume_ratio": 0.8,
         "above_trend_ma": false,
-        "trend_ma": 764.2,
+        "trend_ma": 763.41,
         "trend_ma_days": 15,
         "candles": {
-          "open": 763.15,
-          "high": 763.41,
-          "low": 759.96,
-          "close": 762.34,
-          "prev_open": 759.5,
-          "prev_close": 754.05
+          "open": 761.31,
+          "high": 761.76,
+          "low": 757.97,
+          "close": 759.02,
+          "prev_open": 763.15,
+          "prev_close": 762.6
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 1,
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $762.34 is below its 15-day average ($764.2).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Slow Horses Season 6 Immediately Fixes The Main Problem With Season 5",
-          "source": "/FILM",
-          "url": "https://www.slashfilm.com/2257494/slow-horses-season-6-fix-main-problem-season-5-apple-tv/"
-        },
-        {
-          "title": "Society Insider: Kim Crossman splits from husband Tom Walsh, prepares for life as single mum",
-          "source": "New Zealand Herald",
-          "url": "https://www.nzherald.co.nz/lifestyle/society-insider/society-insider-kim-crossman-splits-from-husband-tom-walsh-prepares-for-life-as-single-mum/premium/7ZITPBHEH5HUFP2MCCE2P6PWLQ/"
-        },
-        {
-          "title": "Zach Cregger\u2019s \u201cResident Evil\u201d Reviews Are In",
-          "source": "Dark Horizons",
-          "url": "https://www.darkhorizons.com/zach-creggers-resident-evil-reviews-are-in/"
-        },
-        {
-          "title": "Robinhood Sinks 5% After Prosecutors Reportedly Charge Two Former Engineers Over Crypto Trades; Webull Drops 9%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/16/robinhood-sinks-5-after-prosecutors-reportedly-charge-two-former-engineers-over-crypto-trades-webull-drops-9/"
-        },
-        {
-          "title": "Widespread damage on US bases from Iranian airstrikes revealed, including to $270 million spy plane",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/09/16/world-news/widespread-damage-on-us-bases-from-iranian-airstrikes-revealed/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 716.77,
-        "change_pct": 1.71,
-        "volume": 17186900,
-        "avg_volume": 35056929,
-        "volume_ratio": 0.49,
-        "above_trend_ma": true,
-        "trend_ma": 713.42,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 716.05,
-          "high": 717.16,
-          "low": 713.32,
-          "close": 716.77,
-          "prev_open": 708.0,
-          "prev_close": 704.72
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "buy"
+        "sell"
       ],
       "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "10 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "3 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $716.77 is above its 15-day average ($713.42).",
-          "signal": "pos"
+          "detail": "Price $759.02 is below its 15-day average ($763.41).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.8x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,55 +64,143 @@
       ],
       "headlines": [
         {
-          "title": "Intel Rises 4%, SK Hynix Climbs 3% on Reports of Talks to Make Memory Chips at Ohio Campus; Micron Holds Flat",
+          "title": "Meet the fashion \u2018super collectors\u2019 who go to wild extremes to dress head to toe in their favorite designer",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/09/17/lifestyle/fashion-super-collectors-who-dress-head-to-toe-in-their-favorite-designer/"
+        },
+        {
+          "title": "From Appleknockers to Whirlies, every state's most amusing high school mascot",
+          "source": "USA Today",
+          "url": "https://www.usatoday.com/story/sports/high-school/2026/09/17/a-look-at-every-states-most-unique-high-school-team-name/91765922007/"
+        },
+        {
+          "title": "Global AI safety strategy depends on US-China cooperation",
+          "source": "Medianewsgroup.com",
+          "url": "https://wirehub.medianewsgroup.com/2026/09/17/a-global-ai-safety-strategy-depends-on-us-china-cooperation-they-each-see-the-other-as-the-problem/"
+        },
+        {
+          "title": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/4a0dd85e1ce6b678"
+        },
+        {
+          "title": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/16/intel-rises-4-sk-hynix-climbs-3-as-reuters-reports-talks-to-make-memory-chips-at-ohio-campus-micron-holds-flat/"
+          "url": "https://247wallst.com/investing/2026/09/17/why-coreweave-is-tumbling-hard-while-the-market-is-soaring/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 716.25,
+        "change_pct": -0.09,
+        "volume": 21778950,
+        "avg_volume": 34782739,
+        "volume_ratio": 0.63,
+        "above_trend_ma": true,
+        "trend_ma": 713.1,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 718.84,
+          "high": 719.54,
+          "low": 715.08,
+          "close": 716.25,
+          "prev_open": 715.95,
+          "prev_close": 716.92
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "buy"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "15 articles in the last 2 days.",
+          "signal": "neutral"
         },
         {
-          "title": "Daily ETF Flows: BOTZ Loses $187M",
-          "source": "Etf.com",
-          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-botz-loses-187m?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+          "label": "Sentiment",
+          "detail": "3 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
-          "title": "Stocks Settle Lower as Crude Prices and Bond Yields Surge",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4620921/stocks-settle-lower-as-crude-prices-and-bond-yields-surge"
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $716.25 is above its 15-day average ($713.1).",
+          "signal": "pos"
         },
         {
-          "title": "CrowdStrike Advances 3% as the AI Security Bid Outruns a Falling Tech Tape; Okta Ticks Up, Palo Alto Barely Budges",
+          "label": "Volume",
+          "detail": "Volume is 0.63x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "IonQ Climbs 9% on Quantum Optimization Work With NVIDIA; D-Wave Rises 8%, Rigetti Gains 7%",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/15/crowdstrike-advances-3-as-the-ai-security-bid-outruns-a-falling-tech-tape-okta-ticks-up-palo-alto-barely-budges/"
+          "url": "https://247wallst.com/investing/2026/09/17/ionq-climbs-9-on-quantum-optimization-work-with-nvidia-d-wave-rises-8-rigetti-gains-7/"
         },
         {
-          "title": "Smartphone Chip Stocks Rally While Large-Cap Technology Slips: Skyworks Jumps 11%, Qorvo Rises 7%, Qualcomm Climbs 4%",
+          "title": "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/15/smartphone-chip-stocks-rally-while-large-cap-technology-slips-skyworks-jumps-11-qorvo-rises-7-qualcomm-climbs-4/"
+          "url": "https://247wallst.com/investing/2026/09/17/ai-server-stocks-rally-as-the-hardware-bid-broadens-hewlett-packard-enterprise-jumps-9-super-micro-climbs-6-dell-rises-3/"
+        },
+        {
+          "title": "Intel Jumps 8%, SK Hynix Climbs 5% as Ohio Memory Talks Reignite; Micron Rises 6%",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/17/intel-jumps-8-sk-hynix-climbs-5-as-ohio-memory-talks-reignite-micron-rises-6/"
+        },
+        {
+          "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the\u00a0 Last 20 Years. History Says Big Tech Rallies Followed",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/17/this-goldman-sachs-indicator-hit-0-only-4-other-times-in-the-last-20-years-history-says-big-tech-rallies-followed/"
+        },
+        {
+          "title": "Magnite Jumps 5% as Craig-Hallum Lifts Target to $32 on Google Auction Remedies; PubMatic Rises 6%, Trade Desk Barely Budges",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/17/magnite-jumps-5-as-craig-hallum-lifts-target-to-32-on-google-auction-remedies-pubmatic-rises-6-trade-desk-barely-budges/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 86.52,
-        "change_pct": 1.3,
-        "volume": 7951323,
-        "avg_volume": 4979839,
-        "volume_ratio": 1.6,
+        "price": 85.58,
+        "change_pct": -1.06,
+        "volume": 2724645,
+        "avg_volume": 5017582,
+        "volume_ratio": 0.54,
         "above_trend_ma": false,
-        "trend_ma": 87.04,
+        "trend_ma": 86.88,
         "trend_ma_days": 15,
         "candles": {
-          "open": 86.57,
-          "high": 86.68,
-          "low": 86.39,
-          "close": 86.52,
-          "prev_open": 86.2,
-          "prev_close": 85.41
+          "open": 85.82,
+          "high": 85.83,
+          "low": 85.5,
+          "close": 85.58,
+          "prev_open": 86.5,
+          "prev_close": 86.5
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
+        "positive_signals": 0,
         "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -224,13 +224,13 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $86.52 is below its 15-day average ($87.04).",
+          "detail": "Price $85.58 is below its 15-day average ($86.88).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.6x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
+          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "signal": "neutral"
         },
         {
           "label": "Candlestick",
@@ -240,30 +240,30 @@
       ],
       "headlines": [
         {
-          "title": "You Bought VOO and VTI for Diversification. About 85% of Your Money Sits in the Same Stocks",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/15/you-bought-voo-and-vti-for-diversification-about-85-of-your-money-sits-in-the-same-stocks/"
+          "title": "How to Tolerate Financial Uncertainty While Investing",
+          "source": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/mindfulness-insights/202609/how-to-tolerate-financial-uncertainty-while-investing"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 251.51,
-        "change_pct": 2.26,
-        "volume": 15510067,
-        "avg_volume": 39409490,
-        "volume_ratio": 0.39,
+        "price": 253.34,
+        "change_pct": 0.86,
+        "volume": 23535791,
+        "avg_volume": 39294945,
+        "volume_ratio": 0.6,
         "above_trend_ma": false,
-        "trend_ma": 255.15,
+        "trend_ma": 254.93,
         "trend_ma_days": 15,
         "candles": {
-          "open": 251.13,
-          "high": 252.73,
-          "low": 249.24,
-          "close": 251.51,
-          "prev_open": 248.1,
-          "prev_close": 245.96
+          "open": 252.86,
+          "high": 255.43,
+          "low": 251.88,
+          "close": 253.34,
+          "prev_open": 251.07,
+          "prev_close": 251.19
         }
       },
       "call": {
@@ -274,8 +274,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -287,17 +287,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 1 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $251.51 is below its 15-day average ($255.15).",
+          "detail": "Price $253.34 is below its 15-day average ($254.93).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.39x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -313,50 +313,50 @@
       ],
       "headlines": [
         {
-          "title": "Phoenix Trade introduces SOL as collateral for perpetual positions",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/phoenix-trade-sol-collateral-perpetuals/"
+          "title": "A Deadly Amazon (AMZN) Cargo Plane Crash in Miami Puts its Air Network Under Scrutiny",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deadly-amazon-amzn-cargo-plane-163256704.html"
         },
         {
-          "title": "From Old Country Bumpkin To Master Swordsman S02E11 1080p AMZN WEB-DL DUAL H264-VARYG",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/from-old-country-bumpkin-to-master-swordsman-s02e11-1080p-amzn-web-dl-dual-h264-varyg/"
+          "title": "Root Cause Analysis with Amazon Managed Service for Prometheus and AWS DevOps Agent",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/mt/root-cause-analysis-with-amazon-managed-service-for-prometheus-and-aws-devops-agent/"
         },
         {
-          "title": "Amazon Buys DuckDB Talent but Leaves the Code Free for Rivals",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/16/amazon-buys-duckdb-talent-but-leaves-the-code-free-for-rivals/"
+          "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/"
         },
         {
-          "title": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
+          "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/"
+        },
+        {
+          "title": "Amazon calls for greater AI safety, but stops short of urging slowdown",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d60c0d7d17f2fccd"
-        },
-        {
-          "title": "Foreigners Out Schlingensiefs Container 2002 1080p AMZN WEB-DL H264-alfaHD",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/foreigners-out-schlingensiefs-container-2002-1080p-amzn-web-dl-h264-alfahd/"
+          "url": "https://biztoc.com/x/143d1a7196d1332c"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 342.11,
-        "change_pct": 0.81,
-        "volume": 6795514,
-        "avg_volume": 17876932,
-        "volume_ratio": 0.38,
+        "price": 345.93,
+        "change_pct": 0.66,
+        "volume": 15181549,
+        "avg_volume": 17915455,
+        "volume_ratio": 0.85,
         "above_trend_ma": true,
-        "trend_ma": 336.87,
+        "trend_ma": 337.54,
         "trend_ma_days": 15,
         "candles": {
-          "open": 344.91,
-          "high": 345.96,
-          "low": 340.5,
-          "close": 342.11,
-          "prev_open": 343.36,
-          "prev_close": 339.36
+          "open": 351.22,
+          "high": 355.13,
+          "low": 344.95,
+          "close": 345.93,
+          "prev_open": 345.0,
+          "prev_close": 343.68
         }
       },
       "call": {
@@ -367,30 +367,30 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "buy",
         "hold",
+        "buy",
         "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "12 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 2 negative.",
+          "detail": "4 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $342.11 is above its 15-day average ($336.87).",
+          "detail": "Price $345.93 is above its 15-day average ($337.54).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.38x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.85x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -400,6 +400,11 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Alphabet (GOOG): Is Massive Infrastructure Capex Worth It?",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-massive-infrastructure-capex-115010179.html"
+        },
         {
           "title": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
           "source": "Biztoc.com",
@@ -411,19 +416,14 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams"
         },
         {
+          "title": "If You Missed the Nancy Pelosi Rally, Here\u2019s the Case for Buying Bloom Energy Stock Now",
+          "source": "Barchart.com",
+          "url": "https://www.barchart.com/story/news/4636847/if-you-missed-the-nancy-pelosi-rally-heres-the-case-for-buying-bloom-energy-stock-now"
+        },
+        {
           "title": "Alphabet (GOOG) Surges 24% as Revenue Growth Soars \u2014 But\u00a0Is\u00a0$190 Billion in Capex Too Much?",
           "source": "Yahoo Entertainment",
           "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-24-revenue-123012360.html"
-        },
-        {
-          "title": "Datamimic \u2013 don't let your coding agent invent its own test world",
-          "source": "Github.com",
-          "url": "https://github.com/rapiddweller/datamimic"
-        },
-        {
-          "title": "3 ASX ETFs for easy artificial intelligence (AI) exposure",
-          "source": "Motley Fool Australia",
-          "url": "https://www.fool.com.au/2026/09/16/3-asx-etfs-for-easy-artificial-intelligence-ai-exposure/"
         }
       ]
     }
@@ -436,20 +436,21 @@
     "total_return_pct": NaN,
     "realized_pnl": NaN,
     "win_rate_pct": 0.0,
-    "closed_trade_count": 3,
-    "open_positions": [
+    "closed_trade_count": 4,
+    "open_positions": [],
+    "closed_trades": [
       {
         "ticker": "AMZN",
         "entry_date": "2026-08-07T15:37:21.491191+00:00",
         "entry_price": 278.14,
-        "current_price": 251.51,
+        "exit_date": "2026-09-18T16:38:05.681535+00:00",
+        "exit_price": 253.34,
         "shares": 3.6816,
-        "market_value": 925.96,
-        "unrealized_pnl": -98.04,
-        "unrealized_pnl_pct": -9.57
-      }
-    ],
-    "closed_trades": [
+        "pnl": -91.3,
+        "pnl_pct": -8.92,
+        "days_held": 42,
+        "exit_reason": "time exit (42-day swing window reached)"
+      },
       {
         "ticker": "QQQ",
         "entry_date": "2026-08-04T18:18:39.133138+00:00",
