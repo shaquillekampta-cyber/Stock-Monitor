@@ -1,269 +1,25 @@
 {
-  "generated_at": "2026-09-18T16:38:04.092704+00:00",
+  "generated_at": "2026-09-21T18:16:40.118357+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 759.02,
-        "change_pct": -0.47,
-        "volume": 34115767,
-        "avg_volume": 42902662,
-        "volume_ratio": 0.8,
-        "above_trend_ma": false,
-        "trend_ma": 763.41,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 761.31,
-          "high": 761.76,
-          "low": 757.97,
-          "close": 759.02,
-          "prev_open": 763.15,
-          "prev_close": 762.6
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "sell"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $759.02 is below its 15-day average ($763.41).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.8x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Meet the fashion \u2018super collectors\u2019 who go to wild extremes to dress head to toe in their favorite designer",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/09/17/lifestyle/fashion-super-collectors-who-dress-head-to-toe-in-their-favorite-designer/"
-        },
-        {
-          "title": "From Appleknockers to Whirlies, every state's most amusing high school mascot",
-          "source": "USA Today",
-          "url": "https://www.usatoday.com/story/sports/high-school/2026/09/17/a-look-at-every-states-most-unique-high-school-team-name/91765922007/"
-        },
-        {
-          "title": "Global AI safety strategy depends on US-China cooperation",
-          "source": "Medianewsgroup.com",
-          "url": "https://wirehub.medianewsgroup.com/2026/09/17/a-global-ai-safety-strategy-depends-on-us-china-cooperation-they-each-see-the-other-as-the-problem/"
-        },
-        {
-          "title": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4a0dd85e1ce6b678"
-        },
-        {
-          "title": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/why-coreweave-is-tumbling-hard-while-the-market-is-soaring/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 716.25,
-        "change_pct": -0.09,
-        "volume": 21778950,
-        "avg_volume": 34782739,
-        "volume_ratio": 0.63,
+        "price": 773.2,
+        "change_pct": 1.51,
+        "volume": 27581324,
+        "avg_volume": 43093421,
+        "volume_ratio": 0.64,
         "above_trend_ma": true,
-        "trend_ma": 713.1,
+        "trend_ma": 762.2,
         "trend_ma_days": 15,
         "candles": {
-          "open": 718.84,
-          "high": 719.54,
-          "low": 715.08,
-          "close": 716.25,
-          "prev_open": 715.95,
-          "prev_close": 716.92
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "hold",
-        "buy",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "15 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $716.25 is above its 15-day average ($713.1).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.63x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "IonQ Climbs 9% on Quantum Optimization Work With NVIDIA; D-Wave Rises 8%, Rigetti Gains 7%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/ionq-climbs-9-on-quantum-optimization-work-with-nvidia-d-wave-rises-8-rigetti-gains-7/"
-        },
-        {
-          "title": "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/ai-server-stocks-rally-as-the-hardware-bid-broadens-hewlett-packard-enterprise-jumps-9-super-micro-climbs-6-dell-rises-3/"
-        },
-        {
-          "title": "Intel Jumps 8%, SK Hynix Climbs 5% as Ohio Memory Talks Reignite; Micron Rises 6%",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/intel-jumps-8-sk-hynix-climbs-5-as-ohio-memory-talks-reignite-micron-rises-6/"
-        },
-        {
-          "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the\u00a0 Last 20 Years. History Says Big Tech Rallies Followed",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/this-goldman-sachs-indicator-hit-0-only-4-other-times-in-the-last-20-years-history-says-big-tech-rallies-followed/"
-        },
-        {
-          "title": "Magnite Jumps 5% as Craig-Hallum Lifts Target to $32 on Google Auction Remedies; PubMatic Rises 6%, Trade Desk Barely Budges",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/17/magnite-jumps-5-as-craig-hallum-lifts-target-to-32-on-google-auction-remedies-pubmatic-rises-6-trade-desk-barely-budges/"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 85.58,
-        "change_pct": -1.06,
-        "volume": 2724645,
-        "avg_volume": 5017582,
-        "volume_ratio": 0.54,
-        "above_trend_ma": false,
-        "trend_ma": 86.88,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 85.82,
-          "high": 85.83,
-          "low": 85.5,
-          "close": 85.58,
-          "prev_open": 86.5,
-          "prev_close": 86.5
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.58 is below its 15-day average ($86.88).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "How to Tolerate Financial Uncertainty While Investing",
-          "source": "Psychology Today",
-          "url": "https://www.psychologytoday.com/us/blog/mindfulness-insights/202609/how-to-tolerate-financial-uncertainty-while-investing"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 253.34,
-        "change_pct": 0.86,
-        "volume": 23535791,
-        "avg_volume": 39294945,
-        "volume_ratio": 0.6,
-        "above_trend_ma": false,
-        "trend_ma": 254.93,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 252.86,
-          "high": 255.43,
-          "low": 251.88,
-          "close": 253.34,
-          "prev_open": 251.07,
-          "prev_close": 251.19
+          "open": 766.25,
+          "high": 773.41,
+          "low": 766.03,
+          "close": 773.2,
+          "prev_open": 761.31,
+          "prev_close": 761.69
         }
       },
       "call": {
@@ -274,8 +30,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
         "hold",
+        "sell",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -287,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $253.34 is below its 15-day average ($254.93).",
+          "detail": "2 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $773.2 is above its 15-day average ($762.2).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.64x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -313,84 +69,84 @@
       ],
       "headlines": [
         {
-          "title": "A Deadly Amazon (AMZN) Cargo Plane Crash in Miami Puts its Air Network Under Scrutiny",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/deadly-amazon-amzn-cargo-plane-163256704.html"
+          "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-09-20-2026/"
         },
         {
-          "title": "Root Cause Analysis with Amazon Managed Service for Prometheus and AWS DevOps Agent",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/mt/root-cause-analysis-with-amazon-managed-service-for-prometheus-and-aws-devops-agent/"
+          "title": "Mortifying moment Matthew Rhys and Keri Russell were forced to reveal their secret trysts... as the double Emmy winner stood naked brandishing a poker",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16136743/Matthew-Rhys-Keri-Russell-Emmys.html"
         },
         {
-          "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/"
+          "title": "The Diplomat's David Gyasi Starred In A Controversial Series Based On Greek Mythology",
+          "source": "TVLine",
+          "url": "https://www.tvline.com/2255908/the-diplomat-david-gyasi-controversial-series-greek-mythology-troy-fall-of-a-city/"
         },
         {
-          "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/"
+          "title": "\u2018Lioness\u2019 Season 3 Episode 8 Recap: Who Hates You?",
+          "source": "Decider",
+          "url": "https://decider.com/2026/09/20/lioness-season-3-episode-8-recap-the-unraveling/"
         },
         {
-          "title": "Amazon calls for greater AI safety, but stops short of urging slowdown",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/143d1a7196d1332c"
+          "title": "Transcript: Rep. Ro Khanna on \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/ro-khanna-california-democrat-face-the-nation-transcript-09-20-2026/"
         }
       ]
     },
     {
-      "ticker": "GOOG",
+      "ticker": "QQQ",
       "price": {
-        "price": 345.93,
-        "change_pct": 0.66,
-        "volume": 15181549,
-        "avg_volume": 17915455,
-        "volume_ratio": 0.85,
+        "price": 740.07,
+        "change_pct": 2.58,
+        "volume": 28304710,
+        "avg_volume": 35357275,
+        "volume_ratio": 0.8,
         "above_trend_ma": true,
-        "trend_ma": 337.54,
+        "trend_ma": 715.03,
         "trend_ma_days": 15,
         "candles": {
-          "open": 351.22,
-          "high": 355.13,
-          "low": 344.95,
-          "close": 345.93,
-          "prev_open": 345.0,
-          "prev_close": 343.68
+          "open": 727.95,
+          "high": 740.21,
+          "low": 727.82,
+          "close": 740.07,
+          "prev_open": 718.83,
+          "prev_close": 721.45
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
         "buy",
-        "buy"
+        "buy",
+        "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "4 positive keyword hits vs 2 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $345.93 is above its 15-day average ($337.54).",
+          "detail": "Price $740.07 is above its 15-day average ($715.03).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.85x the recent average -- roughly normal.",
+          "detail": "Volume is 0.8x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -401,29 +157,262 @@
       ],
       "headlines": [
         {
-          "title": "Alphabet (GOOG): Is Massive Infrastructure Capex Worth It?",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-massive-infrastructure-capex-115010179.html"
+          "title": "Multi-Asset Trading Venue Monochrome Exchange Launches IEO of Its Native Token, $MCR",
+          "source": "ZyCrypto",
+          "url": "https://zycrypto.com/multi-asset-trading-venue-monochrome-exchange-launches-ieo-of-its-native-token-mcr/"
         },
         {
-          "title": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d60c0d7d17f2fccd"
+          "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, MCR",
+          "source": "The Daily Hodl",
+          "url": "https://dailyhodl.com/2026/09/20/multi-asset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr/"
         },
         {
-          "title": "The sexy AI-powered dating app scams are here",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams"
-        },
-        {
-          "title": "If You Missed the Nancy Pelosi Rally, Here\u2019s the Case for Buying Bloom Energy Stock Now",
+          "title": "Before You Conclude the AI Era Won\u2019t End Like the Dot-Com Era Did, Check Out These 2 Charts",
           "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4636847/if-you-missed-the-nancy-pelosi-rally-heres-the-case-for-buying-bloom-energy-stock-now"
+          "url": "https://www.barchart.com/story/news/4695617/before-you-conclude-the-ai-era-wont-end-like-the-dot-com-era-did-check-out-these-2-charts"
         },
         {
-          "title": "Alphabet (GOOG) Surges 24% as Revenue Growth Soars \u2014 But\u00a0Is\u00a0$190 Billion in Capex Too Much?",
+          "title": "SpaceX\u2019s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-24-revenue-123012360.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-nasdaq-100-weight-confirmed-141701836.html"
+        },
+        {
+          "title": "QLD Doubles the Nasdaq-100 Instead of Tripling It. That 2X Middle Ground Is Why It Survives Crashes TQQQ Doesn\u2019t",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/etf/2026/09/19/qld-doubles-the-nasdaq-100-instead-of-tripling-it-that-2x-middle-ground-is-why-it-survives-crashes-tqqq-doesnt/"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 87.11,
+        "change_pct": 1.44,
+        "volume": 3565420,
+        "avg_volume": 5039930,
+        "volume_ratio": 0.71,
+        "above_trend_ma": true,
+        "trend_ma": 86.74,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 86.87,
+          "high": 87.12,
+          "low": 86.62,
+          "close": 87.11,
+          "prev_open": 85.82,
+          "prev_close": 85.88
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $87.11 is above its 15-day average ($86.74).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": []
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 258.38,
+        "change_pct": 1.84,
+        "volume": 23546010,
+        "avg_volume": 39746188,
+        "volume_ratio": 0.59,
+        "above_trend_ma": true,
+        "trend_ma": 254.42,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 256.52,
+          "high": 259.06,
+          "low": 253.6,
+          "close": 258.38,
+          "prev_open": 252.92,
+          "prev_close": 253.71
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 negative keyword hits vs 2 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $258.38 is above its 15-day average ($254.42).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "MobLand S02E01 REPACK 720p AMZN WEB-DL Atmos H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/mobland-s02e01-repack-720p-amzn-web-dl-atmos-h264-rawr/"
+        },
+        {
+          "title": "Youre Dead to Me 2025 1080p AMZN WEB-DL H264-STARSHIP",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/youre-dead-to-me-2025-1080p-amzn-web-dl-h264-starship/"
+        },
+        {
+          "title": "#FollowMe 2019 1080p AMZN WEB-DL H264-GLi",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/followme-2019-1080p-amzn-web-dl-h264-gli/"
+        },
+        {
+          "title": "Swimmers 2005 1080p AMZN WEB-DL H264-ERBiUM",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/swimmers-2005-1080p-amzn-web-dl-h264-erbium/"
+        },
+        {
+          "title": "Have I Got News For You US S05E02 1080p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/have-i-got-news-for-you-us-s05e02-1080p-amzn-web-dl-h264-rawr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 351.72,
+        "change_pct": 2.12,
+        "volume": 9670564,
+        "avg_volume": 18264521,
+        "volume_ratio": 0.53,
+        "above_trend_ma": true,
+        "trend_ma": 338.04,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 346.1,
+          "high": 353.3,
+          "low": 344.8,
+          "close": 351.72,
+          "prev_open": 351.22,
+          "prev_close": 344.41
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
+        "buy",
+        "buy"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "3 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $351.72 is above its 15-day average ($338.04).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/0964784761c67184"
+        },
+        {
+          "title": "The AI Agent Wars Just Got Personal: Google\u2019s CC vs. Meta\u2019s Muse",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/20/the-ai-agent-wars-just-got-personal-googles-cc-vs-metas-muse/"
+        },
+        {
+          "title": "OpenAI Just Beat Google, Meta, and Amazon To This Key Milestone. Is It Bullish for AI Stocks",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/943adf326ab71431"
         }
       ]
     }
