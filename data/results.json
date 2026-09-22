@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-21T18:16:40.118357+00:00",
+  "generated_at": "2026-09-22T17:09:18.874285+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 773.2,
-        "change_pct": 1.51,
-        "volume": 27581324,
-        "avg_volume": 43093421,
-        "volume_ratio": 0.64,
+        "price": 773.28,
+        "change_pct": -0.03,
+        "volume": 16069947,
+        "avg_volume": 43192266,
+        "volume_ratio": 0.37,
         "above_trend_ma": true,
-        "trend_ma": 762.2,
+        "trend_ma": 762.77,
         "trend_ma_days": 15,
         "candles": {
-          "open": 766.25,
-          "high": 773.41,
-          "low": 766.03,
-          "close": 773.2,
-          "prev_open": 761.31,
-          "prev_close": 761.69
+          "open": 774.03,
+          "high": 775.14,
+          "low": 772.59,
+          "close": 773.28,
+          "prev_open": 766.25,
+          "prev_close": 773.5
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
         "sell",
-        "hold"
+        "hold",
+        "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -43,110 +43,105 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $773.2 is above its 15-day average ($762.2).",
+          "detail": "Price $773.28 is above its 15-day average ($762.77).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.64x the recent average -- roughly normal.",
+          "detail": "Volume is 0.37x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/face-the-nation-full-transcript-09-20-2026/"
+          "title": "He bought three trays of baklava for a concert after a friend bet he couldn't sell them; the business now averages just over $20,000 a month in sales",
+          "source": "The Times of India",
+          "url": "https://timesofindia.indiatimes.com/world/us/he-bought-three-trays-of-baklava-for-a-concert-after-a-friend-bet-he-couldnt-sell-them-the-business-now-averages-just-over-20000-a-month-in-sales/articleshow/134394190.cms"
         },
         {
-          "title": "Mortifying moment Matthew Rhys and Keri Russell were forced to reveal their secret trysts... as the double Emmy winner stood naked brandishing a poker",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/tvshowbiz/article-16136743/Matthew-Rhys-Keri-Russell-Emmys.html"
+          "title": "Anjanette Comer Dead: 'The Loved One,' 'The Appaloosa' Actress Was 86",
+          "source": "Hollywood Reporter",
+          "url": "http://www.hollywoodreporter.com/movies/movie-news/anjanette-comer-dead-loved-one-appaloosa-baby-1236697962/"
         },
         {
-          "title": "The Diplomat's David Gyasi Starred In A Controversial Series Based On Greek Mythology",
-          "source": "TVLine",
-          "url": "https://www.tvline.com/2255908/the-diplomat-david-gyasi-controversial-series-greek-mythology-troy-fall-of-a-city/"
+          "title": "Sony Says You Don't Own the Games You Bought. Crypto Says It Can Fix That",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/378745/sony-dont-own-games-you-bought-crypto-fix-that"
         },
         {
-          "title": "\u2018Lioness\u2019 Season 3 Episode 8 Recap: Who Hates You?",
-          "source": "Decider",
-          "url": "https://decider.com/2026/09/20/lioness-season-3-episode-8-recap-the-unraveling/"
+          "title": "Ghost of a Ghost #1 Preview: Spy Gains Groovy Powers",
+          "source": "Bleeding Cool News",
+          "url": "https://bleedingcool.com/comics/ghost-of-a-ghost-1-preview-spy-gains-groovy-powers/"
         },
         {
-          "title": "Transcript: Rep. Ro Khanna on \"Face the Nation with Margaret Brennan,\" Sept. 20, 2026",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/ro-khanna-california-democrat-face-the-nation-transcript-09-20-2026/"
+          "title": "Dreamust Shock-Absorbing Shoe Insoles for $5 + free shipping w/ Prime",
+          "source": "Dealnews.com",
+          "url": "https://www.dealnews.com/Dreamust-Shock-Absorbing-Shoe-Insoles-for-5-free-shipping-w-Prime/22203454.html"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 740.07,
-        "change_pct": 2.58,
-        "volume": 28304710,
-        "avg_volume": 35357275,
-        "volume_ratio": 0.8,
+        "price": 745.27,
+        "change_pct": 0.51,
+        "volume": 18758114,
+        "avg_volume": 35437866,
+        "volume_ratio": 0.53,
         "above_trend_ma": true,
-        "trend_ma": 715.03,
+        "trend_ma": 716.38,
         "trend_ma_days": 15,
         "candles": {
-          "open": 727.95,
-          "high": 740.21,
-          "low": 727.82,
-          "close": 740.07,
-          "prev_open": 718.83,
-          "prev_close": 721.45
+          "open": 741.01,
+          "high": 746.6,
+          "low": 741.0,
+          "close": 745.27,
+          "prev_open": 727.89,
+          "prev_close": 741.47
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
-        "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "8 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "4 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $740.07 is above its 15-day average ($715.03).",
+          "detail": "Price $745.27 is above its 15-day average ($716.38).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.8x the recent average -- roughly normal.",
+          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -157,50 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "Multi-Asset Trading Venue Monochrome Exchange Launches IEO of Its Native Token, $MCR",
-          "source": "ZyCrypto",
-          "url": "https://zycrypto.com/multi-asset-trading-venue-monochrome-exchange-launches-ieo-of-its-native-token-mcr/"
-        },
-        {
-          "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, MCR",
-          "source": "The Daily Hodl",
-          "url": "https://dailyhodl.com/2026/09/20/multi-asset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr/"
-        },
-        {
-          "title": "Before You Conclude the AI Era Won\u2019t End Like the Dot-Com Era Did, Check Out These 2 Charts",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4695617/before-you-conclude-the-ai-era-wont-end-like-the-dot-com-era-did-check-out-these-2-charts"
-        },
-        {
-          "title": "SpaceX\u2019s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-nasdaq-100-weight-confirmed-141701836.html"
-        },
-        {
-          "title": "QLD Doubles the Nasdaq-100 Instead of Tripling It. That 2X Middle Ground Is Why It Survives Crashes TQQQ Doesn\u2019t",
+          "title": "Cybersecurity Stocks Extend Gains on AI Safety Warnings: CrowdStrike and Okta Rise 4%, Palo Alto Ticks Up",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/etf/2026/09/19/qld-doubles-the-nasdaq-100-instead-of-tripling-it-that-2x-middle-ground-is-why-it-survives-crashes-tqqq-doesnt/"
+          "url": "https://247wallst.com/investing/2026/09/21/cybersecurity-stocks-extend-gains-on-ai-safety-warnings-crowdstrike-and-okta-rise-4-palo-alto-ticks-up/"
+        },
+        {
+          "title": "Qualcomm Jumps 7% as AI Interconnect Demo Points Past Handsets; Skyworks and Qorvo Sit Out the Rally",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/21/qualcomm-jumps-7-as-ai-interconnect-demo-points-past-handsets-skyworks-and-qorvo-sit-out-the-rally/"
+        },
+        {
+          "title": "Arm Surges 13% as Meta\u2019s Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/21/arm-surges-13-as-metas-muse-agent-reignites-cpu-demand-bet-intel-jumps-12-amd-climbs-9/"
+        },
+        {
+          "title": "Super Micro Rises 6% as AI Server Bid Concentrates in One Name; Dell and Hewlett Packard Enterprise Tick Up",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/21/super-micro-rises-6-as-ai-server-bid-concentrates-in-one-name-dell-and-hewlett-packard-enterprise-tick-up/"
+        },
+        {
+          "title": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/21/meta-spikes-7-as-wells-fargo-lifts-price-target-to-796-ahead-of-connect-alphabet-nudges-higher-microsoft-holds-flat/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 87.11,
-        "change_pct": 1.44,
-        "volume": 3565420,
-        "avg_volume": 5039930,
-        "volume_ratio": 0.71,
+        "price": 87.14,
+        "change_pct": -0.01,
+        "volume": 4631559,
+        "avg_volume": 5087689,
+        "volume_ratio": 0.91,
         "above_trend_ma": true,
         "trend_ma": 86.74,
         "trend_ma_days": 15,
         "candles": {
-          "open": 86.87,
-          "high": 87.12,
-          "low": 86.62,
-          "close": 87.11,
-          "prev_open": 85.82,
-          "prev_close": 85.88
+          "open": 87.23,
+          "high": 87.44,
+          "low": 86.95,
+          "close": 87.14,
+          "prev_open": 86.87,
+          "prev_close": 87.15
         }
       },
       "call": {
@@ -229,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $87.11 is above its 15-day average ($86.74).",
+          "detail": "Price $87.14 is above its 15-day average ($86.74).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "detail": "Volume is 0.91x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -248,36 +243,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 258.38,
-        "change_pct": 1.84,
-        "volume": 23546010,
-        "avg_volume": 39746188,
-        "volume_ratio": 0.59,
+        "price": 254.46,
+        "change_pct": -1.54,
+        "volume": 21022347,
+        "avg_volume": 40035457,
+        "volume_ratio": 0.53,
         "above_trend_ma": true,
-        "trend_ma": 254.42,
+        "trend_ma": 254.07,
         "trend_ma_days": 15,
         "candles": {
-          "open": 256.52,
-          "high": 259.06,
-          "low": 253.6,
-          "close": 258.38,
-          "prev_open": 252.92,
-          "prev_close": 253.71
+          "open": 255.38,
+          "high": 259.0,
+          "low": 253.79,
+          "close": 254.46,
+          "prev_open": 256.4,
+          "prev_close": 258.45
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -286,76 +281,71 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "3 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $258.38 is above its 15-day average ($254.42).",
+          "detail": "Price $254.46 is above its 15-day average ($254.07).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "MobLand S02E01 REPACK 720p AMZN WEB-DL Atmos H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/mobland-s02e01-repack-720p-amzn-web-dl-atmos-h264-rawr/"
+          "title": "Musk's SpaceX $100B day reveals a volatile baseline",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/musk-spacex-100b-flight-14-orbital-debut-float-lockup"
         },
         {
-          "title": "Youre Dead to Me 2025 1080p AMZN WEB-DL H264-STARSHIP",
+          "title": "Before I Do 2016 720p AMZN WEB-DL H264-playWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/youre-dead-to-me-2025-1080p-amzn-web-dl-h264-starship/"
+          "url": "https://post.rlsbb.cc/before-i-do-2016-720p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "#FollowMe 2019 1080p AMZN WEB-DL H264-GLi",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/followme-2019-1080p-amzn-web-dl-h264-gli/"
+          "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/"
         },
         {
-          "title": "Swimmers 2005 1080p AMZN WEB-DL H264-ERBiUM",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/swimmers-2005-1080p-amzn-web-dl-h264-erbium/"
+          "title": "What Will $5,000 Invested in Amazon Stock Be Worth in 5 Years?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/21/what-will-5000-invested-in-amazon-stock-be-worth-in-5-years/"
         },
         {
-          "title": "Have I Got News For You US S05E02 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/have-i-got-news-for-you-us-s05e02-1080p-amzn-web-dl-h264-rawr/"
+          "title": "Bank of America hikes S&P 500 target after Al trade cracks",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/stocks/bank-of-america-hikes-sp-500-target-after-al-trade-cracks"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 351.72,
-        "change_pct": 2.12,
-        "volume": 9670564,
-        "avg_volume": 18264521,
-        "volume_ratio": 0.53,
+        "price": 346.37,
+        "change_pct": -1.28,
+        "volume": 11243070,
+        "avg_volume": 18319940,
+        "volume_ratio": 0.61,
         "above_trend_ma": true,
-        "trend_ma": 338.04,
+        "trend_ma": 338.73,
         "trend_ma_days": 15,
         "candles": {
-          "open": 346.1,
-          "high": 353.3,
-          "low": 344.8,
-          "close": 351.72,
-          "prev_open": 351.22,
-          "prev_close": 344.41
+          "open": 353.5,
+          "high": 359.98,
+          "low": 345.74,
+          "close": 346.37,
+          "prev_open": 346.19,
+          "prev_close": 350.87
         }
       },
       "call": {
@@ -374,7 +364,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -384,12 +374,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $351.72 is above its 15-day average ($338.04).",
+          "detail": "Price $346.37 is above its 15-day average ($338.73).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.61x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -399,6 +389,16 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Googlebook pre order with free pair of pixel buds 2a",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20044353-googlebook-pre-order-with-free-pair-of-pixel-buds-2a"
+        },
+        {
+          "title": "Trump and Xi meet in D.C. this week with tariffs and AI expected to be at center of talks",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/trump-meets-xi-this-week-expect-small-steps-on-trade-and-ai-not-breakthroughs-100000269.html"
+        },
         {
           "title": "Billionaire Bill Ackman Dumps Alphabet and Loads Up On a Mega-Cap Stock Down 15% From Its Peak",
           "source": "Biztoc.com",
