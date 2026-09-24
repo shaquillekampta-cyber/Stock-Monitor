@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-09-23T17:22:15.611826+00:00",
+  "generated_at": "2026-09-24T17:27:08.483453+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 767.66,
-        "change_pct": -0.76,
-        "volume": 18889417,
-        "avg_volume": 43507670,
-        "volume_ratio": 0.43,
+        "price": 766.83,
+        "change_pct": -0.13,
+        "volume": 19735350,
+        "avg_volume": 43316382,
+        "volume_ratio": 0.46,
         "above_trend_ma": true,
-        "trend_ma": 762.39,
+        "trend_ma": 763.54,
         "trend_ma_days": 15,
         "candles": {
-          "open": 772.79,
-          "high": 773.02,
-          "low": 766.5,
-          "close": 767.66,
-          "prev_open": 766.25,
-          "prev_close": 773.5
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "buy",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $767.66 is above its 15-day average ($762.39).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Tyler Posey to Guest Star in NBC Cop Family Drama \u2018Line of Fire\u2019 (EXCLUSIVE)",
-          "source": "Variety",
-          "url": "https://variety.com/2026/tv/news/tyler-posey-line-of-fire-nbc-guest-star-1236872079/"
-        },
-        {
-          "title": "Russia could widen Ukraine war, test NATO with covert attacks, Europe warns",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/defence/russia-could-widen-ukraine-war-test-nato-with-covert-attacks-europe-warns/articleshow/134416488.cms"
-        },
-        {
-          "title": "Jessica Biel & Paramount TV Studios Team On Series Adaptation Of Horror Novel \u2018Coffin Moon\u2019",
-          "source": "Deadline",
-          "url": "http://deadline.com/2026/09/jessica-biel-paramount-tv-studios-horror-novel-coffin-moon-1237109830/"
-        },
-        {
-          "title": "Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/trade-desk-falls-4-as-index-removal-flows-keep-pressure-on-magnite-drops-3-applovin-pulls-back/"
-        },
-        {
-          "title": "Defense Stocks Fall While Oil Slides on Hormuz Reopening Report: Lockheed Martin and RTX Drop 3%, Boeing Dips",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/defense-stocks-fall-while-oil-slides-on-hormuz-reopening-report-lockheed-martin-and-rtx-drop-3-boeing-dips/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 739.78,
-        "change_pct": -0.23,
-        "volume": 19274018,
-        "avg_volume": 35725607,
-        "volume_ratio": 0.54,
-        "above_trend_ma": true,
-        "trend_ma": 716.01,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 746.99,
-          "high": 747.12,
-          "low": 738.19,
-          "close": 739.78,
-          "prev_open": 727.89,
-          "prev_close": 741.47
+          "open": 764.07,
+          "high": 768.95,
+          "low": 763.24,
+          "close": 766.83,
+          "prev_open": 772.79,
+          "prev_close": 767.81
         }
       },
       "call": {
@@ -118,7 +30,95 @@
         "displayed_call": "buy"
       },
       "call_history": [
+        "buy",
         "hold",
+        "buy"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "4 positive keyword hits vs 2 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $766.83 is above its 15-day average ($763.54).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "\u2018Never After Dark\u2019 Review: A Japanese Medium Is Forced to Confront a Living Threat in This Clever Ghost Story",
+          "source": "IndieWire",
+          "url": "https://www.indiewire.com/criticism/movies/never-after-dark-movie-review-1235218254/"
+        },
+        {
+          "title": "Society Insider: Real Housewife of Auckland Gilda Kirkpatrick hosts Winston Peters for NZ First Event at her Paritai Drive mansion",
+          "source": "New Zealand Herald",
+          "url": "https://www.nzherald.co.nz/lifestyle/society-insider/society-insider-real-housewife-of-auckland-gilda-kirkpatrick-hosts-winston-peters-for-nz-first-event-at-her-paritai-drive-mansion/premium/TXD6TTWV4BHMVNCQEEHZKKDFKI/"
+        },
+        {
+          "title": "Consumer Lending Stocks Slide While Financials Barely Budge: Upstart and Affirm Drop 4%, SoFi Eases",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/consumer-lending-stocks-slide-while-financials-barely-budge-upstart-and-affirm-drop-4-sofi-eases/"
+        },
+        {
+          "title": "Congressional report: Special counsel blamed Trump for the unconstitutional seizure of records",
+          "source": "Wnd.com",
+          "url": "https://www.wnd.com/2026/09/congressional-report-special-counsel-blamed-trump-unconstitutional-seizure/"
+        },
+        {
+          "title": "S&P 500 index funds increasingly resemble tech funds, warns analyst",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/sp500-index-funds-tech-concentration-risk/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 739.93,
+        "change_pct": -0.17,
+        "volume": 17580401,
+        "avg_volume": 35538809,
+        "volume_ratio": 0.49,
+        "above_trend_ma": true,
+        "trend_ma": 720.91,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 735.16,
+          "high": 742.65,
+          "low": 734.63,
+          "close": 739.93,
+          "prev_open": 746.97,
+          "prev_close": 741.21
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
         "buy",
         "buy"
       ],
@@ -131,17 +131,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "12 positive keyword hits vs 4 negative.",
+          "detail": "4 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $739.78 is above its 15-day average ($716.01).",
+          "detail": "Price $739.93 is above its 15-day average ($720.91).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -152,50 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/cisco-sinks-6-while-the-tech-sector-rises-arista-and-ciena-hold-flat/"
-        },
-        {
-          "title": "NEAR partners with Ondo to bring tokenized stocks and ETFs to near.com",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/near-ondo-tokenized-stocks-etfs/"
-        },
-        {
-          "title": "Index Funds Are Being Forced to Buy SpaceX Whether They Want It or Not",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/index-funds-are-being-forced-to-buy-spacex-whether-they-want-it-or-not/"
-        },
-        {
-          "title": "BlackRock Just Declared War on QQQ. Here\u2019s How You Can Collect the Spoils",
+          "title": "Microsoft Can\u2019t Hold $500 While the Nasdaq Hits a Record. What\u2019s Going On?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b4c2e452862de597"
+          "url": "https://biztoc.com/x/95cafc1a4382cf24"
         },
         {
-          "title": "BlackRock Just Declared War on QQQ. Here\u2019s How You Can Collect the Spoils.",
+          "title": "Alphabet Drops 4%, Meta Edges Higher as AI Rotation Splits Big Tech; Microsoft Holds Flat",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/blackrock-just-declared-war-on-qqq-heres-how-you-can-collect-the-spoils/"
+          "url": "https://247wallst.com/investing/2026/09/23/alphabet-drops-4-meta-edges-higher-as-ai-rotation-splits-big-tech-microsoft-holds-flat/"
+        },
+        {
+          "title": "This ETF Is Up 20% in 2026. Here's Why It Could Have More Room to Run",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/3afdd7ad3915f22b"
+        },
+        {
+          "title": "Rumble Sinks 5%, Trump Media Drops 3%: Is the Diesel Export Ban Really the Driver?",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/rumble-sinks-5-trump-media-drops-3-is-the-diesel-export-ban-really-the-driver/"
+        },
+        {
+          "title": "Should You Really Invest in a Tech ETF in 2026? Here's What History Says",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/bc3fb91f3867c2f7"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 85.84,
-        "change_pct": -1.5,
-        "volume": 3957087,
-        "avg_volume": 5113022,
-        "volume_ratio": 0.77,
+        "price": 85.54,
+        "change_pct": -0.44,
+        "volume": 3201537,
+        "avg_volume": 5141084,
+        "volume_ratio": 0.62,
         "above_trend_ma": false,
-        "trend_ma": 86.65,
+        "trend_ma": 86.59,
         "trend_ma_days": 15,
         "candles": {
-          "open": 86.68,
-          "high": 86.7,
-          "low": 85.72,
-          "close": 85.84,
-          "prev_open": 86.87,
-          "prev_close": 87.15
+          "open": 85.71,
+          "high": 85.93,
+          "low": 85.15,
+          "close": 85.54,
+          "prev_open": 86.68,
+          "prev_close": 85.92
         }
       },
       "call": {
@@ -214,7 +214,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "1 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -224,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.84 is below its 15-day average ($86.65).",
+          "detail": "Price $85.54 is below its 15-day average ($86.59).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.77x the recent average -- roughly normal.",
+          "detail": "Volume is 0.62x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,39 +238,45 @@
           "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Daily ETF Flows: ARKK Enters Top 10",
+          "source": "Etf.com",
+          "url": "http://www.etf.com/sections/daily-etf-flows/daily-etf-flows-arkk-enters-top-10?utm_source=yahoo-finance&amp;utm_medium=rss&amp;utm_campaign=yahoo-finance-rss"
+        }
+      ]
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 248.1,
-        "change_pct": -4.01,
-        "volume": 24112867,
-        "avg_volume": 40247896,
-        "volume_ratio": 0.6,
+        "price": 248.93,
+        "change_pct": -0.14,
+        "volume": 18338852,
+        "avg_volume": 40077326,
+        "volume_ratio": 0.46,
         "above_trend_ma": false,
-        "trend_ma": 253.65,
+        "trend_ma": 253.33,
         "trend_ma_days": 15,
         "candles": {
-          "open": 253.33,
-          "high": 253.81,
-          "low": 247.8,
-          "close": 248.1,
-          "prev_open": 256.4,
-          "prev_close": 258.45
+          "open": 245.97,
+          "high": 249.74,
+          "low": 245.6,
+          "close": 248.93,
+          "prev_open": 253.0,
+          "prev_close": 249.27
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "sell"
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
-        "sell"
+        "sell",
+        "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -281,138 +287,148 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "4 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $248.1 is below its 15-day average ($253.65).",
+          "detail": "Price $248.93 is below its 15-day average ($253.33).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "AI Is Hollowing Out Software Jobs \u2014 But Paying Survivors a Fortune",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/ai-is-hollowing-out-software-jobs-but-paying-survivors-a-fortune/"
-        },
-        {
-          "title": "Meta Muse AI may throw gas on the labor displacement problem \u2014 but it's not all doom and gloom",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/meta-muse-ai-may-throw-gas-on-the-labor-displacement-problem--but-its-not-all-doom-and-gloom-150747149.html"
-        },
-        {
-          "title": "The Traitors Canada S04E01 720p AMZN WEB-DL H264-NTb",
+          "title": "From Old Country Bumpkin To Master Swordsman S02E12 1080p AMZN WEB-DL DUAL H264-VARYG",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-traitors-canada-s04e01-720p-amzn-web-dl-h264-ntb/"
+          "url": "https://post.rlsbb.cc/from-old-country-bumpkin-to-master-swordsman-s02e12-1080p-amzn-web-dl-dual-h264-varyg/"
         },
         {
-          "title": "Shopify Spikes 7%, Meta Eases as Muse Agent Gains Shop Pay Checkout; Amazon Sits Out the Rally",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/09/22/shopify-spikes-7-meta-eases-as-muse-agent-gains-shop-pay-checkout-amazon-sits-out-the-rally/"
+          "title": "SpaceX vs Amazon: Which Is the Better Stock to Own Over the Next 10 Years",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/e63cd146f6abff72"
         },
         {
-          "title": "Wheel Of Fortune S44E06 1080p AMZN WEB-DL H264-Kitsune",
+          "title": "Amazon blocks Meta's Muse but Shopify opens the door",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/adc8d9ea3609755a"
+        },
+        {
+          "title": "Parallel Tales 2026 REPACK 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e06-1080p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/parallel-tales-2026-repack-1080p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Shopify Sinks 5%, Meta Ticks Up as Muse Deal Rally Unwinds; Amazon Slips",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/shopify-sinks-5-meta-ticks-up-as-muse-deal-rally-unwinds-amazon-slips/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 334.73,
-        "change_pct": -4.6,
-        "volume": 12683232,
-        "avg_volume": 18238949,
-        "volume_ratio": 0.7,
+        "price": 337.11,
+        "change_pct": 0.64,
+        "volume": 8781131,
+        "avg_volume": 17658346,
+        "volume_ratio": 0.5,
         "above_trend_ma": false,
-        "trend_ma": 337.96,
+        "trend_ma": 339.25,
         "trend_ma_days": 15,
         "candles": {
-          "open": 345.29,
-          "high": 346.28,
-          "low": 334.2,
-          "close": 334.73,
-          "prev_open": 346.19,
-          "prev_close": 350.87
+          "open": 332.93,
+          "high": 338.94,
+          "low": 332.81,
+          "close": 337.11,
+          "prev_open": 346.3,
+          "prev_close": 334.98
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "buy"
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
         "buy",
-        "buy",
-        "sell"
+        "sell",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "14 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
-          "signal": "neg"
+          "detail": "4 positive keyword hits vs 3 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $334.73 is below its 15-day average ($337.96).",
+          "detail": "Price $337.11 is below its 15-day average ($339.25).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
+          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Netflix downgraded, SanDisk initiated: Wall Street's top analyst calls",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-downgraded-sandisk-initiated-wall-134453114.html"
+          "title": "Prediction: This Magnificent Seven Stock Could Soar 50% by 2027",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/prediction-this-magnificent-seven-stock-could-soar-50-by-2027/"
         },
         {
-          "title": "Amazon, Alphabet, and Microsoft: 2 Cloud Giants I Am Buying in September and 1 I Am Avoiding",
+          "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8e7d129168dd1321"
+          "url": "https://biztoc.com/x/3f483e5c879b4dd2"
         },
         {
-          "title": "Meta stock soars 11% on price target increase, Muse AI downloads",
+          "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/09/23/alphabet-price-prediction-the-cheapest-mega-cap-in-the-ai-trade/"
+        },
+        {
+          "title": "Here\u2019s Why The Fund Trimmed Ross Stores (ROST) in Q2",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/meta-stock-soars-11-on-price-target-increase-muse-ai-downloads-180423756.html"
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-fund-trimmed-ross-stores-125105870.html"
         },
         {
-          "title": "Lucid Just Struck a Partnership With Bolt on Mobility. What This Means for LCID Stock.",
-          "source": "Barchart.com",
-          "url": "https://www.barchart.com/story/news/4714899/lucid-just-struck-a-partnership-with-bolt-on-mobility-what-this-means-for-lcid-stock"
-        },
-        {
-          "title": "Googlebook pre order with free pair of pixel buds 2a",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20044353-googlebook-pre-order-with-free-pair-of-pixel-buds-2a"
+          "title": "McDonald's bets on hand-breaded chicken, AI drive-thrus to fend off Burger King",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/article/mcdonalds-bets-on-hand-breaded-chicken-ai-drive-thrus-to-fend-off-burger-king-120418093.html"
         }
       ]
     }
