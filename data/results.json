@@ -1,264 +1,25 @@
 {
-  "generated_at": "2026-09-28T19:47:27.554301+00:00",
+  "generated_at": "2026-09-29T18:11:54.401319+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 765.58,
-        "change_pct": -0.75,
-        "volume": 31962372,
-        "avg_volume": 43467490,
-        "volume_ratio": 0.74,
-        "above_trend_ma": true,
-        "trend_ma": 763.39,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 768.35,
-          "high": 769.54,
-          "low": 763.72,
-          "close": 765.58,
-          "prev_open": 768.78,
-          "prev_close": 771.35
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $765.58 is above its 15-day average ($763.39).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.74x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "After The Man From U.N.C.L.E, Robert Vaughn Starred In This Legendary '60s Action Thriller",
-          "source": "/FILM",
-          "url": "https://www.slashfilm.com/2268711/the-man-from-uncle-robert-vaughn-60s-action-thriller-bullitt/"
-        },
-        {
-          "title": "Russia's hybrid attacks have Germans rethinking Nazi-era protections",
-          "source": "ABC News (AU)",
-          "url": "https://www.abc.net.au/news/2026-09-28/russian-attacks-could-force-germany-to-rethink-wwii-safeguards/107188800"
-        },
-        {
-          "title": "Why Roquan Smith could be key to the Ravens stopping Dak Prescott",
-          "source": "USA Today",
-          "url": "https://ravenswire.usatoday.com/story/sports/nfl/ravens/2026/09/27/roquan-smith-ravens-cowboys-defense-week-3-brazil/91941494007/"
-        },
-        {
-          "title": "The spy who came in from the Cold War",
-          "source": "Business Standard",
-          "url": "https://www.business-standard.com/book/the-spy-who-came-in-from-the-cold-war-126092700809_1.html"
-        },
-        {
-          "title": "New Smart Glasses Scald Users\u2019 Heads With Horrific Temperatures",
-          "source": "Futurism",
-          "url": "https://futurism.com/robots-and-machines/new-smart-glasses-burn-heads"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 736.66,
-        "change_pct": -1.05,
-        "volume": 34722855,
-        "avg_volume": 35332587,
-        "volume_ratio": 0.98,
-        "above_trend_ma": true,
-        "trend_ma": 724.05,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 740.46,
-          "high": 741.42,
-          "low": 731.63,
-          "close": 736.66,
-          "prev_open": 742.83,
-          "prev_close": 744.5
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "buy",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "2 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $736.66 is above its 15-day average ($724.05).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.98x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/f9b20a98a65a15b7"
-        },
-        {
-          "title": "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/150d92a4d2d42428"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 85.8,
-        "change_pct": -0.64,
-        "volume": 6363516,
-        "avg_volume": 5276429,
-        "volume_ratio": 1.21,
+        "price": 763.01,
+        "change_pct": -0.34,
+        "volume": 19337619,
+        "avg_volume": 43067191,
+        "volume_ratio": 0.45,
         "above_trend_ma": false,
-        "trend_ma": 86.37,
+        "trend_ma": 763.32,
         "trend_ma_days": 15,
         "candles": {
-          "open": 85.75,
-          "high": 86.13,
-          "low": 85.25,
-          "close": 85.8,
-          "prev_open": 86.06,
-          "prev_close": 86.35
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.8 is below its 15-day average ($86.37).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.21x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "This 6% Yield International Covered Call ETF Is Actually Beating VXUS",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/ec03974b723c29ee"
-        }
-      ]
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 246.2,
-        "change_pct": -1.39,
-        "volume": 22551081,
-        "avg_volume": 40115085,
-        "volume_ratio": 0.56,
-        "above_trend_ma": false,
-        "trend_ma": 251.92,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 246.32,
-          "high": 247.77,
-          "low": 244.73,
-          "close": 246.2,
-          "prev_open": 248.56,
-          "prev_close": 249.67
+          "open": 766.83,
+          "high": 766.95,
+          "low": 762.35,
+          "close": 763.01,
+          "prev_open": 768.35,
+          "prev_close": 765.61
         }
       },
       "call": {
@@ -287,12 +48,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $246.2 is below its 15-day average ($251.92).",
+          "detail": "Price $763.01 is below its 15-day average ($763.32).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.56x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.45x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -303,50 +64,288 @@
       ],
       "headlines": [
         {
-          "title": "The Jeffrey Dahmer Files 2013 1080p AMZN WEB-DL H264-TEPES",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-jeffrey-dahmer-files-2013-1080p-amzn-web-dl-h264-tepes/"
+          "title": "Long-Awaited Action Sequel To Robert De Niro Crime Classic Confirms Villain Actor",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/heat-2-movie-adam-driver-cast/"
         },
         {
-          "title": "Desert Fiends 2 2026 720p AMZN WEB-DL H264-playWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/desert-fiends-2-2026-720p-amzn-web-dl-h264-playweb/"
-        },
-        {
-          "title": "This Magnificent Seven Stock Could Reach a New All-Time High",
+          "title": "Book reviews: \u2018Exit Party\u2019 and \u2018Redwood: The Untold Story of theCold War\u2019s Most Extraordinary Spy\u2019",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/ae433459262fd72a"
+          "url": "https://biztoc.com/x/79d366ce712ea84c"
         },
         {
-          "title": "Genius 2016 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/genius-2016-1080p-amzn-web-dl-h264-kitsune/"
+          "title": "AI Almost Started a U.S.\u2013China War \u2014 and No One Seems to Cares",
+          "source": "The Intercept",
+          "url": "https://theintercept.com/2026/09/28/ai-military-nuclear-war-doomsday/"
         },
         {
-          "title": "Runner 2026 1080p AMZN WEB-DL H264-KyoGo",
+          "title": "BYD is overhauling its cheapest EV, and it\u2019s bigger than expected",
+          "source": "Electrek",
+          "url": "http://electrek.co/2026/09/28/byd-overhauling-cheapest-ev-bigger/"
+        },
+        {
+          "title": "BBC and MGM+ Release First Glimpse of Matthew Macfadyen and Charlie Hunnam in \"Legacy of Spies\" as Filming Wraps on the Highly Anticipated Series",
+          "source": "Thefutoncritic.com",
+          "url": "http://www.thefutoncritic.com/news/2026/09/28/bbc-and-mgmplus-release-first-glimpse-of-matthew-macfadyen-and-charlie-hunnam-in-legacy-of-spies-as-filming-wraps-on-the-highly-anticipated-series-420311/20260928mgm01/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 736.4,
+        "change_pct": -0.02,
+        "volume": 15007679,
+        "avg_volume": 34665244,
+        "volume_ratio": 0.43,
+        "above_trend_ma": true,
+        "trend_ma": 725.3,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 740.17,
+          "high": 740.58,
+          "low": 735.34,
+          "close": 736.4,
+          "prev_open": 740.46,
+          "prev_close": 736.53
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
+        "buy",
+        "buy"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "5 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $736.4 is above its 15-day average ($725.3).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Intel Shares Slide 5.6% as AI Chip Selloff and Profit-Taking Hit Turnaround Rally After Month-Long 40% Run",
+          "source": "Ibtimes.com.au",
+          "url": "https://www.ibtimes.com.au/intel-shares-fall-ai-chip-selloff-profit-taking-1875997"
+        },
+        {
+          "title": "Morning Minute: SEC Clears Token Buybacks for Crypto Networks",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/379412/morning-minute-sec-clears-token-buybacks-for-crypto-networks"
+        },
+        {
+          "title": "Observation of Nuclear Suppression in Coherent $\\mathrm{\u03d2}(1\\mathrm{S})$ Photoproduction off Heavy Nuclei at the LHC",
+          "source": "Aps.org",
+          "url": "https://link.aps.org/doi/10.1103/ll3f-l5xv"
+        },
+        {
+          "title": "Why the Nasdaq Refuses to Break Even With Treasury Yields Above Five Percent",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/f9b20a98a65a15b7"
+        },
+        {
+          "title": "This 17% Yield Nasdaq Covered Call ETF Is Somehow Outperforming QQQ",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/150d92a4d2d42428"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 85.21,
+        "change_pct": -0.63,
+        "volume": 4102122,
+        "avg_volume": 5277877,
+        "volume_ratio": 0.78,
+        "above_trend_ma": false,
+        "trend_ma": 86.18,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 85.51,
+          "high": 85.62,
+          "low": 85.0,
+          "close": 85.21,
+          "prev_open": 85.75,
+          "prev_close": 85.75
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $85.21 is below its 15-day average ($86.18).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": []
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 246.84,
+        "change_pct": 0.28,
+        "volume": 16208367,
+        "avg_volume": 39686421,
+        "volume_ratio": 0.41,
+        "above_trend_ma": false,
+        "trend_ma": 251.24,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 246.95,
+          "high": 247.54,
+          "low": 245.14,
+          "close": 246.84,
+          "prev_open": 246.63,
+          "prev_close": 246.15
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $246.84 is below its 15-day average ($251.24).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Audit trails for autonomous agents with AWS DevOps Agent",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/devops/audit-trails-for-autonomous-agents-with-aws-devops-agent/"
+        },
+        {
+          "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/"
+        },
+        {
+          "title": "St Andrews The Greatest Golf Story Ever Told 2021 1080p AMZN WEB-DL H265-FLORiX",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/runner-2026-1080p-amzn-web-dl-h264-kyogo/"
+          "url": "https://post.rlsbb.cc/st-andrews-the-greatest-golf-story-ever-told-2021-1080p-amzn-web-dl-h265-florix/"
+        },
+        {
+          "title": "Market Chatter: OpenAI, Anthropic CEOs Asked to Appear at Australian AI Inquiry",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/836fb2b9339adbff"
+        },
+        {
+          "title": "Beyond Top Secret The Era Of Disclosure 2026 1080p AMZN WEB-DL H265-FLORiX",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/beyond-top-secret-the-era-of-disclosure-2026-1080p-amzn-web-dl-h265-florix/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 338.98,
-        "change_pct": -0.62,
-        "volume": 8555765,
-        "avg_volume": 17354401,
-        "volume_ratio": 0.49,
+        "price": 335.63,
+        "change_pct": -1.04,
+        "volume": 7322727,
+        "avg_volume": 17164050,
+        "volume_ratio": 0.43,
         "above_trend_ma": false,
-        "trend_ma": 339.77,
+        "trend_ma": 339.8,
         "trend_ma_days": 15,
         "candles": {
-          "open": 337.46,
-          "high": 340.11,
-          "low": 336.6,
-          "close": 338.98,
-          "prev_open": 338.92,
-          "prev_close": 341.08
+          "open": 338.55,
+          "high": 339.63,
+          "low": 335.02,
+          "close": 335.63,
+          "prev_open": 337.6,
+          "prev_close": 339.16
         }
       },
       "call": {
@@ -357,15 +356,15 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "7 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -375,12 +374,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $338.98 is below its 15-day average ($339.77).",
+          "detail": "Price $335.63 is below its 15-day average ($339.8).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -396,24 +395,29 @@
       ],
       "headlines": [
         {
+          "title": "Meta enters the enterprise AI battle",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/4b014167609fc890"
+        },
+        {
+          "title": "tonst 0.2.0a1",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/tonst/"
+        },
+        {
+          "title": "Prediction: Google\u2019s Next Chapter Could Be Worth Trillions More",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/77e313b0cf27888e"
+        },
+        {
+          "title": "Market Chatter: OpenAI, Anthropic CEOs Asked to Appear at Australian AI Inquiry",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/836fb2b9339adbff"
+        },
+        {
           "title": "The AI gold rush is fueling a record corporate bond boom: Chart of the Day",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/8fd17a4da06a77f0"
-        },
-        {
-          "title": "$1.99 | Polostan: Volume One of Bomb Light\u2014A Riveting Historical Epic of International Espionage, Intrigue, and the Dawn of the Atomic Age (eBook) by Neal Stephenson",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20066274-1-99-polostan-volume-one-of-bomb-light-a-riveting-historical-epic-of-international-espionage-intrigue-and-the-dawn-of-the-atomic-age-ebook-by-neal-stephenson"
-        },
-        {
-          "title": "Show HN: Esh \u2013 English to Shell",
-          "source": "Github.com",
-          "url": "https://github.com/numericalworks/esh"
-        },
-        {
-          "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/07e2449f66f18239"
         }
       ]
     }
