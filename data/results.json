@@ -1,206 +1,25 @@
 {
-  "generated_at": "2026-09-30T18:03:56.715252+00:00",
+  "generated_at": "2026-10-01T18:31:41.611601+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 767.22,
-        "change_pct": 0.4,
-        "volume": 17061246,
-        "avg_volume": 42254846,
-        "volume_ratio": 0.4,
-        "above_trend_ma": true,
-        "trend_ma": 763.85,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 766.45,
-          "high": 769.41,
-          "low": 766.0,
-          "close": 767.22,
-          "prev_open": 766.83,
-          "prev_close": 764.2
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $767.22 is above its 15-day average ($763.85).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.4x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Samsung customers left with spoiled food after software update knocks out smart fridges",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-chat/4397309/posts"
-        },
-        {
-          "title": "Unrecognizable 90s heartthrob ignites plastic surgery rumors with taut appearance on podcast",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/tvshowbiz/article-16170005/john-cusack-Unrecognizable-serendipity-sixteen-candles-actor.html"
-        },
-        {
-          "title": "Captured Hamas Spy Chief Helps Israel Take Out Three Senior Terror Commanders",
-          "source": "Legalinsurrection.com",
-          "url": "https://legalinsurrection.com/2026/09/captured-hamas-spy-chief-helps-israel-take-out-three-senior-terror-commanders/"
-        },
-        {
-          "title": "Major Shonen Jump Anime Expands Cast Ahead of Season 2 Return This Fall",
-          "source": "ComicBook.com",
-          "url": "http://comicbook.com/anime/news/major-shonen-jump-anime-expands-cast-ahead-of-season-2-return-this-fall/"
-        },
-        {
-          "title": "US Cold War-era spy satellite explodes above Earth \u2014 and nobody knows why - Yahoo Tech",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185898788"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 743.48,
-        "change_pct": 0.75,
-        "volume": 14861964,
-        "avg_volume": 33974471,
-        "volume_ratio": 0.44,
-        "above_trend_ma": true,
-        "trend_ma": 727.26,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 740.19,
-          "high": 745.08,
-          "low": 739.76,
-          "close": 743.48,
-          "prev_open": 740.15,
-          "prev_close": 737.93
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "buy",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $743.48 is above its 15-day average ($727.26).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.44x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Investors Weigh Tech Rebound",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/35cfdfa9a6f3d809"
-        },
-        {
-          "title": "Chery Automobile initiated with bullish view at JPMorgan, here's why",
-          "source": "Thefly.com",
-          "url": "https://www.thefly.com/crauy"
-        },
-        {
-          "title": "Observation of $\\mathrm{\u03d2}(1\\mathrm{S})+Z$ Associated Production and Measurement of the Effective Double-Parton Scattering Cross Section in Proton-Proton Collisions at $\\sqrt{s}=13\\text{\u2009}\\text{\u2009}\\mathrm{TeV}$",
-          "source": "Aps.org",
-          "url": "https://link.aps.org/doi/10.1103/hgvs-jplv"
-        },
-        {
-          "title": "Bybit Expands TradFi Perp Options with Tesla, QQQ, SOXL and More, Launches Trading Challenge with Up to 70,000 USDT in Prizes",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/bybit-expands-tradfi-perp-options-with-tesla-qqq-soxl-and-more-launches-trading-challenge-with-up-to-70-000-usdt-in-prizes-302892644.html"
-        },
-        {
-          "title": "Intel Shares Slide 5.6% as AI Chip Selloff and Profit-Taking Hit Turnaround Rally After Month-Long 40% Run",
-          "source": "Ibtimes.com.au",
-          "url": "https://www.ibtimes.com.au/intel-shares-fall-ai-chip-selloff-profit-taking-1875997"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 85.11,
-        "change_pct": -0.49,
-        "volume": 3437838,
-        "avg_volume": 5259239,
-        "volume_ratio": 0.65,
+        "price": 763.9,
+        "change_pct": 0.17,
+        "volume": 31970219,
+        "avg_volume": 42019251,
+        "volume_ratio": 0.76,
         "above_trend_ma": false,
-        "trend_ma": 86.06,
+        "trend_ma": 764.07,
         "trend_ma_days": 15,
         "candles": {
-          "open": 85.7,
-          "high": 85.74,
-          "low": 85.07,
-          "close": 85.11,
-          "prev_open": 85.51,
-          "prev_close": 85.52
+          "open": 764.36,
+          "high": 765.33,
+          "low": 758.79,
+          "close": 763.9,
+          "prev_open": 766.45,
+          "prev_close": 762.63
         }
       },
       "call": {
@@ -219,56 +38,170 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "3 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.11 is below its 15-day average ($86.06).",
+          "detail": "Price $763.9 is below its 15-day average ($764.07).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.65x the recent average -- roughly normal.",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bearish engulfing",
-          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "The 10 Most Unusual James Bond Villains",
+          "source": "Nofilmschool.com",
+          "url": "https://nofilmschool.com/most-unusual-james-bond-villains"
+        },
+        {
+          "title": "BYD\u2019s cheapest EV is getting bigger and fancier",
+          "source": "Electrek",
+          "url": "http://electrek.co/2026/09/30/byds-cheapest-ev-getting-bigger-fancier/"
+        },
+        {
+          "title": "PSA: Trump Continues To Commit Crimes",
+          "source": "Thenation.com",
+          "url": "https://www.thenation.com/article/politics/psa-trump-continues-to-commit-crimes/"
+        },
+        {
+          "title": "BMW Will Phase Out The 2 Series Active Tourer And Other Models",
+          "source": "BMWBLOG",
+          "url": "https://www.bmwblog.com/2026/09/30/bmw-killing-2-series-active-tourer-and-other-models/"
+        },
+        {
+          "title": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/131f045267bea11c"
+        }
+      ]
     },
     {
-      "ticker": "AMZN",
+      "ticker": "QQQ",
       "price": {
-        "price": 250.86,
-        "change_pct": 1.7,
-        "volume": 19508293,
-        "avg_volume": 39518845,
-        "volume_ratio": 0.49,
-        "above_trend_ma": false,
-        "trend_ma": 251.13,
+        "price": 742.4,
+        "change_pct": 0.36,
+        "volume": 27604790,
+        "avg_volume": 33026113,
+        "volume_ratio": 0.84,
+        "above_trend_ma": true,
+        "trend_ma": 729.31,
         "trend_ma_days": 15,
         "candles": {
-          "open": 246.63,
-          "high": 252.44,
-          "low": 246.09,
-          "close": 250.86,
-          "prev_open": 246.71,
-          "prev_close": 246.67
+          "open": 742.51,
+          "high": 744.67,
+          "low": 736.27,
+          "close": 742.4,
+          "prev_open": 740.19,
+          "prev_close": 739.77
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
+        "buy",
+        "buy"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "6 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $742.4 is above its 15-day average ($729.31).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.84x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "QQQM Charges 0.15% and QQQ Charges 0.18%. A Wide Spread Can Take That Back on a Single Trade",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c5c9abc4e2624906"
+        },
+        {
+          "title": "Robinhood adds perpetual futures trading to platform, expanding beyond crypto into traditional assets",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/robinhood-perpetual-futures-traditional-assets/"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Investors Weigh Tech Rebound",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/35cfdfa9a6f3d809"
+        },
+        {
+          "title": "Chery Automobile initiated with bullish view at JPMorgan, here's why",
+          "source": "Thefly.com",
+          "url": "https://www.thefly.com/crauy"
+        },
+        {
+          "title": "Observation of $\\mathrm{\u03d2}(1\\mathrm{S})+Z$ Associated Production and Measurement of the Effective Double-Parton Scattering Cross Section in Proton-Proton Collisions at $\\sqrt{s}=13\\text{\u2009}\\text{\u2009}\\mathrm{TeV}$",
+          "source": "Aps.org",
+          "url": "https://link.aps.org/doi/10.1103/hgvs-jplv"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 84.28,
+        "change_pct": -0.81,
+        "volume": 5251619,
+        "avg_volume": 5330712,
+        "volume_ratio": 0.99,
+        "above_trend_ma": false,
+        "trend_ma": 85.93,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 84.72,
+          "high": 84.88,
+          "low": 83.93,
+          "close": 84.28,
+          "prev_open": 85.72,
+          "prev_close": 84.96
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
+        "positive_signals": 0,
+        "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
       },
@@ -281,95 +214,69 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $250.86 is below its 15-day average ($251.13).",
+          "detail": "Price $84.28 is below its 15-day average ($85.93).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.99x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bullish engulfing",
-          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
-      "headlines": [
-        {
-          "title": "Building an LLM-powered DAG failure analysis plugin for Amazon MWAA",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/building-an-llm-powered-dag-failure-analysis-plugin-for-amazon-mwaa/"
-        },
-        {
-          "title": "From 2 AM alarm to answer: Security Triage with AWS DevOps Agent",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/mt/from-2-am-alarm-to-answer-security-triage-with-aws-devops-agent/"
-        },
-        {
-          "title": "Doraemon The Movie New Nobita And The Castle Of The Undersea Devil 2026 1080p AMZN WEB-DL H264-ppkhoa",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/doraemon-the-movie-new-nobita-and-the-castle-of-the-undersea-devil-2026-1080p-amzn-web-dl-h264-ppkhoa/"
-        },
-        {
-          "title": "Candy Stripers 2006 1080p AMZN WEB-DL x264-ABM",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/candy-stripers-2006-1080p-amzn-web-dl-x264-abm/"
-        },
-        {
-          "title": "Wheel Of Fortune S44E11 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e11-1080p-amzn-web-dl-h264-kitsune/"
-        }
-      ]
+      "headlines": []
     },
     {
-      "ticker": "GOOG",
+      "ticker": "AMZN",
       "price": {
-        "price": 346.27,
-        "change_pct": 2.65,
-        "volume": 10616920,
-        "avg_volume": 17097730,
-        "volume_ratio": 0.62,
-        "above_trend_ma": true,
-        "trend_ma": 341.1,
+        "price": 249.21,
+        "change_pct": 0.02,
+        "volume": 21198849,
+        "avg_volume": 36082284,
+        "volume_ratio": 0.59,
+        "above_trend_ma": false,
+        "trend_ma": 250.84,
         "trend_ma_days": 15,
         "candles": {
-          "open": 340.65,
-          "high": 349.05,
-          "low": 340.45,
-          "close": 346.27,
-          "prev_open": 338.54,
-          "prev_close": 337.32
+          "open": 251.5,
+          "high": 251.83,
+          "low": 246.12,
+          "close": 249.21,
+          "prev_open": 246.79,
+          "prev_close": 249.15
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
+        "sell",
         "hold",
-        "hold",
-        "buy"
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -379,40 +286,133 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $346.27 is above its 15-day average ($341.1).",
-          "signal": "pos"
+          "detail": "Price $249.21 is below its 15-day average ($250.84).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.62x the recent average -- roughly normal.",
+          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Meta enters the enterprise AI battle",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4b014167609fc890"
+          "title": "Alappuzha Gymkhana 2025 1080p AMZN WEB-DL Atmos H264-CPTN5DW",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/alappuzha-gymkhana-2025-1080p-amzn-web-dl-atmos-h264-cptn5dw/"
         },
         {
-          "title": "tonst 0.2.0a1",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/tonst/"
+          "title": "Captive 2026 S01E01 720p AMZN WEB-DL DUAL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/captive-2026-s01e01-720p-amzn-web-dl-dual-h264-rawr/"
         },
         {
-          "title": "Prediction: Google\u2019s Next Chapter Could Be Worth Trillions More",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/77e313b0cf27888e"
+          "title": "Captive 2026 S01E02 720p AMZN WEB-DL DUAL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/captive-2026-s01e02-720p-amzn-web-dl-dual-h264-rawr/"
         },
         {
-          "title": "Market Chatter: OpenAI, Anthropic CEOs Asked to Appear at Australian AI Inquiry",
+          "title": "Best Sex Ever S01E03 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/best-sex-ever-s01e03-1080p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "Best Sex Ever S01E02 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/best-sex-ever-s01e02-1080p-amzn-web-dl-h264-kitsune/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 335.38,
+        "change_pct": -1.57,
+        "volume": 12876705,
+        "avg_volume": 16997367,
+        "volume_ratio": 0.76,
+        "above_trend_ma": false,
+        "trend_ma": 341.07,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 347.76,
+          "high": 350.09,
+          "low": 332.65,
+          "close": 335.38,
+          "prev_open": 340.65,
+          "prev_close": 340.74
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "sell"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "sell"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "4 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $335.38 is below its 15-day average ($341.07).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Google, Anthropic, Meta, Nvidia, OpenAI, xAI Executives Sign White House Accord on 'Super Intelligence'",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/836fb2b9339adbff"
+          "url": "https://biztoc.com/x/1c50694ef5e89b27"
+        },
+        {
+          "title": "Anthropic IPO reveals AI lab's dependence on small group of partners: report",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/1cb2efbe648cb080"
+        },
+        {
+          "title": "Google, Weight Watchers Collaborate on Health Technology",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/healthcare/articles/google-weight-watchers-collaborate-health-125105640.html"
+        },
+        {
+          "title": "Trump considers creating AI oversight committee after tech execs meeting",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/trump-gathers-with-ai-leaders-floats-self-regulation-as-the-way-to-deal-with-the-technologys-dangers-193745293.html"
         }
       ]
     }
