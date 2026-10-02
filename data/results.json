@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-10-01T18:31:41.611601+00:00",
+  "generated_at": "2026-10-02T17:58:28.548826+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 763.9,
-        "change_pct": 0.17,
-        "volume": 31970219,
-        "avg_volume": 42019251,
-        "volume_ratio": 0.76,
-        "above_trend_ma": false,
-        "trend_ma": 764.07,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 764.36,
-          "high": 765.33,
-          "low": 758.79,
-          "close": 763.9,
-          "prev_open": 766.45,
-          "prev_close": 762.63
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "sell"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $763.9 is below its 15-day average ($764.07).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.76x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "The 10 Most Unusual James Bond Villains",
-          "source": "Nofilmschool.com",
-          "url": "https://nofilmschool.com/most-unusual-james-bond-villains"
-        },
-        {
-          "title": "BYD\u2019s cheapest EV is getting bigger and fancier",
-          "source": "Electrek",
-          "url": "http://electrek.co/2026/09/30/byds-cheapest-ev-getting-bigger-fancier/"
-        },
-        {
-          "title": "PSA: Trump Continues To Commit Crimes",
-          "source": "Thenation.com",
-          "url": "https://www.thenation.com/article/politics/psa-trump-continues-to-commit-crimes/"
-        },
-        {
-          "title": "BMW Will Phase Out The 2 Series Active Tourer And Other Models",
-          "source": "BMWBLOG",
-          "url": "https://www.bmwblog.com/2026/09/30/bmw-killing-2-series-active-tourer-and-other-models/"
-        },
-        {
-          "title": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/131f045267bea11c"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 742.4,
-        "change_pct": 0.36,
-        "volume": 27604790,
-        "avg_volume": 33026113,
-        "volume_ratio": 0.84,
+        "price": 768.9,
+        "change_pct": 0.64,
+        "volume": 27107471,
+        "avg_volume": 42042231,
+        "volume_ratio": 0.64,
         "above_trend_ma": true,
-        "trend_ma": 729.31,
+        "trend_ma": 764.51,
         "trend_ma_days": 15,
         "candles": {
-          "open": 742.51,
-          "high": 744.67,
-          "low": 736.27,
-          "close": 742.4,
-          "prev_open": 740.19,
-          "prev_close": 739.77
+          "open": 770.58,
+          "high": 772.65,
+          "low": 767.15,
+          "close": 768.9,
+          "prev_open": 764.36,
+          "prev_close": 763.99
         }
       },
       "call": {
@@ -118,30 +30,30 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "buy",
-        "buy",
+        "hold",
+        "sell",
         "buy"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
+          "detail": "2 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $742.4 is above its 15-day average ($729.31).",
+          "detail": "Price $768.9 is above its 15-day average ($764.51).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.84x the recent average -- roughly normal.",
+          "detail": "Volume is 0.64x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,50 +64,123 @@
       ],
       "headlines": [
         {
-          "title": "QQQM Charges 0.15% and QQQ Charges 0.18%. A Wide Spread Can Take That Back on a Single Trade",
+          "title": "007 First Light Free DLC Releases Today With Feature Fans Have Craved Since Launch",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/007-first-light-free-dlc-new/"
+        },
+        {
+          "title": "Florence Pugh\u2019s East of Eden Netflix TV Show Sets Big Rotten Tomatoes Records",
+          "source": "ComingSoon.net",
+          "url": "https://www.comingsoon.net/tv/news/2200675-east-of-eden-rotten-tomatoes-score-florence-pugh"
+        },
+        {
+          "title": "CME Group Sets New Open Interest Record in Soybean Futures",
+          "source": "PRNewswire",
+          "url": "https://www.prnewswire.com/news-releases/cme-group-sets-new-open-interest-record-in-soybean-futures-302896268.html"
+        },
+        {
+          "title": "125 New Sci-Fi, Horror, and Fantasy Books Releasing in October",
+          "source": "Gizmodo.com",
+          "url": "https://gizmodo.com/125-new-sci-fi-horror-and-fantasy-books-releasing-in-october-2000819734"
+        },
+        {
+          "title": "Google tests its plan for AI data centers in space with Project Suncatcher",
+          "source": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/google-tests-plan-for-ai-data-centers-in-space-project-suncatcher/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 748.67,
+        "change_pct": 0.89,
+        "volume": 23042265,
+        "avg_volume": 32982806,
+        "volume_ratio": 0.7,
+        "above_trend_ma": true,
+        "trend_ma": 731.59,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 751.31,
+          "high": 754.53,
+          "low": 747.53,
+          "close": 748.67,
+          "prev_open": 742.51,
+          "prev_close": 742.03
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "2 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $748.67 is above its 15-day average ($731.59).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.7x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Thursday as Traders Assess Micron's Fiscal Q4 Results",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c5c9abc4e2624906"
+          "url": "https://biztoc.com/x/58644f47e29f0f43"
         },
         {
-          "title": "Robinhood adds perpetual futures trading to platform, expanding beyond crypto into traditional assets",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/robinhood-perpetual-futures-traditional-assets/"
-        },
-        {
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Investors Weigh Tech Rebound",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/35cfdfa9a6f3d809"
-        },
-        {
-          "title": "Chery Automobile initiated with bullish view at JPMorgan, here's why",
-          "source": "Thefly.com",
-          "url": "https://www.thefly.com/crauy"
-        },
-        {
-          "title": "Observation of $\\mathrm{\u03d2}(1\\mathrm{S})+Z$ Associated Production and Measurement of the Effective Double-Parton Scattering Cross Section in Proton-Proton Collisions at $\\sqrt{s}=13\\text{\u2009}\\text{\u2009}\\mathrm{TeV}$",
+          "title": "Unified study of hyperon semileptonic decays in a relativistic three-quark model",
           "source": "Aps.org",
-          "url": "https://link.aps.org/doi/10.1103/hgvs-jplv"
+          "url": "https://link.aps.org/doi/10.1103/q49g-5nvz"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.28,
-        "change_pct": -0.81,
-        "volume": 5251619,
-        "avg_volume": 5330712,
-        "volume_ratio": 0.99,
+        "price": 85.14,
+        "change_pct": 0.81,
+        "volume": 3706602,
+        "avg_volume": 5322720,
+        "volume_ratio": 0.7,
         "above_trend_ma": false,
-        "trend_ma": 85.93,
+        "trend_ma": 85.82,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.72,
-          "high": 84.88,
-          "low": 83.93,
-          "close": 84.28,
-          "prev_open": 85.72,
-          "prev_close": 84.96
+          "open": 85.24,
+          "high": 85.6,
+          "low": 84.89,
+          "close": 85.14,
+          "prev_open": 84.74,
+          "prev_close": 84.46
         }
       },
       "call": {
@@ -206,8 +191,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -224,12 +209,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.28 is below its 15-day average ($85.93).",
+          "detail": "Price $85.14 is below its 15-day average ($85.82).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.99x the recent average -- roughly normal.",
+          "detail": "Volume is 0.7x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,21 +228,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 249.21,
-        "change_pct": 0.02,
-        "volume": 21198849,
-        "avg_volume": 36082284,
-        "volume_ratio": 0.59,
-        "above_trend_ma": false,
-        "trend_ma": 250.84,
+        "price": 250.85,
+        "change_pct": 1.06,
+        "volume": 18770809,
+        "avg_volume": 35962979,
+        "volume_ratio": 0.52,
+        "above_trend_ma": true,
+        "trend_ma": 250.37,
         "trend_ma_days": 15,
         "candles": {
-          "open": 251.5,
-          "high": 251.83,
-          "low": 246.12,
-          "close": 249.21,
-          "prev_open": 246.79,
-          "prev_close": 249.15
+          "open": 251.28,
+          "high": 253.56,
+          "low": 250.02,
+          "close": 250.85,
+          "prev_open": 251.61,
+          "prev_close": 248.23
         }
       },
       "call": {
@@ -268,7 +253,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -281,17 +266,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $249.21 is below its 15-day average ($250.84).",
+          "detail": "3 negative keyword hits vs 2 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $250.85 is above its 15-day average ($250.37).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.52x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -307,50 +292,50 @@
       ],
       "headlines": [
         {
-          "title": "Alappuzha Gymkhana 2025 1080p AMZN WEB-DL Atmos H264-CPTN5DW",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/alappuzha-gymkhana-2025-1080p-amzn-web-dl-atmos-h264-cptn5dw/"
+          "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/"
         },
         {
-          "title": "Captive 2026 S01E01 720p AMZN WEB-DL DUAL H264-RAWR",
+          "title": "Archive X Unexplained Phenomena S01E01 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/captive-2026-s01e01-720p-amzn-web-dl-dual-h264-rawr/"
+          "url": "https://post.rlsbb.cc/archive-x-unexplained-phenomena-s01e01-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Captive 2026 S01E02 720p AMZN WEB-DL DUAL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/captive-2026-s01e02-720p-amzn-web-dl-dual-h264-rawr/"
+          "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/"
         },
         {
-          "title": "Best Sex Ever S01E03 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/best-sex-ever-s01e03-1080p-amzn-web-dl-h264-kitsune/"
+          "title": "Why Amazon\u2019s (AMZN) Infrastructure Investment Sets Up Record Downstream FCF",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/ad5ae719d3a85a90"
         },
         {
-          "title": "Best Sex Ever S01E02 1080p AMZN WEB-DL H264-Kitsune",
+          "title": "Fam S01 1080p AMZN WEB-DL H264-NTb",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/best-sex-ever-s01e02-1080p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/fam-s01-1080p-amzn-web-dl-h264-ntb/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 335.38,
-        "change_pct": -1.57,
-        "volume": 12876705,
-        "avg_volume": 16997367,
-        "volume_ratio": 0.76,
+        "price": 340.61,
+        "change_pct": 1.69,
+        "volume": 10893966,
+        "avg_volume": 17022596,
+        "volume_ratio": 0.64,
         "above_trend_ma": false,
-        "trend_ma": 341.07,
+        "trend_ma": 341.38,
         "trend_ma_days": 15,
         "candles": {
-          "open": 347.76,
-          "high": 350.09,
-          "low": 332.65,
-          "close": 335.38,
-          "prev_open": 340.65,
-          "prev_close": 340.74
+          "open": 338.18,
+          "high": 342.78,
+          "low": 337.98,
+          "close": 340.61,
+          "prev_open": 347.76,
+          "prev_close": 334.93
         }
       },
       "call": {
@@ -361,58 +346,63 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
         "buy",
+        "sell",
         "sell"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "3 negative keyword hits vs 0 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $335.38 is below its 15-day average ($341.07).",
+          "detail": "Price $340.61 is below its 15-day average ($341.38).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "detail": "Volume is 0.64x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bearish engulfing",
-          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
+          "title": "Spooktober 2026, Day One",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/01/spooktober-2026-day-one/"
+        },
+        {
+          "title": "Berkshire Hathaway Parks 45.52% of $357,000,000,000 Portfolio in Three AI-Powered Stocks, Including Apple and Alphabet",
+          "source": "The Daily Hodl",
+          "url": "https://dailyhodl.com/2026/10/01/berkshire-hathaway-parks-45-52-of-357000000000-portfolio-in-three-ai-powered-stocks-including-apple-and-alphabet/"
+        },
+        {
+          "title": "$1.99 | The Politics Book: Big Ideas Simply Explained (DK Big Ideas) (eBook) by DK",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20080605-1-99-the-politics-book-big-ideas-simply-explained-dk-big-ideas-ebook-by-dk"
+        },
+        {
+          "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/ftc-reportedly-looking-into-whether-openai-anthropic-violated-consumer-protection-laws-185820887.html"
+        },
+        {
           "title": "Google, Anthropic, Meta, Nvidia, OpenAI, xAI Executives Sign White House Accord on 'Super Intelligence'",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/1c50694ef5e89b27"
-        },
-        {
-          "title": "Anthropic IPO reveals AI lab's dependence on small group of partners: report",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1cb2efbe648cb080"
-        },
-        {
-          "title": "Google, Weight Watchers Collaborate on Health Technology",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/healthcare/articles/google-weight-watchers-collaborate-health-125105640.html"
-        },
-        {
-          "title": "Trump considers creating AI oversight committee after tech execs meeting",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/trump-gathers-with-ai-leaders-floats-self-regulation-as-the-way-to-deal-with-the-technologys-dangers-193745293.html"
         }
       ]
     }
