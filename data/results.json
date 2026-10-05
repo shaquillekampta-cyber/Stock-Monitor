@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-10-02T17:58:28.548826+00:00",
+  "generated_at": "2026-10-05T20:39:14.434166+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 768.9,
-        "change_pct": 0.64,
-        "volume": 27107471,
-        "avg_volume": 42042231,
-        "volume_ratio": 0.64,
+        "price": 774.83,
+        "change_pct": 0.67,
+        "volume": 42531085,
+        "avg_volume": 41377544,
+        "volume_ratio": 1.03,
         "above_trend_ma": true,
-        "trend_ma": 764.51,
+        "trend_ma": 765.61,
         "trend_ma_days": 15,
         "candles": {
-          "open": 770.58,
-          "high": 772.65,
-          "low": 767.15,
-          "close": 768.9,
-          "prev_open": 764.36,
-          "prev_close": 763.99
+          "open": 769.69,
+          "high": 776.6,
+          "low": 769.69,
+          "close": 774.83,
+          "prev_open": 770.58,
+          "prev_close": 769.64
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
-        "buy"
+        "buy",
+        "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -43,86 +43,91 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "detail": "4 negative keyword hits vs 0 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $768.9 is above its 15-day average ($764.51).",
+          "detail": "Price $774.83 is above its 15-day average ($765.61).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.64x the recent average -- roughly normal.",
+          "detail": "Volume is 1.03x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "007 First Light Free DLC Releases Today With Feature Fans Have Craved Since Launch",
+          "title": "Everything To Know About \u2018Dexter: Resurrection\u2019 Season 2: Release Date, Cast, Start Date",
+          "source": "Decider",
+          "url": "https://decider.com/2026/10/04/dexter-resurrection-season-2-release-date-cast-start-date-everything-we-know/"
+        },
+        {
+          "title": "\u201cFour Hands, Two Sonatas\u201d And \u201cNew Recruit 4: Sabotage\u201d Dominate Most Buzzworthy Drama And Actor Rankings",
+          "source": "soompi",
+          "url": "http://www.soompi.com/article/1875439wpp/four-hands-two-sonatas-and-new-recruit-4-sabotage-dominate-most-buzzworthy-drama-and-actor-rankings"
+        },
+        {
+          "title": "Trump\u2019s gives spy chief new title: AI czar - politico.com",
+          "source": "Slashdot.org",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186022144"
+        },
+        {
+          "title": "Here\u2019s What\u2019s New on Prime Video in October",
+          "source": "TheWrap",
+          "url": "https://www.thewrap.com/creative-content/what-to-watch/everything-new-prime-video-october-2026/"
+        },
+        {
+          "title": "The 25 Best Western Shows Of All Time, Ranked",
           "source": "Screen Rant",
-          "url": "https://screenrant.com/007-first-light-free-dlc-new/"
-        },
-        {
-          "title": "Florence Pugh\u2019s East of Eden Netflix TV Show Sets Big Rotten Tomatoes Records",
-          "source": "ComingSoon.net",
-          "url": "https://www.comingsoon.net/tv/news/2200675-east-of-eden-rotten-tomatoes-score-florence-pugh"
-        },
-        {
-          "title": "CME Group Sets New Open Interest Record in Soybean Futures",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/cme-group-sets-new-open-interest-record-in-soybean-futures-302896268.html"
-        },
-        {
-          "title": "125 New Sci-Fi, Horror, and Fantasy Books Releasing in October",
-          "source": "Gizmodo.com",
-          "url": "https://gizmodo.com/125-new-sci-fi-horror-and-fantasy-books-releasing-in-october-2000819734"
-        },
-        {
-          "title": "Google tests its plan for AI data centers in space with Project Suncatcher",
-          "source": "Scientific American",
-          "url": "https://www.scientificamerican.com/article/google-tests-plan-for-ai-data-centers-in-space-project-suncatcher/"
+          "url": "https://screenrant.com/best-western-tv-shows-all-time/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 748.67,
-        "change_pct": 0.89,
-        "volume": 23042265,
-        "avg_volume": 32982806,
-        "volume_ratio": 0.7,
+        "price": 756.2,
+        "change_pct": 0.88,
+        "volume": 24996132,
+        "avg_volume": 32132746,
+        "volume_ratio": 0.78,
         "above_trend_ma": true,
-        "trend_ma": 731.59,
+        "trend_ma": 734.83,
         "trend_ma_days": 15,
         "candles": {
-          "open": 751.31,
-          "high": 754.53,
-          "low": 747.53,
-          "close": 748.67,
-          "prev_open": 742.51,
-          "prev_close": 742.03
+          "open": 749.35,
+          "high": 756.91,
+          "low": 749.08,
+          "close": 756.2,
+          "prev_open": 751.31,
+          "prev_close": 749.58
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
+        "call": "buy",
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
-        "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -136,62 +141,62 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $748.67 is above its 15-day average ($731.59).",
+          "detail": "Price $756.2 is above its 15-day average ($734.83).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Candlestick: bullish engulfing",
+          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
+          "signal": "pos"
         }
       ],
       "headlines": [
         {
-          "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Thursday as Traders Assess Micron's Fiscal Q4 Results",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/58644f47e29f0f43"
+          "title": "mcp-etf-holdings added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/mcp-etf-holdings/"
         },
         {
-          "title": "Unified study of hyperon semileptonic decays in a relativistic three-quark model",
-          "source": "Aps.org",
-          "url": "https://link.aps.org/doi/10.1103/q49g-5nvz"
+          "title": "Is the AI Bull Market About to Crash? This Risk Indicator Is Saying Yes",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/85d061108a38f921"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 85.14,
-        "change_pct": 0.81,
-        "volume": 3706602,
-        "avg_volume": 5322720,
-        "volume_ratio": 0.7,
-        "above_trend_ma": false,
-        "trend_ma": 85.82,
+        "price": 85.85,
+        "change_pct": 0.49,
+        "volume": 5613078,
+        "avg_volume": 5380006,
+        "volume_ratio": 1.04,
+        "above_trend_ma": true,
+        "trend_ma": 85.83,
         "trend_ma_days": 15,
         "candles": {
-          "open": 85.24,
-          "high": 85.6,
-          "low": 84.89,
-          "close": 85.14,
-          "prev_open": 84.74,
-          "prev_close": 84.46
+          "open": 85.53,
+          "high": 85.98,
+          "low": 85.29,
+          "close": 85.85,
+          "prev_open": 85.2,
+          "prev_close": 85.43
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
+        "positive_signals": 1,
+        "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -209,12 +214,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.14 is below its 15-day average ($85.82).",
-          "signal": "neg"
+          "detail": "Price $85.85 is above its 15-day average ($85.83).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
+          "detail": "Volume is 1.04x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -228,28 +233,28 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 250.85,
-        "change_pct": 1.06,
-        "volume": 18770809,
-        "avg_volume": 35962979,
-        "volume_ratio": 0.52,
+        "price": 251.4,
+        "change_pct": -0.05,
+        "volume": 37352414,
+        "avg_volume": 34017097,
+        "volume_ratio": 1.1,
         "above_trend_ma": true,
-        "trend_ma": 250.37,
+        "trend_ma": 250.28,
         "trend_ma_days": 15,
         "candles": {
-          "open": 251.28,
-          "high": 253.56,
-          "low": 250.02,
-          "close": 250.85,
-          "prev_open": 251.61,
-          "prev_close": 248.23
+          "open": 250.19,
+          "high": 254.53,
+          "low": 250.18,
+          "close": 251.4,
+          "prev_open": 251.51,
+          "prev_close": 251.52
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -266,110 +271,105 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $250.85 is above its 15-day average ($250.37).",
+          "detail": "Price $251.4 is above its 15-day average ($250.28).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.52x the recent average -- unusually light conviction.",
+          "detail": "Volume is 1.1x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/"
-        },
-        {
-          "title": "Archive X Unexplained Phenomena S01E01 1080p AMZN WEB-DL H264-RAWR",
+          "title": "One Special Night 1999 AMZN WEB-DL H 265-SNAKE",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/archive-x-unexplained-phenomena-s01e01-1080p-amzn-web-dl-h264-rawr/"
+          "url": "https://post.rlsbb.cc/one-special-night-1999-amzn-web-dl-h-265-snake/"
         },
         {
-          "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/"
+          "title": "PATROCINIO S01 1080p AMZN WEB-DL H265-BurCyg",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/patrocinio-s01-1080p-amzn-web-dl-h-265-burcyg/"
         },
         {
-          "title": "Why Amazon\u2019s (AMZN) Infrastructure Investment Sets Up Record Downstream FCF",
+          "title": "Amazon AWS CEO reveals surprising risk to AI stocks and U.S. economy",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/ad5ae719d3a85a90"
+          "url": "https://biztoc.com/x/15016036b92caa43"
         },
         {
-          "title": "Fam S01 1080p AMZN WEB-DL H264-NTb",
+          "title": "Kaithi 2019 1080p AMZN WEB-DL H264-QAsH",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/fam-s01-1080p-amzn-web-dl-h264-ntb/"
+          "url": "https://post.rlsbb.cc/kaithi-2019-1080p-amzn-web-dl-h264-qash/"
+        },
+        {
+          "title": "Jackie Forster 2025 720p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/jackie-forster-2025-720p-amzn-web-dl-h264-kitsune/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 340.61,
-        "change_pct": 1.69,
-        "volume": 10893966,
-        "avg_volume": 17022596,
-        "volume_ratio": 0.64,
-        "above_trend_ma": false,
-        "trend_ma": 341.38,
+        "price": 343.83,
+        "change_pct": 1.02,
+        "volume": 13106110,
+        "avg_volume": 16479914,
+        "volume_ratio": 0.8,
+        "above_trend_ma": true,
+        "trend_ma": 341.24,
         "trend_ma_days": 15,
         "candles": {
-          "open": 338.18,
-          "high": 342.78,
-          "low": 337.98,
-          "close": 340.61,
-          "prev_open": 347.76,
-          "prev_close": 334.93
+          "open": 339.38,
+          "high": 344.99,
+          "low": 339.15,
+          "close": 343.83,
+          "prev_open": 338.1,
+          "prev_close": 340.35
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "sell"
       },
       "call_history": [
-        "buy",
         "sell",
-        "sell"
+        "sell",
+        "buy"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $340.61 is below its 15-day average ($341.38).",
-          "signal": "neg"
+          "detail": "Price $343.83 is above its 15-day average ($341.24).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.64x the recent average -- roughly normal.",
+          "detail": "Volume is 0.8x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -380,29 +380,29 @@
       ],
       "headlines": [
         {
-          "title": "Spooktober 2026, Day One",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/01/spooktober-2026-day-one/"
-        },
-        {
-          "title": "Berkshire Hathaway Parks 45.52% of $357,000,000,000 Portfolio in Three AI-Powered Stocks, Including Apple and Alphabet",
-          "source": "The Daily Hodl",
-          "url": "https://dailyhodl.com/2026/10/01/berkshire-hathaway-parks-45-52-of-357000000000-portfolio-in-three-ai-powered-stocks-including-apple-and-alphabet/"
-        },
-        {
-          "title": "$1.99 | The Politics Book: Big Ideas Simply Explained (DK Big Ideas) (eBook) by DK",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20080605-1-99-the-politics-book-big-ideas-simply-explained-dk-big-ideas-ebook-by-dk"
-        },
-        {
-          "title": "FTC opens probe into AI giants, including Anthropic and OpenAI",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/ftc-reportedly-looking-into-whether-openai-anthropic-violated-consumer-protection-laws-185820887.html"
-        },
-        {
-          "title": "Google, Anthropic, Meta, Nvidia, OpenAI, xAI Executives Sign White House Accord on 'Super Intelligence'",
+          "title": "Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1c50694ef5e89b27"
+          "url": "https://biztoc.com/x/67ee7113a8a3012f"
+        },
+        {
+          "title": "Spooktober 2026, Day Four",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/03/spooktober-2026-day-four/"
+        },
+        {
+          "title": "The S&P 500 Is Not Enough: My 3-Stock Starter Portfolio for New Investors",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/90000c1d70e5f356"
+        },
+        {
+          "title": "Anthropic\u2019s $518 Billion Bet Could Create New AI Winners",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/b94d6bc5a33bff87"
+        },
+        {
+          "title": "Spooktober 2026, Day Three",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/02/spooktober-2026-day-three/"
         }
       ]
     }
