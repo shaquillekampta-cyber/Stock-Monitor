@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-10-06T18:32:21.510302+00:00",
+  "generated_at": "2026-10-07T19:02:07.450022+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 779.89,
-        "change_pct": 0.65,
-        "volume": 20270453,
-        "avg_volume": 40939884,
-        "volume_ratio": 0.5,
+        "price": 777.87,
+        "change_pct": -0.16,
+        "volume": 19541211,
+        "avg_volume": 40868044,
+        "volume_ratio": 0.48,
         "above_trend_ma": true,
-        "trend_ma": 767.24,
+        "trend_ma": 768.9,
         "trend_ma_days": 15,
         "candles": {
-          "open": 778.15,
-          "high": 781.62,
-          "low": 777.96,
-          "close": 779.89,
-          "prev_open": 769.69,
-          "prev_close": 774.83
+          "open": 775.77,
+          "high": 779.1,
+          "low": 773.61,
+          "close": 777.87,
+          "prev_open": 778.15,
+          "prev_close": 779.09
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
+        "hold",
         "hold",
         "hold"
       ],
@@ -43,76 +43,71 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $779.89 is above its 15-day average ($767.24).",
+          "detail": "Price $777.87 is above its 15-day average ($768.9).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.48x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Film Quote of the Day: The James Bond Line That Delivered a Perfect Insult",
-          "source": "Nofilmschool.com",
-          "url": "https://nofilmschool.com/dr-no-quote"
+          "title": "5 Cult 2000s Cartoons That Actually Had Perfect Endings And Need to Be Left Alone",
+          "source": "ComicBook.com",
+          "url": "http://comicbook.com/tv-shows/list/5-cult-2000s-cartoons-that-actually-had-perfect-endings-and-need-to-be-left-alone/"
         },
         {
-          "title": "Why Matt Damon's $416 Million Spy Thriller Has Become A Netflix Streaming Hit",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/netflix-jason-bourne-streaming-charts-rise-october-2026/"
+          "title": "Saoirse Ronan has telling reaction to rumor husband Jack Lowden is the new James Bond",
+          "source": "Page Six",
+          "url": "https://pagesix.com/2026/10/06/entertainment/saoirse-ronan-has-telling-reaction-to-rumor-husband-jack-lowden-is-the-new-james-bond/"
         },
         {
-          "title": "The 141 Best Prime Day Tech Deals From Apple, Dell, HP, Samsung, Sony, and More",
-          "source": "PCMag.com",
-          "url": "https://uk.pcmag.com/amazon-prime-big-deal-days/167662/the-141-best-prime-day-tech-deals-from-apple-dell-hp-samsung-sony-and-more"
+          "title": "Andrew Scott on 'Elsinore' and Being an Out Gay Actor in 2026",
+          "source": "Hollywood Reporter",
+          "url": "http://www.hollywoodreporter.com/movies/movie-news/andrew-scott-on-elsinore-and-being-an-out-gay-actor-in-2026-1236722049/"
         },
         {
-          "title": "Matt Howarth, Creator Of Savage Henry And Post Bros Has Died, Aged 72",
-          "source": "Bleeding Cool News",
-          "url": "https://bleedingcool.com/comics/matt-howarth-creator-of-savage-henry-and-post-bros-has-died-aged-72/"
+          "title": "CIA officer arrested with gold bars pleads guilty to wire fraud",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/national-security/cia-officer-arrested-gold-bars-pleads-guilty-wire-fraud-rcna601857"
         },
         {
-          "title": "Communist China is bringing its police state to California",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/10/05/opinion/communist-china-is-bringing-its-police-state-to-california/"
+          "title": "This Lollipop Could Help Blind Women Independently Detect Pregnancy",
+          "source": "Smithsonian.com",
+          "url": "https://www.smithsonianmag.com/innovation/this-lollipop-could-help-blind-women-independently-detect-pregnancy-180989608/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 760.74,
-        "change_pct": 0.6,
-        "volume": 18758257,
-        "avg_volume": 31835015,
-        "volume_ratio": 0.59,
+        "price": 757.42,
+        "change_pct": -0.29,
+        "volume": 18382165,
+        "avg_volume": 31674710,
+        "volume_ratio": 0.58,
         "above_trend_ma": true,
-        "trend_ma": 738.63,
+        "trend_ma": 742.12,
         "trend_ma_days": 15,
         "candles": {
-          "open": 760.54,
-          "high": 762.86,
-          "low": 759.1,
-          "close": 760.74,
-          "prev_open": 749.35,
-          "prev_close": 756.2
+          "open": 753.87,
+          "high": 757.68,
+          "low": 751.76,
+          "close": 757.42,
+          "prev_open": 760.52,
+          "prev_close": 759.66
         }
       },
       "call": {
@@ -123,7 +118,7 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
+        "buy",
         "buy",
         "buy"
       ],
@@ -131,7 +126,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -141,12 +136,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $760.74 is above its 15-day average ($738.63).",
+          "detail": "Price $757.42 is above its 15-day average ($742.12).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -156,6 +151,11 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Worst Performing ETFs of 2026 So Far",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/15e8c70eb913c3d0"
+        },
         {
           "title": "S&P Global brings risk assessments to growing crypto lending vault sector",
           "source": "Cointelegraph",
@@ -181,27 +181,27 @@
     {
       "ticker": "VXUS",
       "price": {
-        "price": 85.96,
-        "change_pct": 0.13,
-        "volume": 3802755,
-        "avg_volume": 5343689,
-        "volume_ratio": 0.71,
-        "above_trend_ma": true,
-        "trend_ma": 85.86,
+        "price": 84.86,
+        "change_pct": -1.09,
+        "volume": 4344426,
+        "avg_volume": 5372186,
+        "volume_ratio": 0.81,
+        "above_trend_ma": false,
+        "trend_ma": 85.82,
         "trend_ma_days": 15,
         "candles": {
-          "open": 86.1,
-          "high": 86.17,
-          "low": 85.82,
-          "close": 85.96,
-          "prev_open": 85.53,
-          "prev_close": 85.85
+          "open": 84.58,
+          "high": 84.95,
+          "low": 84.36,
+          "close": 84.86,
+          "prev_open": 86.15,
+          "prev_close": 85.8
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
+        "positive_signals": 0,
+        "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
       },
@@ -224,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $85.96 is above its 15-day average ($85.86).",
-          "signal": "pos"
+          "detail": "Price $84.86 is below its 15-day average ($85.82).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "detail": "Volume is 0.81x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,109 +243,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 256.4,
-        "change_pct": 1.99,
-        "volume": 20139453,
-        "avg_volume": 33737531,
-        "volume_ratio": 0.6,
+        "price": 259.82,
+        "change_pct": 1.38,
+        "volume": 23183666,
+        "avg_volume": 33888464,
+        "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 250.81,
+        "trend_ma": 251.73,
         "trend_ma_days": 15,
         "candles": {
-          "open": 253.4,
-          "high": 256.64,
-          "low": 251.08,
-          "close": 256.4,
-          "prev_open": 250.19,
-          "prev_close": 251.4
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "buy"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 2 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $256.4 is above its 15-day average ($250.81).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "All In Good Time 2012 1080p AMZN WEB-DL H264-SCOPE",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/all-in-good-time-2012-1080p-amzn-web-dl-h264-scope/"
-        },
-        {
-          "title": "Entroncamento 2026 1080p AMZN WEB-DL H264-cinepth",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/entroncamento-2026-1080p-amzn-web-dl-h264-cinepth/"
-        },
-        {
-          "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "title": "Teen Titans Go S09E46 720p AMZN WEB-DL H264-NTb",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/teen-titans-go-s09e46-720p-amzn-web-dl-h264-ntb/"
-        },
-        {
-          "title": "Guy Martins Wall Of Death Live 2016 DOCU 1080p AMZN WEB-DL H264-MPX",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/guy-martins-wall-of-death-live-2016-docu-1080p-amzn-web-dl-h264-mpx/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 345.35,
-        "change_pct": 0.44,
-        "volume": 7061751,
-        "avg_volume": 16281063,
-        "volume_ratio": 0.43,
-        "above_trend_ma": true,
-        "trend_ma": 341.5,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 344.64,
-          "high": 345.66,
-          "low": 341.7,
-          "close": 345.35,
-          "prev_open": 339.21,
-          "prev_close": 343.83
+          "open": 254.07,
+          "high": 259.82,
+          "low": 253.17,
+          "close": 259.82,
+          "prev_open": 253.4,
+          "prev_close": 256.29
         }
       },
       "call": {
@@ -356,7 +268,7 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "sell",
+        "hold",
         "buy",
         "buy"
       ],
@@ -364,50 +276,148 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "4 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $345.35 is above its 15-day average ($341.5).",
+          "detail": "Price $259.82 is above its 15-day average ($251.73).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.68x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "AI Future Of Microsoft and Google Face OpenAI Big Legal Problems",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/9b9c8975d50e9f62"
+          "title": "Survivors Remorse S01-S04 1080p AMZN WEB-DL H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/survivors-remorse-s01-s04-1080p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "The AI Boom Could Make This Magnificent 7 Stock a Much Bigger Business",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/322a96fd084a21ba"
+          "title": "Dublin Murders S01 1080p AMZN WEB-DL H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/dublin-murders-s01-1080p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "Alphabet Reported Negative Free Cash Flow for the First Time Ever. Here's Why That Milestone Matters for Shareholders",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/67ee7113a8a3012f"
+          "title": "Cost-effective ETL with DuckDB and Amazon S3 Tables on AWS Glue",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/big-data/cost-effective-etl-with-duckdb-and-amazon-s3-tables-on-aws-glue/"
         },
         {
-          "title": "Spooktober 2026, Day Four",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/03/spooktober-2026-day-four/"
+          "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/"
+        },
+        {
+          "title": "Query across accounts and table formats with multi-catalog in Amazon EMR",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/big-data/query-across-accounts-and-table-formats-with-multi-catalog-in-amazon-emr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 346.39,
+        "change_pct": 0.52,
+        "volume": 7265485,
+        "avg_volume": 16208464,
+        "volume_ratio": 0.45,
+        "above_trend_ma": true,
+        "trend_ma": 341.92,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 343.63,
+          "high": 346.42,
+          "low": 340.28,
+          "close": 346.39,
+          "prev_open": 344.64,
+          "prev_close": 344.59
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 2,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "buy"
+      },
+      "call_history": [
+        "buy",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "14 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 negative keyword hits vs 2 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $346.39 is above its 15-day average ($341.92).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.45x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: bullish engulfing",
+          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
+          "signal": "pos"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "For Love of the Himbo",
+          "source": "The Atlantic",
+          "url": "https://www.theatlantic.com/culture/2026/10/zoolander-25th-anniversary-himbo/688898/?utm_source=feed"
+        },
+        {
+          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI build-out",
+          "source": "Freerepublic.com",
+          "url": "https://freerepublic.com/focus/f-news/4398155/posts"
+        },
+        {
+          "title": "Alphabet vs. Meta Platforms: Which AI Stock Will Make You Richer?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7e643c8bc565245e"
+        },
+        {
+          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI build-out",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/43cf3606188f29df"
+        },
+        {
+          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI buildout",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/5e1617e3330d75f3"
         }
       ]
     }
