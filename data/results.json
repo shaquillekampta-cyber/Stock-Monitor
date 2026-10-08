@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-07T19:02:07.450022+00:00",
+  "generated_at": "2026-10-08T18:57:30.864443+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 777.87,
-        "change_pct": -0.16,
-        "volume": 19541211,
-        "avg_volume": 40868044,
-        "volume_ratio": 0.48,
+        "price": 772.93,
+        "change_pct": -0.55,
+        "volume": 26162749,
+        "avg_volume": 40729463,
+        "volume_ratio": 0.64,
         "above_trend_ma": true,
-        "trend_ma": 768.9,
+        "trend_ma": 769.67,
         "trend_ma_days": 15,
         "candles": {
-          "open": 775.77,
-          "high": 779.1,
-          "low": 773.61,
-          "close": 777.87,
-          "prev_open": 778.15,
-          "prev_close": 779.09
+          "open": 774.86,
+          "high": 777.09,
+          "low": 770.43,
+          "close": 772.93,
+          "prev_open": 775.77,
+          "prev_close": 777.22
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -43,76 +43,81 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "6 negative keyword hits vs 0 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $777.87 is above its 15-day average ($768.9).",
+          "detail": "Price $772.93 is above its 15-day average ($769.67).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.48x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.64x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "5 Cult 2000s Cartoons That Actually Had Perfect Endings And Need to Be Left Alone",
-          "source": "ComicBook.com",
-          "url": "http://comicbook.com/tv-shows/list/5-cult-2000s-cartoons-that-actually-had-perfect-endings-and-need-to-be-left-alone/"
+          "title": "\u2018Carrie\u2019 Episode 2 Recap: You Have All the Power",
+          "source": "Decider",
+          "url": "https://decider.com/2026/10/07/carrie-episode-2-foreign-language-recap/"
         },
         {
-          "title": "Saoirse Ronan has telling reaction to rumor husband Jack Lowden is the new James Bond",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/10/06/entertainment/saoirse-ronan-has-telling-reaction-to-rumor-husband-jack-lowden-is-the-new-james-bond/"
+          "title": "Accused Chinese spy\u2019s shady past exposed as she\u2019s spotted with secretive intelligence-linked syndicate",
+          "source": "New York Post",
+          "url": "https://nypost.com/2026/10/07/us-news/california-realtor-accused-of-spying-for-china-linked-to-beijing-intelligence-network/"
         },
         {
-          "title": "Andrew Scott on 'Elsinore' and Being an Out Gay Actor in 2026",
-          "source": "Hollywood Reporter",
-          "url": "http://www.hollywoodreporter.com/movies/movie-news/andrew-scott-on-elsinore-and-being-an-out-gay-actor-in-2026-1236722049/"
+          "title": "How can you watch Mike Flanagan's Carrie series online for free this October?",
+          "source": "The Times of India",
+          "url": "https://economictimes.indiatimes.com/news/international/us/how-can-you-watch-mike-flanagans-carrie-series-online-for-free-this-october/articleshow/134770603.cms"
         },
         {
-          "title": "CIA officer arrested with gold bars pleads guilty to wire fraud",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/national-security/cia-officer-arrested-gold-bars-pleads-guilty-wire-fraud-rcna601857"
+          "title": "'It\u2019s Always Worse than We Thought': Jim Jordan Discusses 'Long Pattern' of Abuses Against Trump During Biden Admin",
+          "source": "Breitbart News",
+          "url": "https://www.breitbart.com/clips/2026/10/07/its-always-worse-than-we-thought-jim-jordan-discusses-long-pattern-of-abuses-against-trump-during-biden-admin/"
         },
         {
-          "title": "This Lollipop Could Help Blind Women Independently Detect Pregnancy",
-          "source": "Smithsonian.com",
-          "url": "https://www.smithsonianmag.com/innovation/this-lollipop-could-help-blind-women-independently-detect-pregnancy-180989608/"
+          "title": "How to Watch Mike Flanagan\u2019s New \u2018Carrie\u2019 Show Online for Free",
+          "source": "Rolling Stone",
+          "url": "http://www.rollingstone.com/product-recommendations/streaming/how-to-watch-carrie-amazon-prime-original-series-online-for-free-2026-1235638630/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 757.42,
-        "change_pct": -0.29,
-        "volume": 18382165,
-        "avg_volume": 31674710,
-        "volume_ratio": 0.58,
+        "price": 746.62,
+        "change_pct": -1.47,
+        "volume": 35944242,
+        "avg_volume": 31951884,
+        "volume_ratio": 1.12,
         "above_trend_ma": true,
-        "trend_ma": 742.12,
+        "trend_ma": 744.17,
         "trend_ma_days": 15,
         "candles": {
-          "open": 753.87,
-          "high": 757.68,
-          "low": 751.76,
-          "close": 757.42,
-          "prev_open": 760.52,
-          "prev_close": 759.66
+          "open": 753.94,
+          "high": 757.18,
+          "low": 743.23,
+          "close": 746.62,
+          "prev_open": 753.79,
+          "prev_close": 757.73
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "buy"
@@ -120,9 +125,9 @@
       "call_history": [
         "buy",
         "buy",
-        "buy"
+        "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -131,17 +136,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $757.42 is above its 15-day average ($742.12).",
+          "detail": "Price $746.62 is above its 15-day average ($744.17).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
+          "detail": "Volume is 1.12x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,50 +157,50 @@
       ],
       "headlines": [
         {
+          "title": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/07/strange-market-anomaly-is-creating-a-buying-opportunity-in-the-nasdaq-100.html"
+        },
+        {
+          "title": "Super Micro Edges Higher as Server Makers Rise Against a Falling Tech Tape; Hewlett Packard Enterprise Adds 3%, Dell Ticks Up",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/38ba28849a85ce03"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures Down Pre-Bell Wednesday as Traders Await Fed Meeting Minutes",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/f3f056a1e9fa22a2"
+        },
+        {
+          "title": "Is A Tech Bubble Brewing? BofA Analysts Think So; Advises To Buy QQQ Options As A Hedge",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/4e1f1227d1f7adb8"
+        },
+        {
           "title": "Worst Performing ETFs of 2026 So Far",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/15e8c70eb913c3d0"
-        },
-        {
-          "title": "S&P Global brings risk assessments to growing crypto lending vault sector",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/news/sp-global-launches-risk-assessments-for-10b-crypto-lending-vault-market"
-        },
-        {
-          "title": "Here\u2019s the 1 ETF I Would Put $1,000 Into This October",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/55cd9c38f6ed9ee9"
-        },
-        {
-          "title": "First determination of fragmentation functions in an exotic-hadron candidate",
-          "source": "Aps.org",
-          "url": "https://link.aps.org/doi/10.1103/6241-7111"
-        },
-        {
-          "title": "International Markets Are Pulling Ahead Of US Stocks In 2026: These 4 ETFs Have Left SPY, QQQ, DIA In The Dust",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/a637eebcd78b80fa"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.86,
-        "change_pct": -1.09,
-        "volume": 4344426,
-        "avg_volume": 5372186,
-        "volume_ratio": 0.81,
+        "price": 83.97,
+        "change_pct": -0.96,
+        "volume": 4144782,
+        "avg_volume": 5379122,
+        "volume_ratio": 0.77,
         "above_trend_ma": false,
-        "trend_ma": 85.82,
+        "trend_ma": 85.66,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.58,
-          "high": 84.95,
-          "low": 84.36,
-          "close": 84.86,
-          "prev_open": 86.15,
-          "prev_close": 85.8
+          "open": 84.15,
+          "high": 84.37,
+          "low": 83.75,
+          "close": 83.97,
+          "prev_open": 84.61,
+          "prev_close": 84.79
         }
       },
       "call": {
@@ -224,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.86 is below its 15-day average ($85.82).",
+          "detail": "Price $83.97 is below its 15-day average ($85.66).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.81x the recent average -- roughly normal.",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,21 +248,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 259.82,
-        "change_pct": 1.38,
-        "volume": 23183666,
-        "avg_volume": 33888464,
+        "price": 254.62,
+        "change_pct": -2.04,
+        "volume": 22941051,
+        "avg_volume": 33938329,
         "volume_ratio": 0.68,
         "above_trend_ma": true,
-        "trend_ma": 251.73,
+        "trend_ma": 251.96,
         "trend_ma_days": 15,
         "candles": {
-          "open": 254.07,
-          "high": 259.82,
-          "low": 253.17,
-          "close": 259.82,
-          "prev_open": 253.4,
-          "prev_close": 256.29
+          "open": 259.72,
+          "high": 259.86,
+          "low": 253.78,
+          "close": 254.62,
+          "prev_open": 254.23,
+          "prev_close": 259.92
         }
       },
       "call": {
@@ -268,7 +273,7 @@
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
+        "buy",
         "buy",
         "buy"
       ],
@@ -281,12 +286,12 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 positive keyword hits vs 0 negative.",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $259.82 is above its 15-day average ($251.73).",
+          "detail": "Price $254.62 is above its 15-day average ($251.96).",
           "signal": "pos"
         },
         {
@@ -302,122 +307,117 @@
       ],
       "headlines": [
         {
-          "title": "Survivors Remorse S01-S04 1080p AMZN WEB-DL H264-playWEB",
+          "title": "Stock Market Today: Dow, S&P 500 Rally; Cathie Wood Buys This Stock Amid 56% Dive",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/f25110f4601fa0ed"
+        },
+        {
+          "title": "Best Sex Ever S01E04 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/survivors-remorse-s01-s04-1080p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/best-sex-ever-s01e04-1080p-amzn-web-dl-h264-kitsune/"
         },
         {
-          "title": "Dublin Murders S01 1080p AMZN WEB-DL H264-playWEB",
+          "title": "Blue Whale 2024 1080p AMZN WEB-DL H264-LETSPLAYITTOGETHER",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/dublin-murders-s01-1080p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/blue-whale-2024-1080p-amzn-web-dl-h264-letsplayittogether/"
         },
         {
-          "title": "Cost-effective ETL with DuckDB and Amazon S3 Tables on AWS Glue",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/cost-effective-etl-with-duckdb-and-amazon-s3-tables-on-aws-glue/"
+          "title": "SpaceX eyes overtaking Taiwan Semiconductor and Amazon in the trillion-dollar market-cap club",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/024cfa336b334698"
         },
         {
-          "title": "Identity-aware AI data agents with AWS Lake Formation and Trusted Identity Propagation",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/security/identity-aware-ai-data-agents-with-aws-lake-formation-and-trusted-identity-propagation/"
-        },
-        {
-          "title": "Query across accounts and table formats with multi-catalog in Amazon EMR",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/query-across-accounts-and-table-formats-with-multi-catalog-in-amazon-emr/"
+          "title": "amzn-selling-partner 1.3.0",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/amzn-selling-partner/1.3.0/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 346.39,
-        "change_pct": 0.52,
-        "volume": 7265485,
-        "avg_volume": 16208464,
-        "volume_ratio": 0.45,
+        "price": 344.59,
+        "change_pct": -0.8,
+        "volume": 8874622,
+        "avg_volume": 16172098,
+        "volume_ratio": 0.55,
         "above_trend_ma": true,
-        "trend_ma": 341.92,
+        "trend_ma": 342.04,
         "trend_ma_days": 15,
         "candles": {
-          "open": 343.63,
-          "high": 346.42,
-          "low": 340.28,
-          "close": 346.39,
-          "prev_open": 344.64,
-          "prev_close": 344.59
+          "open": 350.14,
+          "high": 353.53,
+          "low": 343.51,
+          "close": 344.59,
+          "prev_open": 343.68,
+          "prev_close": 347.37
         }
       },
       "call": {
-        "call": "hold",
+        "call": "buy",
         "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
-        "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "14 articles in the last 2 days.",
+          "detail": "18 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
+          "detail": "6 positive keyword hits vs 3 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $346.39 is above its 15-day average ($341.92).",
+          "detail": "Price $344.59 is above its 15-day average ($342.04).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.45x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.55x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bullish engulfing",
-          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
-          "signal": "pos"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "For Love of the Himbo",
-          "source": "The Atlantic",
-          "url": "https://www.theatlantic.com/culture/2026/10/zoolander-25th-anniversary-himbo/688898/?utm_source=feed"
+          "title": "Spooktober 2026, Day Seven",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/07/spooktober-2026-day-seven/"
         },
         {
-          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI build-out",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-news/4398155/posts"
+          "title": "GOOGL/GOOG Shareholder Alert: December 1, 2026 Lead Plaintiff Deadline in Alphabet Inc. Securities Class Action - Contact Levi & Korsinsky",
+          "source": "PRNewswire",
+          "url": "https://www.prnewswire.com/news-releases/googlgoog-shareholder-alert-december-1-2026-lead-plaintiff-deadline-in-alphabet-inc-securities-class-action---contact-levi--korsinsky-302900722.html"
         },
         {
-          "title": "Alphabet vs. Meta Platforms: Which AI Stock Will Make You Richer?",
+          "title": "Company News for Oct 7, 2026",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7e643c8bc565245e"
+          "url": "https://biztoc.com/x/fd2b4bb390af28e2"
         },
         {
-          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI build-out",
+          "title": "Constellation Energy's sweeping nuclear deal sparks rally in power sector stocks (CEG:NASDAQ)",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/43cf3606188f29df"
+          "url": "https://biztoc.com/x/77295701f77bae7c"
         },
         {
-          "title": "Google signs 20-year nuclear deal with Constellation Energy to power AI buildout",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/5e1617e3330d75f3"
+          "title": "$1.99 | Snow Crash: A Novel (eBook) by Neal Stephenson",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20120274-1-99-snow-crash-a-novel-ebook-by-neal-stephenson"
         }
       ]
     }
