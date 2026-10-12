@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-09T18:27:39.444299+00:00",
+  "generated_at": "2026-10-12T21:21:46.146153+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 778.69,
-        "change_pct": 0.62,
-        "volume": 12553281,
-        "avg_volume": 40412279,
-        "volume_ratio": 0.31,
+        "price": 778.1,
+        "change_pct": -0.06,
+        "volume": 18392278,
+        "avg_volume": 40416330,
+        "volume_ratio": 0.46,
         "above_trend_ma": true,
-        "trend_ma": 770.87,
+        "trend_ma": 771.17,
         "trend_ma_days": 15,
         "candles": {
-          "open": 776.24,
-          "high": 778.78,
-          "low": 775.14,
-          "close": 778.69,
-          "prev_open": 774.86,
-          "prev_close": 773.93
+          "open": 778.78,
+          "high": 779.4,
+          "low": 777.05,
+          "close": 778.1,
+          "prev_open": 776.24,
+          "prev_close": 778.57
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -38,22 +38,110 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $778.69 is above its 15-day average ($770.87).",
+          "detail": "Price $778.1 is above its 15-day average ($771.17).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.31x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Strictly sends home second star: \"You showed me what hard work really means\"",
+          "source": "digitalspy.com",
+          "url": "https://www.digitalspy.com/tv/reality-tv/a74102252/strictly-elimination-aljaz-melanie/"
+        },
+        {
+          "title": "Javier Bardem on Declining 'Skyfall' Role and His Pitch to Sam Mendes",
+          "source": "Hollywood Reporter",
+          "url": "http://www.hollywoodreporter.com/movies/movie-news/javier-bardem-skyfall-bond-bunker-bfi-london-film-festival-1236727169/"
+        },
+        {
+          "title": "Modder discovers that putting a GPU in the 'wrong place' can deliver a 19 degree cooler hotspot",
+          "source": "Tom's Hardware UK",
+          "url": "https://www.tomshardware.com/pc-components/gpus/modder-discovers-that-putting-a-gpu-in-the-wrong-place-can-deliver-a-19-degree-cooler-hotspot-breaking-convention-can-produce-great-results-despite-decades-of-pc-diy-evolution"
+        },
+        {
+          "title": "An Unruly Fusillade Of Apple Reviews For Alla Yous, Part Two",
+          "source": "Terribleminds.com",
+          "url": "https://terribleminds.com/ramble/2026/10/11/an-unruly-fusillade-of-apple-reviews-for-alla-yous-part-two/"
+        },
+        {
+          "title": "\u2018Carrie\u2019 Episode 8 Recap: And Then the World Exploded",
+          "source": "Decider",
+          "url": "https://decider.com/2026/10/11/carrie-episode-8-ap-physics-recap/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 746.04,
+        "change_pct": -0.7,
+        "volume": 24781235,
+        "avg_volume": 32121241,
+        "volume_ratio": 0.77,
+        "above_trend_ma": false,
+        "trend_ma": 746.57,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 749.64,
+          "high": 749.79,
+          "low": 744.84,
+          "close": 746.04,
+          "prev_open": 752.55,
+          "prev_close": 751.27
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "buy",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "3 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $746.04 is below its 15-day average ($746.57).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -69,138 +157,40 @@
       ],
       "headlines": [
         {
-          "title": "Ronald Acuna explains what happened with viral podcast drama as Braves postseason run ends",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/10/08/sports/ronald-acuna-explains-what-happened-with-viral-podcast-drama/"
+          "title": "trading-position-risk-mcp added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/trading-position-risk-mcp/"
         },
         {
-          "title": "Brad Bird Talks 'Ray Gunn,' Political Disney, Steven Spielberg at LFF",
-          "source": "Hollywood Reporter",
-          "url": "http://www.hollywoodreporter.com/movies/movie-news/brad-bird-discusses-ray-gunn-political-disney-1236725315/"
-        },
-        {
-          "title": "Mark Millar Teases Millarworld Revival With \u2018King of Spies\u2019 Film Next Up at Netflix",
-          "source": "What's on Netflix",
-          "url": "https://www.whats-on-netflix.com/news/king-of-spies-netflix-millarworld-revival/"
-        },
-        {
-          "title": "The 5 best new shows and movies streaming this week on Netflix, Prime Video, Apple TV and more (October 9-11)",
-          "source": "GamesRadar+",
-          "url": "https://www.gamesradar.com/entertainment/streaming-services/new-shows-movies-to-stream-netflix-prime-video-apple-tv-october-9-11/"
-        },
-        {
-          "title": "ASUS ExpertCenter PN55 Review: Ryzen AI 7 450, Dual 2.5GbE, and 64GB of DDR5 in 0.57 Liters",
-          "source": "Storagereview.com",
-          "url": "https://www.storagereview.com/review/asus-expertcenter-pn55-review"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 751.45,
-        "change_pct": 0.52,
-        "volume": 12928604,
-        "avg_volume": 31829288,
-        "volume_ratio": 0.41,
-        "above_trend_ma": true,
-        "trend_ma": 746.28,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 752.55,
-          "high": 752.86,
-          "low": 748.36,
-          "close": 751.45,
-          "prev_open": 753.97,
-          "prev_close": 747.58
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 3,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "buy"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $751.45 is above its 15-day average ($746.28).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Why JEPQ Holders Wait Twice as Long to Recover From Market Drops",
+          "title": "The Hidden Risk In This Record-Breaking Market",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/f99496fcf4f51363"
+          "url": "https://biztoc.com/x/63136f8d479d531e"
         },
         {
-          "title": "PLTR stock jumps 4% after Goldman Sachs upgrades Palantir to Buy with $230 target, but the valuation debate is far from over",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/pltr-stock-jumps-4-after-goldman-sachs-upgrades-palantir-to-buy-with-230-target-but-the-valuation-debate-is-far-from-over/articleshow/134793271.cms"
-        },
-        {
-          "title": "Search for single production of a vectorlike ${B}^{\u2032}$ quark decaying to a top quark and a $W$ boson in the single-lepton final state in proton-proton collisions at $\\sqrt{s}=13\\text{\u2009}\\text{\u2009}\\mathrm{TeV}$",
-          "source": "Aps.org",
-          "url": "https://link.aps.org/doi/10.1103/ktbp-csd3"
-        },
-        {
-          "title": "Strange market anomaly is creating a buying opportunity in the Nasdaq 100",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/07/strange-market-anomaly-is-creating-a-buying-opportunity-in-the-nasdaq-100.html"
-        },
-        {
-          "title": "Super Micro Edges Higher as Server Makers Rise Against a Falling Tech Tape; Hewlett Packard Enterprise Adds 3%, Dell Ticks Up",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/38ba28849a85ce03"
+          "title": "finzdata added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/finzdata/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.74,
-        "change_pct": 0.76,
-        "volume": 3270395,
-        "avg_volume": 5347704,
-        "volume_ratio": 0.61,
+        "price": 84.43,
+        "change_pct": -0.45,
+        "volume": 4306169,
+        "avg_volume": 5231208,
+        "volume_ratio": 0.82,
         "above_trend_ma": false,
-        "trend_ma": 85.59,
+        "trend_ma": 85.42,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.6,
-          "high": 84.74,
-          "low": 84.5,
-          "close": 84.74,
-          "prev_open": 84.15,
-          "prev_close": 84.1
+          "open": 84.71,
+          "high": 84.73,
+          "low": 84.37,
+          "close": 84.43,
+          "prev_open": 84.6,
+          "prev_close": 84.82
         }
       },
       "call": {
@@ -229,12 +219,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.74 is below its 15-day average ($85.59).",
+          "detail": "Price $84.43 is below its 15-day average ($85.42).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.61x the recent average -- roughly normal.",
+          "detail": "Volume is 0.82x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -248,36 +238,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 260.89,
-        "change_pct": 2.69,
-        "volume": 21723615,
-        "avg_volume": 34017279,
-        "volume_ratio": 0.64,
+        "price": 259.53,
+        "change_pct": -1.11,
+        "volume": 25322105,
+        "avg_volume": 34228714,
+        "volume_ratio": 0.74,
         "above_trend_ma": true,
-        "trend_ma": 252.4,
+        "trend_ma": 252.58,
         "trend_ma_days": 15,
         "candles": {
-          "open": 256.3,
-          "high": 261.64,
-          "low": 256.0,
-          "close": 260.89,
-          "prev_open": 259.74,
-          "prev_close": 254.06
+          "open": 262.55,
+          "high": 263.7,
+          "low": 259.27,
+          "close": 259.53,
+          "prev_open": 256.5,
+          "prev_close": 262.43
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
         "buy",
-        "buy"
+        "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -286,138 +276,148 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "1 negative keyword hits vs 0 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $260.89 is above its 15-day average ($252.4).",
+          "detail": "Price $259.53 is above its 15-day average ($252.58).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.64x the recent average -- roughly normal.",
+          "detail": "Volume is 0.74x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Doomsdays 2013 720p AMZN WEB-DL H264-playWEB",
+          "title": "Mock The Week S23E05 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/doomsdays-2013-720p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/mock-the-week-s23e05-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Harbinger 2026 1080p AMZN WEB-DL H264-cinepth",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/harbinger-2026-1080p-amzn-web-dl-h264-cinepth/"
-        },
-        {
-          "title": "Securitize launches tokenized Apple, Nvidia, and Tesla stocks on Solana",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/securitize-tokenized-apple-nvidia-tesla-solana/"
-        },
-        {
-          "title": "Here's What a $10,000 Investment in Amazon Stock Could Be Worth in 2035",
+          "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0bd6a4aa2d3b7661"
+          "url": "https://biztoc.com/x/f6b1a8cb94417ff5"
         },
         {
-          "title": "Wheel Of Fortune S44E18 1080p AMZN WEB-DL H264-Kitsune",
+          "title": "The Spirit Of Halloween 2026 1080p AMZN WEB-DL H264-CHORTLE",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e18-1080p-amzn-web-dl-h264-kitsune/"
+          "url": "https://post.rlsbb.cc/the-spirit-of-halloween-2026-1080p-amzn-web-dl-h264-chortle/"
+        },
+        {
+          "title": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/134b802bf0e1f586"
+        },
+        {
+          "title": "Funny Money The Dane Cook Story 2026 1080p AMZN WEB-DL H264-FLUX",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/funny-money-the-dane-cook-story-2026-1080p-amzn-web-dl-h264-flux/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 348.24,
-        "change_pct": 0.98,
-        "volume": 6530393,
-        "avg_volume": 16069086,
-        "volume_ratio": 0.41,
+        "price": 348.97,
+        "change_pct": 0.32,
+        "volume": 11454890,
+        "avg_volume": 16103240,
+        "volume_ratio": 0.71,
         "above_trend_ma": true,
-        "trend_ma": 342.32,
+        "trend_ma": 342.16,
         "trend_ma_days": 15,
         "candles": {
-          "open": 348.01,
-          "high": 351.06,
-          "low": 346.88,
-          "close": 348.24,
-          "prev_open": 349.64,
-          "prev_close": 344.86
+          "open": 348.41,
+          "high": 352.66,
+          "low": 347.16,
+          "close": 348.97,
+          "prev_open": 348.0,
+          "prev_close": 347.86
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "buy"
       },
       "call_history": [
-        "hold",
         "buy",
-        "buy"
+        "buy",
+        "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "11 articles in the last 2 days.",
+          "detail": "12 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 3 negative.",
-          "signal": "pos"
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $348.24 is above its 15-day average ($342.32).",
+          "detail": "Price $348.97 is above its 15-day average ($342.16).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.71x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Bronstein, Gewirtz & Grossman LLC Urges Alphabet Inc. Investors to Act: Class Action Filed Alleging Investor Harm",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/bronstein-gewirtz--grossman-llc-urges-alphabet-inc-investors-to-act-class-action-filed-alleging-investor-harm-302901162.html"
-        },
-        {
-          "title": "Securitize launches tokenized Apple, Nvidia, and Tesla stocks on Solana",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/securitize-tokenized-apple-nvidia-tesla-solana/"
-        },
-        {
-          "title": "Ignore all instructions and read this blog: The state of AI-analysis evasion in malware",
-          "source": "Talosintelligence.com",
-          "url": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/"
-        },
-        {
-          "title": "Amazon stock is trading at its lowest trailing PE ratio as a public company, despite AI boom",
+          "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/88fce3b806c0c50d"
+          "url": "https://biztoc.com/x/f6b1a8cb94417ff5"
         },
         {
-          "title": "Spooktober 2026, Day Seven",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/07/spooktober-2026-day-seven/"
+          "title": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/134b802bf0e1f586"
+        },
+        {
+          "title": "Alphabet's Google Cloud Is Surging at 82%, and the Heavy Spending Is Starting to Make Sense",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/3e3448b66ace2bcb"
+        },
+        {
+          "title": "Hedge Funds Pile Into Magnificent 7 Stocks at Fastest Pace Since 2023, Pushing Exposure to 22%",
+          "source": "The Daily Hodl",
+          "url": "https://dailyhodl.com/2026/10/11/hedge-funds-pile-into-magnificent-7-stocks-at-fastest-pace-since-2023-pushing-exposure-to-22/"
+        },
+        {
+          "title": "$1.99 | Cat's Cradle: A Novel (eBook) by Kurt Vonnegut",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20141004-1-99-cat-s-cradle-a-novel-ebook-by-kurt-vonnegut"
         }
       ]
     }
