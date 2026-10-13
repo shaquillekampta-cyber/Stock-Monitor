@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-10-12T21:21:46.146153+00:00",
+  "generated_at": "2026-10-13T19:26:44.391397+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 778.1,
-        "change_pct": -0.06,
-        "volume": 18392278,
-        "avg_volume": 40416330,
-        "volume_ratio": 0.46,
+        "price": 778.33,
+        "change_pct": 0.03,
+        "volume": 16520299,
+        "avg_volume": 39867016,
+        "volume_ratio": 0.41,
         "above_trend_ma": true,
-        "trend_ma": 771.17,
+        "trend_ma": 771.5,
         "trend_ma_days": 15,
         "candles": {
-          "open": 778.78,
-          "high": 779.4,
-          "low": 777.05,
-          "close": 778.1,
-          "prev_open": 776.24,
-          "prev_close": 778.57
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $778.1 is above its 15-day average ($771.17).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Strictly sends home second star: \"You showed me what hard work really means\"",
-          "source": "digitalspy.com",
-          "url": "https://www.digitalspy.com/tv/reality-tv/a74102252/strictly-elimination-aljaz-melanie/"
-        },
-        {
-          "title": "Javier Bardem on Declining 'Skyfall' Role and His Pitch to Sam Mendes",
-          "source": "Hollywood Reporter",
-          "url": "http://www.hollywoodreporter.com/movies/movie-news/javier-bardem-skyfall-bond-bunker-bfi-london-film-festival-1236727169/"
-        },
-        {
-          "title": "Modder discovers that putting a GPU in the 'wrong place' can deliver a 19 degree cooler hotspot",
-          "source": "Tom's Hardware UK",
-          "url": "https://www.tomshardware.com/pc-components/gpus/modder-discovers-that-putting-a-gpu-in-the-wrong-place-can-deliver-a-19-degree-cooler-hotspot-breaking-convention-can-produce-great-results-despite-decades-of-pc-diy-evolution"
-        },
-        {
-          "title": "An Unruly Fusillade Of Apple Reviews For Alla Yous, Part Two",
-          "source": "Terribleminds.com",
-          "url": "https://terribleminds.com/ramble/2026/10/11/an-unruly-fusillade-of-apple-reviews-for-alla-yous-part-two/"
-        },
-        {
-          "title": "\u2018Carrie\u2019 Episode 8 Recap: And Then the World Exploded",
-          "source": "Decider",
-          "url": "https://decider.com/2026/10/11/carrie-episode-8-ap-physics-recap/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 746.04,
-        "change_pct": -0.7,
-        "volume": 24781235,
-        "avg_volume": 32121241,
-        "volume_ratio": 0.77,
-        "above_trend_ma": false,
-        "trend_ma": 746.57,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 749.64,
-          "high": 749.79,
-          "low": 744.84,
-          "close": 746.04,
-          "prev_open": 752.55,
-          "prev_close": 751.27
+          "open": 777.34,
+          "high": 778.75,
+          "low": 775.95,
+          "close": 778.33,
+          "prev_open": 778.78,
+          "prev_close": 778.1
         }
       },
       "call": {
@@ -119,29 +31,29 @@
       },
       "call_history": [
         "hold",
-        "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $746.04 is below its 15-day average ($746.57).",
+          "detail": "1 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $778.33 is above its 15-day average ($771.5).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.77x the recent average -- roughly normal.",
+          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -157,40 +69,128 @@
       ],
       "headlines": [
         {
+          "title": "Trial date for man accused of murdering Denis Donaldson to be fixed next month",
+          "source": "The Irish Times",
+          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/12/trial-date-for-man-accused-of-murdering-denis-donaldson-to-be-fixed-next-month/"
+        },
+        {
+          "title": "Trump's 'manifest craziness' will intensify in the weeks ahead: longtime critic",
+          "source": "Raw Story",
+          "url": "https://www.rawstory.com/does-donald-trump-show-signs-of-dementia/"
+        },
+        {
+          "title": "8 Near-Perfect Thriller Series That Keep Us In Suspense To The End",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/best-suspenseful-thriller-tv-shows-end-twist/"
+        },
+        {
+          "title": "What Is Marvel's ZODIAC About? Let\u2019s Dig Into the MCU\u2019s New Spy Thriller Series",
+          "source": "GeekTyrant",
+          "url": "https://geektyrant.com/news/what-is-marvels-zodiac-about-lets-dig-into-the-mcus-new-spy-thriller-series"
+        },
+        {
+          "title": "Ledger confirms hardware wallet spy implant behind crypto thefts",
+          "source": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 743.29,
+        "change_pct": -0.37,
+        "volume": 21990467,
+        "avg_volume": 31890178,
+        "volume_ratio": 0.69,
+        "above_trend_ma": false,
+        "trend_ma": 746.29,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 739.53,
+          "high": 744.2,
+          "low": 738.84,
+          "close": 743.29,
+          "prev_open": 749.69,
+          "prev_close": 746.04
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "buy",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "3 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $743.29 is below its 15-day average ($746.29).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.69x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday as Investors Weigh Oil, Earnings",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/5be881916fb1a61c"
+        },
+        {
+          "title": "Bybit Supports Stocks Trading, Giving Eligible Global Users Access to 1,000+ U.S. Stocks and ETFs",
+          "source": "PRNewswire",
+          "url": "https://www.prnewswire.com/news-releases/bybit-supports-stocks-trading-giving-eligible-global-users-access-to-1-000-us-stocks-and-etfs-302905392.html"
+        },
+        {
           "title": "trading-position-risk-mcp added to PyPI",
           "source": "Pypi.org",
           "url": "https://pypi.org/project/trading-position-risk-mcp/"
-        },
-        {
-          "title": "The Hidden Risk In This Record-Breaking Market",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/63136f8d479d531e"
-        },
-        {
-          "title": "finzdata added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/finzdata/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.43,
-        "change_pct": -0.45,
-        "volume": 4306169,
-        "avg_volume": 5231208,
-        "volume_ratio": 0.82,
+        "price": 84.56,
+        "change_pct": 0.14,
+        "volume": 4076066,
+        "avg_volume": 5205371,
+        "volume_ratio": 0.78,
         "above_trend_ma": false,
-        "trend_ma": 85.42,
+        "trend_ma": 85.22,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.71,
-          "high": 84.73,
-          "low": 84.37,
-          "close": 84.43,
-          "prev_open": 84.6,
-          "prev_close": 84.82
+          "open": 84.4,
+          "high": 84.61,
+          "low": 84.24,
+          "close": 84.56,
+          "prev_open": 84.71,
+          "prev_close": 84.44
         }
       },
       "call": {
@@ -219,12 +219,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.43 is below its 15-day average ($85.42).",
+          "detail": "Price $84.56 is below its 15-day average ($85.22).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.82x the recent average -- roughly normal.",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,21 +238,109 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 259.53,
-        "change_pct": -1.11,
-        "volume": 25322105,
-        "avg_volume": 34228714,
-        "volume_ratio": 0.74,
+        "price": 259.15,
+        "change_pct": -0.15,
+        "volume": 16037761,
+        "avg_volume": 33835024,
+        "volume_ratio": 0.47,
         "above_trend_ma": true,
-        "trend_ma": 252.58,
+        "trend_ma": 252.85,
         "trend_ma_days": 15,
         "candles": {
-          "open": 262.55,
-          "high": 263.7,
-          "low": 259.27,
-          "close": 259.53,
-          "prev_open": 256.5,
-          "prev_close": 262.43
+          "open": 259.55,
+          "high": 262.83,
+          "low": 258.71,
+          "close": 259.15,
+          "prev_open": 262.5,
+          "prev_close": 259.53
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "buy",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $259.15 is above its 15-day average ($252.85).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.47x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
+          "source": "Nakedcapitalism.com",
+          "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html"
+        },
+        {
+          "title": "The Ghost 2025 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-ghost-2025-1080p-amzn-web-dl-h264-cinepth/"
+        },
+        {
+          "title": "The Real Housewives of London S02E06 720p AMZN WEB-DL H264-NTb",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-real-housewives-of-london-s02e06-720p-amzn-web-dl-h264-ntb/"
+        },
+        {
+          "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
+        },
+        {
+          "title": "Shes Allergic To Cats 2016 720p AMZN WEB-DL H264-iCX",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/shes-allergic-to-cats-2016-720p-amzn-web-dl-h264-icx/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 350.48,
+        "change_pct": 0.43,
+        "volume": 8284206,
+        "avg_volume": 15930523,
+        "volume_ratio": 0.52,
+        "above_trend_ma": true,
+        "trend_ma": 342.37,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 352.1,
+          "high": 354.5,
+          "low": 347.57,
+          "close": 350.48,
+          "prev_open": 348.34,
+          "prev_close": 348.97
         }
       },
       "call": {
@@ -260,18 +348,18 @@
         "positive_signals": 1,
         "negative_signals": 2,
         "total_signals": 6,
-        "displayed_call": "buy"
+        "displayed_call": "hold"
       },
       "call_history": [
         "buy",
-        "buy",
+        "hold",
         "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "14 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -281,12 +369,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $259.53 is above its 15-day average ($252.58).",
+          "detail": "Price $350.48 is above its 15-day average ($342.37).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.74x the recent average -- roughly normal.",
+          "detail": "Volume is 0.52x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -302,122 +390,29 @@
       ],
       "headlines": [
         {
-          "title": "Mock The Week S23E05 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/mock-the-week-s23e05-1080p-amzn-web-dl-h264-rawr/"
+          "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
+          "source": "Nakedcapitalism.com",
+          "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html"
         },
         {
-          "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation",
+          "title": "Nvidia, AMD, Google, and Meta team up on global blueprint for data center design",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/f6b1a8cb94417ff5"
+          "url": "https://biztoc.com/x/15c833dc229da78b"
         },
         {
-          "title": "The Spirit Of Halloween 2026 1080p AMZN WEB-DL H264-CHORTLE",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-spirit-of-halloween-2026-1080p-amzn-web-dl-h264-chortle/"
-        },
-        {
-          "title": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy",
+          "title": "Microsoft reclaims $4 trillion market cap",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/134b802bf0e1f586"
+          "url": "https://biztoc.com/x/fff884fb6624b65f"
         },
         {
-          "title": "Funny Money The Dane Cook Story 2026 1080p AMZN WEB-DL H264-FLUX",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/funny-money-the-dane-cook-story-2026-1080p-amzn-web-dl-h264-flux/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 348.97,
-        "change_pct": 0.32,
-        "volume": 11454890,
-        "avg_volume": 16103240,
-        "volume_ratio": 0.71,
-        "above_trend_ma": true,
-        "trend_ma": 342.16,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 348.41,
-          "high": 352.66,
-          "low": 347.16,
-          "close": 348.97,
-          "prev_open": 348.0,
-          "prev_close": 347.86
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "buy"
-      },
-      "call_history": [
-        "buy",
-        "buy",
-        "hold"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "12 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $348.97 is above its 15-day average ($342.16).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.71x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Not Alphabet. Not Amazon. Microsoft Trades at Big Tech's Cheapest Valuation",
+          "title": "Prediction: Alphabet Stock Could Be Worth $700 by 2030",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/f6b1a8cb94417ff5"
+          "url": "https://biztoc.com/x/42fd4312f13bffa1"
         },
         {
-          "title": "Amazon and Alphabet Just Committed $420 Billion to Data Centers. 1 Stock Is the Better Buy",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/134b802bf0e1f586"
-        },
-        {
-          "title": "Alphabet's Google Cloud Is Surging at 82%, and the Heavy Spending Is Starting to Make Sense",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/3e3448b66ace2bcb"
-        },
-        {
-          "title": "Hedge Funds Pile Into Magnificent 7 Stocks at Fastest Pace Since 2023, Pushing Exposure to 22%",
-          "source": "The Daily Hodl",
-          "url": "https://dailyhodl.com/2026/10/11/hedge-funds-pile-into-magnificent-7-stocks-at-fastest-pace-since-2023-pushing-exposure-to-22/"
-        },
-        {
-          "title": "$1.99 | Cat's Cradle: A Novel (eBook) by Kurt Vonnegut",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20141004-1-99-cat-s-cradle-a-novel-ebook-by-kurt-vonnegut"
+          "title": "GOOG/GOOGL Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Filed Against Alphabet Inc.",
+          "source": "PRNewswire",
+          "url": "https://www.prnewswire.com/news-releases/googgoogl-stockholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-investors-of-the-securities-class-action-lawsuit-filed-against-alphabet-inc-302905356.html"
         }
       ]
     }
