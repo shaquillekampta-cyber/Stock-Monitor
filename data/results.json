@@ -1,25 +1,113 @@
 {
-  "generated_at": "2026-10-13T19:26:44.391397+00:00",
+  "generated_at": "2026-10-14T17:28:06.374416+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 778.33,
-        "change_pct": 0.03,
-        "volume": 16520299,
-        "avg_volume": 39867016,
-        "volume_ratio": 0.41,
-        "above_trend_ma": true,
-        "trend_ma": 771.5,
+        "price": 768.23,
+        "change_pct": -1.26,
+        "volume": 22773797,
+        "avg_volume": 39784488,
+        "volume_ratio": 0.57,
+        "above_trend_ma": false,
+        "trend_ma": 771.51,
         "trend_ma_days": 15,
         "candles": {
-          "open": 777.34,
-          "high": 778.75,
-          "low": 775.95,
-          "close": 778.33,
-          "prev_open": 778.78,
-          "prev_close": 778.1
+          "open": 774.92,
+          "high": 776.3,
+          "low": 768.21,
+          "close": 768.23,
+          "prev_open": 777.34,
+          "prev_close": 778.01
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "5 negative keyword hits vs 2 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $768.23 is below its 15-day average ($771.51).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Britain faces \u2018new era\u2019 of security threats from Iran and Russia, MI5 says",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/united-kingdom/iran-increasingly-targeting-british-military-sites-mi5-boss-says-rcna603182"
+        },
+        {
+          "title": "Iran seeking 'harder targets' for attacks abroad, UK warns",
+          "source": "DW (English)",
+          "url": "https://www.dw.com/en/iran-seeking-harder-targets-for-attacks-abroad-uk-warns/a-79654454"
+        },
+        {
+          "title": "HBO orders two seasons of animated comedy from Archer trio",
+          "source": "C21media.net",
+          "url": "https://www.c21media.net/news/hbo-orders-two-seasons-of-animated-comedy-from-archer-trio/"
+        },
+        {
+          "title": "MI5 Chief Warns of Growing Iranian Threats to UK Military Bases",
+          "source": "Legalinsurrection.com",
+          "url": "https://legalinsurrection.com/2026/10/mi5-chief-warns-of-growing-iranian-threats-to-uk-military-bases/"
+        },
+        {
+          "title": "The AI trade is cracking. Here's how to profit",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 728.72,
+        "change_pct": -2.0,
+        "volume": 25699113,
+        "avg_volume": 31911774,
+        "volume_ratio": 0.81,
+        "above_trend_ma": false,
+        "trend_ma": 745.48,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 738.0,
+          "high": 740.53,
+          "low": 728.68,
+          "close": 728.72,
+          "prev_open": 739.52,
+          "prev_close": 743.57
         }
       },
       "call": {
@@ -38,22 +126,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $778.33 is above its 15-day average ($771.5).",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $728.72 is below its 15-day average ($745.48).",
+          "signal": "neg"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.81x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -69,93 +157,20 @@
       ],
       "headlines": [
         {
-          "title": "Trial date for man accused of murdering Denis Donaldson to be fixed next month",
-          "source": "The Irish Times",
-          "url": "https://www.irishtimes.com/crime-law/courts/2026/10/12/trial-date-for-man-accused-of-murdering-denis-donaldson-to-be-fixed-next-month/"
+          "title": "The AI trade is cracking. Here's how to profit",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html"
         },
         {
-          "title": "Trump's 'manifest craziness' will intensify in the weeks ahead: longtime critic",
-          "source": "Raw Story",
-          "url": "https://www.rawstory.com/does-donald-trump-show-signs-of-dementia/"
+          "title": "antchain-antdigital-qqq 2.0.5",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/antchain-antdigital-qqq/2.0.5/"
         },
         {
-          "title": "8 Near-Perfect Thriller Series That Keep Us In Suspense To The End",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/best-suspenseful-thriller-tv-shows-end-twist/"
+          "title": "The Compounding Catch: How TQQQ\u2019s 3x Daily Target Became a 5.93x Windfall",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/ed79702f5b0e68aa"
         },
-        {
-          "title": "What Is Marvel's ZODIAC About? Let\u2019s Dig Into the MCU\u2019s New Spy Thriller Series",
-          "source": "GeekTyrant",
-          "url": "https://geektyrant.com/news/what-is-marvels-zodiac-about-lets-dig-into-the-mcus-new-spy-thriller-series"
-        },
-        {
-          "title": "Ledger confirms hardware wallet spy implant behind crypto thefts",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 743.29,
-        "change_pct": -0.37,
-        "volume": 21990467,
-        "avg_volume": 31890178,
-        "volume_ratio": 0.69,
-        "above_trend_ma": false,
-        "trend_ma": 746.29,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 739.53,
-          "high": 744.2,
-          "low": 738.84,
-          "close": 743.29,
-          "prev_open": 749.69,
-          "prev_close": 746.04
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $743.29 is below its 15-day average ($746.29).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.69x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
         {
           "title": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday as Investors Weigh Oil, Earnings",
           "source": "Biztoc.com",
@@ -165,32 +180,27 @@
           "title": "Bybit Supports Stocks Trading, Giving Eligible Global Users Access to 1,000+ U.S. Stocks and ETFs",
           "source": "PRNewswire",
           "url": "https://www.prnewswire.com/news-releases/bybit-supports-stocks-trading-giving-eligible-global-users-access-to-1-000-us-stocks-and-etfs-302905392.html"
-        },
-        {
-          "title": "trading-position-risk-mcp added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/trading-position-risk-mcp/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 84.56,
-        "change_pct": 0.14,
-        "volume": 4076066,
-        "avg_volume": 5205371,
-        "volume_ratio": 0.78,
+        "price": 83.5,
+        "change_pct": -1.24,
+        "volume": 3156436,
+        "avg_volume": 5198896,
+        "volume_ratio": 0.61,
         "above_trend_ma": false,
-        "trend_ma": 85.22,
+        "trend_ma": 85.06,
         "trend_ma_days": 15,
         "candles": {
-          "open": 84.4,
-          "high": 84.61,
-          "low": 84.24,
-          "close": 84.56,
-          "prev_open": 84.71,
-          "prev_close": 84.44
+          "open": 83.84,
+          "high": 84.04,
+          "low": 83.39,
+          "close": 83.5,
+          "prev_open": 84.39,
+          "prev_close": 84.54
         }
       },
       "call": {
@@ -219,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $84.56 is below its 15-day average ($85.22).",
+          "detail": "Price $83.5 is below its 15-day average ($85.06).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.78x the recent average -- roughly normal.",
+          "detail": "Volume is 0.61x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -238,32 +248,32 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 259.15,
-        "change_pct": -0.15,
-        "volume": 16037761,
-        "avg_volume": 33835024,
-        "volume_ratio": 0.47,
+        "price": 253.59,
+        "change_pct": -1.93,
+        "volume": 16037116,
+        "avg_volume": 33674781,
+        "volume_ratio": 0.48,
         "above_trend_ma": true,
-        "trend_ma": 252.85,
+        "trend_ma": 253.1,
         "trend_ma_days": 15,
         "candles": {
-          "open": 259.55,
-          "high": 262.83,
-          "low": 258.71,
-          "close": 259.15,
-          "prev_open": 262.5,
-          "prev_close": 259.53
+          "open": 257.96,
+          "high": 259.65,
+          "low": 253.51,
+          "close": 253.59,
+          "prev_open": 259.44,
+          "prev_close": 258.58
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
+        "hold",
         "hold",
         "hold"
       ],
@@ -276,105 +286,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $259.15 is above its 15-day average ($252.85).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.47x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
-          "source": "Nakedcapitalism.com",
-          "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html"
-        },
-        {
-          "title": "The Ghost 2025 1080p AMZN WEB-DL H264-cinepth",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-ghost-2025-1080p-amzn-web-dl-h264-cinepth/"
-        },
-        {
-          "title": "The Real Housewives of London S02E06 720p AMZN WEB-DL H264-NTb",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-real-housewives-of-london-s02e06-720p-amzn-web-dl-h264-ntb/"
-        },
-        {
-          "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/"
-        },
-        {
-          "title": "Shes Allergic To Cats 2016 720p AMZN WEB-DL H264-iCX",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/shes-allergic-to-cats-2016-720p-amzn-web-dl-h264-icx/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 350.48,
-        "change_pct": 0.43,
-        "volume": 8284206,
-        "avg_volume": 15930523,
-        "volume_ratio": 0.52,
-        "above_trend_ma": true,
-        "trend_ma": 342.37,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 352.1,
-          "high": 354.5,
-          "low": 347.57,
-          "close": 350.48,
-          "prev_open": 348.34,
-          "prev_close": 348.97
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "buy",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "14 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
           "detail": "1 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $350.48 is above its 15-day average ($342.37).",
+          "detail": "Price $253.59 is above its 15-day average ($253.1).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.52x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.48x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -390,29 +312,122 @@
       ],
       "headlines": [
         {
-          "title": "Banks Struggle to Digest the Mounting Debt Driving the AI Boom",
-          "source": "Nakedcapitalism.com",
-          "url": "https://www.nakedcapitalism.com/2026/10/banks-struggle-to-digest-the-mounting-debt-driving-the-ai-boom.html"
+          "title": "Husdroemmen Med Halvor Bakke S01E03 1080p AMZN WEB-DL H264-NORViNE",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/husdroemmen-med-halvor-bakke-s01e03-1080p-amzn-web-dl-h264-norvine/"
         },
         {
-          "title": "Nvidia, AMD, Google, and Meta team up on global blueprint for data center design",
+          "title": "Should You Buy Amazon Stock Before October Ends?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/15c833dc229da78b"
+          "url": "https://biztoc.com/x/37f9ed6e321e6452"
         },
         {
-          "title": "Microsoft reclaims $4 trillion market cap",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/fff884fb6624b65f"
+          "title": "Take Me Home 2011 1080p AMZN WEB-DL H264-PTerWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/take-me-home-2011-1080p-amzn-web-dl-h264-pterweb/"
         },
         {
-          "title": "Prediction: Alphabet Stock Could Be Worth $700 by 2030",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/42fd4312f13bffa1"
+          "title": "Labor Pains 2009 1080p AMZN WEB-DL H264-PiRaTeS",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/labor-pains-2009-1080p-amzn-web-dl-h264-pirates/"
         },
         {
-          "title": "GOOG/GOOGL Stockholder Notice: Shareholder Rights Law Firm Robbins LLP Reminds Investors of the Securities Class Action Lawsuit Filed Against Alphabet Inc.",
+          "title": "Apple shares hit new all-time high",
+          "source": "Macdailynews.com",
+          "url": "https://macdailynews.com/2026/10/13/apple-shares-hit-new-all-time-high/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 343.92,
+        "change_pct": -1.6,
+        "volume": 7851132,
+        "avg_volume": 15907242,
+        "volume_ratio": 0.49,
+        "above_trend_ma": true,
+        "trend_ma": 342.9,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 351.55,
+          "high": 355.25,
+          "low": 343.72,
+          "close": 343.92,
+          "prev_open": 352.42,
+          "prev_close": 349.52
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "12 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $343.92 is above its 15-day average ($342.9).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Apple debuts HomeView hub as it reinvents smart home strategy",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/technology/article/apple-debuts-homeview-hub-as-it-reinvents-smart-home-strategy-131744984.html"
+        },
+        {
+          "title": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors",
           "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/googgoogl-stockholder-notice-shareholder-rights-law-firm-robbins-llp-reminds-investors-of-the-securities-class-action-lawsuit-filed-against-alphabet-inc-302905356.html"
+          "url": "https://www.prnewswire.com/news-releases/goog-googl-stock-alert-alphabet-ai-issues-and-subsequent-4-stock-drop-trigger-securities-fraud-class-action-for-investors-302906001.html"
+        },
+        {
+          "title": "AI Is More Than a Single Sponsorship Category",
+          "source": "Johnwallstreet.com",
+          "url": "https://www.johnwallstreet.com/p/ai-is-more-than-a-single-sponsorship-category"
+        },
+        {
+          "title": "Spooktober 2026, Day Twelve",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/12/spooktober-2026-day-twelve/"
+        },
+        {
+          "title": "$10,000 Invested Equally in Alphabet and Nvidia Could Be Worth This Much by 2030",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/d0bafaf13182e1bd"
         }
       ]
     }
