@@ -1,153 +1,65 @@
 {
-  "generated_at": "2026-10-15T17:15:29.972267+00:00",
+  "generated_at": "2026-10-16T16:51:33.940565+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 770.35,
-        "change_pct": 0.1,
-        "volume": 22186454,
-        "avg_volume": 40330575,
-        "volume_ratio": 0.55,
+        "price": 765.8,
+        "change_pct": -0.78,
+        "volume": 20622256,
+        "avg_volume": 40367667,
+        "volume_ratio": 0.51,
         "above_trend_ma": false,
-        "trend_ma": 771.81,
+        "trend_ma": 771.53,
         "trend_ma_days": 15,
         "candles": {
-          "open": 766.25,
-          "high": 771.23,
-          "low": 764.44,
-          "close": 770.35,
-          "prev_open": 774.92,
-          "prev_close": 769.6
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "hold",
-        "sell",
-        "sell"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $770.35 is below its 15-day average ($771.81).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.55x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Iran seeking 'harder targets' for attacks abroad, UK warns - DW.com",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186319884"
-        },
-        {
-          "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer - BBC",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186319878"
-        },
-        {
-          "title": "For Uyghurs in Central Asia, US Diplomacy Could Be a Lifeline",
-          "source": "The Diplomat",
-          "url": "https://thediplomat.com/2026/10/for-uyghurs-in-central-asia-us-diplomacy-could-be-a-lifeline/"
-        },
-        {
-          "title": "What are Iran and Russia's mounting hybrid attacks on Europe?",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/iran-russia-uk-mi5-hybrid-attacks-spy-chief-says-mccallum/"
-        },
-        {
-          "title": "Suspected Israeli online operations cause alarm in Iran and Lebanon",
-          "source": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/news/2026/10/14/suspected-israeli-online-operations-cause-alarm-in-iran-and-lebanon"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 724.56,
-        "change_pct": -0.6,
-        "volume": 30462709,
-        "avg_volume": 32659937,
-        "volume_ratio": 0.93,
-        "above_trend_ma": false,
-        "trend_ma": 744.39,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 718.54,
-          "high": 726.1,
-          "low": 715.43,
-          "close": 724.56,
-          "prev_open": 737.98,
-          "prev_close": 728.95
+          "open": 773.24,
+          "high": 773.23,
+          "low": 765.72,
+          "close": 765.8,
+          "prev_open": 766.25,
+          "prev_close": 771.79
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 1,
-        "negative_signals": 2,
+        "negative_signals": 3,
         "total_signals": 6,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
-        "hold",
+        "sell",
+        "sell",
         "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "4 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $724.56 is below its 15-day average ($744.39).",
+          "detail": "Price $765.8 is below its 15-day average ($771.53).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.93x the recent average -- roughly normal.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "signal": "neg"
         },
         {
           "label": "Conflicting signals",
@@ -157,40 +69,128 @@
       ],
       "headlines": [
         {
-          "title": "Bank of America Clients to Enjoy Premium Dining and Lifestyle Experiences at the 19th Food Network New York City Wine & Food Festival presented by Invesco QQQ",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/bank-of-america-clients-to-enjoy-premium-dining-and-lifestyle-experiences-at-the-19th-food-network-new-york-city-wine--food-festival-presented-by-invesco-qqq-302907426.html"
+          "title": "Friends don\u2019t let friends feed their data to AI agents",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/30bfec6856e1442a"
         },
         {
-          "title": "The AI trade is cracking. Here's how to profit",
+          "title": "Israeli ad-tech firm helped spy on Al Jazeera devices",
+          "source": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/news/2026/10/15/israeli-ad-tech-firm-helped-spy-on-al-jazeera-devices"
+        },
+        {
+          "title": "Friends don\u2019t let friends feed their data to AI agents",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent"
+        },
+        {
+          "title": "Previewing BYU vs. Notre Dame with One Foot Down",
+          "source": "Vanquish The Foe",
+          "url": "https://www.vanquishthefoe.com/byu-football/27836/previewing-byu-football-vs-notre-dame-with-one-foot-down"
+        },
+        {
+          "title": "An Alleged Spy Device Was Hidden at OpenAI. Check This Overlooked Spot in Your Office Today",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/795a5b77edc7ab72"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 715.19,
+        "change_pct": -1.76,
+        "volume": 29378942,
+        "avg_volume": 33050441,
+        "volume_ratio": 0.89,
+        "above_trend_ma": false,
+        "trend_ma": 742.67,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 725.48,
+          "high": 725.94,
+          "low": 715.06,
+          "close": 715.19,
+          "prev_open": 718.55,
+          "prev_close": 728.0
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "3 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $715.19 is below its 15-day average ($742.67).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.89x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Cboe to expand options trading hours for major stocks and ETFs",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/13/the-ai-trade-is-cracking-heres-how-to-profit.html"
+          "url": "https://www.cnbc.com/2026/10/15/cboe-stock-etf-options-extended-hours.html"
         },
         {
-          "title": "antchain-antdigital-qqq 2.0.5",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/antchain-antdigital-qqq/2.0.5/"
+          "title": "Adds Nvidia and Apple on Oct. 13",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/d80df579c6623f98"
+        },
+        {
+          "title": "Michael Burry Warns Wall Street\u2019s \u2018Pain Trade\u2019 Can Last As Mag 7 Weakness Could Deepen \u2018Red October\u2019 Call",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/ee1fbf593b9bd480"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 83.57,
-        "change_pct": -0.01,
-        "volume": 4724007,
-        "avg_volume": 5252983,
-        "volume_ratio": 0.9,
+        "price": 83.51,
+        "change_pct": -0.39,
+        "volume": 2619907,
+        "avg_volume": 5267429,
+        "volume_ratio": 0.5,
         "above_trend_ma": false,
-        "trend_ma": 84.93,
+        "trend_ma": 84.76,
         "trend_ma_days": 15,
         "candles": {
-          "open": 83.11,
-          "high": 83.68,
-          "low": 82.85,
-          "close": 83.57,
-          "prev_open": 83.84,
-          "prev_close": 83.58
+          "open": 84.16,
+          "high": 84.24,
+          "low": 83.5,
+          "close": 83.51,
+          "prev_open": 83.17,
+          "prev_close": 83.84
         }
       },
       "call": {
@@ -219,12 +219,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $83.57 is below its 15-day average ($84.93).",
+          "detail": "Price $83.51 is below its 15-day average ($84.76).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.9x the recent average -- roughly normal.",
+          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -238,21 +238,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 253.75,
-        "change_pct": -0.13,
-        "volume": 18300122,
-        "avg_volume": 33897277,
-        "volume_ratio": 0.54,
-        "above_trend_ma": true,
-        "trend_ma": 253.43,
+        "price": 251.1,
+        "change_pct": -1.43,
+        "volume": 16610219,
+        "avg_volume": 33880359,
+        "volume_ratio": 0.49,
+        "above_trend_ma": false,
+        "trend_ma": 253.59,
         "trend_ma_days": 15,
         "candles": {
-          "open": 250.5,
-          "high": 254.56,
-          "low": 248.65,
-          "close": 253.75,
-          "prev_open": 258.01,
-          "prev_close": 254.08
+          "open": 255.05,
+          "high": 255.54,
+          "low": 251.06,
+          "close": 251.1,
+          "prev_open": 250.89,
+          "prev_close": 254.76
         }
       },
       "call": {
@@ -276,17 +276,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $253.75 is above its 15-day average ($253.43).",
+          "detail": "3 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $251.1 is below its 15-day average ($253.59).",
+          "signal": "neg"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -302,57 +302,57 @@
       ],
       "headlines": [
         {
-          "title": "Celluloid Man 2012 1080p AMZN WEB-DL H264-TEPES",
+          "title": "Alien Uprising 2012 1080p AMZN WEB-DL H264-iCX",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/celluloid-man-2012-1080p-amzn-web-dl-h264-tepes/"
+          "url": "https://post.rlsbb.cc/alien-uprising-2012-1080p-amzn-web-dl-h264-icx/"
         },
         {
-          "title": "Amazon\u2019s $550 tablet breaks its oldest hardware rule",
+          "title": "Citi Raises Meta Price Target to $895 Ahead of Q3 Earnings",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4188db5305064591"
+          "url": "https://biztoc.com/x/469a9033e8aee672"
         },
         {
-          "title": "Generate presentations with Amazon Bedrock AgentCore",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/"
-        },
-        {
-          "title": "Apple is finally taking the smart home seriously",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e75293c97fa48ce8"
-        },
-        {
-          "title": "Bamako 2007 1080p AMZN WEB-DL H264-BiOMA",
+          "title": "Mision Delta 2025 1080p AMZN WEB-DL H264-BobDobbs",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/bamako-2007-1080p-amzn-web-dl-h264-bioma/"
+          "url": "https://post.rlsbb.cc/mision-delta-2025-1080p-amzn-web-dl-h264-bobdobbs/"
+        },
+        {
+          "title": "You Better Watch Out 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/you-better-watch-out-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+        },
+        {
+          "title": "Regulars 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/regulars-2026-1080p-amzn-web-dl-h264-bobdobbs/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 344.89,
-        "change_pct": 0.36,
-        "volume": 6342595,
-        "avg_volume": 16083644,
-        "volume_ratio": 0.39,
-        "above_trend_ma": true,
-        "trend_ma": 343.27,
+        "price": 338.5,
+        "change_pct": -1.86,
+        "volume": 6802082,
+        "avg_volume": 16103413,
+        "volume_ratio": 0.42,
+        "above_trend_ma": false,
+        "trend_ma": 343.1,
         "trend_ma_days": 15,
         "candles": {
-          "open": 340.43,
-          "high": 348.4,
-          "low": 336.82,
-          "close": 344.89,
-          "prev_open": 351.43,
-          "prev_close": 343.65
+          "open": 344.3,
+          "high": 346.59,
+          "low": 338.31,
+          "close": 338.5,
+          "prev_open": 340.53,
+          "prev_close": 344.91
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -364,60 +364,45 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "3 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $344.89 is above its 15-day average ($343.27).",
-          "signal": "pos"
+          "detail": "Price $338.5 is below its 15-day average ($343.1).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.39x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.42x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
+          "title": "Prompt injection in HTTP headers: what 217M web responses show",
+          "source": "Signalscorps.com",
+          "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/"
+        },
+        {
+          "title": "Spooktober 2026, Day Fourteen",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/14/spooktober-2026-day-fourteen/"
+        },
+        {
           "title": "Apple is finally taking the smart home seriously",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/e75293c97fa48ce8"
-        },
-        {
-          "title": "Settle Down and Marry a Nice Stock",
-          "source": "Dailyreckoning.com",
-          "url": "https://dailyreckoning.com/settle-down-and-marry-a-nice-stock/"
-        },
-        {
-          "title": "Spooktober 2026, Day Thirteen",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/13/spooktober-2026-day-thirteen/"
-        },
-        {
-          "title": "Apple debuts HomeView hub as it reinvents smart home strategy",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/apple-debuts-homeview-hub-as-it-reinvents-smart-home-strategy-131744984.html"
-        },
-        {
-          "title": "GOOG, GOOGL Stock Alert: Alphabet AI Issues and Subsequent 4% Stock Drop Trigger Securities Fraud Class Action for Investors",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/goog-googl-stock-alert-alphabet-ai-issues-and-subsequent-4-stock-drop-trigger-securities-fraud-class-action-for-investors-302906001.html"
         }
       ]
     }
