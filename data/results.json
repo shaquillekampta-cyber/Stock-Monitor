@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-20T17:25:35.414836+00:00",
+  "generated_at": "2026-10-21T17:31:53.244837+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 769.46,
-        "change_pct": 0.39,
-        "volume": 20601495,
-        "avg_volume": 40945078,
-        "volume_ratio": 0.5,
-        "above_trend_ma": false,
-        "trend_ma": 771.77,
+        "price": 773.66,
+        "change_pct": 0.6,
+        "volume": 13906420,
+        "avg_volume": 40544216,
+        "volume_ratio": 0.34,
+        "above_trend_ma": true,
+        "trend_ma": 772.48,
         "trend_ma_days": 15,
         "candles": {
-          "open": 765.86,
-          "high": 772.28,
-          "low": 764.26,
-          "close": 769.46,
-          "prev_open": 767.23,
-          "prev_close": 766.48
+          "open": 771.17,
+          "high": 774.28,
+          "low": 768.4,
+          "close": 773.66,
+          "prev_open": 765.86,
+          "prev_close": 769.05
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -43,110 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $769.46 is below its 15-day average ($771.77).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick: bullish engulfing",
-          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
-          "signal": "pos"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Student who was recruited to ISIS by AI bot before travelling to Somalia to 'become a martyr' is jailed for 12 years",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/news/article-16221235/Student-recruited-ISIS-Somalia-martyr-jailed.html"
-        },
-        {
-          "title": "Affordably secure doors with six entry options via Anker\u2019s eufy Smart Security Lock C220 down at $100",
-          "source": "9to5Toys",
-          "url": "http://9to5toys.com/2026/10/19/anker-eufy-smart-security-lock-c220/"
-        },
-        {
-          "title": "The Real Reason Elon Musk Wants Us Looking at His Flying Car",
-          "source": "Slate Magazine",
-          "url": "https://slate.com/technology/2026/10/tesla-spacex-elon-musk-flying-car.html"
-        },
-        {
-          "title": "ismypwdsafe added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/ismypwdsafe/"
-        },
-        {
-          "title": "$27.99 | Cyberpunk 2077: Ultimate Edition (Nintendo Switch 2 Digital Download)",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20179029-27-99-cyberpunk-2077-ultimate-edition-nintendo-switch-2-digital-download"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 719.26,
-        "change_pct": 0.13,
-        "volume": 19079347,
-        "avg_volume": 33413377,
-        "volume_ratio": 0.57,
-        "above_trend_ma": false,
-        "trend_ma": 739.85,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 715.19,
-          "high": 722.75,
-          "low": 710.39,
-          "close": 719.26,
-          "prev_open": 719.61,
-          "prev_close": 718.36
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "sell",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
           "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
           "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $719.26 is below its 15-day average ($739.85).",
-          "signal": "neg"
+          "detail": "Price $773.66 is above its 15-day average ($772.48).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.34x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -156,6 +63,99 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Analyst For Newsmax \u2014 Yes, Newsmax \u2014 Gives Glowing Endorsement To Dem Hated By Trump",
+          "source": "HuffPost",
+          "url": "https://www.huffpost.com/entry/newsmax-andrew-napolitano-endorses-abdul-el-sayed_n_6ad77cdce4b0ba084e12584e"
+        },
+        {
+          "title": "People Using AI to Make Smart TVs Dumb Again Is the Most 2026 Thing Ever",
+          "source": "Gizmodo.com",
+          "url": "https://gizmodo.com/people-using-ai-to-make-smart-tvs-dumb-again-is-the-most-2026-thing-ever-2000828213"
+        },
+        {
+          "title": "Pass The Popcorn, Because These Wicker Reviews Have Only One Word For This Lusty Romance",
+          "source": "CinemaBlend",
+          "url": "https://www.cinemablend.com/movies/wicker-reviews-one-word-lusty-romance-olivia-colman-alexander-skarsgard"
+        },
+        {
+          "title": "ismypwdsafe 1.3.0",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/ismypwdsafe/1.3.0/"
+        },
+        {
+          "title": "ZYX Italo Disco New Generation Vol. 29 (2CD) (2026) FLAC",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/zyx-italo-disco-new-generation-vol-29-2cd-2026-flac/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 726.82,
+        "change_pct": 1.28,
+        "volume": 19288649,
+        "avg_volume": 33351177,
+        "volume_ratio": 0.58,
+        "above_trend_ma": false,
+        "trend_ma": 738.88,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 722.22,
+          "high": 727.95,
+          "low": 719.72,
+          "close": 726.82,
+          "prev_open": 715.25,
+          "prev_close": 717.63
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "8 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $726.82 is below its 15-day average ($738.88).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Live updates: Market jitters persist as the AI selloff deepens",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens"
+        },
         {
           "title": "Cboe Launches Extended Trading Sessions for Select Single Stock and ETF Options",
           "source": "PRNewswire",
@@ -175,37 +175,32 @@
           "title": "Sees $11.5 Million in Net ETF Buying on Thursday",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/5273a42604ba924c"
-        },
-        {
-          "title": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it-302912310.html"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 83.78,
-        "change_pct": 0.58,
-        "volume": 2700091,
-        "avg_volume": 5280404,
-        "volume_ratio": 0.51,
+        "price": 84.08,
+        "change_pct": 0.41,
+        "volume": 2869892,
+        "avg_volume": 5280764,
+        "volume_ratio": 0.54,
         "above_trend_ma": false,
-        "trend_ma": 84.47,
+        "trend_ma": 84.41,
         "trend_ma_days": 15,
         "candles": {
-          "open": 83.1,
-          "high": 84.04,
-          "low": 83.04,
-          "close": 83.78,
-          "prev_open": 83.75,
-          "prev_close": 83.29
+          "open": 84.18,
+          "high": 84.25,
+          "low": 83.85,
+          "close": 84.08,
+          "prev_open": 83.1,
+          "prev_close": 83.74
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
+        "positive_signals": 0,
         "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -219,7 +214,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "1 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -229,40 +224,46 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $83.78 is below its 15-day average ($84.47).",
+          "detail": "Price $84.08 is below its 15-day average ($84.41).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bullish engulfing",
-          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "Forget VXUS: VOO Returned 320.81% Over Ten Years Against VXUS\u2019s 139.56%",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/1c87f4d734658840"
+        }
+      ]
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 263.39,
-        "change_pct": 0.36,
-        "volume": 19907095,
-        "avg_volume": 34366427,
-        "volume_ratio": 0.58,
+        "price": 263.61,
+        "change_pct": 0.37,
+        "volume": 17521923,
+        "avg_volume": 34462456,
+        "volume_ratio": 0.51,
         "above_trend_ma": true,
-        "trend_ma": 255.72,
+        "trend_ma": 256.63,
         "trend_ma_days": 15,
         "candles": {
-          "open": 264.03,
-          "high": 265.34,
-          "low": 260.42,
-          "close": 263.39,
-          "prev_open": 255.25,
-          "prev_close": 262.45
+          "open": 262.99,
+          "high": 264.21,
+          "low": 259.29,
+          "close": 263.61,
+          "prev_open": 264.08,
+          "prev_close": 262.63
         }
       },
       "call": {
@@ -273,8 +274,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -291,12 +292,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $263.39 is above its 15-day average ($255.72).",
+          "detail": "Price $263.61 is above its 15-day average ($256.63).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.51x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -312,57 +313,57 @@
       ],
       "headlines": [
         {
-          "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/"
-        },
-        {
-          "title": "Automate Active Directory joins for Elastic Beanstalk Windows applications",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/devops/automate-active-directory-joins-for-elastic-beanstalk-windows-applications/"
-        },
-        {
-          "title": "Por Thozhil 2023 1080p AMZN WEB-DL H264-CPTN5DW",
+          "title": "Mag Mag 2026 1080p AMZN WEB-DL H264-cinepth",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/por-thozhil-2023-1080p-amzn-web-dl-h264-cptn5dw/"
+          "url": "https://post.rlsbb.cc/mag-mag-2026-1080p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "Hanging By A Wire 2026 1080p AMZN WEB-DL H264-playWEB",
+          "title": "Diversa 2026 720p AMZN WEB-DL H264-playWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/hanging-by-a-wire-2026-1080p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/diversa-2026-720p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "Cboe Launches Extended Trading Sessions for Select Single Stock and ETF Options",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/cboe-launches-extended-trading-sessions-for-select-single-stock-and-etf-options-302912644.html"
+          "title": "In Vitro S01E01 1080p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/in-vitro-s01e01-1080p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "In Vitro S01E02 1080p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/in-vitro-s01e02-1080p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "EB 2026 720p AMZN WEB-DL H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/eb-2026-720p-amzn-web-dl-h264-playweb/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 337.68,
-        "change_pct": -0.73,
-        "volume": 6576859,
-        "avg_volume": 16229661,
-        "volume_ratio": 0.41,
+        "price": 330.08,
+        "change_pct": -1.88,
+        "volume": 11849126,
+        "avg_volume": 16365082,
+        "volume_ratio": 0.72,
         "above_trend_ma": false,
-        "trend_ma": 343.09,
+        "trend_ma": 342.29,
         "trend_ma_days": 15,
         "candles": {
-          "open": 339.66,
-          "high": 341.0,
-          "low": 336.93,
-          "close": 337.68,
-          "prev_open": 340.12,
-          "prev_close": 340.16
+          "open": 333.36,
+          "high": 333.63,
+          "low": 326.26,
+          "close": 330.08,
+          "prev_open": 339.71,
+          "prev_close": 336.4
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -374,36 +375,41 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $337.68 is below its 15-day average ($343.09).",
+          "detail": "Price $330.08 is below its 15-day average ($342.29).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.72x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
+        {
+          "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
+          "source": "CoinDesk",
+          "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading"
+        },
+        {
+          "title": "Google Moves Google Posts Higher Up On Local Knowledge Panel",
+          "source": "Seroundtable.com",
+          "url": "https://www.seroundtable.com/google-posts-higher-42319.html"
+        },
         {
           "title": "2 charts show why Wall Street is right to worry about tech stocks",
           "source": "Biztoc.com",
@@ -418,16 +424,6 @@
           "title": "The Trillion-Dollar AI Bet: What It Means for Hyperscaler Investors",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/f2e901f08f438bdd"
-        },
-        {
-          "title": "\u201cLooked solid\u201d \u2013 Xabi Alonso on how Chelsea were working on their defending after long awaited clean sheet",
-          "source": "Talk Chelsea",
-          "url": "https://www.talkchelsea.net/news/alonso-chelsea-defending-working-on/"
-        },
-        {
-          "title": "Evercore raises Alphabet estimates on potential TPU hardware sales (GOOG:NASDAQ)",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/2297b37ec1c2d89a"
         }
       ]
     }
