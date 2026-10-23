@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-22T17:28:52.035853+00:00",
+  "generated_at": "2026-10-23T17:21:30.926812+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 763.26,
-        "change_pct": -1.27,
-        "volume": 23898488,
-        "avg_volume": 40608392,
-        "volume_ratio": 0.59,
+        "price": 760.73,
+        "change_pct": -0.42,
+        "volume": 16414752,
+        "avg_volume": 40746448,
+        "volume_ratio": 0.4,
         "above_trend_ma": false,
-        "trend_ma": 772.39,
+        "trend_ma": 771.85,
         "trend_ma_days": 15,
         "candles": {
-          "open": 766.37,
-          "high": 767.71,
-          "low": 762.1,
-          "close": 763.26,
-          "prev_open": 771.17,
-          "prev_close": 773.09
+          "open": 759.9,
+          "high": 763.47,
+          "low": 758.68,
+          "close": 760.73,
+          "prev_open": 766.37,
+          "prev_close": 763.96
         }
       },
       "call": {
@@ -27,14 +27,14 @@
         "positive_signals": 0,
         "negative_signals": 2,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
         "hold",
-        "hold",
+        "sell",
         "sell"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
+          "detail": "2 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $763.26 is below its 15-day average ($772.39).",
+          "detail": "Price $760.73 is below its 15-day average ($771.85).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.4x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "A \u2018pipe dream of EU hawks\u2019: What\u2019s in Brussels\u2019 new Arctic Strategy?",
-          "source": "Rt-english.com",
-          "url": "https://rt-english.com/news/647492-eu-arctic-strategy-russia/"
+          "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo"
         },
         {
-          "title": "No. 19 Texas vs. No. 7 Ole Miss opponent preview: Rebels head to Austin for first matchup as conference foes",
-          "source": "Burnt Orange Nation",
-          "url": "https://www.burntorangenation.com/texas-longhorns-football/106119/texas-longhorns-ole-miss-rebels-preview"
+          "title": "The Week contest: Extra-long walk",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/940096895f9720db"
         },
         {
-          "title": "Lancaster city man sentenced to prison for stabbing outside Islamic Community Center [update]",
-          "source": "LancasterOnline",
-          "url": "https://lancasteronline.com/news/local/lancaster-city-man-sentenced-to-prison-for-stabbing-outside-islamic-community-center-update/article_61280914-a92c-4981-83c7-ba817ab139dd.html"
+          "title": "Tom Hollander, Aja Naomi King & Beau Young Join Prime Video\u2019s \u2018Stillwater\u2019 As Series Regulars",
+          "source": "Deadline",
+          "url": "http://deadline.com/2026/10/tom-hollander-aja-naomi-king-beau-young-join-stillwater-1237170681/"
         },
         {
-          "title": "\u2018VisionQuest\u2019 Episodes 3 and 4 Introduce a New Threat",
-          "source": "Gizmodo.com",
-          "url": "https://gizmodo.com/visionquest-season-1-episode-3-4-reboot-malware-recap-review-2000827865"
+          "title": "Final James Bond Screen Tests Imminent as Jack Lowden, Callum Turner and Josh O\u2019Connor Make the Cut",
+          "source": "TheWrap",
+          "url": "https://www.thewrap.com/creative-content/movies/final-james-bond-screen-tests-jack-lowden-callum-turner-josh-oconnor/"
         },
         {
-          "title": "Indian-origin author, broadcaster to judge Women's Prize of Non-Fiction in UK",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/world-news/indian-origin-author-broadcaster-to-judge-womens-prize-of-non-fiction-in-uk/articleshow/135096061.cms"
+          "title": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 706.26,
-        "change_pct": -2.61,
-        "volume": 33151941,
-        "avg_volume": 33647438,
-        "volume_ratio": 0.99,
+        "price": 705.93,
+        "change_pct": 0.21,
+        "volume": 18307256,
+        "avg_volume": 34013694,
+        "volume_ratio": 0.54,
         "above_trend_ma": false,
-        "trend_ma": 736.39,
+        "trend_ma": 733.36,
         "trend_ma_days": 15,
         "candles": {
-          "open": 713.68,
-          "high": 715.43,
-          "low": 704.47,
-          "close": 706.26,
-          "prev_open": 722.22,
-          "prev_close": 725.2
+          "open": 702.1,
+          "high": 709.3,
+          "low": 701.16,
+          "close": 705.93,
+          "prev_open": 713.61,
+          "prev_close": 704.47
         }
       },
       "call": {
@@ -118,8 +118,8 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -131,17 +131,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $706.26 is below its 15-day average ($736.39).",
+          "detail": "Price $705.93 is below its 15-day average ($733.36).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.99x the recent average -- roughly normal.",
+          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -157,9 +157,9 @@
       ],
       "headlines": [
         {
-          "title": "What ProShares Ultra QQQ (QLD) Bought: NVIDIA Leads on Monday",
+          "title": "How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA As Oil Rises And AI Concerns Persist",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d3cd43d5fcb62891"
+          "url": "https://biztoc.com/x/1fd36d2c8a5f4393"
         },
         {
           "title": "ETFs Bought $131.5 Million of Applied Materials (AMAT) on Oct. 19",
@@ -167,35 +167,35 @@
           "url": "https://biztoc.com/x/d575dfc55ececa3e"
         },
         {
+          "title": "What ProShares Ultra QQQ (QLD) Bought: NVIDIA Leads on Monday",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/d3cd43d5fcb62891"
+        },
+        {
           "title": "ETF Activity: QQQ Pulls In $4.95 Billion on Oct. 19",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/a91901f0fbc72654"
-        },
-        {
-          "title": "Live updates: Market jitters persist as the AI selloff deepens",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/10/20/live-updates-market-jitters-persist-as-the-ai-selloff-deepens"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.75,
-        "change_pct": -1.48,
-        "volume": 3383849,
-        "avg_volume": 5309005,
-        "volume_ratio": 0.64,
+        "price": 82.42,
+        "change_pct": -0.37,
+        "volume": 3502870,
+        "avg_volume": 5308272,
+        "volume_ratio": 0.66,
         "above_trend_ma": false,
-        "trend_ma": 84.29,
+        "trend_ma": 84.09,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.99,
-          "high": 83.15,
-          "low": 82.5,
-          "close": 82.75,
-          "prev_open": 84.19,
-          "prev_close": 84.0
+          "open": 82.21,
+          "high": 82.67,
+          "low": 82.07,
+          "close": 82.42,
+          "prev_open": 83.0,
+          "prev_close": 82.73
         }
       },
       "call": {
@@ -224,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.75 is below its 15-day average ($84.29).",
+          "detail": "Price $82.42 is below its 15-day average ($84.09).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.64x the recent average -- roughly normal.",
+          "detail": "Volume is 0.66x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,109 +243,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 250.69,
-        "change_pct": -4.45,
-        "volume": 24046444,
-        "avg_volume": 34511301,
-        "volume_ratio": 0.7,
+        "price": 249.34,
+        "change_pct": -0.42,
+        "volume": 14636725,
+        "avg_volume": 34620691,
+        "volume_ratio": 0.42,
         "above_trend_ma": false,
-        "trend_ma": 256.71,
+        "trend_ma": 256.55,
         "trend_ma_days": 15,
         "candles": {
-          "open": 258.13,
-          "high": 258.36,
-          "low": 250.57,
-          "close": 250.69,
-          "prev_open": 262.71,
-          "prev_close": 262.37
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $250.69 is below its 15-day average ($256.71).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.7x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Chaaver 2023 2160p AMZN WEB-DL H 265-RUDR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/chaaver-2023-2160p-amzn-web-dl-h-265-rudr/"
-        },
-        {
-          "title": "Krishna 2008 1080p AMZN WEB-DL H264-CPTN5DW",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/krishna-2008-1080p-amzn-web-dl-h264-cptn5dw/"
-        },
-        {
-          "title": "The Black Rock 2026 1080p AMZN WEB-DL H264-SPWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-black-rock-2026-1080p-amzn-web-dl-h264-spweb/"
-        },
-        {
-          "title": "Nvidia CEO Jensen Huang says data center builders have to be 'good neighbors'",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-jensen-huang-says-data-center-builders-have-to-be-good-neighbors-132705446.html"
-        },
-        {
-          "title": "A Mothers Secret 2025 720p AMZN WEB-DL H264-playWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/a-mothers-secret-2025-720p-amzn-web-dl-h264-playweb/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 322.88,
-        "change_pct": -2.44,
-        "volume": 8950517,
-        "avg_volume": 16389367,
-        "volume_ratio": 0.55,
-        "above_trend_ma": false,
-        "trend_ma": 341.55,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 326.77,
-          "high": 327.7,
-          "low": 322.38,
-          "close": 322.88,
-          "prev_open": 333.32,
-          "prev_close": 330.95
+          "open": 248.55,
+          "high": 250.01,
+          "low": 246.45,
+          "close": 249.34,
+          "prev_open": 258.18,
+          "prev_close": 250.38
         }
       },
       "call": {
@@ -364,22 +276,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
+          "detail": "2 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $322.88 is below its 15-day average ($341.55).",
+          "detail": "Price $249.34 is below its 15-day average ($256.55).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.55x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.42x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -390,6 +302,114 @@
       ],
       "headlines": [
         {
+          "title": "Peaky Blinders-The Real Story 2026 1080p AMZN WEB-DL H264-ANARCHY",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/peaky-blinders-the-real-story-2026-1080p-amzn-web-dl-h264-anarchy/"
+        },
+        {
+          "title": "Prank Night 2026 1080p AMZN WEB-DL H264-ANARCHY",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/prank-night-2026-1080p-amzn-web-dl-h264-anarchy/"
+        },
+        {
+          "title": "MobLand S02E06 1080p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/mobland-s02e06-1080p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Grizzly Attack 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/grizzly-attack-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+        },
+        {
+          "title": "The Mephistophiliac 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-mephistophiliac-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 319.33,
+        "change_pct": -0.44,
+        "volume": 5621261,
+        "avg_volume": 16420996,
+        "volume_ratio": 0.34,
+        "above_trend_ma": false,
+        "trend_ma": 340.0,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 317.93,
+          "high": 321.23,
+          "low": 316.99,
+          "close": 319.33,
+          "prev_open": 326.77,
+          "prev_close": 320.76
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "sell",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "6 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $319.33 is below its 15-day average ($340.0).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.34x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "\u201cWe haven\u2019t given up\u201d \u2013 Chelsea\u2019s \u00a3100m target could yet sign new contract claims his boss",
+          "source": "Talk Chelsea",
+          "url": "https://www.talkchelsea.net/news-now/scott-new-contract-100m-target-havent-given-up/"
+        },
+        {
+          "title": "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/981b6bc3447b079d"
+        },
+        {
+          "title": "Amazon or Alphabet: If I Could Only Own One for the Next Decade, It Would Be This One",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/2f98b2dac8d7c430"
+        },
+        {
           "title": "Netflix has 2 problems behind the stock slide \u2014 and they aren't YouTube, co-CEO Ted Sarandos says",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/b6fdb52058b618ed"
@@ -398,21 +418,6 @@
           "title": "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/eaa67ddd74aa28b9"
-        },
-        {
-          "title": "Netflix co-CEO Ted Sarandos reveals two problems that have nothing to do with YouTube dominance and that don't have easy fixes",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/18c95b17cd07b432"
-        },
-        {
-          "title": "GOOGL, GOOG Investors Have Opportunity to Lead Alphabet Inc. Securities Fraud Lawsuit",
-          "source": "PRNewswire",
-          "url": "https://www.prnewswire.com/news-releases/googl-goog-investors-have-opportunity-to-lead-alphabet-inc-securities-fraud-lawsuit-302914522.html"
-        },
-        {
-          "title": "Microsoft, Alphabet and Goldman Sachs join objections to OKX-ICE tokenized stock trading",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/business/2026/10/19/microsoft-alphabet-and-goldman-sachs-join-objections-to-okx-ice-tokenized-stock-trading"
         }
       ]
     }
