@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-23T17:21:30.926812+00:00",
+  "generated_at": "2026-10-26T18:48:03.297551+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 760.73,
-        "change_pct": -0.42,
-        "volume": 16414752,
-        "avg_volume": 40746448,
-        "volume_ratio": 0.4,
+        "price": 765.54,
+        "change_pct": 0.73,
+        "volume": 17778830,
+        "avg_volume": 41111954,
+        "volume_ratio": 0.43,
         "above_trend_ma": false,
-        "trend_ma": 771.85,
+        "trend_ma": 771.18,
         "trend_ma_days": 15,
         "candles": {
-          "open": 759.9,
-          "high": 763.47,
-          "low": 758.68,
-          "close": 760.73,
-          "prev_open": 766.37,
-          "prev_close": 763.96
+          "open": 762.25,
+          "high": 767.73,
+          "low": 761.64,
+          "close": 765.54,
+          "prev_open": 759.9,
+          "prev_close": 759.97
         }
       },
       "call": {
@@ -30,7 +30,7 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
+        "sell",
         "sell",
         "sell"
       ],
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
+          "detail": "2 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $760.73 is below its 15-day average ($771.85).",
+          "detail": "Price $765.54 is below its 15-day average ($771.18).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.4x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo"
+          "title": "$2.99 | Starter Villain by John Scalzi (Kindle ebook)",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20205390-2-99-starter-villain-by-john-scalzi-kindle-ebook"
         },
         {
-          "title": "The Week contest: Extra-long walk",
+          "title": "The city that fought Flock",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/features/1017836/flock-huntington-west-virginia-surveillance-ballot-measure"
+        },
+        {
+          "title": "S&P 500, VOO, and SPY Outlook: What Investors Need to Watch This Week - State Street SPDR S&P 500 ETF Trust\u2026",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/940096895f9720db"
+          "url": "https://biztoc.com/x/6b595f3ed1a4c757"
         },
         {
-          "title": "Tom Hollander, Aja Naomi King & Beau Young Join Prime Video\u2019s \u2018Stillwater\u2019 As Series Regulars",
-          "source": "Deadline",
-          "url": "http://deadline.com/2026/10/tom-hollander-aja-naomi-king-beau-young-join-stillwater-1237170681/"
+          "title": "Official Mad Cave January 2027 Solicits: Dan DiDio On Secret Agent X-9",
+          "source": "Bleeding Cool News",
+          "url": "https://bleedingcool.com/comics/official-mad-cave-january-2027-solicits-dan-didio-on-secret-agent-x-9/"
         },
         {
-          "title": "Final James Bond Screen Tests Imminent as Jack Lowden, Callum Turner and Josh O\u2019Connor Make the Cut",
-          "source": "TheWrap",
-          "url": "https://www.thewrap.com/creative-content/movies/final-james-bond-screen-tests-jack-lowden-callum-turner-josh-oconnor/"
-        },
-        {
-          "title": "Lawsuit accuses Trump of illegally profiting off foreign crypto deals",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/22/trump-world-liberty-crypto-lawsuit-uae.html"
+          "title": "Watch: A2O LITE Takes 4th Win For \u201cNEON\u201d On \u201cInkigayo\u201d; Performances By IVE, BABYMONSTER, NMIXX, And More",
+          "source": "soompi",
+          "url": "http://www.soompi.com/article/1881316wpp/watch-a2o-lite-takes-4th-win-for-neon-on-inkigayo-performances-by-ive-babymonster-nmixx-and-more"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 705.93,
-        "change_pct": 0.21,
-        "volume": 18307256,
-        "avg_volume": 34013694,
-        "volume_ratio": 0.54,
+        "price": 713.67,
+        "change_pct": 1.32,
+        "volume": 23654742,
+        "avg_volume": 34213103,
+        "volume_ratio": 0.69,
         "above_trend_ma": false,
-        "trend_ma": 733.36,
+        "trend_ma": 730.42,
         "trend_ma_days": 15,
         "candles": {
-          "open": 702.1,
-          "high": 709.3,
-          "low": 701.16,
-          "close": 705.93,
-          "prev_open": 713.61,
-          "prev_close": 704.47
+          "open": 707.06,
+          "high": 715.25,
+          "low": 705.58,
+          "close": 713.67,
+          "prev_open": 702.2,
+          "prev_close": 704.4
         }
       },
       "call": {
@@ -118,7 +118,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -126,7 +126,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "2 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +136,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $705.93 is below its 15-day average ($733.36).",
+          "detail": "Price $713.67 is below its 15-day average ($730.42).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.54x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.69x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -157,45 +157,35 @@
       ],
       "headlines": [
         {
-          "title": "How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA As Oil Rises And AI Concerns Persist",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1fd36d2c8a5f4393"
+          "title": "Forecasting Financial Markets with Timestral",
+          "source": "Philippdubach.com",
+          "url": "https://philippdubach.com/posts/forecasting-financial-markets-with-timestral/"
         },
         {
-          "title": "ETFs Bought $131.5 Million of Applied Materials (AMAT) on Oct. 19",
+          "title": "Safe Haven Trade: SCHD Outperforms VOO and QQQ as AI Bubble Fears Mount - Invesco QQQ Trust, Series 1\u2026",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d575dfc55ececa3e"
-        },
-        {
-          "title": "What ProShares Ultra QQQ (QLD) Bought: NVIDIA Leads on Monday",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d3cd43d5fcb62891"
-        },
-        {
-          "title": "ETF Activity: QQQ Pulls In $4.95 Billion on Oct. 19",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/a91901f0fbc72654"
+          "url": "https://biztoc.com/x/d10ab2261b95c1e9"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.42,
-        "change_pct": -0.37,
-        "volume": 3502870,
-        "avg_volume": 5308272,
-        "volume_ratio": 0.66,
+        "price": 82.79,
+        "change_pct": 0.31,
+        "volume": 4419989,
+        "avg_volume": 5344223,
+        "volume_ratio": 0.83,
         "above_trend_ma": false,
-        "trend_ma": 84.09,
+        "trend_ma": 83.89,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.21,
-          "high": 82.67,
-          "low": 82.07,
-          "close": 82.42,
-          "prev_open": 83.0,
-          "prev_close": 82.73
+          "open": 82.53,
+          "high": 82.93,
+          "low": 82.36,
+          "close": 82.79,
+          "prev_open": 82.22,
+          "prev_close": 82.53
         }
       },
       "call": {
@@ -224,12 +214,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.42 is below its 15-day average ($84.09).",
+          "detail": "Price $82.79 is below its 15-day average ($83.89).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.66x the recent average -- roughly normal.",
+          "detail": "Volume is 0.83x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,109 +233,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 249.34,
-        "change_pct": -0.42,
-        "volume": 14636725,
-        "avg_volume": 34620691,
-        "volume_ratio": 0.42,
+        "price": 248.73,
+        "change_pct": 0.29,
+        "volume": 20309172,
+        "avg_volume": 34907801,
+        "volume_ratio": 0.58,
         "above_trend_ma": false,
-        "trend_ma": 256.55,
+        "trend_ma": 256.28,
         "trend_ma_days": 15,
         "candles": {
-          "open": 248.55,
-          "high": 250.01,
-          "low": 246.45,
-          "close": 249.34,
-          "prev_open": 258.18,
-          "prev_close": 250.38
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "sell"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $249.34 is below its 15-day average ($256.55).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.42x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Peaky Blinders-The Real Story 2026 1080p AMZN WEB-DL H264-ANARCHY",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/peaky-blinders-the-real-story-2026-1080p-amzn-web-dl-h264-anarchy/"
-        },
-        {
-          "title": "Prank Night 2026 1080p AMZN WEB-DL H264-ANARCHY",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/prank-night-2026-1080p-amzn-web-dl-h264-anarchy/"
-        },
-        {
-          "title": "MobLand S02E06 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/mobland-s02e06-1080p-amzn-web-dl-h264-rawr/"
-        },
-        {
-          "title": "Grizzly Attack 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/grizzly-attack-2026-1080p-amzn-web-dl-h264-bobdobbs/"
-        },
-        {
-          "title": "The Mephistophiliac 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-mephistophiliac-2026-1080p-amzn-web-dl-h264-bobdobbs/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 319.33,
-        "change_pct": -0.44,
-        "volume": 5621261,
-        "avg_volume": 16420996,
-        "volume_ratio": 0.34,
-        "above_trend_ma": false,
-        "trend_ma": 340.0,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 317.93,
-          "high": 321.23,
-          "low": 316.99,
-          "close": 319.33,
-          "prev_open": 326.77,
-          "prev_close": 320.76
+          "open": 249.42,
+          "high": 250.79,
+          "low": 247.24,
+          "close": 248.73,
+          "prev_open": 248.85,
+          "prev_close": 248.0
         }
       },
       "call": {
@@ -364,22 +266,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "6 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "4 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $319.33 is below its 15-day average ($340.0).",
+          "detail": "Price $248.73 is below its 15-day average ($256.28).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.34x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -395,29 +297,112 @@
       ],
       "headlines": [
         {
-          "title": "\u201cWe haven\u2019t given up\u201d \u2013 Chelsea\u2019s \u00a3100m target could yet sign new contract claims his boss",
-          "source": "Talk Chelsea",
-          "url": "https://www.talkchelsea.net/news-now/scott-new-contract-100m-target-havent-given-up/"
+          "title": "Hangar Rojo 2026 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/hangar-rojo-2026-1080p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket",
+          "title": "Can Walmart's New Bundled Subscription Beat Amazon?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/981b6bc3447b079d"
+          "url": "https://biztoc.com/x/bcfb25ad8f4d4c13"
         },
         {
-          "title": "Amazon or Alphabet: If I Could Only Own One for the Next Decade, It Would Be This One",
+          "title": "What To Expect In Markets This Week: GOOGL, MSFT, AMZN, INTC, HOOD, LLY Earnings, Fed Meeting And More",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/2f98b2dac8d7c430"
+          "url": "https://biztoc.com/x/cad7b72ad4b091c8"
         },
         {
-          "title": "Netflix has 2 problems behind the stock slide \u2014 and they aren't YouTube, co-CEO Ted Sarandos says",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b6fdb52058b618ed"
+          "title": "A Second Life 2026 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/a-second-life-2026-1080p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "If Alphabet Does This on Oct. 28, the Stock Could Skyrocket",
+          "title": "Earnings playbook: Alphabet, Microsoft, Amazon and more report this week. Here's what to expect - CNBC",
+          "source": "Slashdot.org",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186450990"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 314.2,
+        "change_pct": -0.97,
+        "volume": 9434990,
+        "avg_volume": 16435592,
+        "volume_ratio": 0.57,
+        "above_trend_ma": false,
+        "trend_ma": 337.89,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 317.95,
+          "high": 318.39,
+          "low": 314.14,
+          "close": 314.2,
+          "prev_open": 317.75,
+          "prev_close": 317.28
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "sell",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "4 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $314.2 is below its 15-day average ($337.89).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Alphabet's 2 Classes of Common Stock Trade About 1% Apart. Here's the One I'd Buy",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/eaa67ddd74aa28b9"
+          "url": "https://biztoc.com/x/f20c135a146659d7"
+        },
+        {
+          "title": "Spooktober 2026, Days Seventeen and Eighteen",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/24/spooktober-2026-days-17-and-18/"
+        },
+        {
+          "title": "3 Key Things to Monitor When Tech Giants Report Earnings",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/2cdc7447a1e7627e"
+        },
+        {
+          "title": "Cathie Wood-Led Ark Invest Sells PLTR, GOOG, SHOP Stocks \u2014 But Loads Up On PACB, FRNM And Other Biotech Firms",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/eece174d5c12ae9e"
         }
       ]
     }
