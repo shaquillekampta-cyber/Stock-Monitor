@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-27T18:09:33.861348+00:00",
+  "generated_at": "2026-10-28T18:26:20.281563+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 769.36,
-        "change_pct": 0.52,
-        "volume": 14847545,
-        "avg_volume": 41112284,
-        "volume_ratio": 0.36,
-        "above_trend_ma": false,
-        "trend_ma": 770.52,
+        "price": 770.54,
+        "change_pct": 0.11,
+        "volume": 12166506,
+        "avg_volume": 40911804,
+        "volume_ratio": 0.3,
+        "above_trend_ma": true,
+        "trend_ma": 770.09,
         "trend_ma_days": 15,
         "candles": {
-          "open": 767.34,
-          "high": 771.07,
-          "low": 765.21,
-          "close": 769.36,
-          "prev_open": 762.25,
-          "prev_close": 765.37
+          "open": 771.43,
+          "high": 772.72,
+          "low": 769.25,
+          "close": 770.54,
+          "prev_open": 767.34,
+          "prev_close": 769.66
         }
       },
       "call": {
@@ -27,14 +27,14 @@
         "positive_signals": 1,
         "negative_signals": 2,
         "total_signals": 6,
-        "displayed_call": "sell"
+        "displayed_call": "hold"
       },
       "call_history": [
         "sell",
-        "sell",
+        "hold",
         "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $769.36 is below its 15-day average ($770.52).",
+          "detail": "5 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $770.54 is above its 15-day average ($770.09).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.36x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.3x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -69,123 +69,143 @@
       ],
       "headlines": [
         {
-          "title": "Top cyber spy braces for more AI-powered hacking attacks",
-          "source": "ABC News (AU)",
-          "url": "https://www.abc.net.au/news/2026-10-27/australian-signals-directorate-ai-cybersecurity-hacking-threats/107309858"
+          "title": "Britain signs landmark deal with Poland to develop new missiles to combat Russian drones",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/news/article-16243389/Britain-deal-Poland-missiles-Russia.html"
         },
         {
-          "title": "Mossad officials clash with spy agency chief over Netanyahu-backed pre-election operation in Iran",
-          "source": "Haaretz",
-          "url": "https://www.haaretz.com/israel-news/israel-security/2026-10-26/ty-article/.premium/mossad-officials-clash-with-spy-agency-chief-over-pre-election-operation-in-iran/000001a1-791a-db0e-a7e7-ffdb61fb0000"
+          "title": "WATCH: FBI raids Beverly Hills mansion where Eric Swalwell is living",
+          "source": "Wnd.com",
+          "url": "https://www.wnd.com/2026/10/watch-fbi-raids-beverly-hills-mansion-where-eric/"
         },
         {
-          "title": "U.S. military bans China-manufactured BYD cars from Okinawa air base",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-news/4400668/posts"
+          "title": "How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7f212093ed88cea0"
         },
         {
-          "title": "'Star Trek' actor Walter Koenig dies at 90",
-          "source": "New York Daily News",
-          "url": "https://www.nydailynews.com/2026/10/26/walter-koenig-star-trek-dead-90/"
+          "title": "Raw Denim vs. Regular Denim: Which Is Actually Worth Buying?",
+          "source": "menshealth.com",
+          "url": "https://www.menshealth.com/style/a74250178/raw-denim-vs-regular-denim/"
         },
         {
-          "title": "Lessons Learned From 'AdFection' and What To Do Next",
-          "source": "EFF",
-          "url": "https://www.eff.org/deeplinks/2026/10/lessons-learned-adfection"
+          "title": "\u2018It\u2019s group therapy\u2019: Why UK indie fans are turning to grunge",
+          "source": "Dazed",
+          "url": "https://www.dazeddigital.com/music/article/71239/1/raw-and-unfiltered-energy-why-uk-indie-fans-are-turning-to-grunge?utm_source=Link&utm_medium=Link&utm_campaign=RSSFeed&utm_term=it-s-group-therapy-why-uk-indie-fans-are-turning-to-grunge"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 720.4,
-        "change_pct": 1.15,
-        "volume": 20182400,
-        "avg_volume": 34425837,
-        "volume_ratio": 0.59,
+        "price": 721.84,
+        "change_pct": 0.08,
+        "volume": 13986201,
+        "avg_volume": 34333904,
+        "volume_ratio": 0.41,
         "above_trend_ma": false,
-        "trend_ma": 727.71,
+        "trend_ma": 725.37,
         "trend_ma_days": 15,
         "candles": {
-          "open": 715.1,
-          "high": 722.72,
-          "low": 713.59,
-          "close": 720.4,
-          "prev_open": 707.06,
-          "prev_close": 712.2
+          "open": 724.12,
+          "high": 724.73,
+          "low": 720.3,
+          "close": 721.84,
+          "prev_open": 715.12,
+          "prev_close": 721.25
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
+        "call": "hold",
+        "positive_signals": 1,
         "negative_signals": 2,
-        "total_signals": 5,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
-        "sell"
+        "sell",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "2 articles in the last 2 days.",
+          "detail": "10 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "3 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $720.4 is below its 15-day average ($727.71).",
+          "detail": "Price $721.84 is below its 15-day average ($725.37).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Buy tickets for Georgia football SEC game vs. Florida",
-          "source": "Online Athens",
-          "url": "https://www.onlineathens.com/story/sports/college/bulldogs-extra/2026/10/26/ticket-prices-for-georgia-vs-florida-college-football-week-9-game/92284258007/"
+          "title": "How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7f212093ed88cea0"
         },
         {
-          "title": "Live news: Brent Crude slides below $110 as Iran deal hopes grow and Brazil stocks sink",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink"
+          "title": "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar",
+          "source": "Cointelegraph",
+          "url": "https://cointelegraph.com/news/janus-henderson-centrifuge-launch-tokenized-nasdaq-100-fund-on-stellar"
+        },
+        {
+          "title": "College football corporate overlords ruin another classic rivalry game with stupid new name",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/college-football-corporate-overlords-ruin-classic-rivalry-game-stupid-new-name"
+        },
+        {
+          "title": "What Few Investors Realize About QQQ\u2019s Dividend",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/3fa1ac37fd3d5b0c"
+        },
+        {
+          "title": "Adds NVIDIA and Apple on Oct. 23",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/57e8d1e2f66a9a4d"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 83.28,
-        "change_pct": 0.78,
-        "volume": 4312499,
-        "avg_volume": 5370951,
-        "volume_ratio": 0.8,
+        "price": 83.37,
+        "change_pct": 0.08,
+        "volume": 3574358,
+        "avg_volume": 5379947,
+        "volume_ratio": 0.66,
         "above_trend_ma": false,
-        "trend_ma": 83.72,
+        "trend_ma": 83.62,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.97,
-          "high": 83.42,
-          "low": 82.79,
-          "close": 83.28,
-          "prev_open": 82.52,
-          "prev_close": 82.63
+          "open": 83.45,
+          "high": 83.66,
+          "low": 83.25,
+          "close": 83.37,
+          "prev_open": 82.95,
+          "prev_close": 83.3
         }
       },
       "call": {
@@ -214,12 +234,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $83.28 is below its 15-day average ($83.72).",
+          "detail": "Price $83.37 is below its 15-day average ($83.62).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.8x the recent average -- roughly normal.",
+          "detail": "Volume is 0.66x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -233,21 +253,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 253.79,
-        "change_pct": 1.89,
-        "volume": 18626595,
-        "avg_volume": 35127641,
-        "volume_ratio": 0.53,
+        "price": 252.65,
+        "change_pct": -0.18,
+        "volume": 15989053,
+        "avg_volume": 35032908,
+        "volume_ratio": 0.46,
         "above_trend_ma": false,
-        "trend_ma": 256.14,
+        "trend_ma": 255.61,
         "trend_ma_days": 15,
         "candles": {
-          "open": 250.35,
-          "high": 254.23,
-          "low": 248.71,
-          "close": 253.79,
-          "prev_open": 249.47,
-          "prev_close": 249.09
+          "open": 252.96,
+          "high": 255.36,
+          "low": 251.98,
+          "close": 252.65,
+          "prev_open": 250.43,
+          "prev_close": 253.1
         }
       },
       "call": {
@@ -258,7 +278,7 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
+        "hold",
         "hold",
         "hold"
       ],
@@ -276,12 +296,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $253.79 is below its 15-day average ($256.14).",
+          "detail": "Price $252.65 is below its 15-day average ($255.61).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.46x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -292,57 +312,57 @@
       ],
       "headlines": [
         {
-          "title": "Anthropic is leasing data centers to reduce reliance on Amazon, Google, others",
+          "title": "Head Like A Hole 2026 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/head-like-a-hole-2026-1080p-amzn-web-dl-h264-cinepth/"
+        },
+        {
+          "title": "Hellbilly Hollow 2026 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/hellbilly-hollow-2026-1080p-amzn-web-dl-h264-cinepth/"
+        },
+        {
+          "title": "Home Town Takeover Canada S01E01 720p AMZN WEB-DL H264-NTb",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/home-town-takeover-canada-s01e01-720p-amzn-web-dl-h264-ntb/"
+        },
+        {
+          "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/9ec7784a40347bf5"
+          "url": "https://biztoc.com/x/202fcd4ce4c687b9"
         },
         {
-          "title": "Tracing failures across Terraform state boundaries with AWS DevOps Agent",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/devops/tracing-failures-across-terraform-state-boundaries-with-aws-devops-agent/"
-        },
-        {
-          "title": "Amazon Stock Gains as UBS Bets on AWS Margin Beat",
+          "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/911628cc20f9bbb3"
-        },
-        {
-          "title": "Anthropic IPO reminds this former Amazon board member of Jeff Bezos's AWS bet",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c3da598dee639ff1"
-        },
-        {
-          "title": "AI giant Anthropic publicly files for listing on the U.S. stock market",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+          "url": "https://biztoc.com/x/e46bd5540afa119c"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 318.03,
-        "change_pct": 1.22,
-        "volume": 9703637,
-        "avg_volume": 16459805,
-        "volume_ratio": 0.59,
+        "price": 320.42,
+        "change_pct": 1.13,
+        "volume": 12174169,
+        "avg_volume": 16513531,
+        "volume_ratio": 0.74,
         "above_trend_ma": false,
-        "trend_ma": 336.12,
+        "trend_ma": 334.24,
         "trend_ma_days": 15,
         "candles": {
-          "open": 314.12,
-          "high": 320.07,
-          "low": 313.6,
-          "close": 318.03,
-          "prev_open": 318.05,
-          "prev_close": 314.19
+          "open": 319.88,
+          "high": 322.93,
+          "low": 319.68,
+          "close": 320.42,
+          "prev_open": 314.4,
+          "prev_close": 316.83
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -354,55 +374,60 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
+          "detail": "12 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $318.03 is below its 15-day average ($336.12).",
+          "detail": "Price $320.42 is below its 15-day average ($334.24).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.74x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Spooktober 2026, Days Twenty-One and Twenty-Two",
+          "title": "Spooktober 2026, Days Twenty-Three and Twenty-Four",
           "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/26/spooktober-2026-days-21-and-22/"
+          "url": "https://freethoughtblogs.com/gas/2026/10/27/spooktober-2026-days-23-and-24/"
         },
         {
-          "title": "AI giant Anthropic publicly files for listing on the U.S. stock market",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
-        },
-        {
-          "title": "Fed rate decision and Google, Microsoft and Amazon earnings: What to Watch",
+          "title": "Oracle, in effort to reduce reliance on Nvidia, adds AI chips from Google, Cerebras, and SambaNova",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/cbe2999e4cb20ac5"
+          "url": "https://biztoc.com/x/54c45387051e8022"
         },
         {
-          "title": "Microsoft, Alphanet, Amazon Earnings Meet Fed Rate Decision: 3 Charts To Watch This Week",
+          "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4e01ab14380020b8"
+          "url": "https://biztoc.com/x/202fcd4ce4c687b9"
         },
         {
-          "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
+          "title": "Prediction: The Stock Market Could Crash in 2027, and Elon Musk Just Explained Why",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/e46bd5540afa119c"
+        },
+        {
+          "title": "An AI label alone no longer wins lenders, JPMorgan says",
           "source": "CoinDesk",
-          "url": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off"
+          "url": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says"
         }
       ]
     }
