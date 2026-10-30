@@ -1,25 +1,113 @@
 {
-  "generated_at": "2026-10-29T18:36:05.896493+00:00",
+  "generated_at": "2026-10-30T18:08:23.116731+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 766.91,
-        "change_pct": -0.7,
-        "volume": 20216274,
-        "avg_volume": 40944018,
-        "volume_ratio": 0.49,
+        "price": 754.68,
+        "change_pct": -1.91,
+        "volume": 29401827,
+        "avg_volume": 41135346,
+        "volume_ratio": 0.71,
         "above_trend_ma": false,
-        "trend_ma": 769.74,
+        "trend_ma": 768.31,
         "trend_ma_days": 15,
         "candles": {
-          "open": 768.79,
-          "high": 770.76,
-          "low": 766.62,
-          "close": 766.91,
-          "prev_open": 771.43,
-          "prev_close": 772.31
+          "open": 761.38,
+          "high": 761.46,
+          "low": 754.58,
+          "close": 754.68,
+          "prev_open": 768.79,
+          "prev_close": 769.36
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "sell"
+      },
+      "call_history": [
+        "hold",
+        "sell",
+        "sell"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 1 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $754.68 is below its 15-day average ($768.31).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+          "source": "Slashdot.org",
+          "url": "https://slashdot.org/submission/17351920/nvidia-chief-seen-as-target-of-chinese-spy-plot"
+        },
+        {
+          "title": "\u2018Scream 4\u2019 Predicted the Surveillance Hell We Live In",
+          "source": "Autostraddle.com",
+          "url": "http://www.autostraddle.com/scream-4-predicted-the-surveillance-hell-we-live-in/"
+        },
+        {
+          "title": "EXCLUSIVE: Jack Lowden Emerges as Clear Favorite to Become the Next James Bond",
+          "source": "Radaronline.com",
+          "url": "https://radaronline.com/p/jack-lowden-next-james-bond-favorite-callum-turner-josh-oconnor/"
+        },
+        {
+          "title": "How 'football geek' Kim Hellberg turned Middlesbrough into the 'PSG of the Championship' - thanks to 'Del Boy and Rodney', the next Harry Kane and the transfer strategy that's taken them to a new level",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/sport/football/article-16248615/Middlesbrough-Hellberg-Lankshear-PSG-Championship.html"
+        },
+        {
+          "title": "Britain\u2019s spy agency doesn\u2019t know where thousands of its memory sticks are",
+          "source": "POLITICO.eu",
+          "url": "https://www.politico.eu/article/britains-spy-agency-gchq-doesnt-know-where-thousands-of-its-memory-sticks-are/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 687.03,
+        "change_pct": -3.96,
+        "volume": 47013056,
+        "avg_volume": 35084530,
+        "volume_ratio": 1.34,
+        "above_trend_ma": false,
+        "trend_ma": 719.19,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 697.13,
+          "high": 698.63,
+          "low": 686.45,
+          "close": 687.03,
+          "prev_open": 716.54,
+          "prev_close": 715.34
         }
       },
       "call": {
@@ -38,22 +126,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "14 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 2 positive.",
+          "detail": "1 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $766.91 is below its 15-day average ($769.74).",
+          "detail": "Price $687.03 is below its 15-day average ($719.19).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.49x the recent average -- unusually light conviction.",
+          "detail": "Volume is 1.34x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -64,143 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "It's Officially The End Of An Era For Jon Bernthal's Gritty New Spy Thriller On Prime Video",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/jon-bernthal-the-amateur-end-era-prime-video-streaming-chart-drop-october-2026/"
+          "title": "Could the roof be open for Georgia-Florida? Here's what the SEC says",
+          "source": "Online Athens",
+          "url": "https://www.onlineathens.com/story/news/2026/10/29/will-the-roof-be-open-for-georgia-florida-who-makes-the-decision/92477962007/"
         },
         {
-          "title": "LuLu 4.5.4",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/lulu-4-5-4/"
+          "title": "College football's traditions are for sale. Florida-Georgia shows the multi-million-dollar price tag",
+          "source": "Yahoo Entertainment",
+          "url": "https://sports.yahoo.com/college-football/article/college-footballs-traditions-are-for-sale-florida-georgia-shows-the-multi-million-dollar-price-tag-165843326.html"
         },
         {
-          "title": "14 New Books by Philly Authors to Add to Your TBR List",
-          "source": "phillymag.com",
-          "url": "https://www.phillymag.com/news/2026/10/28/new-books-philly-authors-fall-2026/"
+          "title": "20VC x SaaStr: Anthropic\u2019s S-1 Shows $16.3B in First-Half Revenue, Microsoft Offers Buyouts to 27% of Its Staff, and Chinese Open-Weight Models May Be Done in the US",
+          "source": "Saastr.com",
+          "url": "https://www.saastr.com/20vc-x-saastr-anthropics-s-1-shows-16-3b-in-first-half-revenue-microsoft-offers-buyouts-to-27-of-its-staff-and-chinese-open-weight-models-may-be-done-in-the-us/"
         },
         {
-          "title": "BOND?",
-          "source": "Unherd.com",
-          "url": "http://unherd.com/newsroom/josh-oconnor-deserves-to-be-the-next-james-bond/"
+          "title": "How to College Football Week 9",
+          "source": "Andthevalleyshook.com",
+          "url": "https://www.andthevalleyshook.com/college-football/54826/how-to-college-football-week-9"
         },
         {
-          "title": "Anthropic\u2019s $131.7B war chest trails only Berkshire Hathaway, Alphabet (ANT:Pending) - Seeking Alpha",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186486150"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 712.15,
-        "change_pct": -1.86,
-        "volume": 20348888,
-        "avg_volume": 34388106,
-        "volume_ratio": 0.59,
-        "above_trend_ma": false,
-        "trend_ma": 723.26,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 716.57,
-          "high": 718.07,
-          "low": 711.62,
-          "close": 712.15,
-          "prev_open": 724.12,
-          "prev_close": 725.61
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "sell",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "15 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $712.15 is below its 15-day average ($723.26).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "UConn women's basketball 2026-27 schedule: Five games you can't miss",
-          "source": "Ctinsider.com",
-          "url": "https://www.ctinsider.com/sports/uconn-womens-basketball/article/2026-27-schedule-south-carolina-notre-dame-lsu-22463434.php?utm_medium=referral&amp;utm_campaign=yahoo_syndication"
-        },
-        {
-          "title": "How To Trade SPY, QQQ And 7 Mega Caps As Fed Decision Looms",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/042795a0b0696413"
-        },
-        {
-          "title": "What ProShares Ultra QQQ (QLD) Bought: NVIDIA Leads on Oct. 26",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c4414873e452950c"
-        },
-        {
-          "title": "Sells $359.1 Million of NVIDIA on Oct. 26",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1d928d70319fe4ca"
-        },
-        {
-          "title": "ETFs Are Net Sellers of Palantir (PLTR) on Oct. 26",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4b213cd4a12ea674"
+          "title": "Thursday Dawg Bites",
+          "source": "Dawg Sports",
+          "url": "https://www.dawgsports.com/georgia-bulldogs-dawg-bites/39395/thursday-dawg-bites"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 83.31,
-        "change_pct": -0.53,
-        "volume": 3373731,
-        "avg_volume": 5374514,
-        "volume_ratio": 0.63,
+        "price": 81.99,
+        "change_pct": -1.98,
+        "volume": 4986122,
+        "avg_volume": 5387457,
+        "volume_ratio": 0.93,
         "above_trend_ma": false,
-        "trend_ma": 83.6,
+        "trend_ma": 83.43,
         "trend_ma_days": 15,
         "candles": {
-          "open": 83.5,
-          "high": 83.77,
-          "low": 83.3,
-          "close": 83.31,
-          "prev_open": 83.45,
-          "prev_close": 83.75
+          "open": 82.65,
+          "high": 82.73,
+          "low": 81.92,
+          "close": 81.99,
+          "prev_open": 83.54,
+          "prev_close": 83.65
         }
       },
       "call": {
@@ -229,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $83.31 is below its 15-day average ($83.6).",
+          "detail": "Price $81.99 is below its 15-day average ($83.43).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.63x the recent average -- roughly normal.",
+          "detail": "Volume is 0.93x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -248,114 +243,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 244.24,
-        "change_pct": -4.07,
-        "volume": 37494531,
-        "avg_volume": 35186900,
-        "volume_ratio": 1.07,
+        "price": 239.27,
+        "change_pct": -1.85,
+        "volume": 71598881,
+        "avg_volume": 37068683,
+        "volume_ratio": 1.93,
         "above_trend_ma": false,
-        "trend_ma": 255.08,
+        "trend_ma": 253.51,
         "trend_ma_days": 15,
         "candles": {
-          "open": 246.91,
-          "high": 249.14,
-          "low": 241.24,
-          "close": 244.24,
-          "prev_open": 253.0,
-          "prev_close": 254.6
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $244.24 is below its 15-day average ($255.08).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.07x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act \u2013 Part 3",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3/"
-        },
-        {
-          "title": "Yahoo Finance drives the new Slate EV, a $27,000 truck with hand-crank windows",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b80ce1004edc8278"
-        },
-        {
-          "title": "3 \"Magnificent Seven\" Stocks to Buy Hand Over Fist in November",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/61e6df98d52e243f"
-        },
-        {
-          "title": "Pet Shop Days 2025 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/pet-shop-days-2025-1080p-amzn-web-dl-h264-kitsune/"
-        },
-        {
-          "title": "vs. MSFT and GOOGL: Can Higher-Margin Businesses Turn Amazon Into an AI-Driven Compounder?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e4e5af7ddb002e2b"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 279.77,
-        "change_pct": -13.08,
-        "volume": 68508783,
-        "avg_volume": 18186474,
-        "volume_ratio": 3.77,
-        "above_trend_ma": false,
-        "trend_ma": 330.0,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 283.8,
-          "high": 286.43,
-          "low": 278.3,
-          "close": 279.77,
-          "prev_open": 319.88,
-          "prev_close": 321.89
+          "open": 232.53,
+          "high": 241.55,
+          "low": 229.36,
+          "close": 239.27,
+          "prev_open": 246.95,
+          "prev_close": 243.79
         }
       },
       "call": {
@@ -374,7 +276,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -384,12 +286,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $279.77 is below its 15-day average ($330.0).",
+          "detail": "Price $239.27 is below its 15-day average ($253.51).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 3.77x the recent average -- unusually high, news is likely being acted on.",
+          "detail": "Volume is 1.93x the recent average -- unusually high, news is likely being acted on.",
           "signal": "pos"
         },
         {
@@ -398,7 +300,121 @@
           "signal": "neutral"
         }
       ],
-      "headlines": []
+      "headlines": [
+        {
+          "title": "New York I Love You 2008 1080p AMZN WEB-DL H264 DUAL-BiOMA",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/new-york-i-love-you-2008-1080p-amzn-web-dl-h264-dual-bioma/"
+        },
+        {
+          "title": "Lay the Favorite 2012 1080p AMZN WEB-DL H264-TEPES",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/lay-the-favorite-2012-1080p-amzn-web-dl-h264-tepes/"
+        },
+        {
+          "title": "The Silent Service 2024 S02E01 1080p AMZN WEB-DL H264-playWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-silent-service-2024-s02e01-1080p-amzn-web-dl-h264-playweb/"
+        },
+        {
+          "title": "Google is on track for its worst day ever \u2014 with $500 billion in market value at stake",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+        },
+        {
+          "title": "Wheel Of Fortune S44E33 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e33-1080p-amzn-web-dl-h264-kitsune/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 277.31,
+        "change_pct": -1.77,
+        "volume": 28826263,
+        "avg_volume": 19021767,
+        "volume_ratio": 1.52,
+        "above_trend_ma": false,
+        "trend_ma": 325.47,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 279.61,
+          "high": 281.86,
+          "low": 276.73,
+          "close": 277.31,
+          "prev_open": 283.84,
+          "prev_close": 282.32
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 3,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "16 negative keyword hits vs 10 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $277.31 is below its 15-day average ($325.47).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.52x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "neg"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Spooktober 2026, Days Twenty-Seven and Twenty-Eight",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/29/spooktober-2026-days-27-and-28/"
+        },
+        {
+          "title": "GOOG Stock On Track To Erase Over $600B In Market Value In A Month \u2014 Analysts Flag Search Slowdown, Margin Pressure",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/992b4010890be783"
+        },
+        {
+          "title": "Azure fuels Microsoft's earnings beat",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/87a37689aefbaf00"
+        },
+        {
+          "title": "$1.99 | Never Eat Alone, Expanded and Updated: And Other Secrets to Success, One Relationship at a Time (eBook) by Keith Ferrazzi, Tahl Raz",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20227698-1-99-never-eat-alone-expanded-and-updated-and-other-secrets-to-success-one-relationship-at-a-time-ebook-by-keith-ferrazzi-tahl-raz"
+        },
+        {
+          "title": "Hot takes on hot wings, the state of the running shoe market, and Microsoft's recent quarter",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/dddc9969a6961279"
+        }
+      ]
     }
   ],
   "paper_portfolio": {
