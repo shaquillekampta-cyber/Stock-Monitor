@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-30T18:08:23.116731+00:00",
+  "generated_at": "2026-11-02T21:52:12.393882+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 754.68,
-        "change_pct": -1.91,
-        "volume": 29401827,
-        "avg_volume": 41135346,
-        "volume_ratio": 0.71,
+        "price": 752.1,
+        "change_pct": -0.48,
+        "volume": 47341124,
+        "avg_volume": 42768910,
+        "volume_ratio": 1.11,
         "above_trend_ma": false,
-        "trend_ma": 768.31,
+        "trend_ma": 766.65,
         "trend_ma_days": 15,
         "candles": {
-          "open": 761.38,
-          "high": 761.46,
-          "low": 754.58,
-          "close": 754.68,
-          "prev_open": 768.79,
-          "prev_close": 769.36
+          "open": 759.45,
+          "high": 763.85,
+          "low": 751.6,
+          "close": 752.1,
+          "prev_open": 761.38,
+          "prev_close": 755.72
         }
       },
       "call": {
@@ -30,7 +30,7 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
+        "sell",
         "sell",
         "sell"
       ],
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
+          "detail": "4 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $754.68 is below its 15-day average ($768.31).",
+          "detail": "Price $752.1 is below its 15-day average ($766.65).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.71x the recent average -- roughly normal.",
+          "detail": "Volume is 1.11x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -64,84 +64,84 @@
       ],
       "headlines": [
         {
-          "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/submission/17351920/nvidia-chief-seen-as-target-of-chinese-spy-plot"
+          "title": "This Democrat stands with our \u2018miracle president\u2019",
+          "source": "Wnd.com",
+          "url": "https://www.wnd.com/2026/11/this-democrat-stands-our-miracle-president/"
         },
         {
-          "title": "\u2018Scream 4\u2019 Predicted the Surveillance Hell We Live In",
-          "source": "Autostraddle.com",
-          "url": "http://www.autostraddle.com/scream-4-predicted-the-surveillance-hell-we-live-in/"
+          "title": "10 exciting Netflix releases you can\u2019t miss in November",
+          "source": "Rolling Out",
+          "url": "https://rollingout.com/2026/11/01/10-exciting-netflix-releases-in-november/"
         },
         {
-          "title": "EXCLUSIVE: Jack Lowden Emerges as Clear Favorite to Become the Next James Bond",
-          "source": "Radaronline.com",
-          "url": "https://radaronline.com/p/jack-lowden-next-james-bond-favorite-callum-turner-josh-oconnor/"
+          "title": "Hackers Figured Out How Flock Camera Systems Actually Work By Pulling One Apart",
+          "source": "Jalopnik",
+          "url": "https://www.jalopnik.com/2297988/hackers-figured-out-how-flock-camera-systems-work/"
         },
         {
-          "title": "How 'football geek' Kim Hellberg turned Middlesbrough into the 'PSG of the Championship' - thanks to 'Del Boy and Rodney', the next Harry Kane and the transfer strategy that's taken them to a new level",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/sport/football/article-16248615/Middlesbrough-Hellberg-Lankshear-PSG-Championship.html"
+          "title": "Watching strangers do things: Nelly Korda cops to observing others in hilarious 'Sundae Conversation'",
+          "source": "Golf Channel",
+          "url": "https://www.golfchannel.com/lpga/news/nelly-korda-cops-to-voyeurism-in-hilarious-sundae-conversation"
         },
         {
-          "title": "Britain\u2019s spy agency doesn\u2019t know where thousands of its memory sticks are",
-          "source": "POLITICO.eu",
-          "url": "https://www.politico.eu/article/britains-spy-agency-gchq-doesnt-know-where-thousands-of-its-memory-sticks-are/"
+          "title": "Next James Bond: Mystery Fourth Audition Contenders Ranked, Including Tom Holland",
+          "source": "Screen Rant",
+          "url": "https://screenrant.com/james-bond-mystery-fourth-audition-actors-ranked/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 687.03,
-        "change_pct": -3.96,
-        "volume": 47013056,
-        "avg_volume": 35084530,
-        "volume_ratio": 1.34,
+        "price": 681.09,
+        "change_pct": -1.36,
+        "volume": 51886696,
+        "avg_volume": 36743638,
+        "volume_ratio": 1.41,
         "above_trend_ma": false,
-        "trend_ma": 719.19,
+        "trend_ma": 715.09,
         "trend_ma_days": 15,
         "candles": {
-          "open": 697.13,
-          "high": 698.63,
-          "low": 686.45,
-          "close": 687.03,
-          "prev_open": 716.54,
-          "prev_close": 715.34
+          "open": 695.32,
+          "high": 699.43,
+          "low": 680.33,
+          "close": 681.09,
+          "prev_open": 697.21,
+          "prev_close": 690.49
         }
       },
       "call": {
-        "call": "sell",
+        "call": "hold",
         "positive_signals": 0,
-        "negative_signals": 2,
+        "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
-        "sell"
+        "sell",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "14 articles in the last 2 days.",
+          "detail": "5 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $687.03 is below its 15-day average ($719.19).",
+          "detail": "Price $681.09 is below its 15-day average ($715.09).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.34x the recent average -- roughly normal.",
+          "detail": "Volume is 1.41x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,50 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "Could the roof be open for Georgia-Florida? Here's what the SEC says",
-          "source": "Online Athens",
-          "url": "https://www.onlineathens.com/story/news/2026/10/29/will-the-roof-be-open-for-georgia-florida-who-makes-the-decision/92477962007/"
+          "title": "smt16-quantkit added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/smt16-quantkit/"
         },
         {
-          "title": "College football's traditions are for sale. Florida-Georgia shows the multi-million-dollar price tag",
+          "title": "The cocktail party goes indoors, but Georgia-Florida fans bring a familiar rivalry to Atlanta",
           "source": "Yahoo Entertainment",
-          "url": "https://sports.yahoo.com/college-football/article/college-footballs-traditions-are-for-sale-florida-georgia-shows-the-multi-million-dollar-price-tag-165843326.html"
+          "url": "https://sports.yahoo.com/articles/cocktail-party-goes-indoors-georgia-225544201.html"
         },
         {
-          "title": "20VC x SaaStr: Anthropic\u2019s S-1 Shows $16.3B in First-Half Revenue, Microsoft Offers Buyouts to 27% of Its Staff, and Chinese Open-Weight Models May Be Done in the US",
-          "source": "Saastr.com",
-          "url": "https://www.saastr.com/20vc-x-saastr-anthropics-s-1-shows-16-3b-in-first-half-revenue-microsoft-offers-buyouts-to-27-of-its-staff-and-chinese-open-weight-models-may-be-done-in-the-us/"
+          "title": "Florida and Georgia fans are fuming over today's venue for multiple reasons, but one sticks out",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/outkick-sports/florida-georgia-fans-fuming-todays-venue-multiple-reasons-one-sticks-out"
         },
         {
-          "title": "How to College Football Week 9",
-          "source": "Andthevalleyshook.com",
-          "url": "https://www.andthevalleyshook.com/college-football/54826/how-to-college-football-week-9"
+          "title": "Georgia vs. Florida Picks, Predictions, Odds: Our Best Bets for College Football Week 9",
+          "source": "The Action Network",
+          "url": "https://www.actionnetwork.com/ncaaf/georgia-bulldogs-vs-florida-gators-picks-predictions-odds-best-bets-college-football-week-9-saturday-oct-31"
         },
         {
-          "title": "Thursday Dawg Bites",
-          "source": "Dawg Sports",
-          "url": "https://www.dawgsports.com/georgia-bulldogs-dawg-bites/39395/thursday-dawg-bites"
+          "title": "USA TODAY Sports roasts Florida-Georgia\u2019s corporate rebrand",
+          "source": "USA Today",
+          "url": "https://gatorswire.usatoday.com/story/sports/college/gators/football/2026/10/31/florida-football-georgia-worlds-largest-outdoor-cocktail-party-atlanta-rivalry-name/92523401007/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 81.99,
-        "change_pct": -1.98,
-        "volume": 4986122,
-        "avg_volume": 5387457,
-        "volume_ratio": 0.93,
+        "price": 82.59,
+        "change_pct": 0.27,
+        "volume": 6877929,
+        "avg_volume": 5556705,
+        "volume_ratio": 1.24,
         "above_trend_ma": false,
-        "trend_ma": 83.43,
+        "trend_ma": 83.33,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.65,
-          "high": 82.73,
-          "low": 81.92,
-          "close": 81.99,
-          "prev_open": 83.54,
-          "prev_close": 83.65
+          "open": 82.99,
+          "high": 83.46,
+          "low": 82.55,
+          "close": 82.59,
+          "prev_open": 82.61,
+          "prev_close": 82.37
         }
       },
       "call": {
@@ -224,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $81.99 is below its 15-day average ($83.43).",
+          "detail": "Price $82.59 is below its 15-day average ($83.33).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.93x the recent average -- roughly normal.",
+          "detail": "Volume is 1.24x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,115 +243,27 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 239.27,
-        "change_pct": -1.85,
-        "volume": 71598881,
-        "avg_volume": 37068683,
-        "volume_ratio": 1.93,
+        "price": 245.63,
+        "change_pct": 2.2,
+        "volume": 57688063,
+        "avg_volume": 38613311,
+        "volume_ratio": 1.49,
         "above_trend_ma": false,
-        "trend_ma": 253.51,
+        "trend_ma": 252.65,
         "trend_ma_days": 15,
         "candles": {
-          "open": 232.53,
-          "high": 241.55,
-          "low": 229.36,
-          "close": 239.27,
-          "prev_open": 246.95,
-          "prev_close": 243.79
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $239.27 is below its 15-day average ($253.51).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.93x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "New York I Love You 2008 1080p AMZN WEB-DL H264 DUAL-BiOMA",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/new-york-i-love-you-2008-1080p-amzn-web-dl-h264-dual-bioma/"
-        },
-        {
-          "title": "Lay the Favorite 2012 1080p AMZN WEB-DL H264-TEPES",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/lay-the-favorite-2012-1080p-amzn-web-dl-h264-tepes/"
-        },
-        {
-          "title": "The Silent Service 2024 S02E01 1080p AMZN WEB-DL H264-playWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-silent-service-2024-s02e01-1080p-amzn-web-dl-h264-playweb/"
-        },
-        {
-          "title": "Google is on track for its worst day ever \u2014 with $500 billion in market value at stake",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
-        },
-        {
-          "title": "Wheel Of Fortune S44E33 1080p AMZN WEB-DL H264-Kitsune",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e33-1080p-amzn-web-dl-h264-kitsune/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 277.31,
-        "change_pct": -1.77,
-        "volume": 28826263,
-        "avg_volume": 19021767,
-        "volume_ratio": 1.52,
-        "above_trend_ma": false,
-        "trend_ma": 325.47,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 279.61,
-          "high": 281.86,
-          "low": 276.73,
-          "close": 277.31,
-          "prev_open": 283.84,
-          "prev_close": 282.32
+          "open": 243.09,
+          "high": 253.81,
+          "low": 242.28,
+          "close": 245.63,
+          "prev_open": 232.54,
+          "prev_close": 240.35
         }
       },
       "call": {
         "call": "sell",
         "positive_signals": 0,
-        "negative_signals": 3,
+        "negative_signals": 2,
         "total_signals": 5,
         "displayed_call": "hold"
       },
@@ -369,18 +281,18 @@
         },
         {
           "label": "Sentiment",
-          "detail": "16 negative keyword hits vs 10 positive.",
+          "detail": "3 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $277.31 is below its 15-day average ($325.47).",
+          "detail": "Price $245.63 is below its 15-day average ($252.65).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.52x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "neg"
+          "detail": "Volume is 1.49x the recent average -- roughly normal.",
+          "signal": "neutral"
         },
         {
           "label": "Candlestick",
@@ -390,29 +302,107 @@
       ],
       "headlines": [
         {
-          "title": "Spooktober 2026, Days Twenty-Seven and Twenty-Eight",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/29/spooktober-2026-days-27-and-28/"
+          "title": "The Craft 1996 1080p AMZN WEB-DL H264-BLOOM",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-craft-1996-1080p-amzn-web-dl-h264-bloom/"
         },
         {
-          "title": "GOOG Stock On Track To Erase Over $600B In Market Value In A Month \u2014 Analysts Flag Search Slowdown, Margin Pressure",
+          "title": "Last Stream 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/last-stream-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+        },
+        {
+          "title": "Basibozuklar 2026 1080p AMZN WEB-DL H264-POWER",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/basibozuklar-2026-1080p-amzn-web-dl-h264-power/"
+        },
+        {
+          "title": "Oh Yaara Ainvayi Ainvayi Lut Gaya 2015 1080p AMZN WEB-DL H264-NSG",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/oh-yaara-ainvayi-ainvayi-lut-gaya-2015-1080p-amzn-web-dl-h264-nsg/"
+        },
+        {
+          "title": "Rom Coms Must Die 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/rom-coms-must-die-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 278.04,
+        "change_pct": -0.06,
+        "volume": 28893743,
+        "avg_volume": 19762415,
+        "volume_ratio": 1.46,
+        "above_trend_ma": false,
+        "trend_ma": 320.8,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 280.58,
+          "high": 285.21,
+          "low": 277.78,
+          "close": 278.04,
+          "prev_open": 279.69,
+          "prev_close": 278.22
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "sell",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "3 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $278.04 is below its 15-day average ($320.8).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.46x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "A big sell-off collides with more Big Tech earnings and a midterm election: What to watch this week",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/992b4010890be783"
+          "url": "https://biztoc.com/x/745390a9fdf3cb75"
         },
         {
-          "title": "Azure fuels Microsoft's earnings beat",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/87a37689aefbaf00"
-        },
-        {
-          "title": "$1.99 | Never Eat Alone, Expanded and Updated: And Other Secrets to Success, One Relationship at a Time (eBook) by Keith Ferrazzi, Tahl Raz",
+          "title": "$1.99 | What the Dog Saw: And Other Adventures (eBook) by Malcolm Gladwell",
           "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20227698-1-99-never-eat-alone-expanded-and-updated-and-other-secrets-to-success-one-relationship-at-a-time-ebook-by-keith-ferrazzi-tahl-raz"
+          "url": "https://slickdeals.net/f/20239032-1-99-what-the-dog-saw-and-other-adventures-ebook-by-malcolm-gladwell"
         },
         {
-          "title": "Hot takes on hot wings, the state of the running shoe market, and Microsoft's recent quarter",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/dddc9969a6961279"
+          "title": "Spooktober 2026, Days Thirty-One and Thirty-Two?",
+          "source": "Freethoughtblogs.com",
+          "url": "https://freethoughtblogs.com/gas/2026/10/31/spooktober-2026-days-31-and-32/"
         }
       ]
     }
