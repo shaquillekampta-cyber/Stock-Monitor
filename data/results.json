@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-02T21:52:12.393882+00:00",
+  "generated_at": "2026-11-03T19:42:07.537089+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 752.1,
-        "change_pct": -0.48,
-        "volume": 47341124,
-        "avg_volume": 42768910,
-        "volume_ratio": 1.11,
+        "price": 755.06,
+        "change_pct": 0.39,
+        "volume": 19170556,
+        "avg_volume": 42302294,
+        "volume_ratio": 0.45,
         "above_trend_ma": false,
-        "trend_ma": 766.65,
+        "trend_ma": 765.12,
         "trend_ma_days": 15,
         "candles": {
-          "open": 759.45,
-          "high": 763.85,
-          "low": 751.6,
-          "close": 752.1,
-          "prev_open": 761.38,
-          "prev_close": 755.72
+          "open": 752.73,
+          "high": 757.07,
+          "low": 752.41,
+          "close": 755.06,
+          "prev_open": 759.45,
+          "prev_close": 752.1
         }
       },
       "call": {
@@ -43,17 +43,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 0 positive.",
+          "detail": "2 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $752.1 is below its 15-day average ($766.65).",
+          "detail": "Price $755.06 is below its 15-day average ($765.12).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.11x the recent average -- roughly normal.",
+          "detail": "Volume is 0.45x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -64,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "This Democrat stands with our \u2018miracle president\u2019",
-          "source": "Wnd.com",
-          "url": "https://www.wnd.com/2026/11/this-democrat-stands-our-miracle-president/"
+          "title": "Keira Knightley shares a cheeky nod to her spy alter-ego in her all-black look as she poses with co-star Ben Whishaw at the Black Doves series two photocall",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/tvshowbiz/article-16259731/Keira-Knightley-nod-spy-alter-ego-black-Ben-Whishaw-Black-Doves-series-two.html"
         },
         {
-          "title": "10 exciting Netflix releases you can\u2019t miss in November",
-          "source": "Rolling Out",
-          "url": "https://rollingout.com/2026/11/01/10-exciting-netflix-releases-in-november/"
+          "title": "Pentagon's top spies tasked with 'no-fail' mission as Hegseth puts foreign midterm meddling in crosshairs",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/politics/pentagons-top-spies-tasked-no-fail-mission-hegseth-puts-foreign-midterm-meddling-crosshairs"
         },
         {
-          "title": "Hackers Figured Out How Flock Camera Systems Actually Work By Pulling One Apart",
-          "source": "Jalopnik",
-          "url": "https://www.jalopnik.com/2297988/hackers-figured-out-how-flock-camera-systems-work/"
+          "title": "Jack Lowden On James Bond & Gary Oldman\u2019s 007 Endorsement: \u201cIt\u2019s All Very Flattering\u201d",
+          "source": "Deadline",
+          "url": "http://deadline.com/2026/11/jack-lowden-james-bond-gary-oldman-very-flattering-1237211460/"
         },
         {
-          "title": "Watching strangers do things: Nelly Korda cops to observing others in hilarious 'Sundae Conversation'",
-          "source": "Golf Channel",
-          "url": "https://www.golfchannel.com/lpga/news/nelly-korda-cops-to-voyeurism-in-hilarious-sundae-conversation"
+          "title": "WATCH: President Trump Vows to Preemptively Pardon Administration Staffers If Democrats Target Them",
+          "source": "Breitbart News",
+          "url": "https://www.breitbart.com/politics/2026/11/02/watch-president-trump-vows-to-preemptively-pardon-administration-staffers-if-democrats-target-them/"
         },
         {
-          "title": "Next James Bond: Mystery Fourth Audition Contenders Ranked, Including Tom Holland",
-          "source": "Screen Rant",
-          "url": "https://screenrant.com/james-bond-mystery-fourth-audition-actors-ranked/"
+          "title": "EU overreach and Israeli spy links: Slovenian PM lists bloc\u2019s threats to democracy",
+          "source": "Rt-english.com",
+          "url": "https://rt-english.com/news/648210-slovenia-jansa-eu-democracy/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 681.09,
-        "change_pct": -1.36,
-        "volume": 51886696,
-        "avg_volume": 36743638,
-        "volume_ratio": 1.41,
+        "price": 685.75,
+        "change_pct": 0.68,
+        "volume": 23094879,
+        "avg_volume": 36495764,
+        "volume_ratio": 0.63,
         "above_trend_ma": false,
-        "trend_ma": 715.09,
+        "trend_ma": 711.24,
         "trend_ma_days": 15,
         "candles": {
-          "open": 695.32,
-          "high": 699.43,
-          "low": 680.33,
-          "close": 681.09,
-          "prev_open": 697.21,
-          "prev_close": 690.49
+          "open": 684.2,
+          "high": 688.69,
+          "low": 683.18,
+          "close": 685.75,
+          "prev_open": 695.32,
+          "prev_close": 681.09
         }
       },
       "call": {
@@ -118,15 +118,15 @@
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "6 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +136,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $681.09 is below its 15-day average ($715.09).",
+          "detail": "Price $685.75 is below its 15-day average ($711.24).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.41x the recent average -- roughly normal.",
+          "detail": "Volume is 0.63x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,50 +152,50 @@
       ],
       "headlines": [
         {
-          "title": "smt16-quantkit added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/smt16-quantkit/"
+          "title": "ESPN\u2019s Kirk Herbstreit Shocked as Camera Catches Bizarre Fan During Florida Rout: \u201cThat\u2019s Serious\u201d",
+          "source": "Essentially Sports",
+          "url": "https://www.essentiallysports.com/ncaa-college-football-news-espns-kirk-herbstreit-shocked-as-camera-catches-scary-fan-during-florida-rout-thats-serious/"
         },
         {
-          "title": "The cocktail party goes indoors, but Georgia-Florida fans bring a familiar rivalry to Atlanta",
-          "source": "Yahoo Entertainment",
-          "url": "https://sports.yahoo.com/articles/cocktail-party-goes-indoors-georgia-225544201.html"
+          "title": "VGT vs. QQQ: Which Tech ETF Is the Better Long-Term Buy?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/a03c051ca046684b"
         },
         {
-          "title": "Florida and Georgia fans are fuming over today's venue for multiple reasons, but one sticks out",
-          "source": "Fox News",
-          "url": "https://www.foxnews.com/outkick-sports/florida-georgia-fans-fuming-todays-venue-multiple-reasons-one-sticks-out"
+          "title": "Sells NVIDIA and Apple on Oct. 29",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/a546384bd58dd305"
         },
         {
-          "title": "Georgia vs. Florida Picks, Predictions, Odds: Our Best Bets for College Football Week 9",
-          "source": "The Action Network",
-          "url": "https://www.actionnetwork.com/ncaaf/georgia-bulldogs-vs-florida-gators-picks-predictions-odds-best-bets-college-football-week-9-saturday-oct-31"
+          "title": "What ProShares Ultra QQQ (QLD) Bought: No Buys as NVIDIA Leads Sells on Oct. 29",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/770941dd74f4048f"
         },
         {
-          "title": "USA TODAY Sports roasts Florida-Georgia\u2019s corporate rebrand",
-          "source": "USA Today",
-          "url": "https://gatorswire.usatoday.com/story/sports/college/gators/football/2026/10/31/florida-football-georgia-worlds-largest-outdoor-cocktail-party-atlanta-rivalry-name/92523401007/"
+          "title": "Fidelity\u2019s Broader Nasdaq ETF Has a Surprise for QQQ Investors: Even More Apple",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/8a4ab80ca81f46ea"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.59,
-        "change_pct": 0.27,
-        "volume": 6877929,
-        "avg_volume": 5556705,
-        "volume_ratio": 1.24,
+        "price": 82.26,
+        "change_pct": -0.4,
+        "volume": 4139032,
+        "avg_volume": 5524158,
+        "volume_ratio": 0.75,
         "above_trend_ma": false,
-        "trend_ma": 83.33,
+        "trend_ma": 83.18,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.99,
-          "high": 83.46,
-          "low": 82.55,
-          "close": 82.59,
-          "prev_open": 82.61,
-          "prev_close": 82.37
+          "open": 82.67,
+          "high": 82.74,
+          "low": 82.23,
+          "close": 82.26,
+          "prev_open": 82.99,
+          "prev_close": 82.59
         }
       },
       "call": {
@@ -224,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.59 is below its 15-day average ($83.33).",
+          "detail": "Price $82.26 is below its 15-day average ($83.18).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.24x the recent average -- roughly normal.",
+          "detail": "Volume is 0.75x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,21 +243,21 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 245.63,
-        "change_pct": 2.2,
-        "volume": 57688063,
-        "avg_volume": 38613311,
-        "volume_ratio": 1.49,
+        "price": 251.33,
+        "change_pct": 2.32,
+        "volume": 22115273,
+        "avg_volume": 38247748,
+        "volume_ratio": 0.58,
         "above_trend_ma": false,
-        "trend_ma": 252.65,
+        "trend_ma": 252.17,
         "trend_ma_days": 15,
         "candles": {
-          "open": 243.09,
-          "high": 253.81,
-          "low": 242.28,
-          "close": 245.63,
-          "prev_open": 232.54,
-          "prev_close": 240.35
+          "open": 248.62,
+          "high": 251.82,
+          "low": 245.89,
+          "close": 251.33,
+          "prev_open": 243.01,
+          "prev_close": 245.63
         }
       },
       "call": {
@@ -265,14 +265,14 @@
         "positive_signals": 0,
         "negative_signals": 2,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
         "hold",
-        "hold",
+        "sell",
         "sell"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -281,17 +281,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
+          "detail": "4 negative keyword hits vs 3 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $245.63 is below its 15-day average ($252.65).",
+          "detail": "Price $251.33 is below its 15-day average ($252.17).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.49x the recent average -- roughly normal.",
+          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -302,107 +302,122 @@
       ],
       "headlines": [
         {
-          "title": "The Craft 1996 1080p AMZN WEB-DL H264-BLOOM",
+          "title": "Home Town Takeover Canada S01E02 1080p AMZN WEB-DL H264-NTb",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-craft-1996-1080p-amzn-web-dl-h264-bloom/"
+          "url": "https://post.rlsbb.cc/home-town-takeover-canada-s01e02-1080p-amzn-web-dl-h264-ntb/"
         },
         {
-          "title": "Last Stream 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/last-stream-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+          "title": "Apple reports after the bell. Options traders expect a big move",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/apple-reports-after-the-bell-options-traders-expect-a-big-move.html"
         },
         {
-          "title": "Basibozuklar 2026 1080p AMZN WEB-DL H264-POWER",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/basibozuklar-2026-1080p-amzn-web-dl-h264-power/"
+          "title": "Stock Market Today: Dow Rallies As Amazon Pops; Oil Stocks Skid On These Hopes (Live Coverage)",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6e96a655dddf9c37"
         },
         {
-          "title": "Oh Yaara Ainvayi Ainvayi Lut Gaya 2015 1080p AMZN WEB-DL H264-NSG",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/oh-yaara-ainvayi-ainvayi-lut-gaya-2015-1080p-amzn-web-dl-h264-nsg/"
+          "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/"
         },
         {
-          "title": "Rom Coms Must Die 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/rom-coms-must-die-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+          "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 278.04,
-        "change_pct": -0.06,
-        "volume": 28893743,
-        "avg_volume": 19762415,
-        "volume_ratio": 1.46,
+        "price": 277.75,
+        "change_pct": -0.1,
+        "volume": 14824066,
+        "avg_volume": 19658122,
+        "volume_ratio": 0.75,
         "above_trend_ma": false,
-        "trend_ma": 320.8,
+        "trend_ma": 316.02,
         "trend_ma_days": 15,
         "candles": {
-          "open": 280.58,
-          "high": 285.21,
-          "low": 277.78,
-          "close": 278.04,
-          "prev_open": 279.69,
-          "prev_close": 278.22
+          "open": 278.94,
+          "high": 280.33,
+          "low": 276.32,
+          "close": 277.75,
+          "prev_open": 280.58,
+          "prev_close": 278.04
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "10 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $278.04 is below its 15-day average ($320.8).",
+          "detail": "Price $277.75 is below its 15-day average ($316.02).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.46x the recent average -- roughly normal.",
+          "detail": "Volume is 0.75x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "A big sell-off collides with more Big Tech earnings and a midterm election: What to watch this week",
+          "title": "One Magnificent 7 Stock Could Have a Massive AI Opportunity by 2028",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/745390a9fdf3cb75"
+          "url": "https://biztoc.com/x/21a521ab74dcc689"
         },
         {
-          "title": "$1.99 | What the Dog Saw: And Other Adventures (eBook) by Malcolm Gladwell",
-          "source": "Slickdeals.net",
-          "url": "https://slickdeals.net/f/20239032-1-99-what-the-dog-saw-and-other-adventures-ebook-by-malcolm-gladwell"
+          "title": "\u2018They sell the big hot dogs\u2019: The companies that hyperscalers trail in valuations",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/60bb1138d535e339"
         },
         {
-          "title": "Spooktober 2026, Days Thirty-One and Thirty-Two?",
-          "source": "Freethoughtblogs.com",
-          "url": "https://freethoughtblogs.com/gas/2026/10/31/spooktober-2026-days-31-and-32/"
+          "title": "ETFs Are Net Sellers of Alphabet (GOOG) on Oct. 29",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/fe0a4eea83f6a595"
+        },
+        {
+          "title": "It would shock you how bearish Wall Street is on hyperscalers Microsoft, Amazon, Alphabet, Meta and Oracle",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/81c489fd9dbd721a"
+        },
+        {
+          "title": "If I Could Only Buy and Hold 1 \"Magnificent Seven\" Stock Through 2030, It Would Be This One",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/f56dbc592b69c5da"
         }
       ]
     }
