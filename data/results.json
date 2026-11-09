@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-06T19:37:24.100466+00:00",
+  "generated_at": "2026-11-09T22:37:23.769383+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 737.72,
-        "change_pct": 0.64,
-        "volume": 36887546,
-        "avg_volume": 45000923,
-        "volume_ratio": 0.82,
+        "price": 752.69,
+        "change_pct": 2.37,
+        "volume": 48888639,
+        "avg_volume": 45891424,
+        "volume_ratio": 1.07,
         "above_trend_ma": false,
-        "trend_ma": 760.6,
+        "trend_ma": 759.52,
         "trend_ma_days": 15,
         "candles": {
-          "open": 734.82,
-          "high": 742.21,
-          "low": 734.58,
-          "close": 737.72,
-          "prev_open": 765.47,
-          "prev_close": 733.0
+          "open": 741.95,
+          "high": 755.42,
+          "low": 741.09,
+          "close": 752.69,
+          "prev_open": 734.82,
+          "prev_close": 735.29
         }
       },
       "call": {
@@ -30,7 +30,7 @@
         "displayed_call": "sell"
       },
       "call_history": [
-        "buy",
+        "sell",
         "sell",
         "sell"
       ],
@@ -38,22 +38,22 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 1 positive.",
+          "detail": "12 negative keyword hits vs 2 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $737.72 is below its 15-day average ($760.6).",
+          "detail": "Price $752.69 is below its 15-day average ($759.52).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.82x the recent average -- roughly normal.",
+          "detail": "Volume is 1.07x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -64,50 +64,50 @@
       ],
       "headlines": [
         {
-          "title": "The Erection of the Giganto-Tree, and Other Christmas Traditions",
-          "source": "Amodelrecommends.com",
-          "url": "https://www.amodelrecommends.com/p/the-erection-of-the-giganto-tree"
+          "title": "Nvidia\u2019s board will probe CEO Jensen Huang\u2019s relationship with an alleged spy. Here\u2019s what to know",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/79fe85b505505703"
         },
         {
-          "title": "\"More Like a Quesadilla\" Guy",
-          "source": "Knowyourmeme.com",
-          "url": "https://knowyourmeme.com/memes/more-like-a-quesadilla-guy"
+          "title": "Nvidia Board launches probe into alleged spy plot after CEO admits affair",
+          "source": "BusinessLine",
+          "url": "https://www.thehindubusinessline.com/info-tech/nvidia-board-launches-probe-into-alleged-spy-plot-after-ceo-admits-affair/article71681234.ece"
         },
         {
-          "title": "The fund that created the most wealth in 10 years was a plain S&P 500 ETF: $263 billion",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/the-fund-that-created-the-most-wealth-in-10-years-was-a-plain-sp-500-etf-263-billion/articleshow/135572076.cms"
+          "title": "Nvidia Opens Investigation Into Jensen Huang\u2019s Relationship With Chinese Spy - The New York Times",
+          "source": "Slashdot.org",
+          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186656910"
         },
         {
-          "title": "Anyone Can Rent a White House IP Address for a Few Dollars",
-          "source": "Gizmodo.com",
-          "url": "https://gizmodo.com/anyone-can-rent-a-white-house-ip-address-for-a-few-dollars-2000835738"
+          "title": "Nvidia Launches Investigation Into CEO Jensen Huang Following Honeypot Scandal",
+          "source": "Kotaku",
+          "url": "https://kotaku.com/nvidia-launches-investigation-into-ceo-jensen-huang-following-honeypot-scandal-2000754894"
         },
         {
-          "title": "Is the \u2018Wild Horse Nine\u2019 Movie Streaming on Netflix or Amazon Prime Video?",
-          "source": "Decider",
-          "url": "https://decider.com/2026/11/05/watch-wild-horse-nine-movie-streaming-netflix-amazon-prime-video/"
+          "title": "Nvidia's board launches investigation into alleged spying on CEO Jensen Huang",
+          "source": "XDA Developers",
+          "url": "https://www.xda-developers.com/the-nvidia-board-is-investigating-a-potential-case-of-spying-on-jensen-huang/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 658.37,
-        "change_pct": 1.75,
-        "volume": 52481102,
-        "avg_volume": 40157975,
+        "price": 679.35,
+        "change_pct": 3.54,
+        "volume": 54176627,
+        "avg_volume": 41488621,
         "volume_ratio": 1.31,
         "above_trend_ma": false,
-        "trend_ma": 699.91,
+        "trend_ma": 697.16,
         "trend_ma_days": 15,
         "candles": {
-          "open": 658.35,
-          "high": 664.52,
-          "low": 654.0,
-          "close": 658.37,
-          "prev_open": 683.12,
-          "prev_close": 647.05
+          "open": 662.68,
+          "high": 681.7,
+          "low": 662.02,
+          "close": 679.35,
+          "prev_open": 658.35,
+          "prev_close": 656.1
         }
       },
       "call": {
@@ -115,28 +115,28 @@
         "positive_signals": 1,
         "negative_signals": 2,
         "total_signals": 6,
-        "displayed_call": "sell"
+        "displayed_call": "hold"
       },
       "call_history": [
         "sell",
-        "sell",
+        "hold",
         "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "10 articles in the last 2 days.",
+          "detail": "2 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 2 negative.",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $658.37 is below its 15-day average ($699.91).",
+          "detail": "Price $679.35 is below its 15-day average ($697.16).",
           "signal": "neg"
         },
         {
@@ -157,50 +157,190 @@
       ],
       "headlines": [
         {
-          "title": "The fund that created the most wealth in 10 years was a plain S&P 500 ETF: $263 billion",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/the-fund-that-created-the-most-wealth-in-10-years-was-a-plain-sp-500-etf-263-billion/articleshow/135572076.cms"
+          "title": "finzdata-deepseek added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/finzdata-deepseek/"
         },
         {
-          "title": "QQQ stock today falls over 5%: Why Nvidia (NVDA), Qualcomm (QCOM), Intel (INTC) and Marvell (MRVL) are dragging down Invesco QQQ Trust",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/qqq-stock-today-falls-over-5-why-nvidia-nvda-qualcomm-qcom-intel-intc-and-marvell-mrvl-are-dragging-down-invesco-qqq-trust/articleshow/135582240.cms"
-        },
-        {
-          "title": "Buys $19.6 Million More NVIDIA on Tuesday",
+          "title": "Eric Balchunas Calls It a \u201cFive Alarm Fire\u201d Sell-Off. Here\u2019s What Record ETF Trading Tells You",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8c01019029d8d3ec"
-        },
-        {
-          "title": "Sells $50.5 Million of NVIDIA on Nov. 3",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b50b3486faec1c19"
-        },
-        {
-          "title": "Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat - Invesco QQQ Trust, Series 1\u2026",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/cc71dd9824d63201"
+          "url": "https://biztoc.com/x/2661148e851ca308"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 80.95,
-        "change_pct": 0.19,
-        "volume": 7863090,
-        "avg_volume": 5687865,
-        "volume_ratio": 1.38,
-        "above_trend_ma": false,
-        "trend_ma": 82.83,
+        "price": 83.22,
+        "change_pct": 2.84,
+        "volume": 7100165,
+        "avg_volume": 5782313,
+        "volume_ratio": 1.23,
+        "above_trend_ma": true,
+        "trend_ma": 82.82,
         "trend_ma_days": 15,
         "candles": {
-          "open": 80.7,
-          "high": 81.38,
-          "low": 80.55,
-          "close": 80.95,
-          "prev_open": 83.2,
-          "prev_close": 80.8
+          "open": 82.29,
+          "high": 83.43,
+          "low": 82.08,
+          "close": 83.22,
+          "prev_open": 80.72,
+          "prev_close": 80.92
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $83.22 is above its 15-day average ($82.82).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.23x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": []
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 266.93,
+        "change_pct": 2.94,
+        "volume": 50588278,
+        "avg_volume": 42147462,
+        "volume_ratio": 1.2,
+        "above_trend_ma": true,
+        "trend_ma": 254.21,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 269.32,
+          "high": 275.31,
+          "low": 266.92,
+          "close": 266.93,
+          "prev_open": 259.81,
+          "prev_close": 259.3
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $266.93 is above its 15-day average ($254.21).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.2x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "The Traitors Italy S02E03 1080p AMZN WEB-DL H264-TBK",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-traitors-italy-s02e03-1080p-amzn-web-dl-h264-tbk/"
+        },
+        {
+          "title": "The Traitors Italy S02E02 1080p AMZN WEB-DL H264-TBK",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-traitors-italy-s02e02-1080p-amzn-web-dl-h264-tbk/"
+        },
+        {
+          "title": "The Traitors Italy S02E01 1080p AMZN WEB-DL H264-TBK",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-traitors-italy-s02e01-1080p-amzn-web-dl-h264-tbk/"
+        },
+        {
+          "title": "stock-embeddings added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/stock-embeddings/"
+        },
+        {
+          "title": "Animal DNA 2023 S01 1080p AMZN WEB-DL H264-iCX",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/animal-dna-2023-s01-1080p-amzn-web-dl-h264-icx/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 286.01,
+        "change_pct": 0.73,
+        "volume": 22813211,
+        "avg_volume": 21280683,
+        "volume_ratio": 1.07,
+        "above_trend_ma": false,
+        "trend_ma": 300.94,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 290.96,
+          "high": 294.69,
+          "low": 285.95,
+          "close": 286.01,
+          "prev_open": 283.42,
+          "prev_close": 283.93
         }
       },
       "call": {
@@ -229,12 +369,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $80.95 is below its 15-day average ($82.83).",
+          "detail": "Price $286.01 is below its 15-day average ($300.94).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.38x the recent average -- roughly normal.",
+          "detail": "Volume is 1.07x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -244,182 +384,6 @@
         }
       ],
       "headlines": []
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 261.85,
-        "change_pct": 0.63,
-        "volume": 24272138,
-        "avg_volume": 41045025,
-        "volume_ratio": 0.59,
-        "above_trend_ma": true,
-        "trend_ma": 254.08,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 259.81,
-          "high": 264.18,
-          "low": 258.53,
-          "close": 261.85,
-          "prev_open": 271.43,
-          "prev_close": 260.21
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $261.85 is above its 15-day average ($254.08).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.59x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "I Saw The Face Of God In The Jet Wash 2025 1080p AMZN WEB-DL H264-cinepth",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/i-saw-the-face-of-god-in-the-jet-wash-2025-1080p-amzn-web-dl-h264-cinepth/"
-        },
-        {
-          "title": "Heart Of The Beast 2026 720p AMZN WEB-DL H264-KyoGo",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/heart-of-the-beast-2026-720p-amzn-web-dl-h264-kyogo/"
-        },
-        {
-          "title": "Amazon Stock Pulls Back: What's Going On?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/11665f7840c7f996"
-        },
-        {
-          "title": "Big Tech's massive AI spending is causing another problem for investors",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6b7fee825436f3c3"
-        },
-        {
-          "title": "New Group 2026 1080p AMZN WEB-DL H264-CHORTLE",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/new-group-2026-1080p-amzn-web-dl-h264-chortle/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 284.64,
-        "change_pct": 1.03,
-        "volume": 15323082,
-        "avg_volume": 20828883,
-        "volume_ratio": 0.74,
-        "above_trend_ma": false,
-        "trend_ma": 304.6,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 283.7,
-          "high": 289.22,
-          "low": 283.0,
-          "close": 284.64,
-          "prev_open": 291.8,
-          "prev_close": 281.74
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $284.64 is below its 15-day average ($304.6).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.74x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Are Big Tech stock buybacks officially dead?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c8b8b2bfc4cb238e"
-        },
-        {
-          "title": "California's billionaire tax is losing despite a nationwide backlash against the rich",
-          "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/economy/article/californias-billionaire-tax-on-track-for-defeat-as-the-state-continues-to-count-votes-190840319.html"
-        },
-        {
-          "title": "'We would use this dip to buy': A CIO says load up on these 8 beaten-down AI stocks poised to rebound",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/ai-stocks-to-buy-the-dip-gnrc-amat-meta-msft-2026-11#article"
-        },
-        {
-          "title": "Red Hat OpenShift is now generally available in Google Cloud\u2019s sovereign regions",
-          "source": "Redhat.com",
-          "url": "https://www.redhat.com/en/blog/red-hat-openshift-now-generally-available-google-clouds-sovereign-regions"
-        }
-      ]
     }
   ],
   "paper_portfolio": {
