@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-10T19:54:54.291906+00:00",
+  "generated_at": "2026-11-11T19:47:39.323519+00:00",
   "universe_size": 25,
   "opportunities": [
     {
-      "ticker": "AMD",
+      "ticker": "NVDA",
       "price": {
-        "price": 515.35,
-        "change_pct": 1.33,
-        "volume": 38725463,
-        "avg_volume": 25445867,
-        "volume_ratio": 1.52,
-        "above_trend_ma": true,
-        "trend_ma": 509.04,
+        "price": 175.58,
+        "change_pct": 3.96,
+        "volume": 210949739,
+        "avg_volume": 130072407,
+        "volume_ratio": 1.62,
+        "above_trend_ma": false,
+        "trend_ma": 199.4,
         "trend_ma_days": 15,
         "candles": {
-          "open": 503.0,
-          "high": 539.25,
-          "low": 500.25,
-          "close": 515.35,
-          "prev_open": 473.39,
-          "prev_close": 508.58
+          "open": 172.72,
+          "high": 177.54,
+          "low": 170.77,
+          "close": 175.58,
+          "prev_open": 173.97,
+          "prev_close": 168.89
         }
       },
       "call": {
-        "call": "buy",
-        "positive_signals": 3,
-        "negative_signals": 0,
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 3,
         "total_signals": 5
       },
-      "headline_reason": "8 positive keyword hits vs 1 negative.",
+      "headline_reason": "8 negative keyword hits vs 4 positive.",
       "checklist": [
         {
           "label": "News catalyst",
@@ -37,238 +37,18 @@
         },
         {
           "label": "Sentiment",
-          "detail": "8 positive keyword hits vs 1 negative.",
-          "signal": "pos"
+          "detail": "8 negative keyword hits vs 4 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $515.35 is above its 15-day average ($509.04).",
-          "signal": "pos"
+          "detail": "Price $175.58 is below its 15-day average ($199.4).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.52x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ]
-    },
-    {
-      "ticker": "AAPL",
-      "price": {
-        "price": 348.53,
-        "change_pct": -0.61,
-        "volume": 17568698,
-        "avg_volume": 43556068,
-        "volume_ratio": 0.4,
-        "above_trend_ma": true,
-        "trend_ma": 344.92,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 351.55,
-          "high": 353.87,
-          "low": 346.46,
-          "close": 348.53,
-          "prev_open": 345.0,
-          "prev_close": 350.69
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5
-      },
-      "headline_reason": "3 positive keyword hits vs 0 negative.",
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "10 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $348.53 is above its 15-day average ($344.92).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.4x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "price": {
-        "price": 534.73,
-        "change_pct": -1.92,
-        "volume": 16115580,
-        "avg_volume": 23454670,
-        "volume_ratio": 0.69,
-        "above_trend_ma": true,
-        "trend_ma": 530.39,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 543.41,
-          "high": 544.15,
-          "low": 526.36,
-          "close": 534.73,
-          "prev_open": 544.49,
-          "prev_close": 545.18
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5
-      },
-      "headline_reason": "1 positive keyword hits vs 0 negative.",
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $534.73 is above its 15-day average ($530.39).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.69x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ]
-    },
-    {
-      "ticker": "AVGO",
-      "price": {
-        "price": 331.76,
-        "change_pct": 3.84,
-        "volume": 18588315,
-        "avg_volume": 24068484,
-        "volume_ratio": 0.77,
-        "above_trend_ma": true,
-        "trend_ma": 326.23,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 316.76,
-          "high": 334.67,
-          "low": 316.69,
-          "close": 331.76,
-          "prev_open": 305.29,
-          "prev_close": 319.48
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5
-      },
-      "headline_reason": "2 positive keyword hits vs 1 negative.",
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $331.76 is above its 15-day average ($326.23).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.77x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ]
-    },
-    {
-      "ticker": "GS",
-      "price": {
-        "price": 911.65,
-        "change_pct": 0.6,
-        "volume": 783330,
-        "avg_volume": 2262812,
-        "volume_ratio": 0.35,
-        "above_trend_ma": true,
-        "trend_ma": 899.98,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 910.24,
-          "high": 917.55,
-          "low": 897.35,
-          "close": 911.65,
-          "prev_open": 885.08,
-          "prev_close": 906.22
-        }
-      },
-      "call": {
-        "call": "buy",
-        "positive_signals": 2,
-        "negative_signals": 0,
-        "total_signals": 5
-      },
-      "headline_reason": "1 positive keyword hits vs 0 negative.",
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "7 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $911.65 is above its 15-day average ($899.98).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.35x the recent average -- unusually light conviction.",
-          "signal": "neutral"
+          "detail": "Volume is 1.62x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "neg"
         },
         {
           "label": "Candlestick",
@@ -280,30 +60,30 @@
     {
       "ticker": "HD",
       "price": {
-        "price": 351.19,
-        "change_pct": -0.63,
-        "volume": 2309189,
-        "avg_volume": 5054470,
-        "volume_ratio": 0.46,
+        "price": 349.74,
+        "change_pct": -0.36,
+        "volume": 1821585,
+        "avg_volume": 5026333,
+        "volume_ratio": 0.36,
         "above_trend_ma": true,
-        "trend_ma": 333.57,
+        "trend_ma": 335.93,
         "trend_ma_days": 15,
         "candles": {
-          "open": 349.5,
-          "high": 352.65,
-          "low": 347.92,
-          "close": 351.19,
-          "prev_open": 346.78,
-          "prev_close": 353.42
+          "open": 348.43,
+          "high": 350.38,
+          "low": 344.31,
+          "close": 349.74,
+          "prev_open": 349.5,
+          "prev_close": 351.0
         }
       },
       "call": {
         "call": "buy",
-        "positive_signals": 2,
+        "positive_signals": 3,
         "negative_signals": 0,
         "total_signals": 5
       },
-      "headline_reason": "2 positive keyword hits vs 1 negative.",
+      "headline_reason": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
       "checklist": [
         {
           "label": "News catalyst",
@@ -312,12 +92,67 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 1 negative.",
+          "detail": "5 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $351.19 is above its 15-day average ($333.57).",
+          "detail": "Price $349.74 is above its 15-day average ($335.93).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.36x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: hammer",
+          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+          "signal": "pos"
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "price": {
+        "price": 354.88,
+        "change_pct": 1.83,
+        "volume": 19677429,
+        "avg_volume": 42689089,
+        "volume_ratio": 0.46,
+        "above_trend_ma": true,
+        "trend_ma": 345.65,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 349.58,
+          "high": 355.33,
+          "low": 349.33,
+          "close": 354.88,
+          "prev_open": 351.35,
+          "prev_close": 348.51
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5
+      },
+      "headline_reason": "5 positive keyword hits vs 1 negative.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "16 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "5 positive keyword hits vs 1 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $354.88 is above its 15-day average ($345.65).",
           "signal": "pos"
         },
         {
@@ -333,23 +168,78 @@
       ]
     },
     {
-      "ticker": "KO",
+      "ticker": "MSFT",
       "price": {
-        "price": 96.87,
-        "change_pct": 0.87,
-        "volume": 8122061,
-        "avg_volume": 16842340,
-        "volume_ratio": 0.48,
-        "above_trend_ma": true,
-        "trend_ma": 94.26,
+        "price": 520.36,
+        "change_pct": -2.4,
+        "volume": 18347284,
+        "avg_volume": 23753165,
+        "volume_ratio": 0.77,
+        "above_trend_ma": false,
+        "trend_ma": 529.45,
         "trend_ma_days": 15,
         "candles": {
-          "open": 96.65,
-          "high": 96.95,
-          "low": 95.86,
-          "close": 96.87,
-          "prev_open": 95.89,
-          "prev_close": 96.03
+          "open": 534.22,
+          "high": 534.76,
+          "low": 518.5,
+          "close": 520.36,
+          "prev_open": 542.98,
+          "prev_close": 533.16
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5
+      },
+      "headline_reason": "3 negative keyword hits vs 2 positive.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "7 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 negative keyword hits vs 2 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $520.36 is below its 15-day average ($529.45).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "price": {
+        "price": 559.68,
+        "change_pct": 8.63,
+        "volume": 33986706,
+        "avg_volume": 26046204,
+        "volume_ratio": 1.3,
+        "above_trend_ma": true,
+        "trend_ma": 509.49,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 543.06,
+          "high": 567.65,
+          "low": 522.65,
+          "close": 559.68,
+          "prev_open": 502.8,
+          "prev_close": 515.21
         }
       },
       "call": {
@@ -358,7 +248,7 @@
         "negative_signals": 0,
         "total_signals": 5
       },
-      "headline_reason": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+      "headline_reason": "1 positive keyword hits vs 0 negative.",
       "checklist": [
         {
           "label": "News catalyst",
@@ -367,23 +257,243 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $96.87 is above its 15-day average ($94.26).",
+          "detail": "Price $559.68 is above its 15-day average ($509.49).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.48x the recent average -- unusually light conviction.",
+          "detail": "Volume is 1.3x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "COST",
+      "price": {
+        "price": 1081.46,
+        "change_pct": 1.44,
+        "volume": 1405715,
+        "avg_volume": 2334398,
+        "volume_ratio": 0.6,
+        "above_trend_ma": true,
+        "trend_ma": 1029.35,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 1081.0,
+          "high": 1091.92,
+          "low": 1071.34,
+          "close": 1081.46,
+          "prev_open": 1063.91,
+          "prev_close": 1066.14
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5
+      },
+      "headline_reason": "1 positive keyword hits vs 0 negative.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
           "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $1081.46 is above its 15-day average ($1029.35).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.6x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "price": {
+        "price": 603.63,
+        "change_pct": 3.26,
+        "volume": 2557724,
+        "avg_volume": 3120277,
+        "volume_ratio": 0.82,
+        "above_trend_ma": false,
+        "trend_ma": 633.66,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 600.7,
+          "high": 610.5,
+          "low": 588.5,
+          "close": 603.63,
+          "prev_open": 569.75,
+          "prev_close": 584.57
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5
+      },
+      "headline_reason": "2 negative keyword hits vs 0 positive.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $603.63 is below its 15-day average ($633.66).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.82x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "NEE",
+      "price": {
+        "price": 85.96,
+        "change_pct": -0.36,
+        "volume": 5476018,
+        "avg_volume": 12769368,
+        "volume_ratio": 0.43,
+        "above_trend_ma": true,
+        "trend_ma": 84.5,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 85.81,
+          "high": 86.23,
+          "low": 85.57,
+          "close": 85.96,
+          "prev_open": 86.15,
+          "prev_close": 86.27
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5
+      },
+      "headline_reason": "1 positive keyword hits vs 0 negative.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "11 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $85.96 is above its 15-day average ($84.5).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.43x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "price": {
+        "price": 391.94,
+        "change_pct": 3.2,
+        "volume": 19619599,
+        "avg_volume": 36913524,
+        "volume_ratio": 0.53,
+        "above_trend_ma": true,
+        "trend_ma": 386.16,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 386.58,
+          "high": 395.43,
+          "low": 386.35,
+          "close": 391.94,
+          "prev_open": 370.85,
+          "prev_close": 379.78
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5
+      },
+      "headline_reason": "5 positive keyword hits vs 0 negative.",
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "14 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "5 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $391.94 is above its 15-day average ($386.16).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.53x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ]
     }

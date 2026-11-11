@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-11-10T19:54:40.276654+00:00",
+  "generated_at": "2026-11-11T19:47:28.900805+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 749.07,
-        "change_pct": -0.48,
-        "volume": 25162351,
-        "avg_volume": 45454930,
-        "volume_ratio": 0.55,
-        "above_trend_ma": false,
-        "trend_ma": 758.18,
+        "price": 760.58,
+        "change_pct": 1.42,
+        "volume": 21452648,
+        "avg_volume": 45324214,
+        "volume_ratio": 0.47,
+        "above_trend_ma": true,
+        "trend_ma": 757.41,
         "trend_ma_days": 15,
         "candles": {
-          "open": 747.94,
-          "high": 752.14,
-          "low": 744.87,
-          "close": 749.07,
-          "prev_open": 741.95,
-          "prev_close": 752.69
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "sell",
-        "sell",
-        "sell"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "7 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $749.07 is below its 15-day average ($758.18).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.55x the recent average -- unusually light conviction.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Bill Ackman, Elon Musk back Nvidia CEO Jensen Huang after affair with alleged Chinese spy",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/11/09/business/bill-ackman-elon-musk-back-nvidia-ceo-jensen-huang-after-affair-with-alleged-chinese-spy/"
-        },
-        {
-          "title": "Bill and Hillary Clinton have a NYC night out, G-Eazy\u2019s impromptu performance and more sightings",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/11/09/society/bill-and-hillary-clinton-have-a-nyc-night-out-g-eazys-impromptu-performance-and-more-sightings/"
-        },
-        {
-          "title": "Nvidia CEO Jensen Huang has no obvious successor as Chinese \u2018spy\u2019 affair puts job at risk",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/11/09/business/nvidia-ceo-jensen-huang-has-no-obvious-successor-as-chinese-spy-affair-puts-job-at-risk/"
-        },
-        {
-          "title": "What we know about the Nvidia CEO spy scandal",
-          "source": "Digital Journal",
-          "url": "https://www.digitaljournal.com/article/what-we-know-about-the-nvidia-ceo-spy-scandal/"
-        },
-        {
-          "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1a85efc5c7e2c6f7"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 672.67,
-        "change_pct": -0.98,
-        "volume": 28001809,
-        "avg_volume": 41203722,
-        "volume_ratio": 0.68,
-        "above_trend_ma": false,
-        "trend_ma": 694.16,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 672.55,
-          "high": 680.95,
-          "low": 667.05,
-          "close": 672.67,
-          "prev_open": 662.64,
-          "prev_close": 679.35
+          "open": 756.8,
+          "high": 762.51,
+          "low": 754.91,
+          "close": 760.58,
+          "prev_open": 747.94,
+          "prev_close": 749.92
         }
       },
       "call": {
@@ -115,33 +27,33 @@
         "positive_signals": 1,
         "negative_signals": 2,
         "total_signals": 6,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
-        "hold",
+        "sell",
+        "sell",
         "hold"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $672.67 is below its 15-day average ($694.16).",
+          "detail": "4 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $760.58 is above its 15-day average ($757.41).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.68x the recent average -- roughly normal.",
+          "detail": "Volume is 0.47x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -157,51 +69,144 @@
       ],
       "headlines": [
         {
-          "title": "Trade Tokenized US Stocks on HTX! HTX Launches Tokenized US Stocks for Spot Trading, with Zero Fees to Kick Off the Trading Carnival",
-          "source": "newsBTC",
-          "url": "https://www.newsbtc.com/news/trade-tokenized-us-stocks-on-htx-htx-launches-tokenized-us-stocks-for-spot-trading-with-zero-fees-to-kick-off-the-trading-carnival/"
+          "title": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader",
+          "source": "Freerepublic.com",
+          "url": "https://freerepublic.com/focus/f-chat/4402532/posts"
         },
         {
-          "title": "ETFs Are Net Sellers of Walmart (WMT) on Nov. 5",
+          "title": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html"
+        },
+        {
+          "title": "Nvidia stock crashes another 7%, down 32% in 24 trading days and wiping out $1.8 trillion: Is the Jensen Huang controversy creating a buying opportunity, or is Wall Street overlooking a bigger risk?",
+          "source": "The Times of India",
+          "url": "https://economictimes.indiatimes.com/news/international/us/nvidia-stock-crashes-another-7-down-32-in-24-trading-days-and-wiping-out-1-8-trillion-is-the-jensen-huang-controversy-creating-a-buying-opportunity-or-is-wall-street-overlooking-a-bigger-risk/articleshow/135718564.cms"
+        },
+        {
+          "title": "Nvidia Pulled Strings to Shut Down a US Government Investigation Into Chip Smuggling",
+          "source": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/nvidia-shut-down-government-investigation-chip-smuggling"
+        },
+        {
+          "title": "Safilo Group Sees Q3 Growth Fueled by North America\u00a0Recovery",
+          "source": "WWD",
+          "url": "http://wwd.com/business-news/financial/safilo-group-third-quarter-growth-north-america-recovery-1239409453/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 692.46,
+        "change_pct": 2.62,
+        "volume": 31653549,
+        "avg_volume": 41455598,
+        "volume_ratio": 0.76,
+        "above_trend_ma": true,
+        "trend_ma": 692.12,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 687.28,
+          "high": 695.57,
+          "low": 683.6,
+          "close": 692.46,
+          "prev_open": 672.54,
+          "prev_close": 674.76
+        }
+      },
+      "call": {
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "buy"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "9 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "4 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $692.46 is above its 15-day average ($692.12).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.76x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "How To Trade SPY, QQQ And Top Tech Stocks Including Nvidia",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/9276f891a228dc1b"
+          "url": "https://biztoc.com/x/4c0bfae689f9384b"
         },
         {
-          "title": "Retail Therapy: Defensive Bets Extend Streak, Trounce SPY, QQQ As EVgo, Helen Of Troy, Magnite Lead Weekly Consumer Gains",
+          "title": "JPMorgan says AI momentum stocks just had their worst month since 1985",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/jpmorgan-ai-momentum-stocks-worst-month-since-1985/"
+        },
+        {
+          "title": "SPY, QQQ Attract $9B as ETF Investors Shrug Off Volatility Worries - State Street SPDR S&P 500 ETF Trust\u2026",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/d1c1c0a8459b3a5a"
+          "url": "https://biztoc.com/x/fb0b30d7fceed676"
         },
         {
-          "title": "finzdata-deepseek added to PyPI",
-          "source": "Pypi.org",
-          "url": "https://pypi.org/project/finzdata-deepseek/"
+          "title": "The Nasdaq-100 Just Had Its Best Day Since March Without Nvidia\u2019s Help",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/a95582bd974319a2"
+        },
+        {
+          "title": "What INVESCO QQQ Trust (QQQ) Bought: Apple Leads on Nov. 6",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/fbbf486c17183090"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.62,
-        "change_pct": -0.71,
-        "volume": 4461933,
-        "avg_volume": 5752709,
-        "volume_ratio": 0.78,
-        "above_trend_ma": false,
-        "trend_ma": 82.75,
+        "price": 83.5,
+        "change_pct": 1.01,
+        "volume": 3660152,
+        "avg_volume": 5727448,
+        "volume_ratio": 0.64,
+        "above_trend_ma": true,
+        "trend_ma": 82.72,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.75,
-          "high": 83.08,
-          "low": 82.21,
-          "close": 82.62,
-          "prev_open": 82.32,
-          "prev_close": 83.22
+          "open": 83.15,
+          "high": 83.58,
+          "low": 82.88,
+          "close": 83.5,
+          "prev_open": 82.78,
+          "prev_close": 82.66
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
+        "positive_signals": 1,
+        "negative_signals": 0,
         "total_signals": 5,
         "displayed_call": "hold"
       },
@@ -224,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.62 is below its 15-day average ($82.75).",
-          "signal": "neg"
+          "detail": "Price $83.5 is above its 15-day average ($82.72).",
+          "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.78x the recent average -- roughly normal.",
+          "detail": "Volume is 0.64x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,36 +248,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 271.76,
-        "change_pct": 1.81,
-        "volume": 25265421,
-        "avg_volume": 41786718,
+        "price": 266.71,
+        "change_pct": -1.54,
+        "volume": 25316107,
+        "avg_volume": 42094313,
         "volume_ratio": 0.6,
         "above_trend_ma": true,
-        "trend_ma": 254.82,
+        "trend_ma": 255.05,
         "trend_ma_days": 15,
         "candles": {
-          "open": 266.33,
-          "high": 272.88,
-          "low": 266.14,
-          "close": 271.76,
-          "prev_open": 269.32,
-          "prev_close": 266.93
+          "open": 273.27,
+          "high": 274.87,
+          "low": 265.68,
+          "close": 266.71,
+          "prev_open": 266.21,
+          "prev_close": 270.87
         }
       },
       "call": {
         "call": "buy",
-        "positive_signals": 3,
+        "positive_signals": 2,
         "negative_signals": 0,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "buy"
       },
       "call_history": [
         "hold",
-        "hold",
+        "buy",
         "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -281,12 +286,12 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 2 negative.",
+          "detail": "2 positive keyword hits vs 0 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $271.76 is above its 15-day average ($254.82).",
+          "detail": "Price $266.71 is above its 15-day average ($255.05).",
           "signal": "pos"
         },
         {
@@ -295,57 +300,57 @@
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bullish engulfing",
-          "detail": "Today's candle fully engulfs yesterday's decline -- a common bullish reversal signal.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "Babystar 2026 SUBBED 1080p AMZN WEB-DL H264-cinepth",
+          "title": "This Is Not A Murder Mystery S01E05 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/babystar-2026-subbed-1080p-amzn-web-dl-h264-cinepth/"
+          "url": "https://post.rlsbb.cc/this-is-not-a-murder-mystery-s01e05-1080p-amzn-web-dl-h264-kitsune/"
         },
         {
-          "title": "The Oldest Person In The World 2026 1080p AMZN WEB-DL H264-cinepth",
+          "title": "A Fighting Legacy 2025 1080p AMZN WEB-DL H264-IMPULSE",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-oldest-person-in-the-world-2026-1080p-amzn-web-dl-h264-cinepth/"
+          "url": "https://post.rlsbb.cc/a-fighting-legacy-2025-1080p-amzn-web-dl-h264-impulse/"
         },
         {
-          "title": "META, AMZN Stocks Jump As JPMorgan Picks Pair Over Alphabet \u2014 Sees Stronger AI Returns, Cloud Growth",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0036c700e7cf0c50"
-        },
-        {
-          "title": "Amazon Stock Climbs 3.5% After JPMorgan Names It a Top AI Pick, Citing Faster AWS Growth and $1 Trillion Goal",
-          "source": "Ibtimes.com.au",
-          "url": "https://www.ibtimes.com.au/amazon-shares-rise-jpmorgan-top-ai-pick-1878224"
-        },
-        {
-          "title": "Ignition 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "title": "Amores Perros 2000 1080p AMZN WEB-DL H264-BiOMA",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/ignition-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+          "url": "https://post.rlsbb.cc/amores-perros-2000-1080p-amzn-web-dl-h264-bioma/"
+        },
+        {
+          "title": "The Intern 2026 1080p AMZN WEB-DL H264-CHORTLE",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-intern-2026-1080p-amzn-web-dl-h264-chortle/"
+        },
+        {
+          "title": "The Handmaiden 2016 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-handmaiden-2016-1080p-amzn-web-dl-h264-kitsune/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 284.82,
-        "change_pct": -0.42,
-        "volume": 10026943,
-        "avg_volume": 21053585,
-        "volume_ratio": 0.48,
+        "price": 291.5,
+        "change_pct": 2.31,
+        "volume": 11722058,
+        "avg_volume": 21062944,
+        "volume_ratio": 0.56,
         "above_trend_ma": false,
-        "trend_ma": 297.5,
+        "trend_ma": 294.88,
         "trend_ma_days": 15,
         "candles": {
-          "open": 287.27,
-          "high": 289.5,
-          "low": 283.37,
-          "close": 284.82,
-          "prev_open": 290.55,
-          "prev_close": 286.01
+          "open": 287.57,
+          "high": 292.92,
+          "low": 286.9,
+          "close": 291.5,
+          "prev_open": 287.14,
+          "prev_close": 284.92
         }
       },
       "call": {
@@ -364,7 +369,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "3 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -374,12 +379,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $284.82 is below its 15-day average ($297.5).",
+          "detail": "Price $291.5 is below its 15-day average ($294.88).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.48x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.56x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -394,6 +399,16 @@
         }
       ],
       "headlines": [
+        {
+          "title": "California's billionaire tax failed, but 'tax the rich' measures succeeded elsewhere",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/economy/article/californias-billionaire-tax-fails-but-other-tax-the-rich-measures-succeeded-around-the-country-123827246.html"
+        },
+        {
+          "title": "If I Could Buy Just 1 Stock in November and Hold for 5 Years, It Would Be Alphabet",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/7aeab72bb5d5dade"
+        },
         {
           "title": "Berkshire Hathaway's Top AI Holding Is Poised to Outperform",
           "source": "Biztoc.com",
