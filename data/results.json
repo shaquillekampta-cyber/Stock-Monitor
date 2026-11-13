@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-12T20:15:53.170529+00:00",
+  "generated_at": "2026-11-13T19:56:43.345174+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 757.1,
-        "change_pct": -0.36,
-        "volume": 26199262,
-        "avg_volume": 45287508,
-        "volume_ratio": 0.58,
-        "above_trend_ma": true,
-        "trend_ma": 756.9,
+        "price": 752.87,
+        "change_pct": -0.56,
+        "volume": 22579795,
+        "avg_volume": 45033144,
+        "volume_ratio": 0.5,
+        "above_trend_ma": false,
+        "trend_ma": 756.43,
         "trend_ma_days": 15,
         "candles": {
-          "open": 753.98,
-          "high": 763.03,
-          "low": 753.7,
-          "close": 757.1,
-          "prev_open": 756.8,
-          "prev_close": 759.81
+          "open": 760.07,
+          "high": 760.12,
+          "low": 747.89,
+          "close": 752.87,
+          "prev_open": 753.98,
+          "prev_close": 757.12
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 3,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "sell",
         "hold",
-        "hold"
+        "hold",
+        "sell"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
@@ -43,95 +43,90 @@
         },
         {
           "label": "Sentiment",
-          "detail": "5 negative keyword hits vs 0 positive.",
+          "detail": "3 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $757.1 is above its 15-day average ($756.9).",
-          "signal": "pos"
+          "detail": "Price $752.87 is below its 15-day average ($756.43).",
+          "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.58x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.5x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
           "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "DJ competition during Lakshmi idol immersion triggers clash in UP\u2019s Maharajganj, injuring several, including SHO; 11 detained",
-          "source": "The Times of India",
-          "url": "https://timesofindia.indiatimes.com/city/lucknow/dj-competition-during-lakshmi-idol-immersion-triggers-clash-in-ups-maharajganj-injuring-several-including-sho-11-detained/articleshow/135748289.cms"
+          "title": "Retail buyers limit Nvidia stock rout",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/business/retail-buyers-limit-nvidia-stock-rout-6547396"
         },
         {
-          "title": "Trump admin loses fight to spy on random journalists\u2019 LinkedIn DMs",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186691592"
+          "title": "5 places we think Shaq should hide for his new Dallas-based TV show",
+          "source": "Dallas Observer",
+          "url": "http://www.dallasobserver.com/arts-culture/5-places-we-think-shaq-should-hide-for-his-new-dallas-based-tv-show-40732769/"
         },
         {
-          "title": "BJP may field prominent MLCs in UP elections",
-          "source": "The Times of India",
-          "url": "https://timesofindia.indiatimes.com/city/lucknow/bjp-may-field-prominent-mlcs-in-up-elections/articleshow/135748287.cms"
+          "title": "Nvidia CEO Jensen Huang resigns",
+          "source": "iTnews",
+          "url": "https://www.itnews.com.au/news/nvidia-ceo-jensen-huang-resigns-630320?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+"
         },
         {
-          "title": "Silicon Valley Tech Allies Support Jensen Huang - The New York Times",
-          "source": "Slashdot.org",
-          "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186691576"
+          "title": "Trump: \u2018There\u2019s Only One Man\u2019 To Replace Ousted Nvidia CEO",
+          "source": "The Daily Caller",
+          "url": "https://dailycaller.com/2026/11/12/donald-trump-replacements-nvidia-ceo-jensen-huang-apple-chairman-tim-cook-ceo"
         },
         {
-          "title": "Man jumps into Gomti after blaming in-laws in video",
-          "source": "The Times of India",
-          "url": "https://timesofindia.indiatimes.com/city/lucknow/man-jumps-into-gomti-after-blaming-in-laws-in-video/articleshow/135748277.cms"
+          "title": "Here\u2019s who prediction markets are eyeing as the next CEO of Nvidia",
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/ian-buck-next-nvidia-ceo-jensen-huang-prediction-markets-2026-11#article"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 686.74,
-        "change_pct": -0.53,
-        "volume": 28827708,
-        "avg_volume": 41805527,
-        "volume_ratio": 0.69,
+        "price": 678.72,
+        "change_pct": -1.37,
+        "volume": 30098625,
+        "avg_volume": 41731858,
+        "volume_ratio": 0.72,
         "above_trend_ma": false,
-        "trend_ma": 690.8,
+        "trend_ma": 689.18,
         "trend_ma_days": 15,
         "candles": {
-          "open": 680.21,
-          "high": 694.56,
-          "low": 679.84,
-          "close": 686.74,
-          "prev_open": 687.28,
-          "prev_close": 690.38
+          "open": 688.51,
+          "high": 688.75,
+          "low": 671.71,
+          "close": 678.72,
+          "prev_open": 680.32,
+          "prev_close": 688.17
         }
       },
       "call": {
         "call": "sell",
         "positive_signals": 0,
-        "negative_signals": 2,
+        "negative_signals": 3,
         "total_signals": 5,
         "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
         "buy",
+        "sell",
         "sell"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "8 articles in the last 2 days.",
+          "detail": "10 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -141,66 +136,66 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $686.74 is below its 15-day average ($690.8).",
+          "detail": "Price $678.72 is below its 15-day average ($689.18).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.69x the recent average -- roughly normal.",
+          "detail": "Volume is 0.72x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
+          "label": "Candlestick: bearish engulfing",
+          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Nasdaq 100 Jumps 2.8% on CoreWeave, AI Rebound: Stock Market Today - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)",
+          "title": "Nvidia ETFs Have a New Problem: Life After Jensen Huang",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/fe7c1ca2f10375b0"
+          "url": "https://biztoc.com/x/1b4ace9076492b17"
         },
         {
-          "title": "Bitcoin price set for another bull run? Analyst spots 2023 pattern as ETF outflows plunge to $95 million, flags key BTC USD levels",
+          "title": "Jensen Huang Is Out. Here\u2019s How Much Nvidia\u2019s Selloff Cost a $10,000 QQQ Position",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/68e2b8803cbb0483"
+        },
+        {
+          "title": "Buys $10.6 Million More Apple on Nov. 10",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/99d44d845c958c85"
+        },
+        {
+          "title": "34 ETFs Add to Walmart (WMT) on Nov. 10",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6bac8e059cfb2728"
+        },
+        {
+          "title": "US stock market selloff: Four indicators suggest correction may not be over",
           "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/news/international/us/bitcoin-price-set-for-another-bull-run-analyst-spots-2023-pattern-as-etf-outflows-plunge-to-95-million-flags-key-btc-usd-levels/articleshow/135738029.cms"
-        },
-        {
-          "title": "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion",
-          "source": "Cointelegraph",
-          "url": "https://cointelegraph.com/markets/bitcoin-etf-outflows-persist-while-equity-investors-buy-the-dip"
-        },
-        {
-          "title": "How To Trade SPY, QQQ And Top Tech Stocks Including Nvidia",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/4c0bfae689f9384b"
-        },
-        {
-          "title": "JPMorgan says AI momentum stocks just had their worst month since 1985",
-          "source": "Crypto Briefing",
-          "url": "https://cryptobriefing.com/jpmorgan-ai-momentum-stocks-worst-month-since-1985/"
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stock-market-selloff-four-indicators-suggest-correction-may-not-be-over/articleshow/135760661.cms"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 82.65,
-        "change_pct": -0.95,
-        "volume": 3762904,
-        "avg_volume": 5706891,
-        "volume_ratio": 0.66,
+        "price": 82.47,
+        "change_pct": -0.22,
+        "volume": 4057669,
+        "avg_volume": 5681268,
+        "volume_ratio": 0.71,
         "above_trend_ma": false,
         "trend_ma": 82.71,
         "trend_ma_days": 15,
         "candles": {
-          "open": 82.65,
-          "high": 83.06,
-          "low": 82.49,
-          "close": 82.65,
-          "prev_open": 83.15,
-          "prev_close": 83.44
+          "open": 82.62,
+          "high": 82.72,
+          "low": 82.11,
+          "close": 82.47,
+          "prev_open": 82.65,
+          "prev_close": 82.66
         }
       },
       "call": {
@@ -229,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $82.65 is below its 15-day average ($82.71).",
+          "detail": "Price $82.47 is below its 15-day average ($82.71).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.66x the recent average -- roughly normal.",
+          "detail": "Volume is 0.71x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -254,36 +249,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 267.82,
-        "change_pct": 0.62,
-        "volume": 23693235,
-        "avg_volume": 42312412,
-        "volume_ratio": 0.56,
+        "price": 265.27,
+        "change_pct": -0.81,
+        "volume": 17353738,
+        "avg_volume": 41997958,
+        "volume_ratio": 0.41,
         "above_trend_ma": true,
-        "trend_ma": 256.17,
+        "trend_ma": 257.3,
         "trend_ma_days": 15,
         "candles": {
-          "open": 267.92,
-          "high": 273.6,
-          "low": 267.71,
-          "close": 267.82,
-          "prev_open": 273.52,
-          "prev_close": 266.17
+          "open": 269.55,
+          "high": 269.94,
+          "low": 263.91,
+          "close": 265.27,
+          "prev_open": 267.92,
+          "prev_close": 267.44
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "buy",
+        "positive_signals": 2,
+        "negative_signals": 0,
+        "total_signals": 5,
         "displayed_call": "buy"
       },
       "call_history": [
         "buy",
-        "buy",
-        "hold"
+        "hold",
+        "buy"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -292,17 +287,105 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $267.82 is above its 15-day average ($256.17).",
+          "detail": "Price $265.27 is above its 15-day average ($257.3).",
           "signal": "pos"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.56x the recent average -- unusually light conviction.",
+          "detail": "Volume is 0.41x the recent average -- unusually light conviction.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Ghost School 2026 1080p AMZN WEB-DL H264-cinepth",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/ghost-school-2026-1080p-amzn-web-dl-h264-cinepth/"
+        },
+        {
+          "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
+        },
+        {
+          "title": "Wheel Of Fortune S44E043 1080p AMZN WEB-DL H264-Kitsune",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/wheel-of-fortune-s44e043-1080p-amzn-web-dl-h264-kitsune/"
+        },
+        {
+          "title": "The Jigsaw Puzzle Murder S01 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/the-jigsaw-puzzle-murder-s01-720p-amzn-web-dl-h264-rawr/"
+        },
+        {
+          "title": "Which business moats will still matter in the age of AI?",
+          "source": "Fortune",
+          "url": "https://fortune.com/2026/11/12/ai-agents-behavioral-moats-consumer-inertia-investors/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 291.9,
+        "change_pct": -1.17,
+        "volume": 12099936,
+        "avg_volume": 21152900,
+        "volume_ratio": 0.57,
+        "above_trend_ma": true,
+        "trend_ma": 291.44,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 299.86,
+          "high": 301.62,
+          "low": 290.34,
+          "close": 291.9,
+          "prev_open": 290.55,
+          "prev_close": 295.35
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "7 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $291.9 is above its 15-day average ($291.44).",
+          "signal": "pos"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -318,112 +401,29 @@
       ],
       "headlines": [
         {
-          "title": "Tuts Lost City Revealed 2022 720p AMZN WEB-DL H264-playWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/tuts-lost-city-revealed-2022-720p-amzn-web-dl-h264-playweb/"
-        },
-        {
-          "title": "Jailer 2 2026 2160p AMZN WEB-DL H265-N0Mi",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/jailer-2-2026-2160p-amzn-web-dl-h265-n0mi/"
-        },
-        {
-          "title": "Billionaire venture capitalist Vinod Khosla says judge AI by usage, not stock prices",
+          "title": "Alphabet and Meta Platforms Pay Dividends. Is Either of Them Worth Owning for Income?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8c49c491dd1e095b"
+          "url": "https://biztoc.com/x/17bd30a8dff9d401"
         },
         {
-          "title": "No Way Through 2023 1080p AMZN WEB-DL H264-BiOMA",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/no-way-through-2023-1080p-amzn-web-dl-h264-bioma/"
-        },
-        {
-          "title": "Earth Odyssey With Dylan Dreyer S09E06 1080p AMZN WEB-DL H264-BurCyg",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/earth-odyssey-with-dylan-dreyer-s09e06-1080p-amzn-web-dl-h264-burcyg/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 296.17,
-        "change_pct": 1.91,
-        "volume": 15768555,
-        "avg_volume": 21212792,
-        "volume_ratio": 0.74,
-        "above_trend_ma": true,
-        "trend_ma": 293.18,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 290.69,
-          "high": 299.25,
-          "low": 290.47,
-          "close": 296.17,
-          "prev_open": 287.57,
-          "prev_close": 290.63
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 0,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $296.17 is above its 15-day average ($293.18).",
-          "signal": "pos"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 0.74x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Billionaire venture capitalist Vinod Khosla says judge AI by usage, not stock prices",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8c49c491dd1e095b"
-        },
-        {
-          "title": "Alphabet or CoreWeave: Which AI Stock Is Better to Buy in a Market Crash?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/5f8376a577482c1c"
-        },
-        {
-          "title": "California's billionaire tax failed, but 'tax the rich' measures succeeded elsewhere",
+          "title": "Nvidia board reportedly preparing to oust embattled CEO amid new affair allegations",
           "source": "Yahoo Entertainment",
-          "url": "https://finance.yahoo.com/economy/article/californias-billionaire-tax-fails-but-other-tax-the-rich-measures-succeeded-around-the-country-123827246.html"
+          "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-stock-tanks-after-new-affair-allegations-board-reportedly-preparing-to-oust-jensen-huang-130056785.html"
         },
         {
-          "title": "If I Could Buy Just 1 Stock in November and Hold for 5 Years, It Would Be Alphabet",
+          "title": "$1.99 | The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power (eBook) by Shoshana Zuboff",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20295699-1-99-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-frontier-of-power-ebook-by-shoshana-zuboff"
+        },
+        {
+          "title": "$1.99 | Difficult Conversations: How to Discuss What Matters Most (eBook) by Douglas Stone, Bruce Patton, Sheila Heen",
+          "source": "Slickdeals.net",
+          "url": "https://slickdeals.net/f/20295690-1-99-difficult-conversations-how-to-discuss-what-matters-most-ebook-by-douglas-stone-bruce-patton-sheila-heen"
+        },
+        {
+          "title": "AAPL, GOOG Stocks Gain Overnight As NVDA Slides: Are Retail Investors Rotating Into Traditional Tech Amid Leadership Turmoil?",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/7aeab72bb5d5dade"
+          "url": "https://biztoc.com/x/4632da94c1135895"
         }
       ]
     }
