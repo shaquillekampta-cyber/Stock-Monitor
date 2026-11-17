@@ -1,113 +1,25 @@
 {
-  "generated_at": "2026-11-16T22:25:46.357504+00:00",
+  "generated_at": "2026-11-17T21:12:32.255414+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 739.95,
-        "change_pct": -1.91,
-        "volume": 67827833,
-        "avg_volume": 45598270,
-        "volume_ratio": 1.49,
+        "price": 732.21,
+        "change_pct": -1.05,
+        "volume": 60819150,
+        "avg_volume": 45897680,
+        "volume_ratio": 1.33,
         "above_trend_ma": false,
-        "trend_ma": 754.83,
+        "trend_ma": 752.33,
         "trend_ma_days": 15,
         "candles": {
-          "open": 749.66,
-          "high": 749.82,
-          "low": 738.07,
-          "close": 739.95,
-          "prev_open": 760.07,
-          "prev_close": 754.37
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "hold",
-        "sell",
-        "sell"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $739.95 is below its 15-day average ($754.83).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.49x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Dame Judi Dench weighs in with surprising opinion on who should play the next James Bond",
-          "source": "Page Six",
-          "url": "https://pagesix.com/2026/11/15/entertainment/judi-dench-weighs-in-on-who-should-play-the-next-james-bond/"
-        },
-        {
-          "title": "Should You Buy Nvidia Stock Now That Jensen Huang Has Resigned? Here\u2019s What I\u2019m Doing",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/6839562c33c85cb2"
-        },
-        {
-          "title": "A hodge-podge Killing Eve prequel that shovels in every Cold War cliche:\u00a0CHRISTOPHER STEVENS reviews Honey",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/tvshowbiz/article-16294965/A-hodge-podge-Killing-Eve-prequel-shovels-Cold-War-cliche-CHRISTOPHER-STEVENS-reviews-Honey.html"
-        },
-        {
-          "title": "Commentary: Jensen Huang\u2019s downfall will accelerate US-China \u2018great decoupling\u2019",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/commentary/nvidia-jensen-huang-affair-us-china-ai-tech-decoupling-6552516"
-        },
-        {
-          "title": "MAGA Firebrand Steve Bannon Turns Up Heat on Trump Administration and Former Nvidia Boss Jensen Huang Amid Espionage Scandal",
-          "source": "Radaronline.com",
-          "url": "https://radaronline.com/p/maga-firebrand-steve-bannon-turns-up-heat-on-trump-administration-and-former-nvidia-boss-jensen-huang-amid-espionage-scandal/"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 661.75,
-        "change_pct": -2.67,
-        "volume": 41810606,
-        "avg_volume": 42648962,
-        "volume_ratio": 0.98,
-        "above_trend_ma": false,
-        "trend_ma": 685.9,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 671.05,
-          "high": 672.14,
-          "low": 660.48,
-          "close": 661.75,
-          "prev_open": 688.54,
-          "prev_close": 679.89
+          "open": 738.39,
+          "high": 739.76,
+          "low": 727.0,
+          "close": 732.21,
+          "prev_open": 749.66,
+          "prev_close": 739.95
         }
       },
       "call": {
@@ -126,7 +38,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +48,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $661.75 is below its 15-day average ($685.9).",
+          "detail": "Price $732.21 is below its 15-day average ($752.33).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.98x the recent average -- roughly normal.",
+          "detail": "Volume is 1.33x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,40 +64,138 @@
       ],
       "headlines": [
         {
+          "title": "Nvidia\u2019s Latest Move Signals Board Knows More To Story Than They\u2019re Letting On",
+          "source": "The Daily Caller",
+          "url": "https://dailycaller.com/2026/11/16/nvidia-jensen-huang-trump-law-firm-wachtell-lipton"
+        },
+        {
+          "title": "Robert Pattinson 007 Casting Splits Fans in First Reactions: \u2018Batman Can\u2019t Be Bond\u2019",
+          "source": "TheWrap",
+          "url": "https://www.thewrap.com/creative-content/movies/robert-pattinson-james-bond-casting-reactions/"
+        },
+        {
+          "title": "Fans hope new 007 can take James Bond into 'new era'",
+          "source": "RTE",
+          "url": "https://www.rte.ie/entertainment/2026/1116/1599459-fans-hope-new-007-can-take-james-bond-into-new-era/"
+        },
+        {
+          "title": "'Cool, sensual menace': What is the reaction to Pattinson's Bond and who else was in contention?",
+          "source": "TheJournal.ie",
+          "url": "https://www.thejournal.ie/robert-pattinson-james-bond-7228028-Nov2026/"
+        },
+        {
+          "title": "The Announcement of Who Will Play the Next James Bond Has Left Me Both Shaken and Stirred",
+          "source": "Slate Magazine",
+          "url": "https://slate.com/culture/2026/11/robert-pattinson-james-bond-new-next-movie.html"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 656.95,
+        "change_pct": -0.73,
+        "volume": 47687798,
+        "avg_volume": 42939288,
+        "volume_ratio": 1.11,
+        "above_trend_ma": false,
+        "trend_ma": 681.61,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 663.05,
+          "high": 663.36,
+          "low": 646.65,
+          "close": 656.95,
+          "prev_open": 671.04,
+          "prev_close": 661.75
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "sell",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "5 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $656.95 is below its 15-day average ($681.61).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.11x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "How To Trade SPY, QQQ And Top Tech Stocks",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/ccd0dbd9f7f6e3c6"
+        },
+        {
+          "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/735ce07bf3c86054"
+        },
+        {
+          "title": "Biotech ETFs Face Crucial FDA Week as Drug Catalysts Loom - State Street SPDR S&P Biotech ETF (ARCA:XBI)",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/9a4063b0b9d97e99"
+        },
+        {
+          "title": "Consumer Defensive Stocks Extend Winning Streak To 6 Weeks As SPY, QQQ Rebound: TTD, CHTR, TSLA Lead Gains",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/ce192b18be1e4910"
+        },
+        {
           "title": "Wall Street\u2019s wild Nvidia ride delivers big paydays and even bigger bruises",
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/business/markets/wall-street-s-wild-nvidia-ride-delivers-big-paydays-and-even-bigger-bruises-20261115-p61e8o.html"
-        },
-        {
-          "title": "Portfolio X-Ray \u2014 grade your portfolio's health in seconds, free",
-          "source": "Investmuse.io",
-          "url": "https://investmuse.io/x-ray/"
-        },
-        {
-          "title": "Wall Street\u2019s wild ride delivers big paydays and bigger bruises",
-          "source": "The Times of India",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-streets-wild-ride-delivers-big-paydays-and-bigger-bruises/articleshow/135822826.cms"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 80.99,
-        "change_pct": -2.0,
-        "volume": 6235383,
-        "avg_volume": 5728150,
-        "volume_ratio": 1.09,
+        "price": 80.11,
+        "change_pct": -1.09,
+        "volume": 6888951,
+        "avg_volume": 5583068,
+        "volume_ratio": 1.23,
         "above_trend_ma": false,
-        "trend_ma": 82.61,
+        "trend_ma": 82.4,
         "trend_ma_days": 15,
         "candles": {
-          "open": 81.76,
-          "high": 81.88,
-          "low": 80.96,
-          "close": 80.99,
-          "prev_open": 82.61,
-          "prev_close": 82.64
+          "open": 80.46,
+          "high": 80.56,
+          "low": 79.65,
+          "close": 80.11,
+          "prev_open": 81.75,
+          "prev_close": 80.99
         }
       },
       "call": {
@@ -214,12 +224,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $80.99 is below its 15-day average ($82.61).",
+          "detail": "Price $80.11 is below its 15-day average ($82.4).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.09x the recent average -- roughly normal.",
+          "detail": "Volume is 1.23x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -233,34 +243,34 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 257.75,
-        "change_pct": -3.34,
-        "volume": 47704999,
-        "avg_volume": 42958579,
-        "volume_ratio": 1.11,
+        "price": 257.89,
+        "change_pct": 0.05,
+        "volume": 34704890,
+        "avg_volume": 43067592,
+        "volume_ratio": 0.81,
         "above_trend_ma": false,
-        "trend_ma": 257.97,
+        "trend_ma": 258.29,
         "trend_ma_days": 15,
         "candles": {
-          "open": 262.71,
-          "high": 262.92,
-          "low": 256.68,
-          "close": 257.75,
-          "prev_open": 269.56,
-          "prev_close": 266.66
+          "open": 257.35,
+          "high": 259.9,
+          "low": 254.0,
+          "close": 257.89,
+          "prev_open": 262.4,
+          "prev_close": 257.75
         }
       },
       "call": {
-        "call": "sell",
+        "call": "hold",
         "positive_signals": 0,
-        "negative_signals": 2,
+        "negative_signals": 1,
         "total_signals": 5,
-        "displayed_call": "sell"
+        "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "buy",
-        "sell"
+        "sell",
+        "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -271,17 +281,17 @@
         },
         {
           "label": "Sentiment",
-          "detail": "4 negative keyword hits vs 1 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $257.75 is below its 15-day average ($257.97).",
+          "detail": "Price $257.89 is below its 15-day average ($258.29).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.11x the recent average -- roughly normal.",
+          "detail": "Volume is 0.81x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -292,57 +302,57 @@
       ],
       "headlines": [
         {
-          "title": "Lomu 2026 1080p AMZN WEB-DL X265-THESOURCE",
+          "title": "Whatever It Takes 2026 1080p AMZN WEB-DL H264-cinepth",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/lomu-2026-1080p-amzn-web-dl-x265-thesource/"
+          "url": "https://post.rlsbb.cc/whatever-it-takes-2026-1080p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "The Nights Before Christmas 2026 720p AMZN WEB-DL H264-CHORTLE",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-nights-before-christmas-2026-720p-amzn-web-dl-h264-chortle/"
+          "title": "Analyze Anthropic usage, spend, and access with AWS Glue, Amazon S3 Tables, and AWS Quick",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/big-data/analyze-anthropic-usage-spend-and-access-with-aws-glue-amazon-s3-tables-and-aws-quick/"
         },
         {
-          "title": "In My Own Hands 1996 1080p AMZN WEB-DL H264-MARCOSKUPAL",
+          "title": "Winter Of The Crow 2026 1080p AMZN WEB-DL H264-cinepth",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/in-my-own-hands-1996-1080p-amzn-web-dl-h264-marcoskupal/"
+          "url": "https://post.rlsbb.cc/winter-of-the-crow-2026-1080p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "Dont F K With Ghosts 2024 1080p AMZN WEB-DL H264-SPWEB",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/dont-f-k-with-ghosts-2024-1080p-amzn-web-dl-h264-spweb/"
+          "title": "Introducing enhanced snapshots for Amazon Managed Service for Apache Flink",
+          "source": "Amazon.com",
+          "url": "https://aws.amazon.com/blogs/big-data/introducing-enhanced-snapshots-for-amazon-managed-service-for-apache-flink/"
         },
         {
-          "title": "THE HALLOWED 2026 1080p AMZN WEB-DL H264-ANARCHY",
+          "title": "Six By Sondheim 2013 720p AMZN WEB-DL H264-playWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-hallowed-2026-1080p-amzn-web-dl-h264-anarchy/"
+          "url": "https://post.rlsbb.cc/six-by-sondheim-2013-720p-amzn-web-dl-h264-playweb/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 281.26,
-        "change_pct": -3.85,
-        "volume": 21086145,
-        "avg_volume": 21642108,
-        "volume_ratio": 0.97,
+        "price": 277.6,
+        "change_pct": -1.3,
+        "volume": 17560134,
+        "avg_volume": 21699535,
+        "volume_ratio": 0.81,
         "above_trend_ma": false,
-        "trend_ma": 289.28,
+        "trend_ma": 286.67,
         "trend_ma_days": 15,
         "candles": {
-          "open": 290.47,
-          "high": 290.75,
-          "low": 280.48,
-          "close": 281.26,
-          "prev_open": 299.89,
-          "prev_close": 292.52
+          "open": 280.78,
+          "high": 281.61,
+          "low": 276.05,
+          "close": 277.6,
+          "prev_open": 290.55,
+          "prev_close": 281.26
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -354,50 +364,35 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "1 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $281.26 is below its 15-day average ($289.28).",
+          "detail": "Price $277.6 is below its 15-day average ($286.67).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.97x the recent average -- roughly normal.",
+          "detail": "Volume is 0.81x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-          "source": "InfoQ.com",
-          "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/"
-        },
-        {
-          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-          "source": "InfoQ.com",
-          "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/"
-        },
-        {
-          "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
-          "source": "InfoQ.com",
-          "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/"
+          "title": "Trump\u2019s China trip faces complication after Nvidia CEO scandal",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/economy/article/trump-is-headed-to-china-this-week-jensen-huang-wont-be-on-the-trip-but-elon-musk-will-100000732.html"
         }
       ]
     }
