@@ -1,120 +1,32 @@
 {
-  "generated_at": "2026-11-17T21:12:32.255414+00:00",
+  "generated_at": "2026-11-18T20:48:09.787217+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 732.21,
-        "change_pct": -1.05,
-        "volume": 60819150,
-        "avg_volume": 45897680,
-        "volume_ratio": 1.33,
+        "price": 730.49,
+        "change_pct": -0.27,
+        "volume": 35868753,
+        "avg_volume": 45915594,
+        "volume_ratio": 0.78,
         "above_trend_ma": false,
-        "trend_ma": 752.33,
+        "trend_ma": 749.56,
         "trend_ma_days": 15,
         "candles": {
-          "open": 738.39,
-          "high": 739.76,
-          "low": 727.0,
-          "close": 732.21,
-          "prev_open": 749.66,
-          "prev_close": 739.95
+          "open": 733.37,
+          "high": 735.06,
+          "low": 726.79,
+          "close": 730.49,
+          "prev_open": 738.39,
+          "prev_close": 732.44
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "sell",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $732.21 is below its 15-day average ($752.33).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.33x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Nvidia\u2019s Latest Move Signals Board Knows More To Story Than They\u2019re Letting On",
-          "source": "The Daily Caller",
-          "url": "https://dailycaller.com/2026/11/16/nvidia-jensen-huang-trump-law-firm-wachtell-lipton"
-        },
-        {
-          "title": "Robert Pattinson 007 Casting Splits Fans in First Reactions: \u2018Batman Can\u2019t Be Bond\u2019",
-          "source": "TheWrap",
-          "url": "https://www.thewrap.com/creative-content/movies/robert-pattinson-james-bond-casting-reactions/"
-        },
-        {
-          "title": "Fans hope new 007 can take James Bond into 'new era'",
-          "source": "RTE",
-          "url": "https://www.rte.ie/entertainment/2026/1116/1599459-fans-hope-new-007-can-take-james-bond-into-new-era/"
-        },
-        {
-          "title": "'Cool, sensual menace': What is the reaction to Pattinson's Bond and who else was in contention?",
-          "source": "TheJournal.ie",
-          "url": "https://www.thejournal.ie/robert-pattinson-james-bond-7228028-Nov2026/"
-        },
-        {
-          "title": "The Announcement of Who Will Play the Next James Bond Has Left Me Both Shaken and Stirred",
-          "source": "Slate Magazine",
-          "url": "https://slate.com/culture/2026/11/robert-pattinson-james-bond-new-next-movie.html"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 656.95,
-        "change_pct": -0.73,
-        "volume": 47687798,
-        "avg_volume": 42939288,
-        "volume_ratio": 1.11,
-        "above_trend_ma": false,
-        "trend_ma": 681.61,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 663.05,
-          "high": 663.36,
-          "low": 646.65,
-          "close": 656.95,
-          "prev_open": 671.04,
-          "prev_close": 661.75
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -126,7 +38,100 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "5 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "1 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $730.49 is below its 15-day average ($749.56).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.78x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Ousted NVIDIA CEO Jensen Huang Claims He's Received 'Outpouring of Calls' Begging Him to 'Return' \u2014 After Alleged Affair With Chinese Spy",
+          "source": "Radaronline.com",
+          "url": "https://radaronline.com/p/nvidia-ceo-jensen-huang-received-outpouring-of-calls-begging-him-to-return-chinese-spy/"
+        },
+        {
+          "title": "Calls to return Jensen Huang as Nvidia CEO range from misguided to self-serving, and they have to stop",
+          "source": "TechRadar",
+          "url": "https://www.techradar.com/ai-platforms-assistants/please-stop-with-the-myth-of-the-indispensable-tech-ceo-and-let-jensen-huang-go"
+        },
+        {
+          "title": "7 possible trans Bond girls who\u2019d leave us shaken and stirred",
+          "source": "Them.us",
+          "url": "https://www.them.us/entertainment/tv-and-movies/trans-bond-girls-actresses-list"
+        },
+        {
+          "title": "Domino effect: why the red flag over Nvidia isn\u2019t about the \u2018honeypot\u2019",
+          "source": "Rt-english.com",
+          "url": "https://rt-english.com/business/648965-nvidia-scandal-ai/"
+        },
+        {
+          "title": "Don\u2019t Give Chips to China",
+          "source": "National Review",
+          "url": "https://www.nationalreview.com/corner/don-t-give-chips-to-china"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 658.94,
+        "change_pct": 0.3,
+        "volume": 37038830,
+        "avg_volume": 42987141,
+        "volume_ratio": 0.86,
+        "above_trend_ma": false,
+        "trend_ma": 677.17,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 661.07,
+          "high": 662.8,
+          "low": 653.08,
+          "close": 658.94,
+          "prev_open": 663.05,
+          "prev_close": 656.95
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "7 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -136,12 +141,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $656.95 is below its 15-day average ($681.61).",
+          "detail": "Price $658.94 is below its 15-day average ($677.17).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.11x the recent average -- roughly normal.",
+          "detail": "Volume is 0.86x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -152,6 +157,21 @@
       ],
       "headlines": [
         {
+          "title": "How Much Is Big Tech Spending On AI Data Centers?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/74bd3b845f4206b0"
+        },
+        {
+          "title": "Forget QQQ: The Company Behind It Runs the Same Index for $30 Less a Year on a $100K Balance",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/3ae7cf0a20deeedf"
+        },
+        {
+          "title": "The Nasdaq-100 Is Headed for Its Worst November Since 2008",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/4eed1065b33af927"
+        },
+        {
           "title": "How To Trade SPY, QQQ And Top Tech Stocks",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/ccd0dbd9f7f6e3c6"
@@ -160,42 +180,27 @@
           "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/735ce07bf3c86054"
-        },
-        {
-          "title": "Biotech ETFs Face Crucial FDA Week as Drug Catalysts Loom - State Street SPDR S&P Biotech ETF (ARCA:XBI)",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/9a4063b0b9d97e99"
-        },
-        {
-          "title": "Consumer Defensive Stocks Extend Winning Streak To 6 Weeks As SPY, QQQ Rebound: TTD, CHTR, TSLA Lead Gains",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/ce192b18be1e4910"
-        },
-        {
-          "title": "Wall Street\u2019s wild Nvidia ride delivers big paydays and even bigger bruises",
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/business/markets/wall-street-s-wild-nvidia-ride-delivers-big-paydays-and-even-bigger-bruises-20261115-p61e8o.html"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 80.11,
-        "change_pct": -1.09,
-        "volume": 6888951,
-        "avg_volume": 5583068,
-        "volume_ratio": 1.23,
+        "price": 79.22,
+        "change_pct": -1.11,
+        "volume": 7409746,
+        "avg_volume": 5625028,
+        "volume_ratio": 1.32,
         "above_trend_ma": false,
-        "trend_ma": 82.4,
+        "trend_ma": 82.09,
         "trend_ma_days": 15,
         "candles": {
-          "open": 80.46,
-          "high": 80.56,
-          "low": 79.65,
-          "close": 80.11,
-          "prev_open": 81.75,
-          "prev_close": 80.99
+          "open": 79.67,
+          "high": 79.79,
+          "low": 78.94,
+          "close": 79.22,
+          "prev_open": 80.45,
+          "prev_close": 80.11
         }
       },
       "call": {
@@ -224,12 +229,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $80.11 is below its 15-day average ($82.4).",
+          "detail": "Price $79.22 is below its 15-day average ($82.09).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.23x the recent average -- roughly normal.",
+          "detail": "Volume is 1.32x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -243,33 +248,33 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 257.89,
-        "change_pct": 0.05,
-        "volume": 34704890,
-        "avg_volume": 43067592,
-        "volume_ratio": 0.81,
-        "above_trend_ma": false,
-        "trend_ma": 258.29,
+        "price": 266.77,
+        "change_pct": 3.44,
+        "volume": 29582313,
+        "avg_volume": 42851570,
+        "volume_ratio": 0.69,
+        "above_trend_ma": true,
+        "trend_ma": 259.1,
         "trend_ma_days": 15,
         "candles": {
-          "open": 257.35,
-          "high": 259.9,
-          "low": 254.0,
-          "close": 257.89,
-          "prev_open": 262.4,
-          "prev_close": 257.75
+          "open": 259.81,
+          "high": 267.97,
+          "low": 259.63,
+          "close": 266.77,
+          "prev_open": 257.55,
+          "prev_close": 257.89
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "buy",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -281,71 +286,76 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $257.89 is below its 15-day average ($258.29).",
+          "detail": "1 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $266.77 is above its 15-day average ($259.1).",
+          "signal": "pos"
+        },
+        {
           "label": "Volume",
-          "detail": "Volume is 0.81x the recent average -- roughly normal.",
+          "detail": "Volume is 0.69x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Whatever It Takes 2026 1080p AMZN WEB-DL H264-cinepth",
+          "title": "Minnies Midnight Massacre 2026 1080p AMZN WEB-DL H264-playWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/whatever-it-takes-2026-1080p-amzn-web-dl-h264-cinepth/"
+          "url": "https://post.rlsbb.cc/minnies-midnight-massacre-2026-1080p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "Analyze Anthropic usage, spend, and access with AWS Glue, Amazon S3 Tables, and AWS Quick",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/analyze-anthropic-usage-spend-and-access-with-aws-glue-amazon-s3-tables-and-aws-quick/"
-        },
-        {
-          "title": "Winter Of The Crow 2026 1080p AMZN WEB-DL H264-cinepth",
+          "title": "Ketchup On Waffles 2024 1080p AMZN WEB-DL H264-playWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/winter-of-the-crow-2026-1080p-amzn-web-dl-h264-cinepth/"
+          "url": "https://post.rlsbb.cc/ketchup-on-waffles-2024-1080p-amzn-web-dl-h264-playweb/"
         },
         {
-          "title": "Introducing enhanced snapshots for Amazon Managed Service for Apache Flink",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/big-data/introducing-enhanced-snapshots-for-amazon-managed-service-for-apache-flink/"
-        },
-        {
-          "title": "Six By Sondheim 2013 720p AMZN WEB-DL H264-playWEB",
+          "title": "The Random Guest 2026 1080p AMZN WEB-DL H264-IMPULSE",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/six-by-sondheim-2013-720p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/the-random-guest-2026-1080p-amzn-web-dl-h264-impulse/"
+        },
+        {
+          "title": "Trump to advance plans on blocking Chinese data centre imports despite Big Tech lobbying efforts",
+          "source": "The Globe And Mail",
+          "url": "https://www.theglobeandmail.com/business/article-trump-to-advance-plans-on-blocking-chinese-data-centre-imports-despite/"
+        },
+        {
+          "title": "Tuesday links: a better edge",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/920aa6e24d4c92d0"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 277.6,
-        "change_pct": -1.3,
-        "volume": 17560134,
-        "avg_volume": 21699535,
-        "volume_ratio": 0.81,
+        "price": 280.16,
+        "change_pct": 0.92,
+        "volume": 12355450,
+        "avg_volume": 21554048,
+        "volume_ratio": 0.57,
         "above_trend_ma": false,
-        "trend_ma": 286.67,
+        "trend_ma": 283.88,
         "trend_ma_days": 15,
         "candles": {
-          "open": 280.78,
-          "high": 281.61,
-          "low": 276.05,
-          "close": 277.6,
-          "prev_open": 290.55,
-          "prev_close": 281.26
+          "open": 280.51,
+          "high": 282.36,
+          "low": 276.89,
+          "close": 280.16,
+          "prev_open": 281.03,
+          "prev_close": 277.6
         }
       },
       "call": {
@@ -364,7 +374,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "3 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -374,12 +384,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $277.6 is below its 15-day average ($286.67).",
+          "detail": "Price $280.16 is below its 15-day average ($283.88).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.81x the recent average -- roughly normal.",
+          "detail": "Volume is 0.57x the recent average -- unusually light conviction.",
           "signal": "neutral"
         },
         {
@@ -389,6 +399,16 @@
         }
       ],
       "headlines": [
+        {
+          "title": "Is Alphabet Stock a Buy After the Dip?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/b05c15b1a2fe097f"
+        },
+        {
+          "title": "\u884c\u92b7\u9577\u7a0b\u54c1\u6046\uff1a\u77ed\u5287\u65e5\u5747\u5438\u8d702\u5c0f\u6642\uff0c2027\u54c1\u724c\u77ed\u5f71\u97f3\u8981\u722d\u7684\u662f\u300c\u6642\u9593\u300d",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9e7a878f-869d-46ce-a8e0-9088a675bab6"
+        },
         {
           "title": "Trump\u2019s China trip faces complication after Nvidia CEO scandal",
           "source": "Yahoo Entertainment",
