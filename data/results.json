@@ -1,148 +1,60 @@
 {
-  "generated_at": "2026-11-19T20:53:17.030048+00:00",
+  "generated_at": "2026-11-20T20:38:42.454701+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 717.75,
-        "change_pct": -1.71,
-        "volume": 59388181,
-        "avg_volume": 46141256,
-        "volume_ratio": 1.29,
+        "price": 691.17,
+        "change_pct": -3.45,
+        "volume": 96008263,
+        "avg_volume": 47634176,
+        "volume_ratio": 2.02,
         "above_trend_ma": false,
-        "trend_ma": 746.1,
+        "trend_ma": 741.67,
         "trend_ma_days": 15,
         "candles": {
-          "open": 737.46,
-          "high": 739.9,
-          "low": 715.65,
-          "close": 717.75,
-          "prev_open": 733.37,
-          "prev_close": 730.2
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 2,
-        "total_signals": 5,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "hold",
-        "sell"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "19 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $717.75 is below its 15-day average ($746.1).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.29x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Tech Outages Spark Panic Buying, Costco Reaps the Rewards",
-          "source": "Breitbart News",
-          "url": "https://www.breitbart.com/pre-viral/2026/11/18/tech-outages-spark-panic-buying-costco-reaps-the-rewards/"
-        },
-        {
-          "title": "What to know about Trump's meeting with Xi in China",
-          "source": "CBS News",
-          "url": "https://www.cbsnews.com/news/trump-xi-meet-china-chips-ai/"
-        },
-        {
-          "title": "Billionaire investor Bill Ackman bashes Nvidia\u2019s board for not bringing back Jensen Huang",
-          "source": "Business Insider",
-          "url": "https://www.businessinsider.com/bill-ackman-nvidia-board-reinstate-jensen-huang-ai-nvda-stock-2026-11"
-        },
-        {
-          "title": "The Nvidia Summit",
-          "source": "The American Prospect",
-          "url": "https://prospect.org/2026/11/18/nvidia-summit-trump-china-big-tech/"
-        },
-        {
-          "title": "US lawmakers launch probe into Lutnick\u2019s actions amid Nvidia scandal",
-          "source": "Al Jazeera English",
-          "url": "https://www.aljazeera.com/economy/2026/11/18/us-lawmakers-launch-probe-into-lutnicks-actions-amid-nvidia-scandal"
-        }
-      ]
-    },
-    {
-      "ticker": "QQQ",
-      "price": {
-        "price": 647.28,
-        "change_pct": -1.85,
-        "volume": 62687239,
-        "avg_volume": 43494309,
-        "volume_ratio": 1.44,
-        "above_trend_ma": false,
-        "trend_ma": 672.67,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 671.05,
-          "high": 676.46,
-          "low": 644.34,
-          "close": 647.28,
-          "prev_open": 661.03,
-          "prev_close": 659.51
+          "open": 713.56,
+          "high": 718.29,
+          "low": 689.45,
+          "close": 691.17,
+          "prev_open": 737.46,
+          "prev_close": 715.87
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
+        "positive_signals": 2,
         "negative_signals": 2,
         "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
+        "sell",
         "hold"
       ],
       "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "11 articles in the last 2 days.",
+          "detail": "20 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "2 positive keyword hits vs 0 negative.",
+          "detail": "3 positive keyword hits vs 2 negative.",
           "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $647.28 is below its 15-day average ($672.67).",
+          "detail": "Price $691.17 is below its 15-day average ($741.67).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.44x the recent average -- roughly normal.",
-          "signal": "neutral"
+          "detail": "Volume is 2.02x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "pos"
         },
         {
           "label": "Candlestick",
@@ -157,6 +69,109 @@
       ],
       "headlines": [
         {
+          "title": "Joy Reid demands ousted Nvidia boss, Elon Musk, and US-born Palantir CEO all be deported for 'corruption' after affair scandal",
+          "source": "Dailymail.com",
+          "url": "https://www.dailymail.com/media/article-16306627/joy-reid-deport-nvidia-boss-jensen-huang-ceo-affair.html"
+        },
+        {
+          "title": "Trump Buys Up to $265,000 in Nvidia Stock as Administration Weighs New Chip Restrictions \u2014 After Company's CEO Resigns Amid Scandal",
+          "source": "Radaronline.com",
+          "url": "https://radaronline.com/p/trump-buys-nvidia-stock-new-chip-restrictions-companys-ceo-resigns-scandal/"
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline | TechCrunch",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        },
+        {
+          "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+        },
+        {
+          "title": "Tatsuya Endo \u2018SPY\u00d7FAMILY\u2019 Vol. 18 Holds Atop Japan Book Hot 100",
+          "source": "Billboard",
+          "url": "https://www.billboard.com/music/chart-beat/tatsuya-endo-spyfamily-18-holds-atop-japan-book-hot-100-1236385853/"
+        }
+      ]
+    },
+    {
+      "ticker": "QQQ",
+      "price": {
+        "price": 610.93,
+        "change_pct": -5.29,
+        "volume": 104279487,
+        "avg_volume": 45040161,
+        "volume_ratio": 2.32,
+        "above_trend_ma": false,
+        "trend_ma": 667.21,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 638.81,
+          "high": 643.28,
+          "low": 608.92,
+          "close": 610.93,
+          "prev_open": 671.09,
+          "prev_close": 645.04
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 2,
+        "negative_signals": 2,
+        "total_signals": 6,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "8 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "3 positive keyword hits vs 0 negative.",
+          "signal": "pos"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $610.93 is below its 15-day average ($667.21).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 2.32x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "pos"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "SpaceX Offers a Clue to What Anthropic\u2019s IPO Could Mean for QQQ Holders",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/079df73e8b2ed381"
+        },
+        {
+          "title": "Invesco QQQ Is 14% Below Its October Record. Here's Where I Think It Will Be in 2030",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/c9f84af2ca0fb5da"
+        },
+        {
           "title": "What investors should know about Anthropic's unusual IPO",
           "source": "Abcnews.com",
           "url": "https://abcnews.com/US/wireStory/investors-anthropics-unusual-ipo-138254440"
@@ -170,37 +185,27 @@
           "title": "How to get Anthropic stock \u2014 without buying the IPO",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-stock-ai.html"
-        },
-        {
-          "title": "$10,000 in QQQ in November 1999, Months Before the Dot-Com Crash, Is Now Worth $101,185",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/3ebe5ceda557debf"
-        },
-        {
-          "title": "Bitcoin Mining Stocks Now Trade More Like Chipmakers Than Bitcoin",
-          "source": "Dcforecasts.com",
-          "url": "https://www.dcforecasts.com/analysis/bitcoin-mining-stocks-correlation-chipmakers/"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 78.04,
-        "change_pct": -1.51,
-        "volume": 11415624,
-        "avg_volume": 5781932,
-        "volume_ratio": 1.97,
+        "price": 75.42,
+        "change_pct": -3.23,
+        "volume": 13785046,
+        "avg_volume": 5968252,
+        "volume_ratio": 2.31,
         "above_trend_ma": false,
-        "trend_ma": 81.72,
+        "trend_ma": 81.25,
         "trend_ma_days": 15,
         "candles": {
-          "open": 79.46,
-          "high": 79.54,
-          "low": 77.83,
-          "close": 78.04,
-          "prev_open": 79.73,
-          "prev_close": 79.24
+          "open": 77.1,
+          "high": 77.45,
+          "low": 75.24,
+          "close": 75.42,
+          "prev_open": 79.48,
+          "prev_close": 77.93
         }
       },
       "call": {
@@ -208,14 +213,14 @@
         "positive_signals": 0,
         "negative_signals": 3,
         "total_signals": 5,
-        "displayed_call": "hold"
+        "displayed_call": "sell"
       },
       "call_history": [
         "hold",
-        "hold",
+        "sell",
         "sell"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -229,12 +234,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $78.04 is below its 15-day average ($81.72).",
+          "detail": "Price $75.42 is below its 15-day average ($81.25).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.97x the recent average -- unusually high, news is likely being acted on.",
+          "detail": "Volume is 2.31x the recent average -- unusually high, news is likely being acted on.",
           "signal": "neg"
         },
         {
@@ -254,36 +259,36 @@
     {
       "ticker": "AMZN",
       "price": {
-        "price": 258.23,
-        "change_pct": -3.55,
-        "volume": 41448662,
-        "avg_volume": 42871596,
-        "volume_ratio": 0.97,
+        "price": 246.68,
+        "change_pct": -4.15,
+        "volume": 51033545,
+        "avg_volume": 43312289,
+        "volume_ratio": 1.18,
         "above_trend_ma": false,
-        "trend_ma": 260.13,
+        "trend_ma": 260.49,
         "trend_ma_days": 15,
         "candles": {
-          "open": 272.58,
-          "high": 274.0,
-          "low": 256.75,
-          "close": 258.23,
-          "prev_open": 259.81,
-          "prev_close": 267.74
+          "open": 253.41,
+          "high": 259.97,
+          "low": 245.71,
+          "close": 246.68,
+          "prev_open": 272.56,
+          "prev_close": 257.37
         }
       },
       "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 3,
-        "total_signals": 5,
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
-        "hold",
-        "sell"
+        "sell",
+        "hold"
       ],
-      "signal_changed_this_run": true,
+      "signal_changed_this_run": false,
       "checklist": [
         {
           "label": "News catalyst",
@@ -292,71 +297,76 @@
         },
         {
           "label": "Sentiment",
-          "detail": "2 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "4 positive keyword hits vs 0 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $258.23 is below its 15-day average ($260.13).",
+          "detail": "Price $246.68 is below its 15-day average ($260.49).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 0.97x the recent average -- roughly normal.",
+          "detail": "Volume is 1.18x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: bearish engulfing",
-          "detail": "Today's decline fully engulfs yesterday's gain -- a common bearish reversal signal.",
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
           "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+          "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
           "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/"
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/"
         },
         {
-          "title": "Mountain Shark 2024 720p AMZN WEB-DL DD+5 1 H264-playWEB",
+          "title": "Anthropic hits $2 trillion market value in IPO debut; major indexes fall",
+          "source": "Freerepublic.com",
+          "url": "https://freerepublic.com/focus/f-chat/4403659/posts"
+        },
+        {
+          "title": "Where the Sun Always Shines S02E02 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/mountain-shark-2024-720p-amzn-web-dl-dd5-1-h264-playweb/"
+          "url": "https://post.rlsbb.cc/where-the-sun-always-shines-s02e02-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Robots.txt Guide \u2013 Best Practices For Search & AI Crawlers via @sejournal, @vahandev",
-          "source": "Search Engine Journal",
-          "url": "https://www.searchenginejournal.com/technical-seo/robots-txt-guide-best-practices-for-search-ai-crawlers/"
-        },
-        {
-          "title": "Undercover Christmas 2003 720p AMZN WEB-DL H264-playWEB",
+          "title": "Where the Sun Always Shines S02E01 1080p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/undercover-christmas-2003-720p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/where-the-sun-always-shines-s02e01-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "Cult 2026 720p AMZN WEB-DL H264-KHN",
+          "title": "The Influencer Project 2026 1080p AMZN WEB-DL H264-cinepth",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/cult-2026-720p-amzn-web-dl-h264-khn/"
+          "url": "https://post.rlsbb.cc/the-influencer-project-2026-1080p-amzn-web-dl-h264-cinepth/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 271.82,
-        "change_pct": -2.64,
-        "volume": 23166478,
-        "avg_volume": 21520972,
-        "volume_ratio": 1.08,
+        "price": 264.69,
+        "change_pct": -2.34,
+        "volume": 26111481,
+        "avg_volume": 21758372,
+        "volume_ratio": 1.2,
         "above_trend_ma": false,
-        "trend_ma": 283.12,
+        "trend_ma": 282.17,
         "trend_ma_days": 15,
         "candles": {
-          "open": 290.66,
-          "high": 292.21,
-          "low": 271.23,
-          "close": 271.82,
-          "prev_open": 280.42,
-          "prev_close": 279.2
+          "open": 272.45,
+          "high": 280.52,
+          "low": 264.1,
+          "close": 264.69,
+          "prev_open": 290.83,
+          "prev_close": 271.02
         }
       },
       "call": {
@@ -375,7 +385,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "4 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -385,12 +395,12 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $271.82 is below its 15-day average ($283.12).",
+          "detail": "Price $264.69 is below its 15-day average ($282.17).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.08x the recent average -- roughly normal.",
+          "detail": "Volume is 1.2x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -406,19 +416,24 @@
       ],
       "headlines": [
         {
+          "title": "Show HN: Local Graph for Your Agents",
+          "source": "Github.com",
+          "url": "https://github.com/vmikhailov/cypher-mcp"
+        },
+        {
+          "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
+          "source": "Kdnuggets.com",
+          "url": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy"
+        },
+        {
+          "title": "Anthropic reportedly prices blockbuster IPO at $83 a share ahead of trading",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8854e2fa-c53a-4efc-bbc7-7fa62c721863"
+        },
+        {
           "title": "Waymo halts robotaxi rides on U.S. freeways after California ban",
           "source": "Biztoc.com",
           "url": "https://biztoc.com/x/5132cd31e96a9e58"
-        },
-        {
-          "title": "Is Alphabet Stock a Buy After the Dip?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/b05c15b1a2fe097f"
-        },
-        {
-          "title": "\u884c\u92b7\u9577\u7a0b\u54c1\u6046\uff1a\u77ed\u5287\u65e5\u5747\u5438\u8d702\u5c0f\u6642\uff0c2027\u54c1\u724c\u77ed\u5f71\u97f3\u8981\u722d\u7684\u662f\u300c\u6642\u9593\u300d",
-          "source": "Yahoo Entertainment",
-          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9e7a878f-869d-46ce-a8e0-9088a675bab6"
         }
       ]
     }
