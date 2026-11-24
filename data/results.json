@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-11-24T00:11:28.923139+00:00",
+  "generated_at": "2026-11-24T22:40:39.356472+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 722.29,
-        "change_pct": 4.71,
-        "volume": 87055065,
-        "avg_volume": 49893392,
-        "volume_ratio": 1.74,
+        "price": 718.78,
+        "change_pct": -0.49,
+        "volume": 63350573,
+        "avg_volume": 50380813,
+        "volume_ratio": 1.26,
         "above_trend_ma": false,
-        "trend_ma": 739.59,
+        "trend_ma": 737.22,
         "trend_ma_days": 15,
         "candles": {
-          "open": 724.33,
-          "high": 727.97,
-          "low": 713.54,
-          "close": 722.29,
-          "prev_open": 713.56,
-          "prev_close": 689.81
+          "open": 715.15,
+          "high": 720.92,
+          "low": 712.14,
+          "close": 718.78,
+          "prev_open": 724.33,
+          "prev_close": 722.29
         }
       },
       "call": {
         "call": "sell",
-        "positive_signals": 1,
-        "negative_signals": 3,
+        "positive_signals": 0,
+        "negative_signals": 2,
         "total_signals": 5,
         "displayed_call": "sell"
       },
       "call_history": [
-        "sell",
         "hold",
+        "sell",
         "sell"
       ],
       "signal_changed_this_run": false,
@@ -43,78 +43,78 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 negative keyword hits vs 1 positive.",
+          "detail": "4 negative keyword hits vs 0 positive.",
           "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $722.29 is below its 15-day average ($739.59).",
+          "detail": "Price $718.78 is below its 15-day average ($737.22).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.74x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "neg"
+          "detail": "Volume is 1.26x the recent average -- roughly normal.",
+          "signal": "neutral"
         },
         {
-          "label": "Candlestick: breakout",
-          "detail": "Up 4.71% in one day on 1.74x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
         {
-          "title": "Lucy Powell promotes UK education in China despite risks",
-          "source": "POLITICO.eu",
-          "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/"
+          "title": "US adds Megaspeed, at center of Nvidia scandal, to a trade blacklist",
+          "source": "DW (English)",
+          "url": "https://www.dw.com/en/us-adds-megaspeed-at-center-of-nvidia-scandal-to-a-trade-blacklist/a-80026849"
         },
         {
-          "title": "Graham Dumpleton: Muru: working with coding agents",
-          "source": "Grahamdumpleton.me",
-          "url": "https://grahamdumpleton.me/posts/2026/11/muru-working-with-coding-agents/"
+          "title": "Trump engineered a risky comeback for Jensen Huang",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
         },
         {
-          "title": "Waiting For The World To Change",
-          "source": "Substack.com",
-          "url": "https://chinaarticles.substack.com/p/waiting-for-the-world-to-change"
+          "title": "Nvidia Is Now Too Big to Hold to Account",
+          "source": "Foreign Policy",
+          "url": "https://foreignpolicy.com/2026/11/23/nvidia-jensen-huang-return-us-china-ai-risk/"
         },
         {
-          "title": "U.S. probing alleged spy tied to ex-Nvidia CEO, spy chief says",
+          "title": "Trump engineered a risky comeback for Jensen Huang",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/1842c24e3d7af5fd"
+          "url": "https://biztoc.com/x/b6cccea144707972"
         },
         {
-          "title": "This Golden Age Flash First Appearance Could Be Worth $234,000, But There\u2019s a Catch",
-          "source": "ComicBook.com",
-          "url": "https://comicbook.com/collectibles/news/this-golden-age-flash-first-appearance-could-be-worth-234000-but-theres-a-catch/"
+          "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/6d13339fd3ea6cd1"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 651.03,
-        "change_pct": 7.0,
-        "volume": 83460835,
-        "avg_volume": 46983675,
-        "volume_ratio": 1.78,
+        "price": 638.1,
+        "change_pct": -1.99,
+        "volume": 56270876,
+        "avg_volume": 47670485,
+        "volume_ratio": 1.18,
         "above_trend_ma": false,
-        "trend_ma": 665.04,
+        "trend_ma": 661.9,
         "trend_ma_days": 15,
         "candles": {
-          "open": 655.98,
-          "high": 657.5,
-          "low": 641.95,
-          "close": 651.03,
-          "prev_open": 638.84,
-          "prev_close": 608.45
+          "open": 640.02,
+          "high": 643.47,
+          "low": 631.15,
+          "close": 638.1,
+          "prev_open": 655.98,
+          "prev_close": 651.03
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
@@ -126,118 +126,81 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "9 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "4 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $651.03 is below its 15-day average ($665.04).",
+          "detail": "Price $638.1 is below its 15-day average ($661.9).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.78x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
+          "detail": "Volume is 1.18x the recent average -- roughly normal.",
+          "signal": "neutral"
         },
         {
-          "label": "Candlestick: breakout",
-          "detail": "Up 7.0% in one day on 1.78x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Nasdaq turns negative for 2026 as Friday tech rout caps worst week since 2020",
-          "source": "ValueWalk",
-          "url": "https://www.valuewalk.com/nasdaq-negative-2026-tech-rout-worst-week-since-2020/"
+          "title": "SQQQ ETF Shares Rebound, Rise Over 6% After Key Trading Signal - ProShares UltraPro Short QQQ (NASDAQ:SQQQ)",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/178559fd9a7856b6"
+        },
+        {
+          "title": "Huang Reinstated\u2014Time To Add Positions In AI And Semi Stocks - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/61b58125c30f94f3"
+        },
+        {
+          "title": "Stocks surge as Jensen Huang's reinstatement at Nvidia sparks stunning rally",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
+        },
+        {
+          "title": "What Explains The Fall In Meta Stock?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/bcc5aa60d95280b1"
+        },
+        {
+          "title": "Nvidia reinstates Jensen Huang as CEO and president",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html"
         }
       ]
     },
     {
       "ticker": "VXUS",
       "price": {
-        "price": 78.25,
-        "change_pct": 3.81,
-        "volume": 9798385,
-        "avg_volume": 6084764,
-        "volume_ratio": 1.61,
+        "price": 77.94,
+        "change_pct": -0.4,
+        "volume": 7584351,
+        "avg_volume": 6132010,
+        "volume_ratio": 1.24,
         "above_trend_ma": false,
-        "trend_ma": 80.96,
+        "trend_ma": 80.67,
         "trend_ma_days": 15,
         "candles": {
-          "open": 78.8,
-          "high": 78.93,
-          "low": 78.1,
-          "close": 78.25,
-          "prev_open": 77.01,
-          "prev_close": 75.38
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 1,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "sell",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": true,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $78.25 is below its 15-day average ($80.96).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.61x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        }
-      ],
-      "headlines": []
-    },
-    {
-      "ticker": "AMZN",
-      "price": {
-        "price": 255.39,
-        "change_pct": 3.47,
-        "volume": 52860784,
-        "avg_volume": 44088771,
-        "volume_ratio": 1.2,
-        "above_trend_ma": false,
-        "trend_ma": 261.15,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 260.26,
-          "high": 262.48,
-          "low": 251.25,
-          "close": 255.39,
-          "prev_open": 253.48,
-          "prev_close": 246.82
+          "open": 77.97,
+          "high": 78.29,
+          "low": 77.28,
+          "close": 77.94,
+          "prev_open": 78.87,
+          "prev_close": 78.25
         }
       },
       "call": {
@@ -256,7 +219,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "16 articles in the last 2 days.",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
           "signal": "neutral"
         },
         {
@@ -266,12 +229,74 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $255.39 is below its 15-day average ($261.15).",
+          "detail": "Price $77.94 is below its 15-day average ($80.67).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.2x the recent average -- roughly normal.",
+          "detail": "Volume is 1.24x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
+        }
+      ],
+      "headlines": []
+    },
+    {
+      "ticker": "AMZN",
+      "price": {
+        "price": 252.29,
+        "change_pct": -1.21,
+        "volume": 33796817,
+        "avg_volume": 44121977,
+        "volume_ratio": 0.77,
+        "above_trend_ma": false,
+        "trend_ma": 261.26,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 252.54,
+          "high": 255.56,
+          "low": 250.53,
+          "close": 252.29,
+          "prev_open": 260.26,
+          "prev_close": 255.39
+        }
+      },
+      "call": {
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 2,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "sell"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "20 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "2 negative keyword hits vs 0 positive.",
+          "signal": "neg"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $252.29 is below its 15-day average ($261.26).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 0.77x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -282,55 +307,55 @@
       ],
       "headlines": [
         {
-          "title": "Ed Gambles Unacceptable S02E03 1080p AMZN WEB-DL H264-RAWR",
+          "title": "Sam Lovegrove Race Mechanic S01E06 720p AMZN WEB-DL H264-RAWR",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/ed-gambles-unacceptable-s02e03-1080p-amzn-web-dl-h264-rawr/"
+          "url": "https://post.rlsbb.cc/sam-lovegrove-race-mechanic-s01e06-720p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "African Throne World Tour 2024 1080p AMZN WEB-DL H264-Helios",
+          "title": "There Was There Was Not 2025 SUBBED 720p AMZN WEB-DL H264-cinepth",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/african-throne-world-tour-2024-1080p-amzn-web-dl-h264-helios/"
+          "url": "https://post.rlsbb.cc/there-was-there-was-not-2025-subbed-720p-amzn-web-dl-h264-cinepth/"
         },
         {
-          "title": "Valentines Lake 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/valentines-lake-2026-1080p-amzn-web-dl-h264-bobdobbs/"
+          "title": "inference-tracker added to PyPI",
+          "source": "Pypi.org",
+          "url": "https://pypi.org/project/inference-tracker/"
         },
         {
-          "title": "Kopis 2025 1080p AMZN WEB-DL H264-SPWEB",
+          "title": "My Brother My Love 2018 1080p AMZN WEB-DL H264-KHEZU",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/kopis-2025-1080p-amzn-web-dl-h264-spweb/"
+          "url": "https://post.rlsbb.cc/my-brother-my-love-2018-1080p-amzn-web-dl-h264-khezu/"
         },
         {
-          "title": "Infamia S01E02 720p AMZN WEB-DL H264-RAWR",
+          "title": "Dateline Unforgettable S09E02 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/infamia-s01e02-720p-amzn-web-dl-h264-rawr/"
+          "url": "https://post.rlsbb.cc/dateline-unforgettable-s09e02-1080p-amzn-web-dl-h264-kitsune/"
         }
       ]
     },
     {
       "ticker": "GOOG",
       "price": {
-        "price": 279.53,
-        "change_pct": 5.88,
-        "volume": 31321256,
-        "avg_volume": 22338622,
-        "volume_ratio": 1.4,
+        "price": 276.58,
+        "change_pct": -1.06,
+        "volume": 23411727,
+        "avg_volume": 22527172,
+        "volume_ratio": 1.04,
         "above_trend_ma": false,
-        "trend_ma": 282.22,
+        "trend_ma": 282.11,
         "trend_ma_days": 15,
         "candles": {
-          "open": 282.49,
-          "high": 282.62,
-          "low": 273.0,
-          "close": 279.53,
-          "prev_open": 272.45,
-          "prev_close": 264.0
+          "open": 278.7,
+          "high": 278.94,
+          "low": 273.91,
+          "close": 276.58,
+          "prev_open": 282.49,
+          "prev_close": 279.53
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
+        "positive_signals": 0,
         "negative_signals": 1,
         "total_signals": 5,
         "displayed_call": "hold"
@@ -344,7 +369,7 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "1 articles in the last 2 days.",
+          "detail": "3 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
@@ -354,21 +379,31 @@
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $279.53 is below its 15-day average ($282.22).",
+          "detail": "Price $276.58 is below its 15-day average ($282.11).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.4x the recent average -- roughly normal.",
+          "detail": "Volume is 1.04x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
-          "label": "Candlestick: hammer",
-          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
-          "signal": "pos"
+          "label": "Candlestick",
+          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
+          "signal": "neutral"
         }
       ],
       "headlines": [
+        {
+          "title": "Alphabet Stock Pops: What's Going On?",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/a158d90cf2b6457e"
+        },
+        {
+          "title": "Chelsea player completed two passes in an hour \u2013 Alonso\u2019s tactical challenge clear",
+          "source": "Yahoo Entertainment",
+          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5dfe53da-cd6e-4be5-8152-bdcd1d40a30e"
+        },
         {
           "title": "David Tepper exits AMD and Broadcom, doubles down on Nvidia and Micron",
           "source": "Crypto Briefing",
