@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-20T20:38:42.454701+00:00",
+  "generated_at": "2026-11-24T00:11:28.923139+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
       "ticker": "SPY",
       "price": {
-        "price": 691.17,
-        "change_pct": -3.45,
-        "volume": 96008263,
-        "avg_volume": 47634176,
-        "volume_ratio": 2.02,
+        "price": 722.29,
+        "change_pct": 4.71,
+        "volume": 87055065,
+        "avg_volume": 49893392,
+        "volume_ratio": 1.74,
         "above_trend_ma": false,
-        "trend_ma": 741.67,
+        "trend_ma": 739.59,
         "trend_ma_days": 15,
         "candles": {
-          "open": 713.56,
-          "high": 718.29,
-          "low": 689.45,
-          "close": 691.17,
-          "prev_open": 737.46,
-          "prev_close": 715.87
+          "open": 724.33,
+          "high": 727.97,
+          "low": 713.54,
+          "close": 722.29,
+          "prev_open": 713.56,
+          "prev_close": 689.81
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
+        "call": "sell",
+        "positive_signals": 1,
+        "negative_signals": 3,
+        "total_signals": 5,
+        "displayed_call": "sell"
       },
       "call_history": [
-        "hold",
         "sell",
-        "hold"
+        "hold",
+        "sell"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -43,182 +43,84 @@
         },
         {
           "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 2 negative.",
-          "signal": "pos"
+          "detail": "3 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $691.17 is below its 15-day average ($741.67).",
+          "detail": "Price $722.29 is below its 15-day average ($739.59).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 2.02x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "detail": "Volume is 1.74x the recent average -- unusually high, news is likely being acted on.",
           "signal": "neg"
+        },
+        {
+          "label": "Candlestick: breakout",
+          "detail": "Up 4.71% in one day on 1.74x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
+          "signal": "pos"
         }
       ],
       "headlines": [
         {
-          "title": "Joy Reid demands ousted Nvidia boss, Elon Musk, and US-born Palantir CEO all be deported for 'corruption' after affair scandal",
-          "source": "Dailymail.com",
-          "url": "https://www.dailymail.com/media/article-16306627/joy-reid-deport-nvidia-boss-jensen-huang-ceo-affair.html"
+          "title": "Lucy Powell promotes UK education in China despite risks",
+          "source": "POLITICO.eu",
+          "url": "https://www.politico.eu/article/lucy-powell-promotes-uk-education-in-china-despite-risks/"
         },
         {
-          "title": "Trump Buys Up to $265,000 in Nvidia Stock as Administration Weighs New Chip Restrictions \u2014 After Company's CEO Resigns Amid Scandal",
-          "source": "Radaronline.com",
-          "url": "https://radaronline.com/p/trump-buys-nvidia-stock-new-chip-restrictions-companys-ceo-resigns-scandal/"
+          "title": "Graham Dumpleton: Muru: working with coding agents",
+          "source": "Grahamdumpleton.me",
+          "url": "https://grahamdumpleton.me/posts/2026/11/muru-working-with-coding-agents/"
         },
         {
-          "title": "The unfolding Jensen Huang scandal: a timeline | TechCrunch",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+          "title": "Waiting For The World To Change",
+          "source": "Substack.com",
+          "url": "https://chinaarticles.substack.com/p/waiting-for-the-world-to-change"
         },
         {
-          "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+          "title": "U.S. probing alleged spy tied to ex-Nvidia CEO, spy chief says",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/1842c24e3d7af5fd"
         },
         {
-          "title": "Tatsuya Endo \u2018SPY\u00d7FAMILY\u2019 Vol. 18 Holds Atop Japan Book Hot 100",
-          "source": "Billboard",
-          "url": "https://www.billboard.com/music/chart-beat/tatsuya-endo-spyfamily-18-holds-atop-japan-book-hot-100-1236385853/"
+          "title": "This Golden Age Flash First Appearance Could Be Worth $234,000, But There\u2019s a Catch",
+          "source": "ComicBook.com",
+          "url": "https://comicbook.com/collectibles/news/this-golden-age-flash-first-appearance-could-be-worth-234000-but-theres-a-catch/"
         }
       ]
     },
     {
       "ticker": "QQQ",
       "price": {
-        "price": 610.93,
-        "change_pct": -5.29,
-        "volume": 104279487,
-        "avg_volume": 45040161,
-        "volume_ratio": 2.32,
+        "price": 651.03,
+        "change_pct": 7.0,
+        "volume": 83460835,
+        "avg_volume": 46983675,
+        "volume_ratio": 1.78,
         "above_trend_ma": false,
-        "trend_ma": 667.21,
+        "trend_ma": 665.04,
         "trend_ma_days": 15,
         "candles": {
-          "open": 638.81,
-          "high": 643.28,
-          "low": 608.92,
-          "close": 610.93,
-          "prev_open": 671.09,
-          "prev_close": 645.04
+          "open": 655.98,
+          "high": 657.5,
+          "low": 641.95,
+          "close": 651.03,
+          "prev_open": 638.84,
+          "prev_close": 608.45
         }
       },
       "call": {
         "call": "hold",
         "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
         "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "8 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "3 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $610.93 is below its 15-day average ($667.21).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 2.32x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "SpaceX Offers a Clue to What Anthropic\u2019s IPO Could Mean for QQQ Holders",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/079df73e8b2ed381"
-        },
-        {
-          "title": "Invesco QQQ Is 14% Below Its October Record. Here's Where I Think It Will Be in 2030",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/c9f84af2ca0fb5da"
-        },
-        {
-          "title": "What investors should know about Anthropic's unusual IPO",
-          "source": "Abcnews.com",
-          "url": "https://abcnews.com/US/wireStory/investors-anthropics-unusual-ipo-138254440"
-        },
-        {
-          "title": "What investors should know about Anthropic's unusual IPO",
-          "source": "WDIV ClickOnDetroit",
-          "url": "https://www.clickondetroit.com/business/2026/11/18/what-investors-should-know-about-anthropics-unusual-ipo/"
-        },
-        {
-          "title": "How to get Anthropic stock \u2014 without buying the IPO",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-stock-ai.html"
-        }
-      ]
-    },
-    {
-      "ticker": "VXUS",
-      "price": {
-        "price": 75.42,
-        "change_pct": -3.23,
-        "volume": 13785046,
-        "avg_volume": 5968252,
-        "volume_ratio": 2.31,
-        "above_trend_ma": false,
-        "trend_ma": 81.25,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 77.1,
-          "high": 77.45,
-          "low": 75.24,
-          "close": 75.42,
-          "prev_open": 79.48,
-          "prev_close": 77.93
-        }
-      },
-      "call": {
-        "call": "sell",
-        "positive_signals": 0,
-        "negative_signals": 3,
-        "total_signals": 5,
-        "displayed_call": "sell"
-      },
-      "call_history": [
-        "hold",
-        "sell",
-        "sell"
       ],
       "signal_changed_this_run": false,
       "checklist": [
@@ -229,18 +131,86 @@
         },
         {
           "label": "Sentiment",
-          "detail": "1 negative keyword hits vs 0 positive.",
-          "signal": "neg"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $75.42 is below its 15-day average ($81.25).",
+          "detail": "Price $651.03 is below its 15-day average ($665.04).",
           "signal": "neg"
         },
         {
           "label": "Volume",
-          "detail": "Volume is 2.31x the recent average -- unusually high, news is likely being acted on.",
+          "detail": "Volume is 1.78x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "pos"
+        },
+        {
+          "label": "Candlestick: breakout",
+          "detail": "Up 7.0% in one day on 1.78x average volume -- a volume-confirmed breakout, the kind of single-day jump worth watching for a swing entry.",
+          "signal": "pos"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "Nasdaq turns negative for 2026 as Friday tech rout caps worst week since 2020",
+          "source": "ValueWalk",
+          "url": "https://www.valuewalk.com/nasdaq-negative-2026-tech-rout-worst-week-since-2020/"
+        }
+      ]
+    },
+    {
+      "ticker": "VXUS",
+      "price": {
+        "price": 78.25,
+        "change_pct": 3.81,
+        "volume": 9798385,
+        "avg_volume": 6084764,
+        "volume_ratio": 1.61,
+        "above_trend_ma": false,
+        "trend_ma": 80.96,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 78.8,
+          "high": 78.93,
+          "low": 78.1,
+          "close": 78.25,
+          "prev_open": 77.01,
+          "prev_close": 75.38
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "sell"
+      },
+      "call_history": [
+        "sell",
+        "sell",
+        "hold"
+      ],
+      "signal_changed_this_run": true,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "No recent articles found (check API key/quota, or ticker is quiet).",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $78.25 is below its 15-day average ($80.96).",
           "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.61x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "pos"
         },
         {
           "label": "Candlestick",
@@ -248,136 +218,37 @@
           "signal": "neutral"
         }
       ],
-      "headlines": [
-        {
-          "title": "3 Reasons I'm Not Selling a Single Share of VXUS No Matter What the Market Does in 2027",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e593a7d53def5781"
-        }
-      ]
+      "headlines": []
     },
     {
       "ticker": "AMZN",
       "price": {
-        "price": 246.68,
-        "change_pct": -4.15,
-        "volume": 51033545,
-        "avg_volume": 43312289,
-        "volume_ratio": 1.18,
-        "above_trend_ma": false,
-        "trend_ma": 260.49,
-        "trend_ma_days": 15,
-        "candles": {
-          "open": 253.41,
-          "high": 259.97,
-          "low": 245.71,
-          "close": 246.68,
-          "prev_open": 272.56,
-          "prev_close": 257.37
-        }
-      },
-      "call": {
-        "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
-        "displayed_call": "hold"
-      },
-      "call_history": [
-        "hold",
-        "sell",
-        "hold"
-      ],
-      "signal_changed_this_run": false,
-      "checklist": [
-        {
-          "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Sentiment",
-          "detail": "4 positive keyword hits vs 0 negative.",
-          "signal": "pos"
-        },
-        {
-          "label": "Trend (15-day, swing window)",
-          "detail": "Price $246.68 is below its 15-day average ($260.49).",
-          "signal": "neg"
-        },
-        {
-          "label": "Volume",
-          "detail": "Volume is 1.18x the recent average -- roughly normal.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Candlestick",
-          "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
-          "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
-        }
-      ],
-      "headlines": [
-        {
-          "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
-          "source": "Amazon.com",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/"
-        },
-        {
-          "title": "Anthropic hits $2 trillion market value in IPO debut; major indexes fall",
-          "source": "Freerepublic.com",
-          "url": "https://freerepublic.com/focus/f-chat/4403659/posts"
-        },
-        {
-          "title": "Where the Sun Always Shines S02E02 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/where-the-sun-always-shines-s02e02-1080p-amzn-web-dl-h264-rawr/"
-        },
-        {
-          "title": "Where the Sun Always Shines S02E01 1080p AMZN WEB-DL H264-RAWR",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/where-the-sun-always-shines-s02e01-1080p-amzn-web-dl-h264-rawr/"
-        },
-        {
-          "title": "The Influencer Project 2026 1080p AMZN WEB-DL H264-cinepth",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/the-influencer-project-2026-1080p-amzn-web-dl-h264-cinepth/"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOG",
-      "price": {
-        "price": 264.69,
-        "change_pct": -2.34,
-        "volume": 26111481,
-        "avg_volume": 21758372,
+        "price": 255.39,
+        "change_pct": 3.47,
+        "volume": 52860784,
+        "avg_volume": 44088771,
         "volume_ratio": 1.2,
         "above_trend_ma": false,
-        "trend_ma": 282.17,
+        "trend_ma": 261.15,
         "trend_ma_days": 15,
         "candles": {
-          "open": 272.45,
-          "high": 280.52,
-          "low": 264.1,
-          "close": 264.69,
-          "prev_open": 290.83,
-          "prev_close": 271.02
+          "open": 260.26,
+          "high": 262.48,
+          "low": 251.25,
+          "close": 255.39,
+          "prev_open": 253.48,
+          "prev_close": 246.82
         }
       },
       "call": {
         "call": "hold",
-        "positive_signals": 1,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "positive_signals": 0,
+        "negative_signals": 1,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
+        "sell",
         "hold",
         "hold"
       ],
@@ -385,17 +256,17 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "4 articles in the last 2 days.",
+          "detail": "16 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
-          "signal": "pos"
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
         },
         {
           "label": "Trend (15-day, swing window)",
-          "detail": "Price $264.69 is below its 15-day average ($282.17).",
+          "detail": "Price $255.39 is below its 15-day average ($261.15).",
           "signal": "neg"
         },
         {
@@ -407,33 +278,101 @@
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Show HN: Local Graph for Your Agents",
-          "source": "Github.com",
-          "url": "https://github.com/vmikhailov/cypher-mcp"
+          "title": "Ed Gambles Unacceptable S02E03 1080p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/ed-gambles-unacceptable-s02e03-1080p-amzn-web-dl-h264-rawr/"
         },
         {
-          "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
-          "source": "Kdnuggets.com",
-          "url": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy"
+          "title": "African Throne World Tour 2024 1080p AMZN WEB-DL H264-Helios",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/african-throne-world-tour-2024-1080p-amzn-web-dl-h264-helios/"
         },
         {
-          "title": "Anthropic reportedly prices blockbuster IPO at $83 a share ahead of trading",
-          "source": "Yahoo Entertainment",
-          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8854e2fa-c53a-4efc-bbc7-7fa62c721863"
+          "title": "Valentines Lake 2026 1080p AMZN WEB-DL H264-BobDobbs",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/valentines-lake-2026-1080p-amzn-web-dl-h264-bobdobbs/"
         },
         {
-          "title": "Waymo halts robotaxi rides on U.S. freeways after California ban",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/5132cd31e96a9e58"
+          "title": "Kopis 2025 1080p AMZN WEB-DL H264-SPWEB",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/kopis-2025-1080p-amzn-web-dl-h264-spweb/"
+        },
+        {
+          "title": "Infamia S01E02 720p AMZN WEB-DL H264-RAWR",
+          "source": "Rlsbb.cc",
+          "url": "https://post.rlsbb.cc/infamia-s01e02-720p-amzn-web-dl-h264-rawr/"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "price": {
+        "price": 279.53,
+        "change_pct": 5.88,
+        "volume": 31321256,
+        "avg_volume": 22338622,
+        "volume_ratio": 1.4,
+        "above_trend_ma": false,
+        "trend_ma": 282.22,
+        "trend_ma_days": 15,
+        "candles": {
+          "open": 282.49,
+          "high": 282.62,
+          "low": 273.0,
+          "close": 279.53,
+          "prev_open": 272.45,
+          "prev_close": 264.0
+        }
+      },
+      "call": {
+        "call": "hold",
+        "positive_signals": 1,
+        "negative_signals": 1,
+        "total_signals": 5,
+        "displayed_call": "hold"
+      },
+      "call_history": [
+        "hold",
+        "hold",
+        "hold"
+      ],
+      "signal_changed_this_run": false,
+      "checklist": [
+        {
+          "label": "News catalyst",
+          "detail": "1 articles in the last 2 days.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Sentiment",
+          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Trend (15-day, swing window)",
+          "detail": "Price $279.53 is below its 15-day average ($282.22).",
+          "signal": "neg"
+        },
+        {
+          "label": "Volume",
+          "detail": "Volume is 1.4x the recent average -- roughly normal.",
+          "signal": "neutral"
+        },
+        {
+          "label": "Candlestick: hammer",
+          "detail": "Long lower wick with a small body near the day's high -- often signals a bottom forming.",
+          "signal": "pos"
+        }
+      ],
+      "headlines": [
+        {
+          "title": "David Tepper exits AMD and Broadcom, doubles down on Nvidia and Micron",
+          "source": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/david-tepper-exits-amd-broadcom-ai-chips/"
         }
       ]
     }
