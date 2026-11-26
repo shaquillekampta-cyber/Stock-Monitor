@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:55:04.648354+00:00",
+  "generated_at": "2026-11-26T21:48:40.870208+00:00",
   "swing_window": "2-6 weeks",
   "tickers": [
     {
@@ -7,9 +7,9 @@
       "price": {
         "price": 716.7,
         "change_pct": -0.29,
-        "volume": 71269766,
-        "avg_volume": 51208620,
-        "volume_ratio": 1.39,
+        "volume": 73112800,
+        "avg_volume": 51251481,
+        "volume_ratio": 1.43,
         "above_trend_ma": false,
         "trend_ma": 733.88,
         "trend_ma_days": 15,
@@ -38,12 +38,12 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "20 articles in the last 2 days.",
+          "detail": "19 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 negative keyword hits vs 3 positive.",
+          "detail": "3 negative keyword hits vs 1 positive.",
           "signal": "neg"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.39x the recent average -- roughly normal.",
+          "detail": "Volume is 1.43x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -64,29 +64,29 @@
       ],
       "headlines": [
         {
-          "title": "Chinese tech company Huawei convicted on federal charges",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/2267faf721fae267"
+          "title": "What Happened to Alice Huang, the Woman at the Center of Nvidia\u2019s Scandal?",
+          "source": "Decrypt",
+          "url": "https://decrypt.co/384001/what-happened-alice-huang-nvidia-spy-scandal"
         },
         {
-          "title": "DOJ \u2018looking into\u2019 Nvidia\u2019s Jensen Huang but not necessarily in a \u2018criminal\u2019 way, AG Blanche says",
-          "source": "New York Post",
-          "url": "https://nypost.com/2026/11/24/us-news/doj-looking-into-nvidias-jensen-huang-but-not-necessarily-in-a-criminal-way/"
+          "title": "Vance says Jensen Huang won't need pardon as Nvidia saga looms over Washington",
+          "source": "Yahoo Entertainment",
+          "url": "https://www.yahoo.com/news/politics/articles/vance-says-jensen-huang-wont-214007844.html"
         },
         {
-          "title": "National Security Reporter Spots Jarring Catch In Todd Blanche's Attempt To Sanitize Trump\u2019s Nvidia Corruption",
-          "source": "Crooksandliars.com",
-          "url": "https://crooksandliars.com/2026/11/raskin-shreds-sorkin-attempt-sanitize"
+          "title": "Chiefs-Bills: 5 Things to Watch in Week 12 matchup",
+          "source": "Arrowhead Pride",
+          "url": "https://www.arrowheadpride.com/kansas-city-chiefs-analysis/217426/chiefs-bills-5-things-watch-week-12-matchup"
         },
         {
-          "title": "Nvidia, Anthropic end sharply lower as AI selloff resumes",
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/stocks-wall-street-nvidia-anthropic-ai-6579601"
+          "title": "The $2 trillion chip rally is unraveling. History offers a warning.",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html"
         },
         {
-          "title": "Apple and Google Tell Senators Why Canada\u2019s Spy Bill Is a Bad Idea",
-          "source": "iPhone in Canada",
-          "url": "https://www.iphoneincanada.ca/2026/11/24/apple-google-bill-c22-senate-encryption-backdoors/"
+          "title": "Nvidia CEO's comeback fuels debate over misogyny and impunity for the rich and powerful",
+          "source": "Abcnews.com",
+          "url": "https://abcnews.com/US/wireStory/nvidia-ceos-comeback-fuels-debate-misogyny-impunity-rich-138451682"
         }
       ]
     },
@@ -95,44 +95,44 @@
       "price": {
         "price": 633.93,
         "change_pct": -0.65,
-        "volume": 80139524,
-        "avg_volume": 48862740,
-        "volume_ratio": 1.64,
+        "volume": 81996700,
+        "avg_volume": 48905930,
+        "volume_ratio": 1.68,
         "above_trend_ma": false,
         "trend_ma": 658.03,
         "trend_ma_days": 15,
         "candles": {
           "open": 617.1,
           "high": 634.89,
-          "low": 607.76,
+          "low": 607.74,
           "close": 633.93,
           "prev_open": 640.04,
           "prev_close": 638.1
         }
       },
       "call": {
-        "call": "hold",
-        "positive_signals": 2,
-        "negative_signals": 2,
-        "total_signals": 6,
+        "call": "sell",
+        "positive_signals": 0,
+        "negative_signals": 3,
+        "total_signals": 5,
         "displayed_call": "hold"
       },
       "call_history": [
         "hold",
         "hold",
-        "hold"
+        "sell"
       ],
-      "signal_changed_this_run": false,
+      "signal_changed_this_run": true,
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "15 articles in the last 2 days.",
+          "detail": "11 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "5 positive keyword hits vs 2 negative.",
-          "signal": "pos"
+          "detail": "3 negative keyword hits vs 1 positive.",
+          "signal": "neg"
         },
         {
           "label": "Trend (15-day, swing window)",
@@ -141,45 +141,40 @@
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.64x the recent average -- unusually high, news is likely being acted on.",
-          "signal": "pos"
+          "detail": "Volume is 1.68x the recent average -- unusually high, news is likely being acted on.",
+          "signal": "neg"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
-        },
-        {
-          "label": "Conflicting signals",
-          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
-          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "Nasdaq 100 Is Cheapest vs. S&P 500 in 20 Years: Jefferies - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)",
+          "title": "1 Surprisingly Powerful ETF for Investors Who Only Have $200 to Start",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/e5744ae11e4d596b"
+          "url": "https://biztoc.com/x/7c366bc382d3bf36"
         },
         {
-          "title": "QQQ Just Had Its Biggest Opening Jump Since It Launched in 1999",
+          "title": "Nasdaq 100 Worst 2-Month Drop Since 2008 as AI Trade Unwinds - Invesco QQQ Trust, Series 1 (NASDAQ:QQQ)",
           "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/0985fb1417ea86ab"
+          "url": "https://biztoc.com/x/f175c428480cb5a9"
         },
         {
-          "title": "The 10-Year Topped 5% For The First Time Since 2007. What Happened Next?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/8679151019c611a2"
+          "title": "Applied Optoelectronics Stock Tumbles 11% As AI Optics Sell-Off Resumes After Dilution Fears Hammered Shares",
+          "source": "Ibtimes.com.au",
+          "url": "https://www.ibtimes.com.au/applied-optoelectronics-shares-ai-stock-selloff-1879395"
         },
         {
-          "title": "Every free TradingView alternative on the internet (127) \u00b7 hft.md",
-          "source": "Hft.md",
-          "url": "https://hft.md/tradingview/"
+          "title": "Largest borrow rate increases among liquid names",
+          "source": "Thefly.com",
+          "url": "https://www.thefly.com/qid"
         },
         {
-          "title": "QQQ Paid a $300,000 Holder $1,524 in Dividends Over the Past Year While VYM Paid $7,164",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/57088b27fce1c0ec"
+          "title": "Animal Spirits: The Stock Market is Too Big to Fail",
+          "source": "Awealthofcommonsense.com",
+          "url": "https://awealthofcommonsense.com/2026/11/animal-spirits-the-stock-market-is-too-big-to-fail/"
         }
       ]
     },
@@ -188,15 +183,15 @@
       "price": {
         "price": 78.02,
         "change_pct": 0.1,
-        "volume": 7556505,
-        "avg_volume": 6211244,
-        "volume_ratio": 1.22,
+        "volume": 7647600,
+        "avg_volume": 6213362,
+        "volume_ratio": 1.23,
         "above_trend_ma": false,
         "trend_ma": 80.28,
         "trend_ma_days": 15,
         "candles": {
           "open": 76.61,
-          "high": 78.07,
+          "high": 78.08,
           "low": 76.03,
           "close": 78.02,
           "prev_open": 78.02,
@@ -234,7 +229,7 @@
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.22x the recent average -- roughly normal.",
+          "detail": "Volume is 1.23x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -250,15 +245,15 @@
       "price": {
         "price": 244.43,
         "change_pct": -3.12,
-        "volume": 61063914,
-        "avg_volume": 44748114,
-        "volume_ratio": 1.36,
+        "volume": 62479500,
+        "avg_volume": 44781034,
+        "volume_ratio": 1.4,
         "above_trend_ma": false,
         "trend_ma": 259.82,
         "trend_ma_days": 15,
         "candles": {
-          "open": 243.12,
-          "high": 246.55,
+          "open": 243.13,
+          "high": 246.56,
           "low": 235.96,
           "close": 244.43,
           "prev_open": 252.29,
@@ -267,14 +262,14 @@
       },
       "call": {
         "call": "hold",
-        "positive_signals": 0,
-        "negative_signals": 1,
-        "total_signals": 5,
+        "positive_signals": 1,
+        "negative_signals": 2,
+        "total_signals": 6,
         "displayed_call": "hold"
       },
       "call_history": [
-        "hold",
         "sell",
+        "hold",
         "hold"
       ],
       "signal_changed_this_run": false,
@@ -286,8 +281,8 @@
         },
         {
           "label": "Sentiment",
-          "detail": "No clear lean -- positive and negative keyword hits are balanced or absent.",
-          "signal": "neutral"
+          "detail": "2 positive keyword hits vs 1 negative.",
+          "signal": "pos"
         },
         {
           "label": "Trend (15-day, swing window)",
@@ -296,40 +291,45 @@
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.36x the recent average -- roughly normal.",
+          "detail": "Volume is 1.4x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
           "label": "Candlestick",
           "detail": "No notable single/two-day candlestick pattern or volume-confirmed breakout today.",
           "signal": "neutral"
+        },
+        {
+          "label": "Conflicting signals",
+          "detail": "News sentiment and price trend disagree -- treat with extra caution.",
+          "signal": "neg"
         }
       ],
       "headlines": [
         {
-          "title": "School For Boys 2026 1080p AMZN WEB-DL H264-BobDobbs",
-          "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/school-for-boys-2026-1080p-amzn-web-dl-h264-bobdobbs-2/"
+          "title": "The $2 trillion chip rally is unraveling. History offers a warning.",
+          "source": "Yahoo Entertainment",
+          "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html"
         },
         {
-          "title": "Kalakal 2025 1080p AMZN WEB-DL H264-SPWEB",
+          "title": "Greatest Cartoons Of The Golden Era Vol 5 2025 1080p AMZN WEB-DL H264-SPWEB",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/kalakal-2025-1080p-amzn-web-dl-h264-spweb/"
+          "url": "https://post.rlsbb.cc/greatest-cartoons-of-the-golden-era-vol-5-2025-1080p-amzn-web-dl-h264-spweb/"
         },
         {
-          "title": "Jimmy Carrs Am I The Asshole S02E04 1080p AMZN WEB-DL H264-RAWR",
+          "title": "LOL 2.0 2026 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/jimmy-carrs-am-i-the-asshole-s02e04-1080p-amzn-web-dl-h264-rawr/"
+          "url": "https://post.rlsbb.cc/lol-2-0-2026-1080p-amzn-web-dl-h264-kitsune/"
         },
         {
-          "title": "LAKATABU 2024 720p AMZN WEB-DL H264-Helios",
+          "title": "The Christmas Heartbeat 2026 1080p AMZN WEB-DL H264-Kitsune",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/lakatabu-2024-720p-amzn-web-dl-h264-helios/"
+          "url": "https://post.rlsbb.cc/the-christmas-heartbeat-2026-1080p-amzn-web-dl-h264-kitsune/"
         },
         {
-          "title": "Boy Meets Girl 2015 720p AMZN WEB-DL H264-playWEB",
+          "title": "Garividi Lakshmi 2026 1080p AMZN WEB-DL H264-YRNLS",
           "source": "Rlsbb.cc",
-          "url": "https://post.rlsbb.cc/boy-meets-girl-2015-720p-amzn-web-dl-h264-playweb/"
+          "url": "https://post.rlsbb.cc/garividi-lakshmi-2026-1080p-amzn-web-dl-h264-yrnls/"
         }
       ]
     },
@@ -338,9 +338,9 @@
       "price": {
         "price": 270.98,
         "change_pct": -2.02,
-        "volume": 26939186,
-        "avg_volume": 22847192,
-        "volume_ratio": 1.18,
+        "volume": 27916900,
+        "avg_volume": 22869930,
+        "volume_ratio": 1.22,
         "above_trend_ma": false,
         "trend_ma": 281.02,
         "trend_ma_days": 15,
@@ -369,12 +369,12 @@
       "checklist": [
         {
           "label": "News catalyst",
-          "detail": "3 articles in the last 2 days.",
+          "detail": "2 articles in the last 2 days.",
           "signal": "neutral"
         },
         {
           "label": "Sentiment",
-          "detail": "1 positive keyword hits vs 0 negative.",
+          "detail": "2 positive keyword hits vs 1 negative.",
           "signal": "pos"
         },
         {
@@ -384,7 +384,7 @@
         },
         {
           "label": "Volume",
-          "detail": "Volume is 1.18x the recent average -- roughly normal.",
+          "detail": "Volume is 1.22x the recent average -- roughly normal.",
           "signal": "neutral"
         },
         {
@@ -400,19 +400,14 @@
       ],
       "headlines": [
         {
-          "title": "Google's Gemini 4 Neon gains momentum ahead of OpenAI, data shows",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/3c2d77051c187c72"
-        },
-        {
-          "title": "Alphabet Stock Pops: What's Going On?",
-          "source": "Biztoc.com",
-          "url": "https://biztoc.com/x/a158d90cf2b6457e"
-        },
-        {
-          "title": "Chelsea player completed two passes in an hour \u2013 Alonso\u2019s tactical challenge clear",
+          "title": "The $2 trillion chip rally is unraveling. History offers a warning.",
           "source": "Yahoo Entertainment",
-          "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5dfe53da-cd6e-4be5-8152-bdcd1d40a30e"
+          "url": "https://finance.yahoo.com/markets/article/the-2-trillion-chip-rally-is-getting-wiped-out--heres-what-history-says-comes-next-145306996.html"
+        },
+        {
+          "title": "Alphabet Is Most Beat Down AI Company",
+          "source": "Biztoc.com",
+          "url": "https://biztoc.com/x/f17a5064a663e81a"
         }
       ]
     }
